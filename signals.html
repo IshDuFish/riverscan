@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to read a signal — RiverScan</title>
+<meta name="description" content="What each type of RiverScan signal means, with a worked example.">
+<meta name="theme-color" content="#0B1F2A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER (copy this block to every page) ===== -->
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#3CC9B5" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 9c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 15c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 21c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/></svg>
+        <span>RiverScan</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#how">How it works</a>
+        <a href="signals.html" aria-current="page">Signals</a>
+        <a href="index.html#coverage">Coverage</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="btn btn--small" href="index.html#access">Get early access</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- ===== END HEADER ===== -->
+
+<main id="main">
+  <section class="site-header">
+    <div class="container page-hero">
+      <p class="eyebrow">Guide</p>
+      <h1>How to read a signal.</h1>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every signal is a change in a public record. Here's what each type means — and what it doesn't.</p>
+    </div>
+  </section>
+  <section class="prose">
+    <div class="container narrow">
+      <h2>Anatomy of a signal</h2>
+      <div class="signal-grid">
+        <article class="signal">
+          <div class="signal-top"><span class="ticker">TICKER</span><span class="tag tag--date">Date slip</span><span class="signal-source">Registry</span></div>
+          <p>What changed, in one sentence, with the <strong>old and new values</strong>.</p>
+        </article>
+      </div>
+      <ul>
+        <li><strong>Ticker</strong> — the London-listed company behind the trial's sponsor.</li>
+        <li><strong>Type</strong> — what kind of change it is (below).</li>
+        <li><strong>Source</strong> — the registry where the change appeared. Every signal links to the original record.</li>
+      </ul>
+
+      <h2>Signal types</h2>
+      <h3><span class="tag tag--status">Status change</span></h3>
+      <p>A trial's status moved — for example from Recruiting to Active, Suspended, Terminated, Withdrawn or Completed. Terminations and suspensions are the changes people most often want to know about.</p>
+
+      <h3><span class="tag tag--date">Date slip</span></h3>
+      <p>The estimated primary completion date moved. A later date means the trial is expected to take longer than the sponsor last said. Delays can happen for many reasons, from slow recruitment to adding new trial sites, so one slip on its own rarely tells the whole story. Repeated slips are more notable.</p>
+
+      <h3><span class="tag tag--enrol">Enrolment</span></h3>
+      <p>The target or actual number of participants changed. A large cut can mean a trial is being scaled back; an increase can mean it's being expanded.</p>
+
+      <h3><span class="tag tag--phase">Phase change</span></h3>
+      <p>A programme moved stage — for example from dose escalation to dose expansion, or from Phase 1 to Phase 2.</p>
+
+      <h3><span class="tag tag--status">Registry mismatch</span></h3>
+      <p>The same trial says different things in different registries. Often this just means one record hasn't been updated yet. Sometimes it's the first place a change shows up.</p>
+
+      <h2>A worked example</h2>
+      <p>In February 2026, Synairgen announced it was ending its Phase 2 trial of SNG001 because recruitment was far behind expectations. Afterwards, the EU registry (CTIS) recorded the trial as <strong>Ended</strong>, while the UK registry (ISRCTN) recorded it as <strong>Completed</strong>. That is the kind of mismatch RiverScan is built to surface.</p>
+
+      <div class="callout">
+        <p><strong>What a signal is not.</strong> A signal tells you that something changed. It does not tell you whether a company is a good or bad investment, and it is never a recommendation to buy or sell. Always read the original record and the company's own announcements. See our <a href="terms.html">terms and disclaimer</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER (copy this block to every page) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="brand" href="index.html"><span>RiverScan</span></a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="signals.html">How to read a signal</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms &amp; disclaimer</a>
+        <a href="mailto:[YOUR EMAIL]">Contact</a>
+      </nav>
+    </div>
+    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov, ISRCTN (CC BY 4.0) and EU CTIS. © <span id="year">2026</span> RiverScan.</p>
+  </div>
+</footer>
+<!-- ===== END FOOTER ===== -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
