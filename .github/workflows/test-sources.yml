@@ -13,6 +13,7 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
+      - run: python diag_fts.py
       - run: git fetch -q origin main && git checkout origin/main -- data
       - run: python scan.py
       - name: Save test output to this branch
