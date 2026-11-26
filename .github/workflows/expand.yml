@@ -1,16 +1,17 @@
 name: expand (temporary)
 on: {push: {branches: [expand]}}
-permissions: {contents: write}
 jobs:
   c:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q -U -r requirements.txt
-      - run: python tools/verify.py
-      - run: |
-          git config user.name bot; git config user.email actions@users.noreply.github.com
-          git add -f data/verify.json; git commit -qm "verify" && git push || true
+      - run: python -m pytest -q
+      - run: git fetch -q origin main && git checkout origin/main -- data/signals.json data/snapshots data/fundamentals.json
+      - run: time python scan.py
+      - run: python prices.py
+      - run: python digest.py
+      - run: python -c "import json; c=json.load(open('data/coverage.json')); print(c['trials'], len(c['trial_companies']), len(c['contract_companies'])); print(c['excluded'])"
