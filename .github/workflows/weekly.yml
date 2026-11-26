@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   weekly:
@@ -34,3 +35,7 @@ jobs:
           git add data
           git diff --cached --quiet || git commit -m "Weekly digest $(date -u +%F)"
           git push
+      - name: Publish to website
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST repos/${{ github.repository }}/pages/builds || echo "::warning::Site rebuild request failed"
