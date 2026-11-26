@@ -1,0 +1,440 @@
+{
+ "_note": "Companies added after automatic discovery and manual review (tools/verify.py). Merged into config.py's lists.",
+ "trials": [
+  {
+   "ticker": "HEMO",
+   "name": "Hemogenyx Pharmaceuticals",
+   "sponsor_terms": [
+    "hemogenyx"
+   ]
+  },
+  {
+   "ticker": "SAR",
+   "name": "Sareum",
+   "sponsor_terms": [
+    "sareum"
+   ]
+  },
+  {
+   "ticker": "BVXP",
+   "name": "Bioventix",
+   "sponsor_terms": [
+    "bioventix"
+   ]
+  },
+  {
+   "ticker": "AGY",
+   "name": "Allergy Therapeutics",
+   "sponsor_terms": [
+    "allergy therapeutics"
+   ]
+  },
+  {
+   "ticker": "RENX",
+   "name": "Renalytix",
+   "sponsor_terms": [
+    "renalytix"
+   ]
+  },
+  {
+   "ticker": "AMS",
+   "name": "Advanced Medical Solutions",
+   "sponsor_terms": [
+    "advanced medical solutions"
+   ]
+  },
+  {
+   "ticker": "CREO",
+   "name": "Creo Medical",
+   "sponsor_terms": [
+    "creo medical"
+   ]
+  },
+  {
+   "ticker": "IHC",
+   "name": "Inspiration Healthcare",
+   "sponsor_terms": [
+    "inspiration healthcare"
+   ]
+  },
+  {
+   "ticker": "COG",
+   "name": "Cambridge Cognition",
+   "sponsor_terms": [
+    "cambridge cognition"
+   ]
+  },
+  {
+   "ticker": "ABDX",
+   "name": "Abingdon Health",
+   "sponsor_terms": [
+    "abingdon health"
+   ]
+  },
+  {
+   "ticker": "DXRX",
+   "name": "Diaceutics",
+   "sponsor_terms": [
+    "diaceutics"
+   ]
+  },
+  {
+   "ticker": "GDR",
+   "name": "genedrive",
+   "sponsor_terms": [
+    "genedrive"
+   ]
+  },
+  {
+   "ticker": "IXI",
+   "name": "IXICO",
+   "sponsor_terms": [
+    "ixico"
+   ]
+  },
+  {
+   "ticker": "KMK",
+   "name": "Kromek",
+   "sponsor_terms": [
+    "kromek"
+   ]
+  },
+  {
+   "ticker": "NCYT",
+   "name": "Novacyt",
+   "sponsor_terms": [
+    "novacyt"
+   ]
+  },
+  {
+   "ticker": "PRTC",
+   "name": "PureTech Health",
+   "sponsor_terms": [
+    "puretech"
+   ]
+  },
+  {
+   "ticker": "NIOX",
+   "name": "NIOX Group",
+   "sponsor_terms": [
+    "niox"
+   ]
+  },
+  {
+   "ticker": "TSTL",
+   "name": "Tristel",
+   "sponsor_terms": [
+    "tristel"
+   ]
+  },
+  {
+   "ticker": "PYC",
+   "name": "Physiomics",
+   "sponsor_terms": [
+    "physiomics"
+   ]
+  },
+  {
+   "ticker": "VAL",
+   "name": "ValiRx",
+   "sponsor_terms": [
+    "valirx"
+   ]
+  },
+  {
+   "ticker": "OPTI",
+   "name": "OptiBiotix Health",
+   "sponsor_terms": [
+    "optibiotix"
+   ]
+  },
+  {
+   "ticker": "VRCI",
+   "name": "Verici Dx",
+   "sponsor_terms": [
+    "verici"
+   ]
+  },
+  {
+   "ticker": "OBD",
+   "name": "Oxford BioDynamics",
+   "sponsor_terms": [
+    "oxford biodynamics"
+   ]
+  },
+  {
+   "ticker": "CRTX",
+   "name": "CRISM Therapeutics",
+   "sponsor_terms": [
+    "crism therapeutics"
+   ]
+  },
+  {
+   "ticker": "NFX",
+   "name": "Nuformix",
+   "sponsor_terms": [
+    "nuformix"
+   ]
+  },
+  {
+   "ticker": "CIZ",
+   "name": "Cizzle Biotechnology",
+   "sponsor_terms": [
+    "cizzle"
+   ]
+  },
+  {
+   "ticker": "GENF",
+   "name": "Genflow Biosciences",
+   "sponsor_terms": [
+    "genflow"
+   ]
+  },
+  {
+   "ticker": "FAB",
+   "name": "Fusion Antibodies",
+   "sponsor_terms": [
+    "fusion antibodies"
+   ]
+  },
+  {
+   "ticker": "APTA",
+   "name": "Aptamer Group",
+   "sponsor_terms": [
+    "aptamer group"
+   ]
+  },
+  {
+   "ticker": "SBTX",
+   "name": "SkinBioTherapeutics",
+   "sponsor_terms": [
+    "skinbiotherapeutics"
+   ]
+  },
+  {
+   "ticker": "RUA",
+   "name": "RUA Life Sciences",
+   "sponsor_terms": [
+    "rua life sciences",
+    "rua medical"
+   ]
+  },
+  {
+   "ticker": "PRM",
+   "name": "Proteome Sciences",
+   "sponsor_terms": [
+    "proteome sciences"
+   ]
+  },
+  {
+   "ticker": "GENI",
+   "name": "GENinCode",
+   "sponsor_terms": [
+    "genincode"
+   ]
+  },
+  {
+   "ticker": "TCF",
+   "name": "Theracryf",
+   "sponsor_terms": [
+    "theracryf"
+   ]
+  },
+  {
+   "ticker": "SVNS",
+   "name": "Solvonis Therapeutics",
+   "sponsor_terms": [
+    "solvonis"
+   ]
+  },
+  {
+   "ticker": "CLBX",
+   "name": "CelLBxHealth",
+   "sponsor_terms": [
+    "cellbxhealth"
+   ]
+  },
+  {
+   "ticker": "THAT",
+   "name": "Thalia Therapeutics",
+   "sponsor_terms": [
+    "thalia therapeutics"
+   ]
+  },
+  {
+   "ticker": "SUN",
+   "name": "Surgical Innovations Group",
+   "sponsor_terms": [
+    "surgical innovations group",
+    "surgical innovations ltd"
+   ]
+  },
+  {
+   "ticker": "IDHC",
+   "name": "Integrated Diagnostics Holdings",
+   "sponsor_terms": [
+    "integrated diagnostics holdings"
+   ]
+  },
+  {
+   "ticker": "IBAI",
+   "name": "Imaging Biometrics",
+   "sponsor_terms": [
+    "imaging biometrics"
+   ]
+  },
+  {
+   "ticker": "FDBK",
+   "name": "Feedback",
+   "sponsor_terms": [
+    "feedback medical"
+   ]
+  },
+  {
+   "ticker": "CNSL",
+   "name": "Cambridge Nutritional Sciences",
+   "sponsor_terms": [
+    "cambridge nutritional sciences"
+   ]
+  }
+ ],
+ "contracts": [
+  {
+   "ticker": "TRB",
+   "name": "Tribal Group",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^tribal (group|education|systems)\\b"
+   ]
+  },
+  {
+   "ticker": "NET",
+   "name": "Netcall",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^netcall\\b"
+   ]
+  },
+  {
+   "ticker": "MAI",
+   "name": "Maintel",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^maintel\\b"
+   ]
+  },
+  {
+   "ticker": "RCN",
+   "name": "Redcentric",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^redcentric\\b"
+   ]
+  },
+  {
+   "ticker": "IOM",
+   "name": "iomart",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^iomart\\b"
+   ]
+  },
+  {
+   "ticker": "TRCS",
+   "name": "Tracsis",
+   "sector": "Digital",
+   "supplier_patterns": [
+    "^tracsis\\b"
+   ]
+  },
+  {
+   "ticker": "EBQ",
+   "name": "Ebiquity",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^ebiquity\\b"
+   ]
+  },
+  {
+   "ticker": "GATC",
+   "name": "Gattaca",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^gattaca\\b"
+   ]
+  },
+  {
+   "ticker": "SDY",
+   "name": "Speedy Hire",
+   "sector": "Construction",
+   "supplier_patterns": [
+    "^speedy (hire|asset services|support services)\\b"
+   ]
+  },
+  {
+   "ticker": "HSP",
+   "name": "Hargreaves Services",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^hargreaves (services|industrial services|land)\\b"
+   ]
+  },
+  {
+   "ticker": "EAAS",
+   "name": "eEnergy Group",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^eenergy\\b"
+   ]
+  },
+  {
+   "ticker": "GTC",
+   "name": "Getech Group",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^getech\\b"
+   ]
+  },
+  {
+   "ticker": "SAG",
+   "name": "Science Group",
+   "sector": "Services",
+   "supplier_patterns": [
+    "^science group\\b",
+    "^sagentia\\b"
+   ]
+  },
+  {
+   "ticker": "CNC",
+   "name": "Concurrent Technologies",
+   "sector": "Defence",
+   "supplier_patterns": [
+    "^concurrent technologies\\b"
+   ]
+  },
+  {
+   "ticker": "CSC",
+   "name": "Chesterfield Special Cylinders",
+   "sector": "Defence",
+   "supplier_patterns": [
+    "^chesterfield special cylinders\\b"
+   ]
+  },
+  {
+   "ticker": "THRU",
+   "name": "Thruvision",
+   "sector": "Defence",
+   "supplier_patterns": [
+    "^thruvision\\b"
+   ]
+  },
+  {
+   "ticker": "KMK",
+   "name": "Kromek",
+   "sector": "Defence",
+   "supplier_patterns": [
+    "^kromek\\b"
+   ]
+  }
+ ]
+}

@@ -48,6 +48,7 @@ def _signal(company, trial, kind, field, old, new, severity, detected_at, note, 
         "severity": severity,
         "note": note,
         "url": trial["url"],
+        "published": trial.get("last_update"),  # when the registry says the record changed
     }
     if source == "ClinicalTrials.gov":  # keep the original keys for older readers
         s["nct_id"], s["trial"] = rid, s["title"]

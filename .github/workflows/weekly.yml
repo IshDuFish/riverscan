@@ -27,6 +27,9 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          OWNER_EMAIL: ${{ secrets.OWNER_EMAIL }}
+          SIGNUP_SCRIPT_URL: ${{ secrets.SIGNUP_SCRIPT_URL }}
+          SIGNUP_TOKEN: ${{ secrets.SIGNUP_TOKEN }}
         run: python digest.py --send
       - name: Commit
         run: |

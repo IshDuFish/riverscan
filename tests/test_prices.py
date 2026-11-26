@@ -41,3 +41,21 @@ def test_bad_news_flipped():
     d = prices.summarise_directional(rows)
     assert d["5d"] == {"n": 2, "expected_pct": 100.0, "mean_aligned": 3.5}
     assert prices.EXPECTED["Trial stopped"] == -1 and prices.EXPECTED["Contract award"] == 1
+
+
+def test_drift_shows_slow_reaction():
+    # two good-news signals: price keeps rising for days after the information became public
+    slow = [0.5 * k for k in range(1, 21)]          # +0.5% a day, ends +10%
+    rows = [{"aligned_path": slow, "days_to_signal": 2}, {"aligned_path": slow, "days_to_signal": 2}]
+    d = prices.drift(rows)
+    assert d["curve"][0] == {"day": 1, "mean": 0.5, "n": 2} and d["day20_mean"] == 10.0
+    assert d["late_share_pct"] == 95.0                 # only 5% of the move happened on day 1
+    assert d["after_signal"]["mean"] == 9.0            # still +9% to come after the signal on day 2
+    assert d["median_days_to_signal"] == 2
+
+
+def test_path_from_public_date():
+    s = series([100, 100, 110, 121, 121])  # Thu 20 .. Wed 26 Nov
+    p = prices.path(s, pd.Timestamp("2026-11-24"))
+    assert p == [10.0, 21.0, 21.0]
+    assert prices.trading_days_between(s, pd.Timestamp("2026-11-24"), pd.Timestamp("2026-11-26")) == 2

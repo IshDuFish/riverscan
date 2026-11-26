@@ -69,14 +69,40 @@
     if (DATE_FIELDS.indexOf(s.field) !== -1 && s.old && s.new) return ["tag--date", String(s.new) > String(s.old) ? "Delay" : "Brought forward"];
     return TAGS[s.field] || ["tag--phase", "Change"];
   }
+  // Company sizes (data/fundamentals.json, refreshed daily) so every contract can be compared with revenue.
+  var funds = {};
+  function severityOf(s) {
+    if (s.type !== "contract_award" || s.share_of_revenue != null || s.framework || !s.new) return s.severity;
+    var rev = (funds[s.ticker] || {}).revenue;
+    if (!rev || (s.currency && s.currency !== "GBP")) return s.severity;
+    var share = s.new / (s.years && s.years > 1 ? s.years : 1) / rev;
+    return share >= 0.10 ? "high" : share >= 0.02 ? "medium" : "low";
+  }
+  function pctText(x) { return x < 0.001 ? "under 0.1%" : x < 0.1 ? (x * 100).toFixed(1) + "%" : Math.round(x * 100) + "%"; }
+  // How big is this contract for the company that won it?
+  function contractSize(s) {
+    var rev = (funds[s.ticker] || {}).revenue, name = esc(s.company);
+    if (!s.new) return rev ? "Value not stated, so it can't be compared with " + name + "'s " + money(rev) + " annual revenue." : "Value not stated.";
+    if (!rev) return "Revenue figure not available for " + name + ".";
+    if (s.currency && s.currency !== "GBP") return name + "'s annual revenue is " + money(rev) + ".";
+    var years = s.years && s.years > 1 ? s.years : null;
+    if (s.framework) {
+      if (s.share_of_revenue == null)
+        return "A shared framework, so " + name + "'s slice of the " + money(s.new) + " is unknown and may never be fully spent. For scale, its annual revenue is " + money(rev) + ".";
+      return "A shared framework, so " + name + "'s slice is unknown. Split equally between the named suppliers it would be " + (s.share_of_revenue < 0.001 ? "under <strong>0.1%</strong>" : "about <strong>" + pctText(s.share_of_revenue) + "</strong>") + " of its " + money(rev) + " annual revenue" + (years ? " each year" : "") + ".";
+    }
+    var share = s.share_of_revenue != null ? s.share_of_revenue : (s.new / (years || 1)) / rev;
+    var amount = share < 0.001 ? "under <strong>0.1%</strong>" : "about <strong>" + pctText(share) + "</strong>";
+    if (years) return "Spread over " + (Math.round(years * 10) / 10) + " years, that's " + amount + " of " + name + "'s " + money(rev) + " annual revenue each year.";
+    return "That's " + amount + " of " + name + "'s " + money(rev) + " annual revenue (the notice gives no contract length, so this uses the full value)."
+  }
   function sentence(s) {
     var o = "<strong>" + esc(nice(s.old)) + "</strong>", n = "<strong>" + esc(nice(s.new)) + "</strong>";
     var title = s.title || s.trial || "";
     if (s.type === "contract_award") {
-      var amt = "<strong>" + esc(money(s.new, s.currency)) + "</strong>";
-      if (!s.new) return (s.framework ? "Named on a framework (value not stated): " : "Won a contract (value not stated): ") + esc(title) + ".";
-      var share = s.share_of_revenue != null ? (s.share_of_revenue < 0.001 ? " (under 0.1% of revenue" : " (about " + (s.share_of_revenue * 100).toFixed(1) + "% of revenue") + (s.years > 1.5 ? " a year)" : ")") : "";
-      return (s.framework ? "Named on a " + amt + " framework" + share + ": " : "Won a " + amt + " contract" + share + ": ") + esc(title) + ".";
+      var buyer = esc(s.buyer || "a public body");
+      if (!s.new) return (s.framework ? "Named on a framework by " : "Won a contract from ") + buyer + ".";
+      return (s.framework ? "Named on a <strong>" + esc(money(s.new, s.currency)) + "</strong> framework by " : "Won a <strong>" + esc(money(s.new, s.currency)) + "</strong> contract from ") + buyer + ".";
     }
     if (s.type === "mismatch") {
       var a = String(s.old || "").split(": "), b = String(s.new || "").split(": ");
@@ -107,10 +133,14 @@
   // Long titles start collapsed to three lines with a button to read the rest.
   function text(s) {
     var body = sentence(s).replace(/\.\.$/, ".");
-    var titleInText = ["contract_award", "new_trial", "removed"].indexOf(s.type) !== -1;
+    var titleInText = ["new_trial", "removed"].indexOf(s.type) !== -1;
     if (!titleInText || (s.title || s.trial || "").length <= 150) return "<p>" + body + "</p>";
     return '<p class="signal-text is-clamped">' + body + "</p>" +
       '<button type="button" class="signal-more" aria-expanded="false">Show more</button>';
+  }
+  function clampable(cls, html, long) {
+    if (!long) return '<p class="' + cls + '">' + html + "</p>";
+    return '<p class="' + cls + ' signal-text is-clamped">' + html + '</p><button type="button" class="signal-more" aria-expanded="false">Show more</button>';
   }
   // Only offer "Show more" when the text is actually cut off (wide screens often fit it all).
   function checkClamps() {
@@ -155,19 +185,23 @@
   window.RiverScan = {
     card: function (s, opts) {
       var t = tagFor(s), ref = s.ref || s.nct_id, title = s.title || s.trial;
+      var sev = severityOf(s);
       var source = s.source || "ClinicalTrials.gov";
       var sub = "";
-      if (s.type === "contract_award") sub = '<p class="signal-trial">Buyer: ' + esc(s.buyer) + (s.published ? " · published " + esc(when(s.published)) : "") + "</p>";
-      else if (s.type === "change" || s.type === "mismatch") sub = '<p class="signal-trial">' + esc(title) + "</p>";
-      var links = '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.type === "mismatch" ? String(ref).split(" / ")[0] : ref) + " ↗</a>";
+      if (s.type === "contract_award") {
+        sub = '<p class="signal-size">' + contractSize(s) + "</p>" +
+          clampable("signal-trial", esc(title) + (s.published ? " · notice published " + esc(when(s.published)) : ""), (title || "").length > 150);
+      } else if (s.type === "change" || s.type === "mismatch") sub = '<p class="signal-trial">' + esc(title) + "</p>";
+      var label = s.type === "contract_award" ? "View notice" : s.type === "mismatch" ? String(ref).split(" / ")[0] : ref;
+      var links = '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(label) + " ↗</a>";
       if (s.url2) links += '<a href="' + esc(s.url2) + '" target="_blank" rel="noopener">' + esc(String(ref).split(" / ")[1] || "Other record") + " ↗</a>";
-      return '<article class="signal signal--' + esc(s.severity) + '">' +
-        '<div class="signal-top"><span class="ticker">' + esc(s.ticker) + "</span>" +
-        '<span class="tag ' + t[0] + '">' + t[1] + "</span>" + newsBadge(s) +
+      return '<article class="signal signal--' + esc(sev) + '">' +
+        '<div class="signal-head"><h3 class="signal-co-name">' + esc(s.company) + '</h3><span class="ticker">' + esc(s.ticker) + "</span></div>" +
+        '<div class="signal-top"><span class="tag ' + t[0] + '">' + t[1] + "</span>" + newsBadge(s) +
         '<span class="signal-source">' + esc(source) + "</span></div>" +
         text(s) + sub + next(s) +
-        '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
-        '<span class="signal-co">' + esc(s.company) + (opts && opts.short ? "" : " · " + esc(when(s.detected_at))) + "</span></div>" +
+        '<div class="signal-foot"><span class="sev sev--' + esc(sev) + '">' + esc(sev) + "</span>" + links +
+        '<span class="signal-co">Spotted ' + esc(when(s.detected_at)) + "</span></div>" +
         "</article>";
     },
     load: function () {
@@ -186,9 +220,14 @@
             return (a.severity in rank ? rank[a.severity] : 3) - (b.severity in rank ? rank[b.severity] : 3);
           });
         });
-      return Promise.all([sig, tr]).then(function (x) { return x[0]; });
+      var fu = fetch("data/fundamentals.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .then(function (f) { funds = f || {}; })
+        .catch(function () {});
+      return Promise.all([sig, tr, fu]).then(function (x) { return x[0]; });
     },
     when: when,
+    severity: function (s) { return severityOf(s); },
     direction: direction,
     money: money,
     stream: function (s) { return s.stream || "trials"; }
