@@ -48,9 +48,8 @@
       <div class="hero-copy">
         <p class="eyebrow">Now scanning · London-listed biotech</p>
         <h1 id="hero-title">See it upstream.</h1>
-        <p class="lead">RiverScan watches the sources the market ignores — clinical trial registries, filings and public records — and shows you what changed before it reaches the headlines.</p>
+        <p class="lead">RiverScan watches the sources the market ignores, starting with clinical trial registries, and shows you what changed before it reaches the headlines.</p>
 
-        <!-- Sign-up form. Replace YOUR_FORM_ID with the ID Formspree gives you (see HOW-TO-SET-UP.txt). -->
         <form id="access" class="signup" action="https://formspree.io/f/myewlokg" method="post">
           <label class="sr-only" for="email">Email address</label>
           <input id="email" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>
@@ -62,7 +61,8 @@
       </div>
 
       <div class="feed" aria-label="Example signals">
-        <div class="feed-head"><strong>Signal feed</strong><span>Example signals</span></div>
+        <div class="feed-head"><strong>Signal feed</strong><span id="feed-label">Example signals</span></div>
+        <div id="feed-items">
 
         <article class="signal">
           <div class="signal-top"><span class="ticker">SNG</span><span class="tag tag--status">Status change</span><span class="signal-source">EU CTIS</span></div>
@@ -79,7 +79,8 @@
           <p>AO-252 Phase I moving from dose escalation to dose expansion.</p>
         </article>
 
-        <a href="signals.html" style="color: var(--on-dark-muted); font-size: 14px;">How to read a signal →</a>
+        </div>
+        <a id="feed-link" class="feed-link" href="signals.html#guide">How to read a signal →</a>
       </div>
     </div>
   </section>
@@ -148,13 +149,13 @@
     <div class="container">
       <div class="section-head">
         <p class="eyebrow">Sources</p>
-        <h2 id="sources-title">Three registries, one view.</h2>
-        <p class="lead">The same trial is often registered in more than one place, and the records don't always agree. RiverScan reads them all and shows you where they differ.</p>
+        <h2 id="sources-title">Starting with the world's biggest trial registry.</h2>
+        <p class="lead">ClinicalTrials.gov is live today. Next we're adding the UK and EU registries, because the same trial is often registered in more than one place and the records don't always agree.</p>
       </div>
       <div class="row">
-        <div class="card"><h3>ClinicalTrials.gov</h3><p>US National Library of Medicine</p></div>
-        <div class="card"><h3>ISRCTN</h3><p>The UK's clinical study registry</p></div>
-        <div class="card"><h3>EU CTIS</h3><p>European Medicines Agency</p></div>
+        <div class="card"><div class="card-top"><h3>ClinicalTrials.gov</h3><span class="pill">Live</span></div><p>US National Library of Medicine</p></div>
+        <div class="card"><div class="card-top"><h3>ISRCTN</h3><span class="pill pill--soft">Next</span></div><p>The UK's clinical study registry</p></div>
+        <div class="card"><div class="card-top"><h3>EU CTIS</h3><span class="pill pill--soft">Next</span></div><p>European Medicines Agency</p></div>
       </div>
       <div class="chips">
         <strong style="font-size: 15px;">Next tributaries:</strong>
@@ -172,12 +173,13 @@
       <div>
         <p class="eyebrow">First tributary</p>
         <h2 id="coverage-title">London-listed biotech.</h2>
-        <p class="lead">Small UK biotechs get little analyst coverage, but their trials are on the public record. We start where the gap is widest.</p>
+        <p class="lead">Small UK biotechs get little analyst coverage, but their trials are on the public record. We start where the gap is widest: 12 companies and 200+ trials, checked every morning.</p>
       </div>
       <div>
         <div class="tickers" aria-label="Companies covered">
-          <span>SCLP</span><span>AVCT</span><span>FARN</span><span>POLB</span><span>HEMO</span>
-          <span>COIL</span><span>SAR</span><span>AREC</span><span>AGY</span><span class="more">+ more</span>
+          <span>HCM</span><span>SCLP</span><span>FARN</span><span>AVCT</span><span>POLB</span><span>FUM</span>
+          <span>AREC</span><span>IMM</span><span>STX</span><span>EVG</span><span>HVO</span><span>OXB</span>
+          <span class="more">+ more soon</span>
         </div>
       </div>
     </div>
@@ -192,14 +194,14 @@
       </div>
       <div class="row">
         <div class="card plan">
-          <span class="plan-name">Daily digest</span>
+          <span class="plan-name">Weekly digest</span>
           <span class="plan-price">Free</span>
-          <p>One email each morning with every change across covered companies.</p>
+          <p>One email every Friday with the week's most important changes across covered companies, plus the full <a href="signals.html">signal log</a> on the site.</p>
         </div>
         <div class="card plan plan--featured">
           <div class="card-top"><span class="plan-name">Pro alerts</span><span class="pill pill--soft">Coming soon</span></div>
-          <span class="plan-price">[YOUR PRICE]<small> /month</small></span>
-          <p>Real-time alerts on your watchlist, change history for every trial, and cross-registry mismatches.</p>
+          <span class="plan-price" style="font-size:28px">Coming soon</span>
+          <p>Same-day alerts on your watchlist, change history for every trial, and cross-registry mismatches. Join the list to hear first.</p>
         </div>
       </div>
     </div>
@@ -216,11 +218,15 @@
         </details>
         <details>
           <summary>Where does the data come from?</summary>
-          <p>Public clinical trial registries: ClinicalTrials.gov, ISRCTN and the EU Clinical Trials Information System. Every signal links back to the original record.</p>
+          <p>Today, ClinicalTrials.gov, the largest public trial registry, run by the US National Library of Medicine. The UK (ISRCTN) and EU (CTIS) registries are coming next. Every signal links back to the original record.</p>
         </details>
         <details>
           <summary>Why only London biotech?</summary>
           <p>It's where public data is richest and coverage is thinnest. More sectors will follow.</p>
+        </details>
+        <details>
+          <summary>How quickly do signals appear?</summary>
+          <p>The scanner runs every morning before the London market opens and compares every covered trial with the previous day. Changes appear on the <a href="signals.html">signal log</a> straight away, and the most important ones go into the Friday email.</p>
         </details>
         <details>
           <summary>What happens to my email?</summary>
@@ -228,7 +234,7 @@
         </details>
         <details>
           <summary>Who's behind it?</summary>
-          <p>[YOUR SHORT BIO]</p>
+          <p>RiverScan is built by Ishan, a London-based student interested in markets and data. Questions or ideas? <a href="contact.html">Get in touch</a>.</p>
         </details>
       </div>
     </div>
@@ -242,17 +248,30 @@
     <div class="footer-top">
       <a class="brand" href="index.html"><span>RiverScan</span></a>
       <nav class="footer-links" aria-label="Footer">
-        <a href="signals.html">How to read a signal</a>
+        <a href="signals.html">Signal log</a>
+        <a href="signals.html#guide">How to read a signal</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms &amp; disclaimer</a>
-        <a href="mailto:[YOUR EMAIL]">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
-    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov, ISRCTN (CC BY 4.0) and EU CTIS. © <span id="year">2026</span> RiverScan.</p>
+    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine). © <span id="year">2026</span> RiverScan.</p>
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
+<script src="assets/signals.js"></script>
 <script>
+// Homepage feed: show the latest real signals once the scanner has logged some; otherwise keep the examples.
+RiverScan.load().then(function (d) {
+  var top = d.filter(function (s) { return s.severity !== "low"; }).slice(0, 3);
+  if (!top.length) top = d.slice(0, 3);
+  if (!top.length) return;
+  document.getElementById("feed-items").innerHTML = top.map(function (s) { return RiverScan.card(s, { short: true }); }).join("");
+  var label = document.getElementById("feed-label");
+  label.innerHTML = '<span class="live-dot" aria-hidden="true"></span>Live · ' + RiverScan.when(top[0].detected_at);
+  var link = document.getElementById("feed-link");
+  link.textContent = "See every signal →"; link.href = "signals.html";
+});
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Send the sign-up to Formspree in the background, then show our own thank-you page.
