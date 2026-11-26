@@ -1,0 +1,2096 @@
+{
+ "universe": 779,
+ "days": 120,
+ "healthcare": {
+  "OBD.L": {
+   "name": "Oxford BioDynamics Plc",
+   "stem": "oxford biodynamics",
+   "mcap": 13776934
+  },
+  "IMM.L": {
+   "name": "ImmuPharma plc",
+   "stem": "immupharma",
+   "mcap": 13756301
+  },
+  "VRCI.L": {
+   "name": "Verici Dx plc",
+   "stem": "verici dx",
+   "mcap": 11659045
+  },
+  "RUA.L": {
+   "name": "RUA Life Sciences plc",
+   "stem": "rua life sciences",
+   "mcap": 11481151
+  },
+  "APTA.L": {
+   "name": "Aptamer Group PLC",
+   "stem": "aptamer",
+   "mcap": 10057433
+  },
+  "THAT.L": {
+   "name": "Thalia Therapeutics Plc",
+   "stem": "thalia therapeutics",
+   "mcap": 9322534
+  },
+  "GENF.L": {
+   "name": "Genflow Biosciences plc",
+   "stem": "genflow biosciences",
+   "mcap": 9066655
+  },
+  "MDH.L": {
+   "name": "Mendell Helium plc",
+   "stem": "mendell helium",
+   "mcap": 8078210
+  },
+  "SBTX.L": {
+   "name": "SkinBioTherapeutics plc",
+   "stem": "skinbiotherapeutics",
+   "mcap": 7904644
+  },
+  "SVNS.L": {
+   "name": "Solvonis Therapeutics plc",
+   "stem": "solvonis therapeutics",
+   "mcap": 7109763
+  },
+  "CLBX.L": {
+   "name": "CelLBxHealth plc",
+   "stem": "cellbxhealth",
+   "mcap": 6250215
+  },
+  "CRTX.L": {
+   "name": "CRISM Therapeutics Corporation",
+   "stem": "crism therapeutics",
+   "mcap": 6173455
+  },
+  "OPTI.L": {
+   "name": "OptiBiotix Health Plc",
+   "stem": "optibiotix health",
+   "mcap": 5010064
+  },
+  "FAB.L": {
+   "name": "Fusion Antibodies plc",
+   "stem": "fusion antibodies",
+   "mcap": 5006275
+  },
+  "CIZ.L": {
+   "name": "Cizzle Biotechnology Holdings Plc",
+   "stem": "cizzle biotechnology",
+   "mcap": 4923283
+  },
+  "SUN.L": {
+   "name": "Surgical Innovations Group plc",
+   "stem": "surgical innovations",
+   "mcap": 4897285
+  },
+  "GENI.L": {
+   "name": "GENinCode Plc",
+   "stem": "genincode",
+   "mcap": 3576945
+  },
+  "CNSL.L": {
+   "name": "Cambridge Nutritional Sciences plc",
+   "stem": "cambridge nutritional sciences",
+   "mcap": 3450284
+  },
+  "TCF.L": {
+   "name": "Theracryf Plc",
+   "stem": "theracryf",
+   "mcap": 3438342
+  },
+  "FUM.L": {
+   "name": "Futura Medical plc",
+   "stem": "futura medical",
+   "mcap": 3112888
+  },
+  "PRM.L": {
+   "name": "Proteome Sciences plc",
+   "stem": "proteome sciences",
+   "mcap": 2981162
+  },
+  "IDHC.L": {
+   "name": "Integrated Diagnostics Holdings plc",
+   "stem": "integrated diagnostics",
+   "mcap": 270898048
+  },
+  "PYC.L": {
+   "name": "Physiomics Plc",
+   "stem": "physiomics",
+   "mcap": 1938916
+  },
+  "VAL.L": {
+   "name": "ValiRx plc",
+   "stem": "valirx",
+   "mcap": 1782406
+  },
+  "BSFA.L": {
+   "name": "BSF Enterprise Plc",
+   "stem": "bsf enterprise",
+   "mcap": 1732720
+  },
+  "NFX.L": {
+   "name": "Nuformix plc",
+   "stem": "nuformix",
+   "mcap": 1696337
+  },
+  "FDBK.L": {
+   "name": "Feedback plc",
+   "stem": "feedback",
+   "mcap": 1686869
+  },
+  "IBAI.L": {
+   "name": "Imaging Biometrics Ltd.",
+   "stem": "imaging biometrics",
+   "mcap": 1665291
+  },
+  "0AB6.L": {
+   "name": "Hyloris Pharmaceuticals SA",
+   "stem": "hyloris pharmaceuticals",
+   "mcap": 0
+  },
+  "CHLL.L": {
+   "name": "Chill Brands Group PLC",
+   "stem": "chill brands",
+   "mcap": 732097
+  }
+ },
+ "scanned": {
+  "Find a Tender": 14087,
+  "Contracts Finder": 727
+ },
+ "trials": {
+  "OBD.L": {
+   "name": "Oxford BioDynamics Plc",
+   "stem": "oxford biodynamics",
+   "mcap": 13776934,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Oxford Biodynamics Inc.",
+     1
+    ]
+   ]
+  },
+  "IMM.L": {
+   "name": "ImmuPharma plc",
+   "stem": "immupharma",
+   "mcap": 13756301,
+   "ctgov": 2,
+   "isrctn": 1,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "ImmuPharma",
+     2
+    ],
+    [
+     "ImmuPharma S.A",
+     2
+    ]
+   ]
+  },
+  "VRCI.L": {
+   "name": "Verici Dx plc",
+   "stem": "verici dx",
+   "mcap": 11659045,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Verici Dx",
+     1
+    ]
+   ]
+  },
+  "APTA.L": {
+   "name": "Aptamer Group PLC",
+   "stem": "aptamer",
+   "mcap": 10057433,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Aptamer Sciences, Inc.",
+     1
+    ]
+   ]
+  },
+  "CRTX.L": {
+   "name": "CRISM Therapeutics Corporation",
+   "stem": "crism therapeutics",
+   "mcap": 6173455,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "CRISM Therapeutics LTD",
+     1
+    ]
+   ]
+  },
+  "OPTI.L": {
+   "name": "OptiBiotix Health Plc",
+   "stem": "optibiotix health",
+   "mcap": 5010064,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "OptiBiotix Health Plc",
+     1
+    ]
+   ]
+  },
+  "SUN.L": {
+   "name": "Surgical Innovations Group plc",
+   "stem": "surgical innovations",
+   "mcap": 4897285,
+   "ctgov": 10,
+   "isrctn": 0,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "Synovis Surgical Innovations",
+     9
+    ],
+    [
+     "Curadel Surgical Innovations, Inc.",
+     1
+    ],
+    [
+     "Curadel Surgical Innovations Inc., Curadel Surgical Innovations B.V.",
+     1
+    ]
+   ]
+  },
+  "FUM.L": {
+   "name": "Futura Medical plc",
+   "stem": "futura medical",
+   "mcap": 3112888,
+   "ctgov": 6,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Futura Medical Developments Ltd.",
+     6
+    ]
+   ]
+  },
+  "IDHC.L": {
+   "name": "Integrated Diagnostics Holdings plc",
+   "stem": "integrated diagnostics",
+   "mcap": 270898048,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Integrated Diagnostics",
+     2
+    ]
+   ]
+  },
+  "PYC.L": {
+   "name": "Physiomics Plc",
+   "stem": "physiomics",
+   "mcap": 1938916,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Physiomics",
+     1
+    ]
+   ]
+  },
+  "VAL.L": {
+   "name": "ValiRx plc",
+   "stem": "valirx",
+   "mcap": 1782406,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "ValiRx Plc",
+     1
+    ]
+   ]
+  },
+  "NFX.L": {
+   "name": "Nuformix plc",
+   "stem": "nuformix",
+   "mcap": 1696337,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Nuformix Technologies Limited",
+     1
+    ]
+   ]
+  },
+  "FDBK.L": {
+   "name": "Feedback plc",
+   "stem": "feedback",
+   "mcap": 1686869,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Audit & Feedback Metalab",
+     1
+    ]
+   ]
+  },
+  "IBAI.L": {
+   "name": "Imaging Biometrics Ltd.",
+   "stem": "imaging biometrics",
+   "mcap": 1665291,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Imaging Biometrics, LLC",
+     2
+    ]
+   ]
+  },
+  "PULS.L": {
+   "name": "Pulsar Group plc",
+   "stem": "pulsar",
+   "mcap": 13898331,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Pulsar Vascular",
+     3
+    ]
+   ]
+  },
+  "EML.L": {
+   "name": "Emmerson PLC",
+   "stem": "emmerson",
+   "mcap": 13898208,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Emmerson Badar\u00f3",
+     1
+    ]
+   ]
+  },
+  "0KF3.L": {
+   "name": "Palatin Technologies, Inc.",
+   "stem": "palatin technologies",
+   "mcap": null,
+   "ctgov": 12,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Palatin Technologies, Inc",
+     12
+    ]
+   ]
+  },
+  "0L35.L": {
+   "name": "Sarepta Therapeutics, Inc.",
+   "stem": "sarepta therapeutics",
+   "mcap": null,
+   "ctgov": 59,
+   "isrctn": 0,
+   "ctis": 9,
+   "sponsors": [
+    [
+     "Sarepta Therapeutics, Inc.",
+     59
+    ],
+    [
+     "Sarepta Therapeutics Inc.",
+     9
+    ]
+   ]
+  },
+  "0HFQ.L": {
+   "name": "AnaptysBio, Inc.",
+   "stem": "anaptysbio",
+   "mcap": null,
+   "ctgov": 9,
+   "isrctn": 2,
+   "ctis": 4,
+   "sponsors": [
+    [
+     "AnaptysBio, Inc.",
+     13
+    ],
+    [
+     "Anaptysbio Inc.",
+     3
+    ],
+    [
+     "Anaptysbio Inc., Anaptysbio Inc.",
+     1
+    ]
+   ]
+  },
+  "0JG5.L": {
+   "name": "Bittium Oyj",
+   "stem": "bittium",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Bittium Ltd",
+     1
+    ]
+   ]
+  },
+  "0M0F.L": {
+   "name": "Tandem Diabetes Care, Inc.",
+   "stem": "tandem diabetes care",
+   "mcap": null,
+   "ctgov": 49,
+   "isrctn": 1,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Tandem Diabetes Care, Inc.",
+     49
+    ],
+    [
+     "Tandem Diabetes Care",
+     1
+    ]
+   ]
+  },
+  "0JEV.L": {
+   "name": "Option NV",
+   "stem": "option",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "First Option Software Ltd.",
+     1
+    ],
+    [
+     "Option Care",
+     1
+    ]
+   ]
+  },
+  "0LIF.L": {
+   "name": "Ultragenyx Pharmaceutical Inc.",
+   "stem": "ultragenyx pharmaceutical",
+   "mcap": null,
+   "ctgov": 91,
+   "isrctn": 0,
+   "ctis": 14,
+   "sponsors": [
+    [
+     "Ultragenyx Pharmaceutical Inc",
+     91
+    ],
+    [
+     "Ultragenyx Pharmaceutical Inc.",
+     14
+    ]
+   ]
+  },
+  "0JDK.L": {
+   "name": "Iovance Biotherapeutics, Inc.",
+   "stem": "iovance biotherapeutics",
+   "mcap": null,
+   "ctgov": 37,
+   "isrctn": 0,
+   "ctis": 5,
+   "sponsors": [
+    [
+     "Iovance Biotherapeutics, Inc.",
+     37
+    ],
+    [
+     "Iovance Biotherapeutics Inc.",
+     5
+    ]
+   ]
+  },
+  "0QND.L": {
+   "name": "Bachem Holding AG",
+   "stem": "bachem",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Rahel Bachem",
+     1
+    ],
+    [
+     "Bachem",
+     1
+    ]
+   ]
+  },
+  "TND.L": {
+   "name": "Tandem Group plc",
+   "stem": "tandem",
+   "mcap": 9104218,
+   "ctgov": 52,
+   "isrctn": 1,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Tandem Diabetes Care, Inc.",
+     49
+    ],
+    [
+     "Tandem Health AB (technology provider)",
+     1
+    ],
+    [
+     "Tandem Technologies LTD",
+     1
+    ],
+    [
+     "Tandem Labs",
+     1
+    ],
+    [
+     "Tandem Diabetes Care",
+     1
+    ]
+   ]
+  },
+  "0J38.L": {
+   "name": "Harmonic Inc.",
+   "stem": "harmonic",
+   "mcap": null,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Third Harmonic Bio, Inc.",
+     2
+    ],
+    [
+     "Harmonic Bionics",
+     1
+    ]
+   ]
+  },
+  "0LJD.L": {
+   "name": "Universal Corporation",
+   "stem": "universal",
+   "mcap": null,
+   "ctgov": 28,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Universal Integrated Corp.",
+     5
+    ],
+    [
+     "Universal Diagnostics",
+     4
+    ],
+    [
+     "Universal Skincare Institute",
+     3
+    ],
+    [
+     "Genertec Universal Xi'an Aero-Engine hospital (Xi' an) Co., Ltd",
+     2
+    ],
+    [
+     "Universal Adherence LLC",
+     2
+    ],
+    [
+     "Universal Biosensors Pty Ltd",
+     2
+    ]
+   ]
+  },
+  "0QNA.L": {
+   "name": "Basilea Pharmaceutica AG",
+   "stem": "basilea pharmaceutica",
+   "mcap": null,
+   "ctgov": 93,
+   "isrctn": 0,
+   "ctis": 5,
+   "sponsors": [
+    [
+     "Basilea Pharmaceutica",
+     65
+    ],
+    [
+     "Basilea Pharmaceutica International Ltd",
+     28
+    ],
+    [
+     "Basilea Pharmaceutica International AG Allschwil",
+     5
+    ]
+   ]
+  },
+  "0KCS.L": {
+   "name": "OPKO Health, Inc.",
+   "stem": "opko health",
+   "mcap": null,
+   "ctgov": 55,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "OPKO Health, Inc.",
+     50
+    ],
+    [
+     "ModeX Therapeutics, An OPKO Health Company",
+     5
+    ]
+   ]
+  },
+  "0LJB.L": {
+   "name": "Uniti Group Inc.",
+   "stem": "uniti",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "UNITI Consortium",
+     1
+    ]
+   ]
+  },
+  "0IMT.L": {
+   "name": "Photocure ASA",
+   "stem": "photocure asa",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Photocure ASA",
+     1
+    ]
+   ]
+  },
+  "0KBU.L": {
+   "name": "Omeros Corporation",
+   "stem": "omeros",
+   "mcap": null,
+   "ctgov": 29,
+   "isrctn": 3,
+   "ctis": 4,
+   "sponsors": [
+    [
+     "Omeros Corporation",
+     32
+    ],
+    [
+     "Omeros Corporation (United States)",
+     3
+    ],
+    [
+     "Omeros Corp.",
+     3
+    ],
+    [
+     "Omeros Ireland Limited, Omeros Corp.",
+     1
+    ]
+   ]
+  },
+  "0LOV.L": {
+   "name": "Verastem, Inc.",
+   "stem": "verastem",
+   "mcap": null,
+   "ctgov": 50,
+   "isrctn": 0,
+   "ctis": 7,
+   "sponsors": [
+    [
+     "Verastem, Inc.",
+     50
+    ],
+    [
+     "Verastem Inc.",
+     7
+    ]
+   ]
+  },
+  "0LDR.L": {
+   "name": "Teladoc Health, Inc.",
+   "stem": "teladoc health",
+   "mcap": null,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Teladoc Health",
+     3
+    ]
+   ]
+  },
+  "0Z0F.L": {
+   "name": "Ichor Holdings, Ltd.",
+   "stem": "ichor",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Ichor Medical Systems Incorporated",
+     11
+    ]
+   ]
+  },
+  "0EX6.L": {
+   "name": "Jensen-Group NV",
+   "stem": "jensen",
+   "mcap": null,
+   "ctgov": 69,
+   "isrctn": 2,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "J\u00f8rgen Bjerggaard Jensen",
+     16
+    ],
+    [
+     "Martin Blomberg Jensen",
+     13
+    ],
+    [
+     "Anders Fink-Jensen, MD, DMSci",
+     11
+    ],
+    [
+     "Karen Elise Jensen Foundation",
+     6
+    ],
+    [
+     "Kristian Kiim Jensen",
+     3
+    ],
+    [
+     "Rigmor H\u00f8jland Jensen",
+     2
+    ]
+   ]
+  },
+  "0JBU.L": {
+   "name": "Intellia Therapeutics, Inc.",
+   "stem": "intellia therapeutics",
+   "mcap": null,
+   "ctgov": 10,
+   "isrctn": 0,
+   "ctis": 7,
+   "sponsors": [
+    [
+     "Intellia Therapeutics",
+     10
+    ],
+    [
+     "Intellia Therapeutics Inc.",
+     7
+    ]
+   ]
+  },
+  "0IY1.L": {
+   "name": "Atria Oyj",
+   "stem": "atria",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Atria Research and Global Health Institute (ARGHI)",
+     2
+    ]
+   ]
+  },
+  "POS.L": {
+   "name": "Plexus Holdings plc",
+   "stem": "plexus",
+   "mcap": 4662667,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Plexus Worldwide",
+     2
+    ]
+   ]
+  },
+  "0GSE.L": {
+   "name": "Midsona AB (publ)",
+   "stem": "midsona ab",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Midsona AB",
+     1
+    ]
+   ]
+  },
+  "0K3W.L": {
+   "name": "Myriad Genetics, Inc.",
+   "stem": "myriad genetics",
+   "mcap": null,
+   "ctgov": 18,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Myriad Genetics, Inc.",
+     18
+    ]
+   ]
+  },
+  "0GQU.L": {
+   "name": "Active Biotech AB (publ)",
+   "stem": "active biotech ab",
+   "mcap": null,
+   "ctgov": 12,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Active Biotech AB",
+     12
+    ]
+   ]
+  },
+  "0FRI.L": {
+   "name": "Lumibird SA",
+   "stem": "lumibird",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Lumibird Medical (Quantel Medical, Ellex Medical, Optotek)",
+     1
+    ]
+   ]
+  },
+  "0T6G.L": {
+   "name": "Q32 Bio Inc.",
+   "stem": "q32 bio",
+   "mcap": null,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "Q32 Bio Inc.",
+     4
+    ]
+   ]
+  },
+  "0P2J.L": {
+   "name": "Ascencio SA",
+   "stem": "ascencio",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Hospital del Nino Manuel Ascencio Villarroel",
+     1
+    ]
+   ]
+  },
+  "0CIJ.L": {
+   "name": "Raisio plc",
+   "stem": "raisio",
+   "mcap": null,
+   "ctgov": 17,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Raisio Group",
+     13
+    ],
+    [
+     "Raisio Nutrition Ltd.",
+     2
+    ],
+    [
+     "Raisio Plc",
+     2
+    ]
+   ]
+  },
+  "0DTF.L": {
+   "name": "Boiron SA",
+   "stem": "boiron",
+   "mcap": null,
+   "ctgov": 5,
+   "isrctn": 0,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "BOIRON",
+     5
+    ],
+    [
+     "Boiron",
+     1
+    ]
+   ]
+  },
+  "0QQO.L": {
+   "name": "Siegfried Holding AG",
+   "stem": "siegfried",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Siegfried Rhein S.A. de C.V.",
+     1
+    ]
+   ]
+  },
+  "0Y3M.L": {
+   "name": "Prothena Corporation plc",
+   "stem": "prothena",
+   "mcap": null,
+   "ctgov": 17,
+   "isrctn": 0,
+   "ctis": 2,
+   "sponsors": [
+    [
+     "Prothena Biosciences Limited",
+     10
+    ],
+    [
+     "Prothena Biosciences Ltd.",
+     8
+    ],
+    [
+     "Othair Prothena Limited",
+     1
+    ]
+   ]
+  },
+  "ALNA.L": {
+   "name": "Alina Holdings Plc",
+   "stem": "alina",
+   "mcap": 2610200,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Prof Alina Rodriguez, University of Lincoln, UK",
+     1
+    ]
+   ]
+  },
+  "0HIY.L": {
+   "name": "Atara Biotherapeutics, Inc.",
+   "stem": "atara biotherapeutics",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Atara Biotherapeutics",
+     11
+    ]
+   ]
+  },
+  "0IGA.L": {
+   "name": "Emergent BioSolutions Inc.",
+   "stem": "emergent biosolutions",
+   "mcap": null,
+   "ctgov": 65,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Emergent BioSolutions",
+     64
+    ],
+    [
+     "Trubion Pharmaceuticals/Emergent BioSolutions Inc.",
+     1
+    ]
+   ]
+  },
+  "0RHR.L": {
+   "name": "Kuros Biosciences AG",
+   "stem": "kuros biosciences",
+   "mcap": null,
+   "ctgov": 6,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Kuros BioSciences B.V.",
+     6
+    ]
+   ]
+  },
+  "0OB3.L": {
+   "name": "Valneva SE",
+   "stem": "valneva",
+   "mcap": null,
+   "ctgov": 51,
+   "isrctn": 2,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Valneva Austria GmbH",
+     51
+    ],
+    [
+     "Valneva (Austria)",
+     2
+    ]
+   ]
+  },
+  "0KCC.L": {
+   "name": "Insight Molecular Diagnostics Inc.",
+   "stem": "insight molecular diagnostics",
+   "mcap": null,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Insight Molecular Diagnostics",
+     3
+    ]
+   ]
+  },
+  "0LKB.L": {
+   "name": "Vanda Pharmaceuticals Inc.",
+   "stem": "vanda pharmaceuticals",
+   "mcap": null,
+   "ctgov": 85,
+   "isrctn": 0,
+   "ctis": 7,
+   "sponsors": [
+    [
+     "Vanda Pharmaceuticals",
+     85
+    ],
+    [
+     "Vanda Pharmaceuticals Inc.",
+     5
+    ],
+    [
+     "Vanda Pharmaceuticals Netherlands B.V., Vanda Pharmaceuticals Inc.",
+     1
+    ],
+    [
+     "Vanda Pharmaceuticals Netherlands B.V.",
+     1
+    ]
+   ]
+  },
+  "0R8H.L": {
+   "name": "Pihlajalinna Oyj",
+   "stem": "pihlajalinna",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Pihlajalinna, Tampere",
+     1
+    ],
+    [
+     "Pihlajalinna Hospital, Tampere",
+     1
+    ]
+   ]
+  },
+  "0SZI.L": {
+   "name": "Corbus Pharmaceuticals Holdings, Inc.",
+   "stem": "corbus pharmaceuticals",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "Corbus Pharmaceuticals Inc.",
+     12
+    ]
+   ]
+  },
+  "CHP.L": {
+   "name": "Caledonian Holdings PLC",
+   "stem": "caledonian",
+   "mcap": 1817617,
+   "ctgov": 71,
+   "isrctn": 19,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Glasgow Caledonian University",
+     82
+    ],
+    [
+     "Glasgow Caledonian University (UK)",
+     7
+    ],
+    [
+     "Grameen Caledonian College of Nursing",
+     1
+    ]
+   ]
+  },
+  "0IV3.L": {
+   "name": "Geron Corporation",
+   "stem": "geron",
+   "mcap": null,
+   "ctgov": 26,
+   "isrctn": 0,
+   "ctis": 2,
+   "sponsors": [
+    [
+     "Geron Corporation",
+     24
+    ],
+    [
+     "Geron Corp.",
+     2
+    ],
+    [
+     "Stitchting Geron, The Netherland",
+     1
+    ],
+    [
+     "Stitching Geron and Cordaid, The Netherlands.",
+     1
+    ]
+   ]
+  },
+  "0QB4.L": {
+   "name": "Medios AG",
+   "stem": "medios",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Medios Technologies Pte. Ltd",
+     1
+    ]
+   ]
+  },
+  "0QN1.L": {
+   "name": "Santhera Pharmaceuticals Holding AG",
+   "stem": "santhera pharmaceuticals",
+   "mcap": null,
+   "ctgov": 32,
+   "isrctn": 0,
+   "ctis": 3,
+   "sponsors": [
+    [
+     "Santhera Pharmaceuticals",
+     32
+    ],
+    [
+     "Santhera Pharmaceuticals (Schweiz) AG",
+     2
+    ],
+    [
+     "Santhera Pharmaceuticals (Schweiz) AG, Santhera Pharmaceuticals (Schweiz) AG",
+     1
+    ]
+   ]
+  },
+  "0DYQ.L": {
+   "name": "Cegedim SA",
+   "stem": "cegedim",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Cegedim Strategic Data",
+     1
+    ]
+   ]
+  },
+  "0K05.L": {
+   "name": "Medifast, Inc.",
+   "stem": "medifast",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Medifast, Inc.",
+     11
+    ]
+   ]
+  },
+  "0IL8.L": {
+   "name": "Kyntra Bio, Inc.",
+   "stem": "kyntra bio",
+   "mcap": null,
+   "ctgov": 62,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Kyntra Bio",
+     62
+    ]
+   ]
+  },
+  "0NES.L": {
+   "name": "Oriola Oyj",
+   "stem": "oriola",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Oriola Corporation",
+     1
+    ]
+   ]
+  },
+  "0R4W.L": {
+   "name": "Multitude AG",
+   "stem": "multitude",
+   "mcap": null,
+   "ctgov": 10,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Multitude Therapeutics Inc.",
+     8
+    ],
+    [
+     "Multitude Therapeutics (Australia) Pty Ltd",
+     2
+    ]
+   ]
+  },
+  "0W4N.L": {
+   "name": "Formycon AG",
+   "stem": "formycon",
+   "mcap": null,
+   "ctgov": 4,
+   "isrctn": 0,
+   "ctis": 2,
+   "sponsors": [
+    [
+     "Formycon AG",
+     6
+    ]
+   ]
+  },
+  "0H8T.L": {
+   "name": "Aclaris Therapeutics, Inc.",
+   "stem": "aclaris therapeutics",
+   "mcap": null,
+   "ctgov": 37,
+   "isrctn": 0,
+   "ctis": 2,
+   "sponsors": [
+    [
+     "Aclaris Therapeutics, Inc.",
+     37
+    ],
+    [
+     "Aclaris Therapeutics Inc.",
+     2
+    ]
+   ]
+  },
+  "0HS4.L": {
+   "name": "Cadiz Inc.",
+   "stem": "cadiz",
+   "mcap": null,
+   "ctgov": 66,
+   "isrctn": 1,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "University of Cadiz",
+     66
+    ],
+    [
+     "Foundation for Biomedical Research Management Cadiz (Fundaci\u00f3n para la Gesti\u00f3n de la Investigaci\u00f3n Biomedica de C\u00e1diz)",
+     1
+    ],
+    [
+     "La Fundacion Para La Gestion De La Investigacion Biomedica De Cadiz",
+     1
+    ]
+   ]
+  },
+  "0QLZ.L": {
+   "name": "Bellevue Group AG",
+   "stem": "bellevue",
+   "mcap": null,
+   "ctgov": 8,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Venenklinik Bellevue",
+     3
+    ],
+    [
+     "Overlake Hospital Bellevue WA",
+     1
+    ],
+    [
+     "Bellevue University",
+     1
+    ],
+    [
+     "Bellevue Dermatology",
+     1
+    ],
+    [
+     "Saint Joseph University, at Bellevue Medical Centre",
+     1
+    ],
+    [
+     "Institute for Disease Modeling, Bellevue, US",
+     1
+    ]
+   ]
+  },
+  "0IFK.L": {
+   "name": "Editas Medicine, Inc.",
+   "stem": "editas medicine",
+   "mcap": null,
+   "ctgov": 6,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Editas Medicine, Inc.",
+     6
+    ]
+   ]
+  },
+  "0ELV.L": {
+   "name": "Guerbet SA",
+   "stem": "guerbet",
+   "mcap": null,
+   "ctgov": 75,
+   "isrctn": 1,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "Guerbet",
+     75
+    ],
+    [
+     "Guerbet/Liebel-Flarsheim",
+     1
+    ],
+    [
+     "Guerbet, Bracco Imaging S.p.A.",
+     1
+    ]
+   ]
+  },
+  "0H7R.L": {
+   "name": "Abeona Therapeutics Inc.",
+   "stem": "abeona therapeutics",
+   "mcap": null,
+   "ctgov": 13,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Abeona Therapeutics, Inc",
+     13
+    ]
+   ]
+  },
+  "0ERY.L": {
+   "name": "Incap Oyj",
+   "stem": "incap",
+   "mcap": null,
+   "ctgov": 3,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Instituto de Nutricion de Centroamerica y Panama (INCAP)",
+     2
+    ],
+    [
+     "INCAP, Chiimaltenango, Guatemala",
+     1
+    ]
+   ]
+  },
+  "0QW5.L": {
+   "name": "Heidelberg Pharma AG",
+   "stem": "heidelberg pharma",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 2,
+   "sponsors": [
+    [
+     "Heidelberg Pharma AG",
+     13
+    ]
+   ]
+  },
+  "0HFR.L": {
+   "name": "Anavex Life Sciences Corp.",
+   "stem": "anavex life sciences",
+   "mcap": null,
+   "ctgov": 13,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Anavex Life Sciences Corp.",
+     13
+    ]
+   ]
+  },
+  "0I0X.L": {
+   "name": "Codexis, Inc.",
+   "stem": "codexis",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Codexis Inc.",
+     2
+    ]
+   ]
+  },
+  "0F1U.L": {
+   "name": "LACROIX Group SA",
+   "stem": "lacroix",
+   "mcap": null,
+   "ctgov": 2,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "CHU Marius Lacroix, Lille, FRANCE",
+     1
+    ],
+    [
+     "LACROIX Alain, neurologist, MD, PhD",
+     1
+    ]
+   ]
+  },
+  "0OGG.L": {
+   "name": "SA Catana Group",
+   "stem": "catana",
+   "mcap": null,
+   "ctgov": 1,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Ciprian Catana, MD, PhD",
+     1
+    ]
+   ]
+  },
+  "0OCQ.L": {
+   "name": "Transgene SA",
+   "stem": "transgene",
+   "mcap": null,
+   "ctgov": 24,
+   "isrctn": 1,
+   "ctis": 6,
+   "sponsors": [
+    [
+     "Transgene",
+     31
+    ]
+   ]
+  },
+  "0QXX.L": {
+   "name": "Molecular Partners AG",
+   "stem": "molecular partners",
+   "mcap": null,
+   "ctgov": 16,
+   "isrctn": 0,
+   "ctis": 1,
+   "sponsors": [
+    [
+     "Molecular Partners AG",
+     17
+    ]
+   ]
+  },
+  "0DRP.L": {
+   "name": "Biohit Oyj",
+   "stem": "biohit",
+   "mcap": null,
+   "ctgov": 5,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Biohit Oyj",
+     3
+    ],
+    [
+     "Biohit Oyj, Helsinki, Finland",
+     1
+    ],
+    [
+     "Biohit Healthcare Ltd",
+     1
+    ]
+   ]
+  },
+  "0J4V.L": {
+   "name": "Heron Therapeutics, Inc.",
+   "stem": "heron therapeutics",
+   "mcap": null,
+   "ctgov": 29,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Heron Therapeutics",
+     28
+    ],
+    [
+     "Heron Therapeutics, Inc. (formerly A.P. Pharma, Inc.)",
+     1
+    ]
+   ]
+  },
+  "0QAI.L": {
+   "name": "Adocia SA",
+   "stem": "adocia",
+   "mcap": null,
+   "ctgov": 29,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Adocia",
+     29
+    ]
+   ]
+  },
+  "0RAD.L": {
+   "name": "OSE Immunotherapeutics SA",
+   "stem": "ose immunotherapeutics",
+   "mcap": null,
+   "ctgov": 11,
+   "isrctn": 0,
+   "ctis": 3,
+   "sponsors": [
+    [
+     "OSE Immunotherapeutics",
+     14
+    ]
+   ]
+  },
+  "0R1D.L": {
+   "name": "Sangamo Therapeutics, Inc.",
+   "stem": "sangamo therapeutics",
+   "mcap": null,
+   "ctgov": 30,
+   "isrctn": 0,
+   "ctis": 3,
+   "sponsors": [
+    [
+     "Sangamo Therapeutics",
+     30
+    ],
+    [
+     "Sangamo Therapeutics Inc.",
+     2
+    ],
+    [
+     "Sangamo Therapeutics France",
+     1
+    ]
+   ]
+  },
+  "0P5I.L": {
+   "name": "Mauna Kea Technologies SA",
+   "stem": "mauna kea technologies",
+   "mcap": null,
+   "ctgov": 20,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Mauna Kea Technologies",
+     20
+    ]
+   ]
+  },
+  "0QFK.L": {
+   "name": "Celyad Oncology SA",
+   "stem": "celyad oncology",
+   "mcap": null,
+   "ctgov": 13,
+   "isrctn": 0,
+   "ctis": 0,
+   "sponsors": [
+    [
+     "Celyad Oncology SA",
+     13
+    ]
+   ]
+  }
+ },
+ "contracts": {
+  "REAT.L": {
+   "name": "REACT Group PLC",
+   "stem": "react",
+   "mcap": 10754657,
+   "sector": null,
+   "awards": 2,
+   "value": 20286880,
+   "buyers": [
+    [
+     "Sellafield Limited",
+     1
+    ],
+    [
+     "Dumfries and Galloway Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "React Engineering Limited",
+     1
+    ],
+    [
+     "React Catering Services Ltd",
+     1
+    ]
+   ]
+  },
+  "0LJD.L": {
+   "name": "Universal Corporation",
+   "stem": "universal",
+   "mcap": null,
+   "sector": null,
+   "awards": 14,
+   "value": 512699606,
+   "buyers": [
+    [
+     "Post Office Limited",
+     3
+    ],
+    [
+     "Suffolk County Council Passenger Transport",
+     3
+    ],
+    [
+     "Durham County Council",
+     1
+    ],
+    [
+     "UK POWER NETWORKS (OPERATIONS) LIMITED",
+     1
+    ],
+    [
+     "Sunderland City Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Universal Cabs Ltd",
+     4
+    ],
+    [
+     "UNIVERSAL OFFICE EQUIPMENT (UK) LIMITED",
+     3
+    ],
+    [
+     "UNIVERSAL SYSTEMS SOLUTIONS (SECURITY) LIMITED",
+     1
+    ],
+    [
+     "UNIVERSAL TYRE COMPANY (DEPTFORD) LIMITED",
+     1
+    ],
+    [
+     "UNIVERSAL WINDOWS (NE) LIMITED",
+     1
+    ],
+    [
+     "UNIVERSAL CONTRACTING LIMITED",
+     1
+    ]
+   ]
+  },
+  "0K3W.L": {
+   "name": "Myriad Genetics, Inc.",
+   "stem": "myriad genetics",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 363000,
+   "buyers": [
+    [
+     "NHS Greater Glasgow and Clyde",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Myriad Genetics",
+     1
+    ]
+   ]
+  },
+  "EAAS.L": {
+   "name": "eEnergy Group Plc",
+   "stem": "eenergy",
+   "mcap": 8798289,
+   "sector": null,
+   "awards": 1,
+   "value": 900000,
+   "buyers": [
+    [
+     "Sunderland City Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "EENERGY SERVICES UK LIMITED",
+     1
+    ]
+   ]
+  },
+  "0K2P.L": {
+   "name": "Hello Group Inc.",
+   "stem": "hello",
+   "mcap": 711409728,
+   "sector": null,
+   "awards": 1,
+   "value": 53820,
+   "buyers": [
+    [
+     "Devon County Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Hello TAXIS",
+     1
+    ]
+   ]
+  },
+  "MAI.L": {
+   "name": "Maintel Holdings Plc",
+   "stem": "maintel",
+   "mcap": 9927449,
+   "sector": null,
+   "awards": 1,
+   "value": 999981,
+   "buyers": [
+    [
+     "Hywel Dda University Health Board",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "MAINTEL EUROPE LIMITED",
+     1
+    ]
+   ]
+  },
+  "0IGA.L": {
+   "name": "Emergent BioSolutions Inc.",
+   "stem": "emergent biosolutions",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 1,
+   "buyers": [
+    [
+     "Secretary of State for Health and Social Care acting as part of the Crown through UK Health Security Agency",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Emergent BioSolutions Canada Inc",
+     1
+    ]
+   ]
+  },
+  "0LJB.L": {
+   "name": "Uniti Group Inc.",
+   "stem": "uniti",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 1700000000,
+   "buyers": [
+    [
+     "Trafford Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "UNITI HEAT LTD",
+     1
+    ]
+   ]
+  },
+  "GTC.L": {
+   "name": "Getech Group plc",
+   "stem": "getech",
+   "mcap": 5961078,
+   "sector": null,
+   "awards": 1,
+   "value": 11901455,
+   "buyers": [
+    [
+     "Caerphilly County Borough Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Getech Ltd",
+     1
+    ]
+   ]
+  },
+  "EBQ.L": {
+   "name": "Ebiquity plc",
+   "stem": "ebiquity",
+   "mcap": 13165768,
+   "sector": null,
+   "awards": 1,
+   "value": 600000,
+   "buyers": [
+    [
+     "Transport for Wales (TFW)",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Ebiquity Associates Limited ",
+     1
+    ]
+   ]
+  },
+  "TAN.L": {
+   "name": "Tanfield Group PLC",
+   "stem": "tanfield",
+   "mcap": 6939832,
+   "sector": null,
+   "awards": 1,
+   "value": 0,
+   "buyers": [
+    [
+     "Karbon Homes",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "TANFIELD GROUNDWORKS LIMITED",
+     1
+    ]
+   ]
+  },
+  "TND.L": {
+   "name": "Tandem Group plc",
+   "stem": "tandem",
+   "mcap": 9104218,
+   "sector": null,
+   "awards": 2,
+   "value": 142300047,
+   "buyers": [
+    [
+     "Ministry of Defence",
+     1
+    ],
+    [
+     "The Common Services Agency (more commonly known as NHS National Services Scotland) (NSS)",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "TANDEM SOLUTIONS LIMITED",
+     1
+    ],
+    [
+     "Tandem Diabetes UK Limited",
+     1
+    ]
+   ]
+  },
+  "0EX6.L": {
+   "name": "Jensen-Group NV",
+   "stem": "jensen",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 360000,
+   "buyers": [
+    [
+     "Swindon Borough Council",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "JENSEN GROUP SOLUTIONS LIMITED",
+     1
+    ]
+   ]
+  },
+  "0ELV.L": {
+   "name": "Guerbet SA",
+   "stem": "guerbet",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 34500,
+   "buyers": [
+    [
+     "Velindre University NHS Trust",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "GUERBET LABORATORIES LIMITED",
+     1
+    ]
+   ]
+  },
+  "CSC.L": {
+   "name": "Chesterfield Special Cylinders Holdings Plc",
+   "stem": "chesterfield special cylinders",
+   "mcap": 12760164,
+   "sector": null,
+   "awards": 1,
+   "value": 1997450,
+   "buyers": [
+    [
+     "Defence Equipment and Support",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Chesterfield Special Cylinders Ltd",
+     1
+    ]
+   ]
+  },
+  "0QON.L": {
+   "name": "Ascom Holding AG",
+   "stem": "ascom",
+   "mcap": null,
+   "sector": null,
+   "awards": 1,
+   "value": 0,
+   "buyers": [
+    [
+     "COUNTESS OF CHESTER HOSPITAL NHS FOUNDATION TRUST",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Ascom UK Ltd",
+     1
+    ]
+   ]
+  },
+  "PULS.L": {
+   "name": "Pulsar Group plc",
+   "stem": "pulsar",
+   "mcap": 13898331,
+   "sector": null,
+   "awards": 1,
+   "value": 50000,
+   "buyers": [
+    [
+     "Department for Business and Trade",
+     1
+    ]
+   ],
+   "suppliers": [
+    [
+     "Pulsar",
+     1
+    ]
+   ]
+  }
+ }
+}
