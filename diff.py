@@ -1,5 +1,5 @@
 """Compare two snapshots and turn the differences into signals."""
-from .config import TRACKED_FIELDS, BAD_STATUSES
+from config import TRACKED_FIELDS, BAD_STATUSES
 
 
 def _severity(field, old, new):

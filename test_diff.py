@@ -1,5 +1,5 @@
-from scanner.diff import diff_all
-from scanner.fetch import simplify
+from diff import diff_all
+from fetch import simplify
 
 CO = [{"ticker": "SCLP", "name": "Scancell", "sponsor_terms": ["scancell"]}]
 

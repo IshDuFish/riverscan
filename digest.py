@@ -5,8 +5,8 @@ Paste the HTML into your email tool (e.g. Buttondown or Mailchimp, both free
 for small lists), or send it automatically by setting the SMTP_* secrets
 described in SETUP.md.
 
-    python -m scanner.digest            # just build the files
-    python -m scanner.digest --send     # build and email
+    python digest.py            # just build the files
+    python digest.py --send     # build and email
 """
 import html
 import json
@@ -18,7 +18,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+DATA = Path(__file__).resolve().parent / "data"
 OUT = DATA / "digests"
 SITE = "https://riverscan.com"
 DISCLAIMER = ("Riverscan reports public registry changes for information only. "

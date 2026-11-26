@@ -80,7 +80,7 @@ fetch("data/signals.json", {cache:"no-store"}).then(r => r.json()).then(d => {
      <div class="stat"><b>${hi}</b><span>high severity</span></div>
      <div class="stat"><b>${cos}</b><span>companies with signals</span></div>`;
   render();
-}).catch(() => { document.getElementById("list").innerHTML = `<p class="empty">Couldn't load the signal log.</p>`; });
+}).catch(() => { document.getElementById("list").innerHTML = `<p class="empty">No signals logged yet. The scanner runs every morning.</p>`; });
 </script>
 </body>
 </html>

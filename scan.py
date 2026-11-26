@@ -1,6 +1,6 @@
 """Daily run: fetch trials, compare with last snapshot, log signals.
 
-    python -m scanner.scan
+    python scan.py
 """
 import csv
 import json
@@ -8,11 +8,11 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .config import COMPANIES
-from .fetch import fetch_company
-from .diff import diff_all
+from config import COMPANIES
+from fetch import fetch_company
+from diff import diff_all
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+DATA = Path(__file__).resolve().parent / "data"
 SNAPS = DATA / "snapshots"
 LATEST = SNAPS / "latest.json"
 SIGNALS_JSON = DATA / "signals.json"

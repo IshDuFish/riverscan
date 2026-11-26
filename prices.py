@@ -4,7 +4,7 @@ For every signal, records the closing price on the day it was detected and the
 return 1, 5 and 20 trading days later, alongside the FTSE AIM All-Share for
 comparison. Writes data/backtest.csv and data/backtest.json.
 
-    python -m scanner.prices
+    python prices.py
 """
 import json
 from pathlib import Path
@@ -12,7 +12,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+DATA = Path(__file__).resolve().parent / "data"
 BENCHMARK = "^FTAI"  # FTSE AIM All-Share; swap for "^FTSE" if you prefer
 HORIZONS = [1, 5, 20]
 
