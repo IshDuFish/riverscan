@@ -71,6 +71,13 @@
   }
   // Company sizes (data/fundamentals.json, refreshed daily) so every contract can be compared with revenue.
   var funds = {};
+  function severityOf(s) {
+    if (s.type !== "contract_award" || s.share_of_revenue != null || s.framework || !s.new) return s.severity;
+    var rev = (funds[s.ticker] || {}).revenue;
+    if (!rev || (s.currency && s.currency !== "GBP")) return s.severity;
+    var share = s.new / (s.years && s.years > 1 ? s.years : 1) / rev;
+    return share >= 0.10 ? "high" : share >= 0.02 ? "medium" : "low";
+  }
   function pctText(x) { return x < 0.001 ? "under 0.1%" : x < 0.1 ? (x * 100).toFixed(1) + "%" : Math.round(x * 100) + "%"; }
   // How big is this contract for the company that won it?
   function contractSize(s) {
@@ -79,11 +86,13 @@
     if (!rev) return "Revenue figure not available for " + name + ".";
     if (s.currency && s.currency !== "GBP") return name + "'s annual revenue is " + money(rev) + ".";
     var years = s.years && s.years > 1 ? s.years : null;
-    var share = s.share_of_revenue != null ? s.share_of_revenue : (s.new / (years || 1)) / rev;
     var per = years ? " a year over " + (Math.round(years * 10) / 10) + " years" : "";
     if (s.framework) {
-      return "A shared framework, so " + name + "'s slice is unknown. Split equally it would be about <strong>" + pctText(share) + "</strong> of its " + money(rev) + " annual revenue" + per + ".";
+      if (s.share_of_revenue == null)
+        return "A shared framework, so " + name + "'s slice of the " + money(s.new) + " is unknown and may never be fully spent. For scale, its annual revenue is " + money(rev) + ".";
+      return "A shared framework, so " + name + "'s slice is unknown. Split equally between the named suppliers it would be about <strong>" + pctText(s.share_of_revenue) + "</strong> of its " + money(rev) + " annual revenue" + per + ".";
     }
+    var share = s.share_of_revenue != null ? s.share_of_revenue : (s.new / (years || 1)) / rev;
     return "That's about <strong>" + pctText(share) + "</strong> of " + name + "'s " + money(rev) + " annual revenue" + per + (years ? "" : " (contract length not given, so the full value is used)") + ".";
   }
   function sentence(s) {
@@ -175,20 +184,22 @@
   window.RiverScan = {
     card: function (s, opts) {
       var t = tagFor(s), ref = s.ref || s.nct_id, title = s.title || s.trial;
+      var sev = severityOf(s);
       var source = s.source || "ClinicalTrials.gov";
       var sub = "";
       if (s.type === "contract_award") {
         sub = '<p class="signal-size">' + contractSize(s) + "</p>" +
           clampable("signal-trial", esc(title) + (s.published ? " · notice published " + esc(when(s.published)) : ""), (title || "").length > 150);
       } else if (s.type === "change" || s.type === "mismatch") sub = '<p class="signal-trial">' + esc(title) + "</p>";
-      var links = '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.type === "mismatch" ? String(ref).split(" / ")[0] : ref) + " ↗</a>";
+      var label = s.type === "contract_award" ? "View notice" : s.type === "mismatch" ? String(ref).split(" / ")[0] : ref;
+      var links = '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(label) + " ↗</a>";
       if (s.url2) links += '<a href="' + esc(s.url2) + '" target="_blank" rel="noopener">' + esc(String(ref).split(" / ")[1] || "Other record") + " ↗</a>";
-      return '<article class="signal signal--' + esc(s.severity) + '">' +
+      return '<article class="signal signal--' + esc(sev) + '">' +
         '<div class="signal-head"><h3 class="signal-co-name">' + esc(s.company) + '</h3><span class="ticker">' + esc(s.ticker) + "</span></div>" +
         '<div class="signal-top"><span class="tag ' + t[0] + '">' + t[1] + "</span>" + newsBadge(s) +
         '<span class="signal-source">' + esc(source) + "</span></div>" +
         text(s) + sub + next(s) +
-        '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
+        '<div class="signal-foot"><span class="sev sev--' + esc(sev) + '">' + esc(sev) + "</span>" + links +
         '<span class="signal-co">Spotted ' + esc(when(s.detected_at)) + "</span></div>" +
         "</article>";
     },
@@ -215,6 +226,7 @@
       return Promise.all([sig, tr, fu]).then(function (x) { return x[0]; });
     },
     when: when,
+    severity: function (s) { return severityOf(s); },
     direction: direction,
     money: money,
     stream: function (s) { return s.stream || "trials"; }

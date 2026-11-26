@@ -81,9 +81,23 @@ def build(sigs):
     return "\n".join(md), page, f"Riverscan weekly signals – {today}"
 
 
+def send_via_script(subject, html_body, text_body):
+    """Send through the Google Apps Script email service (SETUP-EMAIL.md): every active
+    subscriber gets it, and the owner always gets a copy."""
+    import requests
+    r = requests.post(os.environ["SIGNUP_SCRIPT_URL"], timeout=120,
+                      json={"action": "digest", "token": os.environ["SIGNUP_TOKEN"],
+                            "subject": subject, "html": html_body, "text": text_body})
+    r.raise_for_status()
+    print("Email service:", r.text[:200])
+
+
 def send(subject, html_body, text_body):
     host, user, pw = os.environ["SMTP_HOST"], os.environ["SMTP_USER"], os.environ["SMTP_PASS"]
-    to = [a.strip() for a in os.environ["DIGEST_TO"].split(",") if a.strip()]
+    to = [a.strip() for a in os.environ.get("DIGEST_TO", "").split(",") if a.strip()]
+    owner = os.environ.get("OWNER_EMAIL", "").strip()
+    if owner and owner not in to:
+        to.append(owner)  # always send the owner a copy
     msg = MIMEMultipart("alternative")
     msg["Subject"], msg["From"], msg["To"] = subject, user, user
     msg.attach(MIMEText(text_body, "plain"))
@@ -102,10 +116,12 @@ def main():
     (OUT / f"{day}.html").write_text(page)
     print(text)
     if "--send" in sys.argv:
-        if os.environ.get("SMTP_HOST") and os.environ.get("DIGEST_TO"):
+        if os.environ.get("SIGNUP_SCRIPT_URL") and os.environ.get("SIGNUP_TOKEN"):
+            send_via_script(subject, page, text)
+        elif os.environ.get("SMTP_HOST") and (os.environ.get("DIGEST_TO") or os.environ.get("OWNER_EMAIL")):
             send(subject, page, text)
         else:
-            print("SMTP secrets not set; digest built but not sent.")
+            print("No email settings yet (see SETUP-EMAIL.md); digest built but not sent.")
 
 
 if __name__ == "__main__":

@@ -121,7 +121,11 @@ document.getElementById('year').textContent = new Date().getFullYear();
     if (opts.ghost) g += '<path d="' + line(opts.ghost) + '" class="ghost"/>';
     g += '<path d="' + line(points) + '" class="main"/>';
     if (opts.ghostLabel) { var gl = opts.ghost[opts.ghost.length - 1]; g += '<text x="' + (x(gl.x) - 4) + '" y="' + (y(gl.y) - 8) + '" text-anchor="end" class="ghost-label">' + opts.ghostLabel + "</text>"; }
-    if (opts.mainLabel) { var ml = points[points.length - 1]; g += '<text x="' + (x(ml.x) - 4) + '" y="' + (y(ml.y) - 10) + '" text-anchor="end" class="main-label">' + opts.mainLabel + "</text>"; }
+    if (opts.mainLabel) {
+      var ml = opts.mainLabelAt != null ? points[opts.mainLabelAt] : points[points.length - 1];
+      var below = opts.mainLabelAt != null;
+      g += '<text x="' + (x(ml.x) + (below ? 0 : -4)) + '" y="' + (y(ml.y) + (below ? 22 : -10)) + '" text-anchor="' + (below ? "start" : "end") + '" class="main-label">' + opts.mainLabel + "</text>";
+    }
     return g + "</svg>";
   }
 
@@ -129,7 +133,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
     var slow = [], fast = [];
     for (var d = 0; d <= 20; d++) { slow.push({ x: d, y: 6 * (1 - Math.exp(-d / 6)) }); fast.push({ x: d, y: d === 0 ? 0 : 6 }); }
     return '<figure class="drift-fig illustration"><figcaption><strong>How the chart will read.</strong> This is an illustration, not data.</figcaption>' +
-      chart(slow, { ghost: fast, units: false, ghostLabel: "Priced in instantly", mainLabel: "Priced in slowly", marker: 2, markerLabel: "RiverScan signal", label: "Illustration of instant versus slow pricing" }) +
+      chart(slow, { ghost: fast, units: false, ghostLabel: "Priced in instantly", mainLabel: "Priced in slowly", mainLabelAt: 9, marker: 2, markerLabel: "RiverScan signal", label: "Illustration of instant versus slow pricing" }) +
       "<p>If the market priced information in instantly, the line would jump on day 1 and go flat. A line that keeps climbing for days means the information wasn't fully priced in, and that there was still a move to come after RiverScan's signal.</p></figure>";
   }
 

@@ -169,7 +169,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   var log = document.getElementById("log"), more = document.getElementById("more");
   function render() {
     var rows = all.filter(function (s) {
-      return (filter === "all" || s.severity === filter) && (stream === "all" || RiverScan.stream(s) === stream);
+      return (filter === "all" || RiverScan.severity(s) === filter) && (stream === "all" || RiverScan.stream(s) === stream);
     });
     if (!rows.length) {
       log.innerHTML = '<div class="log-empty">' + (all.length
@@ -196,7 +196,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   RiverScan.load().then(function (d) {
     all = d;
     var cos = {}; d.forEach(function (s) { cos[s.ticker] = 1; });
-    var hi = d.filter(function (s) { return s.severity === "high"; }).length;
+    var hi = d.filter(function (s) { return RiverScan.severity(s) === "high"; }).length;
     document.getElementById("stats").innerHTML =
       '<div class="stat"><b>' + d.length + '</b><span>signals logged</span></div>' +
       '<div class="stat"><b>' + hi + '</b><span>high severity</span></div>' +

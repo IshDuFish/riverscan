@@ -346,6 +346,7 @@
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
+<script src="assets/site-config.js?v=20261126f"></script>
 <script src="assets/signals.js?v=20261126e"></script>
 <script>
 // Homepage: latest real signals, and live counts on the river map.
@@ -357,7 +358,7 @@ Promise.all([RiverScan.load(), coverage]).then(function (x) {
     cov.trial_companies.concat((cov.contract_companies || []).map(function (c) { return c.ticker; })).forEach(function (t) { covered[t] = 1; });
     d = d.filter(function (s) { return covered[s.ticker]; });
   }
-  var top = d.filter(function (s) { return s.severity !== "low"; }).slice(0, 6);
+  var top = d.filter(function (s) { return RiverScan.severity(s) !== "low"; }).slice(0, 6);
   if (top.length < 3) top = d.slice(0, 6);
   if (!top.length) return;
   document.getElementById("latest").innerHTML = top.map(function (s) { return RiverScan.card(s); }).join("");
@@ -408,14 +409,14 @@ document.getElementById('year').textContent = new Date().getFullYear();
     var btn = form.querySelector('button');
     btn.disabled = true;
     btn.textContent = 'Joining…';
-    fetch(form.action, {
-      method: 'POST',
-      body: new FormData(form),
-      headers: { 'Accept': 'application/json' }
-    }).then(function (res) {
-      window.location.href = res.ok ? 'thanks.html' : 'oops.html';
-    }).catch(function () {
-      window.location.href = 'oops.html';
+    var data = new FormData(form);
+    var url = (window.RIVERSCAN || {}).SIGNUP_URL;
+    // Email service (welcome email + weekly digest). Its response can't be read cross-site, so we don't wait on it.
+    var toEmailService = url ? fetch(url, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(data) }).catch(function () {}) : Promise.resolve();
+    var toFormspree = fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
+      .then(function (res) { return res.ok; }).catch(function () { return false; });
+    Promise.all([toFormspree, toEmailService]).then(function (r) {
+      window.location.href = (r[0] || url) ? 'thanks.html' : 'oops.html';
     });
   });
 })();
