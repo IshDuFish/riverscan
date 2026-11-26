@@ -2,8 +2,8 @@
 
 Trials are linked through the cross-references each registry records
 (NCT numbers, ISRCTN numbers, EudraCT / EU CT numbers). Each linked record is
-put into a rough bucket (active / ended / stopped) and pairs that disagree are
-reported. A signal is raised the first time a mismatch appears.
+put into a rough bucket (active / ended / stopped) and pairs where one registry
+says the trial is still running and another says it is over are reported. A signal is raised the first time a mismatch appears.
 """
 import re
 
@@ -55,7 +55,9 @@ def find(companies, snaps, today):
                 if ra == rb or not (ia & ib):
                     continue
                 ba, bb = bucket[ra](a, today), bucket[rb](b, today)
-                if not ba or not bb or ba == bb:
+                # Only flag open-vs-closed disagreements. "Ended" in one registry and "Terminated"
+                # in another both mean the trial is over, so that is not a mismatch.
+                if not ba or not bb or (ba == "active") == (bb == "active"):
                     continue
                 ida, idb = a.get("id") or a.get("nct_id"), b.get("id") or b.get("nct_id")
                 key = "|".join(sorted([f"{ra}:{ida}", f"{rb}:{idb}"]))

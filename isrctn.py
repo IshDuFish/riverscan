@@ -1,7 +1,7 @@
 """Pull trials from the ISRCTN registry (the UK's clinical study registry).
 
 Public XML API, no key needed: https://www.isrctn.com/api/query/format/default
-Query syntax is field-scoped, e.g.  sponsor:"Scancell" OR funder:"Scancell"
+We search free text for the company name, then keep trials it sponsors or funds.
 """
 import re
 import xml.etree.ElementTree as ET
@@ -62,14 +62,14 @@ def simplify(full):
 
 def fetch_company(company):
     terms = [t.lower() for t in company["sponsor_terms"]]
-    q = " OR ".join(f'sponsor:"{t}" OR funder:"{t}"' for t in company["sponsor_terms"])
-    r = request("GET", API, params={"q": q, "limit": 100})
-    root = ET.fromstring(r.content)
     trials = {}
-    for full in root.findall("i:fullTrial", NS):
-        rec = simplify(full)
-        if rec["id"] and any(t in s.lower() for s in rec["sponsors"] for t in terms):
-            trials[rec["id"]] = rec
+    for term in company["sponsor_terms"]:
+        # Free-text search, then keep only trials where the company is a sponsor or funder.
+        r = request("GET", API, params={"q": term, "limit": 100})
+        for full in ET.fromstring(r.content).findall("i:fullTrial", NS):
+            rec = simplify(full)
+            if rec["id"] and any(t in s.lower() for s in rec["sponsors"] for t in terms):
+                trials[rec["id"]] = rec
     return trials
 
 

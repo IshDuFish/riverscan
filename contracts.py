@@ -16,7 +16,7 @@ SOURCES = {
     "Find a Tender": ("https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages", "updatedFrom", "updatedTo"),
     "Contracts Finder": ("https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search", "publishedFrom", "publishedTo"),
 }
-MAX_PAGES = 60
+MAX_PAGES = 400
 COMPILED = [(c, [re.compile(p, re.I) for p in c["supplier_patterns"]]) for c in CONTRACT_COMPANIES]
 
 
@@ -94,8 +94,10 @@ def scan(state, detected_at, now=None, backfill_days=14):
         seen = {k: now.date().isoformat() for k in seen}
     signals, errors = [], []
     for source in SOURCES:
+        scanned = 0
         try:
             for rel in releases(source, since, now):
+                scanned += 1
                 buyer = (rel.get("buyer") or {}).get("name") or "a public body"
                 tender = rel.get("tender") or {}
                 for award in rel.get("awards") or []:
@@ -122,6 +124,7 @@ def scan(state, detected_at, now=None, backfill_days=14):
                         })
         except Exception as e:  # one source down shouldn't stop the other
             errors.append(f"{source}: {e}")
+        print(f"{source:18} scanned {scanned} award notices since {since:%Y-%m-%d %H:%M}")
     new_state = {"last_run": now.isoformat(timespec="seconds") if not errors else (last or since.isoformat(timespec="seconds")),
                  "seen": {k: d for k, d in seen.items() if d >= (now - timedelta(days=45)).date().isoformat()}}
     return signals, new_state, errors
