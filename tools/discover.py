@@ -41,6 +41,7 @@ for sector in ("Healthcare", None):
         for x in qs:
             d = uni.setdefault(x["symbol"], {"name": x.get("longName") or x.get("shortName"), "mcap": x.get("marketCap"), "sector": None})
             if sector: d["sector"] = sector
+            d.setdefault("industry", x.get("industry"))
         off += len(qs)
         if not qs or off >= (r.get("total") or 0): break
 for sym, d in uni.items():
@@ -51,7 +52,7 @@ print("universe", len(uni), "healthcare", sum(1 for d in uni.values() if d["sect
 # 2. trials for healthcare companies
 trials = {}
 for sym, d in uni.items():
-    if d["sector"] != "Healthcare" or not d["ok"]: continue
+    if not d["ok"]: continue  # every company, so research firms outside "Healthcare" are found too
     st = d["stem"]; res = {"ctgov": [], "isrctn": [], "ctis": [], "sponsors": collections.Counter()}
     try:
         data = request("GET", "https://clinicaltrials.gov/api/v2/studies", params={"query.spons": st, "pageSize": 200}).json()
@@ -105,5 +106,6 @@ print("scanned", dict(scanned))
 con = {sym: {"name": uni[sym]["name"], "stem": uni[sym]["stem"], "mcap": uni[sym]["mcap"], "sector": uni[sym]["sector"],
              "awards": h["awards"], "value": round(h["value"]), "buyers": h["buyers"].most_common(5), "suppliers": h["suppliers"].most_common(6)}
        for sym, h in hits.items()}
-json.dump({"universe": len(uni), "days": DAYS, "scanned": dict(scanned), "trials": trials, "contracts": con}, open("data/discovery.json", "w"), indent=1)
+healthcare = {sym: {"name": d["name"], "stem": d["stem"], "mcap": d["mcap"]} for sym, d in uni.items() if d["sector"] == "Healthcare"}
+json.dump({"universe": len(uni), "days": DAYS, "healthcare": healthcare, "scanned": dict(scanned), "trials": trials, "contracts": con}, open("data/discovery.json", "w"), indent=1)
 print("trial companies", len(trials), "contract companies", len(con))
