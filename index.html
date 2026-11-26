@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RiverScan — See it upstream</title>
-<meta name="description" content="RiverScan watches clinical trial registries and public records and shows you what changed before it reaches the headlines. Starting with London-listed biotech.">
+<title>RiverScan: data analytics from public records</title>
+<meta name="description" content="RiverScan is a data analytics company. We read clinical trial registries and UK government contract awards every morning and flag what changed for London-listed companies, before it reaches the headlines.">
 <link rel="canonical" href="https://riverscan.com/">
-<meta property="og:title" content="RiverScan — See it upstream">
-<meta property="og:description" content="Signals from the sources the market ignores. Starting with London-listed biotech.">
+<meta property="og:title" content="RiverScan: see it upstream">
+<meta property="og:description" content="Data analytics from public records: clinical trials and government contracts, for London-listed companies.">
 <meta property="og:url" content="https://riverscan.com/">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0B1F2A">
@@ -29,7 +29,7 @@
         <span>RiverScan</span>
       </a>
       <div class="nav-links">
-        <a href="index.html#how">How it works</a>
+        <a href="index.html#how">What we do</a>
         <a href="signals.html">Signals</a>
         <a href="index.html#coverage">Coverage</a>
         <a href="index.html#faq">FAQ</a>
@@ -42,145 +42,219 @@
 
 <main id="main">
 
-  <!-- HERO -->
-  <section class="site-header" aria-labelledby="hero-title">
-    <div class="container hero">
+  <!-- HERO: headline, sign-up, and the river map of every data source -->
+  <section class="hero-river" aria-labelledby="hero-title">
+    <div class="container hero-top">
       <div class="hero-copy">
-        <p class="eyebrow">Now scanning · London-listed biotech</p>
+        <p class="eyebrow">Data analytics for London-listed companies</p>
         <h1 id="hero-title">See it upstream.</h1>
-        <p class="lead">RiverScan watches the sources the market ignores, starting with clinical trial registries, and shows you what changed before it reaches the headlines.</p>
-
+        <p class="lead">RiverScan is a data analytics company. Every morning we read the public records that move share prices first, from clinical trial registries to government contract awards, and flag what changed before it reaches the headlines.</p>
         <form id="access" class="signup" action="https://formspree.io/f/myewlokg" method="post">
           <label class="sr-only" for="email">Email address</label>
           <input id="email" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>
-          <!-- spam trap: real people never see or fill this -->
           <label class="hp" aria-hidden="true">Leave blank <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
           <button class="btn" type="submit">Join the early access list</button>
         </form>
-        <p class="form-note">Free while in early access. We'll only email you about RiverScan. <a href="privacy.html">Privacy</a> · Data and information only — not investment advice.</p>
+        <p class="form-note">Free while in early access. We'll only email you about RiverScan. <a href="privacy.html">Privacy</a>. Data and information only, not investment advice.</p>
       </div>
+    </div>
 
-      <div class="feed" aria-label="Example signals">
-        <div class="feed-head"><strong>Signal feed</strong><span id="feed-label">Example signals</span></div>
-        <div id="feed-items">
+    <figure class="river-map" aria-labelledby="map-caption">
+      <svg viewBox="0 0 1200 600" role="img" aria-labelledby="map-title map-desc" preserveAspectRatio="xMidYMid meet">
+        <title id="map-title">The RiverScan river system</title>
+        <desc id="map-desc">A river flows from public records at the source, top left, down to headlines and share prices at the sea, bottom right. Five live data sources join it as tributaries: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender and Contracts Finder. Four more are marked as coming soon.</desc>
+        <defs>
+          <linearGradient id="riverFill" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#3CC9B5"/>
+            <stop offset="1" stop-color="#1D6F8C"/>
+          </linearGradient>
+          <radialGradient id="sea" cx="1" cy="1" r="1">
+            <stop offset="0" stop-color="#1D6F8C" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#1D6F8C" stop-opacity="0"/>
+          </radialGradient>
+          <path id="main-river" d="M70,60 C150,140 220,170 300,210 S450,250 520,300 S680,380 760,400 S900,440 980,470 S1130,520 1230,560"/>
+        </defs>
 
+        <!-- contour lines: the landscape the river runs through -->
+        <g class="contours" fill="none">
+          <path d="M-20,140 C160,90 300,160 470,120 S760,40 1220,90"/>
+          <path d="M-20,330 C120,300 250,380 420,420 S700,520 900,600"/>
+          <path d="M600,-10 C640,120 760,200 900,230 S1120,250 1220,320"/>
+          <path d="M-20,470 C100,450 200,520 330,610"/>
+        </g>
+        <rect x="760" y="360" width="460" height="260" fill="url(#sea)"/>
+
+        <!-- coming-soon tributaries (dashed, dry) -->
+        <g class="trib trib--soon">
+          <path d="M-20,440 C180,430 400,380 520,300"/>
+          <path d="M1060,-10 C1050,180 1010,360 980,470"/>
+          <path d="M890,620 C910,560 950,500 980,470"/>
+          <path d="M690,620 C700,520 730,440 760,400"/>
+        </g>
+
+        <!-- live tributaries -->
+        <g class="trib trib--live">
+          <path id="t-ctgov" d="M370,-10 C370,90 330,160 300,210"/>
+          <path id="t-isrctn" d="M-20,250 C90,250 210,225 300,210"/>
+          <path id="t-ctis" d="M610,-10 C600,120 560,230 520,300"/>
+          <path id="t-fts" d="M840,-10 C850,140 800,320 760,400"/>
+          <path id="t-cf" d="M560,620 C600,520 690,430 760,400"/>
+        </g>
+
+        <!-- the main river: wide bank, water, and moving current lines -->
+        <use href="#main-river" class="river-bank"/>
+        <use href="#main-river" class="river-water"/>
+        <use href="#main-river" class="river-current"/>
+
+        <!-- signals carried downstream -->
+        <g class="particles">
+          <circle r="5" class="p-high"><animateMotion dur="14s" repeatCount="indefinite" begin="0s"><mpath href="#main-river"/></animateMotion></circle>
+          <circle r="4" class="p-med"><animateMotion dur="14s" repeatCount="indefinite" begin="-3.5s"><mpath href="#main-river"/></animateMotion></circle>
+          <circle r="3.5" class="p-low"><animateMotion dur="14s" repeatCount="indefinite" begin="-7s"><mpath href="#main-river"/></animateMotion></circle>
+          <circle r="4" class="p-med"><animateMotion dur="14s" repeatCount="indefinite" begin="-10.5s"><mpath href="#main-river"/></animateMotion></circle>
+          <circle r="3" class="p-trib"><animateMotion dur="4s" repeatCount="indefinite" begin="-1s"><mpath href="#t-ctgov"/></animateMotion></circle>
+          <circle r="3" class="p-trib"><animateMotion dur="5s" repeatCount="indefinite" begin="-2s"><mpath href="#t-isrctn"/></animateMotion></circle>
+          <circle r="3" class="p-trib"><animateMotion dur="4.5s" repeatCount="indefinite" begin="-0.5s"><mpath href="#t-ctis"/></animateMotion></circle>
+          <circle r="3" class="p-trib"><animateMotion dur="5s" repeatCount="indefinite" begin="-3s"><mpath href="#t-fts"/></animateMotion></circle>
+          <circle r="3" class="p-trib"><animateMotion dur="4s" repeatCount="indefinite" begin="-2.5s"><mpath href="#t-cf"/></animateMotion></circle>
+        </g>
+
+        <!-- confluences -->
+        <g class="joins">
+          <circle cx="300" cy="210" r="7"/><circle cx="520" cy="300" r="7"/><circle cx="760" cy="400" r="7"/><circle cx="980" cy="470" r="6"/>
+        </g>
+
+        <!-- labels -->
+        <g class="map-labels">
+          <g class="stage"><circle cx="70" cy="60" r="9" class="spring"/>
+            <text x="92" y="52" class="stage-name">Source</text>
+            <text x="92" y="74" class="stage-note">Public records.</text>
+            <text x="92" y="92" class="stage-note">RiverScan reads here.</text></g>
+          <g class="stage stage--end">
+            <text x="1185" y="448" text-anchor="end" class="stage-name">The sea</text>
+            <text x="1185" y="470" text-anchor="end" class="stage-note">Headlines and prices.</text></g>
+
+          <g class="src"><text x="385" y="28" class="src-name">ClinicalTrials.gov</text><text x="385" y="46" class="src-meta" id="n-ctgov">Live · trials</text></g>
+          <g class="src"><text x="16" y="236" class="src-name">ISRCTN (UK)</text><text x="16" y="282" class="src-meta" id="n-isrctn">Live · trials</text></g>
+          <g class="src"><text x="625" y="28" class="src-name">EU CTIS</text><text x="625" y="46" class="src-meta" id="n-ctis">Live · trials</text></g>
+          <g class="src"><text x="858" y="28" class="src-name">Find a Tender</text><text x="858" y="46" class="src-meta">Live · contracts</text></g>
+          <g class="src"><text x="548" y="590" text-anchor="end" class="src-name">Contracts Finder</text><text x="548" y="572" text-anchor="end" class="src-meta">Live · contracts</text></g>
+
+          <g class="src src--soon"><text x="16" y="470" class="src-name">Companies House</text><text x="16" y="488" class="src-meta">Coming soon</text></g>
+          <g class="src src--soon"><text x="1072" y="28" class="src-name">Energy planning</text><text x="1072" y="46" class="src-meta">Coming soon</text></g>
+          <g class="src src--soon"><text x="902" y="590" class="src-name">Defence</text><text x="902" y="572" class="src-meta">Coming soon</text></g>
+          <g class="src src--soon"><text x="702" y="590" class="src-name">Hiring</text><text x="702" y="572" class="src-meta">Coming soon</text></g>
+        </g>
+      </svg>
+      <figcaption id="map-caption" class="container map-caption">Each tributary is a public data source. Every morning we follow it upstream, find what changed, and send the signal down the river to you.</figcaption>
+    </figure>
+
+    <!-- On small screens the map labels are too small to read, so the sources are listed here too -->
+    <div class="container map-legend" aria-label="Data sources">
+      <ul>
+        <li class="live"><b>ClinicalTrials.gov</b> Live</li>
+        <li class="live"><b>ISRCTN (UK)</b> Live</li>
+        <li class="live"><b>EU CTIS</b> Live</li>
+        <li class="live"><b>Find a Tender</b> Live</li>
+        <li class="live"><b>Contracts Finder</b> Live</li>
+        <li><b>Defence</b> Coming soon</li>
+        <li><b>Energy planning</b> Coming soon</li>
+        <li><b>Companies House</b> Coming soon</li>
+        <li><b>Hiring</b> Coming soon</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- LATEST SIGNALS -->
+  <section class="section section--tight" aria-labelledby="latest-title">
+    <div class="container">
+      <div class="latest-head">
+        <div>
+          <h2 id="latest-title">Latest signals</h2>
+          <p class="muted" id="latest-note">Straight from this morning's scan.</p>
+        </div>
+        <a class="btn btn--ghost" href="signals.html">Open the signal log</a>
+      </div>
+      <div class="latest-grid" id="latest">
         <article class="signal">
-          <div class="signal-top"><span class="ticker">SNG</span><span class="tag tag--status">Status change</span><span class="signal-source">EU CTIS</span></div>
-          <p>Phase 2 SNG001 trial status moved to <strong>Ended</strong>. ISRCTN record still lists it as Completed.</p>
-        </article>
-
-        <article class="signal">
-          <div class="signal-top"><span class="ticker">POLB</span><span class="tag tag--enrol">Enrolment</span><span class="signal-source">Company update</span></div>
+          <div class="signal-top"><span class="ticker">POLB</span><span class="tag tag--enrol">Enrolment</span><span class="signal-source">Example</span></div>
           <p>TOPICAL trial of POLB 001: first patient dosed. Target enrolment around 30 patients.</p>
         </article>
-
         <article class="signal">
-          <div class="signal-top"><span class="ticker">COIL</span><span class="tag tag--phase">Phase change</span><span class="signal-source">ClinicalTrials.gov</span></div>
-          <p>AO-252 Phase I moving from dose escalation to dose expansion.</p>
+          <div class="signal-top"><span class="ticker">BBY</span><span class="tag tag--contract">Contract award</span><span class="signal-source">Example</span></div>
+          <p>A public body awards a contract to a London-listed builder. We log the buyer, the value and the notice.</p>
         </article>
-
-        </div>
-        <a id="feed-link" class="feed-link" href="signals.html#guide">How to read a signal →</a>
+        <article class="signal">
+          <div class="signal-top"><span class="ticker">FARN</span><span class="tag tag--mismatch">Registry mismatch</span><span class="signal-source">Example</span></div>
+          <p>One registry says a trial is still running. Another says it has ended.</p>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- THE IDEA -->
-  <section class="section" aria-labelledby="idea-title">
-    <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">The idea</p>
-        <h2 id="idea-title">Information flows like a river. Most people only see the end of it.</h2>
-      </div>
-      <div class="row">
-        <div class="card card--dark">
-          <div class="card-top"><span class="card-label">01 · Source</span><span class="pill">RiverScan watches here</span></div>
-          <h3>Registries &amp; records</h3>
-          <p>A trial's completion date slips. Enrolment is cut. A status quietly changes. No press release, no headline.</p>
-        </div>
-        <div class="card">
-          <span class="card-label">02 · Midstream</span>
-          <h3>Announcements</h3>
-          <p>The company issues an update. Specialist press and forums start to pick it up.</p>
-        </div>
-        <div class="card">
-          <span class="card-label">03 · Downstream</span>
-          <h3>Headlines &amp; price</h3>
-          <p>Mainstream news, analyst notes and share price moves. By now, everyone knows.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOW IT WORKS -->
+  <!-- WHAT WE DO -->
   <section id="how" class="section section--white" aria-labelledby="how-title">
     <div class="container">
       <div class="section-head">
-        <p class="eyebrow">How it works</p>
-        <h2 id="how-title">Four steps, every day.</h2>
+        <h2 id="how-title">A data analytics company, built on public records.</h2>
+        <p class="lead">The information is free and public, but it's scattered across registries and procurement portals that nobody reads every day. We do, and turn it into signals you can act on.</p>
       </div>
-      <div class="steps">
-        <div class="step">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-          <h3>Watch</h3>
-          <p>Pull every record from each source, every day.</p>
-        </div>
-        <div class="step">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="7" height="16" rx="1.5"/><rect x="14" y="4" width="7" height="16" rx="1.5"/><path d="M10 12h4"/></svg>
+      <ol class="steps steps--numbered">
+        <li class="step">
+          <h3>Collect</h3>
+          <p>Pull every record from each source, every morning, before the London open.</p>
+        </li>
+        <li class="step">
           <h3>Compare</h3>
-          <p>Check today's version against yesterday's to find exactly what changed.</p>
-        </div>
-        <div class="step">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>
+          <p>Check today's version against yesterday's to find exactly what changed, field by field.</p>
+        </li>
+        <li class="step">
           <h3>Link</h3>
-          <p>Match each trial to its sponsor and the London ticker behind it.</p>
-        </div>
-        <div class="step">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg>
-          <h3>Flag</h3>
-          <p>Score how unusual each change is and send what matters to your inbox.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOURCES -->
-  <section id="sources" class="section" aria-labelledby="sources-title">
-    <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">Sources</p>
-        <h2 id="sources-title">Starting with the world's biggest trial registry.</h2>
-        <p class="lead">ClinicalTrials.gov is live today. Next we're adding the UK and EU registries, because the same trial is often registered in more than one place and the records don't always agree.</p>
-      </div>
-      <div class="row">
-        <div class="card"><div class="card-top"><h3>ClinicalTrials.gov</h3><span class="pill">Live</span></div><p>US National Library of Medicine</p></div>
-        <div class="card"><div class="card-top"><h3>ISRCTN</h3><span class="pill pill--soft">Next</span></div><p>The UK's clinical study registry</p></div>
-        <div class="card"><div class="card-top"><h3>EU CTIS</h3><span class="pill pill--soft">Next</span></div><p>European Medicines Agency</p></div>
-      </div>
-      <div class="chips">
-        <strong style="font-size: 15px;">Next tributaries:</strong>
-        <span class="chip">Companies House filings</span>
-        <span class="chip">Government contract awards</span>
-        <span class="chip">Energy planning decisions</span>
-        <span class="chip">Hiring activity</span>
-      </div>
+          <p>Match each trial sponsor or contract supplier to the London-listed company behind it, and connect the same trial across registries.</p>
+        </li>
+        <li class="step">
+          <h3>Score and send</h3>
+          <p>Rate how much each change usually matters, log it with a timestamp, and send the important ones to your inbox.</p>
+        </li>
+      </ol>
     </div>
   </section>
 
   <!-- COVERAGE -->
   <section id="coverage" class="section section--dark" aria-labelledby="coverage-title">
-    <div class="container split">
-      <div>
-        <p class="eyebrow">First tributary</p>
-        <h2 id="coverage-title">London-listed biotech.</h2>
-        <p class="lead">Small UK biotechs get little analyst coverage, but their trials are on the public record. We start where the gap is widest: 12 companies and 200+ trials, checked every morning.</p>
+    <div class="container">
+      <div class="section-head">
+        <h2 id="coverage-title">Two tributaries live. More on the way.</h2>
+        <p class="lead">We start where public data is rich and analyst coverage is thin.</p>
       </div>
-      <div>
-        <div class="tickers" aria-label="Companies covered">
-          <span>HCM</span><span>SCLP</span><span>FARN</span><span>AVCT</span><span>POLB</span><span>FUM</span>
-          <span>AREC</span><span>IMM</span><span>STX</span><span>EVG</span><span>HVO</span><span>OXB</span>
-          <span class="more">+ more soon</span>
+      <div class="streams">
+        <div class="stream">
+          <h3>Biotech trials</h3>
+          <p class="stream-meta" id="cov-trials">ClinicalTrials.gov, ISRCTN and EU CTIS</p>
+          <p>Status changes, delays, enrolment cuts, new trials, posted results, safety events, and registries that disagree with each other.</p>
+          <div class="tickers">
+            <span>HCM</span><span>SCLP</span><span>FARN</span><span>AVCT</span><span>POLB</span><span>FUM</span>
+            <span>AREC</span><span>IMM</span><span>STX</span><span>EVG</span><span>HVO</span><span>OXB</span>
+          </div>
         </div>
+        <div class="stream">
+          <h3>Government contracts</h3>
+          <p class="stream-meta">Find a Tender and Contracts Finder</p>
+          <p>New UK public sector awards to London-listed builders, outsourcers and defence companies, with the buyer, value and whether it's a solo win or a framework place.</p>
+          <div class="tickers">
+            <span title="Balfour Beatty">BBY</span><span title="Morgan Sindall">MGNS</span><span title="Kier Group">KIE</span><span title="Costain">COST</span><span title="Galliford Try">GFRD</span><span title="Keller Group">KLR</span><span title="Renew Holdings">RNWH</span>
+            <span title="Serco">SRP</span><span title="Mitie">MTO</span><span title="Capita">CPI</span><span title="BAE Systems">BA.</span><span title="Babcock">BAB</span><span title="QinetiQ">QQ.</span><span title="Chemring">CHG</span>
+          </div>
+        </div>
+      </div>
+      <div class="upcoming">
+        <h3>Coming soon</h3>
+        <ul class="chips">
+          <li class="chip">Defence programmes and trials</li>
+          <li class="chip">Energy planning decisions</li>
+          <li class="chip">Companies House filings</li>
+          <li class="chip">Hiring activity</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -189,19 +263,18 @@
   <section class="section" aria-labelledby="plans-title">
     <div class="container">
       <div class="section-head">
-        <p class="eyebrow">Plans</p>
         <h2 id="plans-title">Start free.</h2>
       </div>
       <div class="row">
         <div class="card plan">
           <span class="plan-name">Weekly digest</span>
           <span class="plan-price">Free</span>
-          <p>One email every Friday with the week's most important changes across covered companies, plus the full <a href="signals.html">signal log</a> on the site.</p>
+          <p>One email every Friday with the week's most important changes across every company we cover, plus the full <a href="signals.html">signal log</a> on the site.</p>
         </div>
         <div class="card plan plan--featured">
-          <div class="card-top"><span class="plan-name">Pro alerts</span><span class="pill pill--soft">Coming soon</span></div>
+          <span class="plan-name">Pro alerts</span>
           <span class="plan-price" style="font-size:28px">Coming soon</span>
-          <p>Same-day alerts on your watchlist, change history for every trial, and cross-registry mismatches. Join the list to hear first.</p>
+          <p>Same-day alerts on your watchlist, full change history for every trial and contract, and exportable data. Join the list to hear first.</p>
         </div>
       </div>
     </div>
@@ -213,20 +286,28 @@
       <h2 id="faq-title" style="margin-bottom: 24px;">Questions</h2>
       <div class="faq">
         <details open>
+          <summary>What is RiverScan?</summary>
+          <p>RiverScan is a data analytics company. We collect public records every day, find what changed, link each change to the London-listed company it affects, and publish the result as signals. We don't give investment advice.</p>
+        </details>
+        <details>
           <summary>Is this investment advice?</summary>
           <p>No. RiverScan reports changes in public records. We never tell you to buy or sell anything, and nothing here is a personal recommendation. See our <a href="terms.html">terms and disclaimer</a>.</p>
         </details>
         <details>
           <summary>Where does the data come from?</summary>
-          <p>Today, ClinicalTrials.gov, the largest public trial registry, run by the US National Library of Medicine. The UK (ISRCTN) and EU (CTIS) registries are coming next. Every signal links back to the original record.</p>
+          <p>Clinical trials come from ClinicalTrials.gov (US National Library of Medicine), ISRCTN (the UK registry) and EU CTIS (European Medicines Agency). Government contracts come from Find a Tender and Contracts Finder, the UK government's official procurement services. Every signal links back to the original record.</p>
         </details>
         <details>
-          <summary>Why only London biotech?</summary>
-          <p>It's where public data is richest and coverage is thinnest. More sectors will follow.</p>
+          <summary>What's a registry mismatch?</summary>
+          <p>The same trial is often registered in more than one place. When one registry says it's still running and another says it has ended, we flag it. Often one record is just out of date, but sometimes it's the first place a change shows up.</p>
+        </details>
+        <details>
+          <summary>What's the difference between a contract and a framework?</summary>
+          <p>A contract award means a company has won specific work. A framework place means it has been chosen as one of several approved suppliers, often for a large headline value that is shared and may never be fully spent. We label each so you can tell them apart.</p>
         </details>
         <details>
           <summary>How quickly do signals appear?</summary>
-          <p>The scanner runs every morning before the London market opens and compares every covered trial with the previous day. Changes appear on the <a href="signals.html">signal log</a> straight away, and the most important ones go into the Friday email.</p>
+          <p>The scanner runs every morning before the London market opens. Changes appear on the <a href="signals.html">signal log</a> straight away, and the most important ones go into the Friday email.</p>
         </details>
         <details>
           <summary>What happens to my email?</summary>
@@ -255,23 +336,34 @@
         <a href="contact.html">Contact</a>
       </nav>
     </div>
-    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine). © <span id="year">2026</span> RiverScan.</p>
+    <p class="disclaimer">RiverScan is a data analytics company. It provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine), ISRCTN (CC BY 4.0) and EU CTIS (European Medicines Agency). Contract notices from Find a Tender and Contracts Finder, containing public sector information licensed under the Open Government Licence v3.0. © <span id="year">2026</span> RiverScan.</p>
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
 <script src="assets/signals.js"></script>
 <script>
-// Homepage feed: show the latest real signals once the scanner has logged some; otherwise keep the examples.
+// Homepage: latest real signals, and live counts on the river map.
 RiverScan.load().then(function (d) {
-  var top = d.filter(function (s) { return s.severity !== "low"; }).slice(0, 3);
-  if (!top.length) top = d.slice(0, 3);
+  var top = d.filter(function (s) { return s.severity !== "low"; }).slice(0, 6);
+  if (top.length < 3) top = d.slice(0, 6);
   if (!top.length) return;
-  document.getElementById("feed-items").innerHTML = top.map(function (s) { return RiverScan.card(s, { short: true }); }).join("");
-  var label = document.getElementById("feed-label");
-  label.innerHTML = '<span class="live-dot" aria-hidden="true"></span>Live · ' + RiverScan.when(top[0].detected_at);
-  var link = document.getElementById("feed-link");
-  link.textContent = "See every signal →"; link.href = "signals.html";
+  document.getElementById("latest").innerHTML = top.map(function (s) { return RiverScan.card(s); }).join("");
+  document.getElementById("latest-note").textContent = "Latest scan: " + RiverScan.when(top[0].detected_at) + ". Showing the most important changes first.";
 });
+fetch("data/coverage.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
+  if (!c || !c.trials) return;
+  var ids = { "ClinicalTrials.gov": "n-ctgov", "ISRCTN": "n-isrctn", "EU CTIS": "n-ctis" }, total = 0;
+  Object.keys(ids).forEach(function (k) {
+    var n = c.trials[k] || 0; total += n;
+    var el = document.getElementById(ids[k]); if (el) el.textContent = "Live · " + n + " trials";
+  });
+  var cov = document.getElementById("cov-trials");
+  if (cov && total) cov.textContent = total + " trials across ClinicalTrials.gov, ISRCTN and EU CTIS";
+}).catch(function () {});
+// Respect reduced motion: pause the particles drifting down the river.
+if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  var svg = document.querySelector(".river-map svg"); if (svg && svg.pauseAnimations) svg.pauseAnimations();
+}
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Send the sign-up to Formspree in the background, then show our own thank-you page.

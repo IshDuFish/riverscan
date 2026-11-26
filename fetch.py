@@ -1,6 +1,9 @@
 """Pull trials from the ClinicalTrials.gov v2 API (free, no key needed)."""
+import re
 import time
 import requests
+
+from net import SESSION
 
 API = "https://clinicaltrials.gov/api/v2/studies"
 
@@ -32,12 +35,15 @@ def simplify(study):
         "last_update": _get(p, "statusModule", "lastUpdatePostDateStruct", "date"),
         "has_results": bool(study.get("hasResults", False)),
         "url": f"https://clinicaltrials.gov/study/{nct}",
+        # Other registry IDs for the same trial (ISRCTN, EU CT / EudraCT), used to spot mismatches.
+        "xrefs": sorted({i.get("id", "").strip() for i in _get(p, "identificationModule", "secondaryIdInfos", default=[])
+                         if i.get("id") and re.search(r"ISRCTN\d{8}|\d{4}-\d{6}-\d{2}", i.get("id", ""))}),
     }
 
 
 def fetch_company(company, session=None):
     """All trials where this company is lead sponsor or collaborator."""
-    s = session or requests.Session()
+    s = session or SESSION
     terms = [t.lower() for t in company["sponsor_terms"]]
     trials = {}
     for term in company["sponsor_terms"]:
@@ -68,5 +74,4 @@ def fetch_company(company, session=None):
 
 def fetch_all(companies):
     """{ticker: {nct_id: record}}"""
-    session = requests.Session()
-    return {c["ticker"]: fetch_company(c, session) for c in companies}
+    return {c["ticker"]: fetch_company(c) for c in companies}

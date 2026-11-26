@@ -1,0 +1,95 @@
+{
+ "updated": "2026-11-26T19:00:58Z",
+ "trials": {
+  "ClinicalTrials.gov": 210,
+  "ISRCTN": 10,
+  "EU CTIS": 6
+ },
+ "trial_companies": [
+  "HCM",
+  "SCLP",
+  "FARN",
+  "AVCT",
+  "POLB",
+  "FUM",
+  "AREC",
+  "IMM",
+  "STX",
+  "EVG",
+  "HVO",
+  "OXB"
+ ],
+ "contract_companies": [
+  {
+   "ticker": "BBY",
+   "name": "Balfour Beatty",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "MGNS",
+   "name": "Morgan Sindall",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "KIE",
+   "name": "Kier Group",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "COST",
+   "name": "Costain",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "GFRD",
+   "name": "Galliford Try",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "KLR",
+   "name": "Keller Group",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "RNWH",
+   "name": "Renew Holdings",
+   "sector": "Construction"
+  },
+  {
+   "ticker": "SRP",
+   "name": "Serco",
+   "sector": "Services"
+  },
+  {
+   "ticker": "MTO",
+   "name": "Mitie",
+   "sector": "Services"
+  },
+  {
+   "ticker": "CPI",
+   "name": "Capita",
+   "sector": "Services"
+  },
+  {
+   "ticker": "BA.",
+   "name": "BAE Systems",
+   "sector": "Defence"
+  },
+  {
+   "ticker": "BAB",
+   "name": "Babcock",
+   "sector": "Defence"
+  },
+  {
+   "ticker": "QQ.",
+   "name": "QinetiQ",
+   "sector": "Defence"
+  },
+  {
+   "ticker": "CHG",
+   "name": "Chemring",
+   "sector": "Defence"
+  }
+ ],
+ "open_mismatches": 1
+}

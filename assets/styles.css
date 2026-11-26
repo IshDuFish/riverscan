@@ -252,3 +252,80 @@ p { margin: 0; }
 .form-status--ok { color: var(--accent-dark); font-weight: 600; }
 .form-status--err { color: #B3261E; }
 .prose .signal p { color: #DCE6E3; }
+
+/* ==========================================================
+   River map hero (homepage)
+   ========================================================== */
+.hero-river { background: var(--ink); color: var(--on-dark); overflow: hidden; }
+.hero-top { padding: 56px 24px 8px; }
+.hero-river .hero-copy { max-width: 640px; }
+.hero-river .lead { color: var(--on-dark-muted); font-size: 19px; max-width: 600px; }
+.hero-river .eyebrow { color: var(--accent); }
+
+.river-map { margin: 0; position: relative; }
+.river-map svg { display: block; width: 100%; height: auto; max-height: 640px; }
+.contours path { stroke: #1A3A47; stroke-width: 1; }
+.trib path { fill: none; stroke-linecap: round; }
+.trib--live path { stroke: #2A8FA0; stroke-width: 5; }
+.trib--soon path { stroke: #3A5560; stroke-width: 3; stroke-dasharray: 2 9; }
+.river-bank { fill: none; stroke: #143845; stroke-width: 44; stroke-linecap: round; }
+.river-water { fill: none; stroke: url(#riverFill); stroke-width: 22; stroke-linecap: round; }
+.river-current { fill: none; stroke: #DFFBF6; stroke-opacity: .55; stroke-width: 2; stroke-linecap: round;
+  stroke-dasharray: 3 26; animation: current 2.4s linear infinite; }
+@keyframes current { to { stroke-dashoffset: -29; } }
+.particles circle { stroke: var(--ink); stroke-width: 1.5; }
+.p-high { fill: #FF9C85; } .p-med { fill: #F2D27A; } .p-low { fill: #DFFBF6; } .p-trib { fill: #8FE3D6; stroke: none !important; opacity: .9; }
+.joins circle { fill: var(--ink); stroke: #8FE3D6; stroke-width: 2; }
+.spring { fill: var(--accent); stroke: #DFFBF6; stroke-width: 3; }
+.map-labels text { font-family: var(--font-body); }
+.stage-name { font: 600 20px var(--font-head); fill: var(--on-dark); }
+.stage-note { font-size: 14px; fill: var(--on-dark-muted); }
+.src-name { font: 600 16px var(--font-head); fill: var(--on-dark); paint-order: stroke; stroke: var(--ink); stroke-width: 5px; }
+.src-meta { font-size: 12.5px; fill: #8FE3D6; paint-order: stroke; stroke: var(--ink); stroke-width: 5px; }
+.src--soon .src-name { fill: var(--on-dark-faint); font-weight: 500; }
+.src--soon .src-meta { fill: var(--on-dark-faint); }
+.map-caption { color: var(--on-dark-faint); font-size: 15px; padding-top: 8px; padding-bottom: 48px; max-width: 760px; margin-left: 0; }
+@media (min-width: 1248px) { .map-caption { margin-left: calc((100vw - 1200px) / 2); } }
+.map-legend { display: none; }
+@media (prefers-reduced-motion: reduce) { .river-current { animation: none; } }
+
+@media (max-width: 760px) {
+  .hero-top { padding-top: 32px; }
+  .map-labels .src, .map-labels .stage-note { display: none; }
+  .stage-name { font-size: 30px; }
+  .map-caption { padding-bottom: 16px; }
+  .map-legend { display: block; padding-bottom: 48px; }
+  .map-legend ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+  .map-legend li { font-size: 14px; color: var(--on-dark-faint); display: flex; flex-direction: column; padding-left: 14px; position: relative; }
+  .map-legend li::before { content: ""; position: absolute; left: 0; top: 7px; width: 7px; height: 7px; border-radius: 50%; border: 1.5px dashed #5C7A83; }
+  .map-legend li.live { color: #8FE3D6; }
+  .map-legend li.live::before { background: #2A8FA0; border: none; }
+  .map-legend b { color: var(--on-dark); font-weight: 600; }
+}
+
+/* ---------- Latest signals ---------- */
+.section--tight { padding: 72px 0; }
+.latest-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.latest-head h2 { margin-bottom: 6px; }
+.latest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.btn--ghost { background: transparent; border: 1.5px solid var(--text); color: var(--text) !important; }
+.btn--ghost:hover { background: var(--text); color: var(--paper) !important; }
+.tag--contract { background: #2B2A4A; color: #C4BDFB; }
+.tag--mismatch { background: #4A1F38; color: #F7A8D0; }
+.signal-buyer { font-size: 13px !important; color: var(--on-dark-faint) !important; }
+
+/* ---------- What we do (a real sequence, so numbered) ---------- */
+.steps--numbered { list-style: none; padding: 0; margin: 0; counter-reset: step; }
+.steps--numbered .step { counter-increment: step; position: relative; padding-top: 52px; border-top: 2px solid var(--line); }
+.steps--numbered .step::before { content: counter(step); position: absolute; top: 12px; left: 0; font: 700 22px var(--font-head); color: var(--accent-dark); }
+
+/* ---------- Coverage streams ---------- */
+.streams { display: flex; flex-wrap: wrap; gap: 20px; }
+.stream { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px; padding: 28px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--ink-line); }
+.stream p { color: var(--on-dark-muted); }
+.stream .stream-meta { color: #8FE3D6; font-size: 15px; }
+.stream .tickers { margin-top: 6px; }
+.upcoming { margin-top: 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.upcoming h3 { font-size: 17px; }
+ul.chips { list-style: none; padding: 0; margin: 0; }
+.section--dark .chip { color: var(--on-dark-muted); border-color: #3A5560; }

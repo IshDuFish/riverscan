@@ -7,7 +7,18 @@
     completion: ["tag--date", "Date slip"],
     enrollment: ["tag--enrol", "Enrolment"],
     phase: ["tag--phase", "Phase change"],
-    has_results: ["tag--phase", "Results posted"]
+    has_results: ["tag--phase", "Results posted"],
+    status_override: ["tag--status", "Status change"],
+    target_enrolment: ["tag--enrol", "Enrolment"],
+    final_enrolment: ["tag--enrol", "Enrolment"],
+    recruitment_start: ["tag--date", "Date change"],
+    recruitment_end: ["tag--date", "Date slip"],
+    overall_end: ["tag--date", "Date slip"],
+    end_date: ["tag--date", "Date slip"],
+    member_states: ["tag--phase", "Countries"],
+    halts: ["tag--status", "Halted"],
+    safety_measures: ["tag--status", "Safety measure"],
+    serious_breaches: ["tag--status", "Serious breach"]
   };
 
   function esc(s) {
@@ -29,15 +40,33 @@
     }
     return s;
   }
+  function money(v, cur) {
+    if (!v) return "value not stated";
+    var sym = (!cur || cur === "GBP") ? "£" : cur + " ", units = [[1e9, "bn"], [1e6, "m"], [1e3, "k"]];
+    for (var i = 0; i < units.length; i++) if (v >= units[i][0]) return sym + (v / units[i][0]).toFixed(1).replace(/\.0$/, "") + units[i][1];
+    return sym + Math.round(v);
+  }
   function tagFor(s) {
+    if (s.type === "contract_award") return ["tag--contract", s.framework ? "Framework place" : "Contract award"];
+    if (s.type === "mismatch") return ["tag--mismatch", "Registry mismatch"];
     if (s.type === "new_trial") return ["tag--enrol", "New trial"];
     if (s.type === "removed") return ["tag--status", "Delisted"];
     return TAGS[s.field] || ["tag--phase", "Change"];
   }
   function sentence(s) {
     var o = "<strong>" + esc(nice(s.old)) + "</strong>", n = "<strong>" + esc(nice(s.new)) + "</strong>";
-    if (s.type === "new_trial") return "New trial registered: " + esc(s.trial) + ".";
-    if (s.type === "removed") return "Trial no longer listed under this sponsor: " + esc(s.trial) + ".";
+    var title = s.title || s.trial || "";
+    if (title.length > 150) title = title.slice(0, 147).replace(/\s+\S*$/, "") + "…";
+    if (s.type === "contract_award") {
+      var amt = "<strong>" + esc(money(s.new, s.currency)) + "</strong>";
+      return (s.framework ? "Named on a " + amt + " framework: " : "Won a " + amt + " contract: ") + esc(title) + ".";
+    }
+    if (s.type === "mismatch") {
+      var a = String(s.old || "").split(": "), b = String(s.new || "").split(": ");
+      return esc(a[0]) + " says <strong>" + esc(nice(a[1])) + "</strong>, " + esc(b[0]) + " says <strong>" + esc(nice(b[1])) + "</strong>.";
+    }
+    if (s.type === "new_trial") return "New trial registered: " + esc(title) + ".";
+    if (s.type === "removed") return "Trial no longer listed under this sponsor: " + esc(title) + ".";
     switch (s.field) {
       case "status":
         var why = (s.note || "").match(/reason given: (.*)\)$/);
@@ -47,6 +76,14 @@
       case "enrollment": return "Enrolment changed from " + o + " to " + n + " participants.";
       case "phase": return "Phase changed from " + o + " to " + n + ".";
       case "has_results": return "<strong>Results posted</strong> to the registry.";
+      case "status_override": return "Trial status moved from " + o + " to " + n + ".";
+      case "target_enrolment": case "final_enrolment": return esc(s.note) + ": " + o + " to " + n + " participants.";
+      case "recruitment_start": case "recruitment_end": case "overall_end": case "end_date":
+        return esc((s.note || "Date changed").replace(" changed", "")) + " moved from " + o + " to " + n + ".";
+      case "member_states": return "Countries authorised changed from " + o + " to " + n + ".";
+      case "halts": return "<strong>Temporary halt</strong> recorded on the EU register.";
+      case "safety_measures": return "<strong>Urgent safety measure</strong> recorded on the EU register.";
+      case "serious_breaches": return "<strong>Serious breach</strong> recorded on the EU register.";
     }
     return esc(s.note);
   }
@@ -57,17 +94,20 @@
 
   window.RiverScan = {
     card: function (s, opts) {
-      var t = tagFor(s);
-      var titleLine = (s.type === "change")
-        ? '<p class="signal-trial">' + esc(s.trial) + "</p>" : "";
+      var t = tagFor(s), ref = s.ref || s.nct_id, title = s.title || s.trial;
+      var source = s.source || "ClinicalTrials.gov";
+      var sub = "";
+      if (s.type === "contract_award") sub = '<p class="signal-trial">Buyer: ' + esc(s.buyer) + (s.published ? " · published " + esc(when(s.published)) : "") + "</p>";
+      else if (s.type === "change" || s.type === "mismatch") sub = '<p class="signal-trial">' + esc(title) + "</p>";
+      var links = '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.type === "mismatch" ? String(ref).split(" / ")[0] : ref) + " ↗</a>";
+      if (s.url2) links += '<a href="' + esc(s.url2) + '" target="_blank" rel="noopener">' + esc(String(ref).split(" / ")[1] || "Other record") + " ↗</a>";
       return '<article class="signal signal--' + esc(s.severity) + '">' +
         '<div class="signal-top"><span class="ticker">' + esc(s.ticker) + "</span>" +
         '<span class="tag ' + t[0] + '">' + t[1] + "</span>" +
-        '<span class="signal-source">' + (opts && opts.short ? "ClinicalTrials.gov" : when(s.detected_at)) + "</span></div>" +
-        "<p>" + sentence(s) + "</p>" + titleLine +
-        '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" +
-        '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.nct_id) + " ↗</a>" +
-        (opts && opts.short ? "" : '<span class="signal-co">' + esc(s.company) + "</span>") + "</div>" +
+        '<span class="signal-source">' + esc(source) + "</span></div>" +
+        "<p>" + sentence(s).replace(/…\.$/, "…").replace(/\.\.$/, ".") + "</p>" + sub +
+        '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
+        '<span class="signal-co">' + esc(s.company) + (opts && opts.short ? "" : " · " + esc(when(s.detected_at))) + "</span></div>" +
         "</article>";
     },
     load: function () {
@@ -83,6 +123,8 @@
           });
         });
     },
-    when: when
+    when: when,
+    money: money,
+    stream: function (s) { return s.stream || "trials"; }
   };
 })();
