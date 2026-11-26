@@ -1,0 +1,4268 @@
+STATUS 200
+CT application/json
+
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updatedFrom=2026-11-24T18:35:16&stages=award&limit=20&updatedTo=2026-11-26T18:35:16",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-11-26T16:54:33Z",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-03b792",
+            "id": "112310-2026",
+            "date": "2026-11-26T16:54:33Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "Award Notice for mini competition caried out under Lot 1 - Mainstream School Transport of the Aberdeenshire Council's Dynamic Purchasing System 2023-2028 via PCS-T. Full details of the award, including contract numbers and values can be found on the Aberdeenshire Council's contract register under the following reference numbers:\nLot 1 October 2026 North: CRN00047068\nLot 1 October 2026 South: CRN00047069\n(SC Ref:849601)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "000-QUKQ4828",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Dynamic Purchasing System For Passenger Transport Services 2023",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "60000000",
+                    "description": "Transport services (excl. Waste transport)"
+                },
+                "mainProcurementCategory": "services",
+                "description": "A mini competition was carried out under Lot 1 of the Aberdeenshire Council Dynamic Purchasing System 2023-2028 for the provision of Mainstream School transport services.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "title": "Dedicated School Transport, Minimum Cost Combined Local Bus/School Transport and Other Scheduled Education Transport Services",
+                        "description": "A mini competition was carried out under Lot 1 of the Aberdeenshire Council DPS 2023-2028 and contracts were awarded for the following schools:\nAuchterellon Primary\nDales Park Primary\nEllon Primary\nFyvie Primary\nThe Gordon Schools (Feeder)\nMackie Academy\nMonymusk Primary",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Quality",
+                                    "type": "quality",
+                                    "description": "10"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "90"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "60000000",
+                                "description": "Transport services (excl. Waste transport)"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60100000",
+                                "description": "Road transport services"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60112000",
+                                "description": "Public road transport services"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60130000",
+                                "description": "Special-purpose road passenger-transport services"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60140000",
+                                "description": "Non-scheduled passenger transport"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60170000",
+                                "description": "Hire of passenger transport vehicles with driver"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60120000",
+                                "description": "Taxi services"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60171000",
+                                "description": "Hire of passenger cars with driver"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "60172000",
+                                "description": "Hire of buses and coaches with driver"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKM50"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "selective",
+                "procurementMethodDetails": "Restricted procedure",
+                "techniques": {
+                    "hasDynamicPurchasingSystem": true
+                },
+                "coveredBy": [
+                    "GPA"
+                ]
+            },
+            "awards": [
+                {
+                    "id": "112310-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "title": "Dedicated School Transport, Minimum Cost Combined Local Bus/School Transport and Other Scheduled Education Transport Services",
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-95332",
+                            "name": "Central Taxis (North East) Limited"
+                        },
+                        {
+                            "id": "GB-FTS-185712",
+                            "name": "Victoria Group Limited"
+                        },
+                        {
+                            "id": "GB-FTS-184925",
+                            "name": "Whytes Coaches Ltd"
+                        },
+                        {
+                            "id": "GB-FTS-88753",
+                            "name": "RS Coaches"
+                        },
+                        {
+                            "id": "GB-FTS-129415",
+                            "name": "A&I Coaches Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Aberdeenshire Council",
+                    "id": "GB-FTS-756",
+                    "identifier": {
+                        "legalName": "Aberdeenshire Council"
+                    },
+                    "address": {
+                        "streetAddress": "Woodhill House, Westburn Road",
+                        "locality": "Aberdeen",
+                        "region": "UKM50",
+                        "postalCode": "AB16 5GB",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "school.transport@aberdeenshire.gov.uk"
+                    },
+                    "roles": [
+                        "buyer",
+                        "centralPurchasingBody"
+                    ],
+                    "details": {
+                        "url": "http://www.aberdeenshire.gov.uk",
+                        "buyerProfile": "https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00232",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Central Taxis (North East) Limited",
+                    "id": "GB-FTS-95332",
+                    "identifier": {
+                        "legalName": "Central Taxis (North East) Limited"
+                    },
+                    "address": {
+                        "streetAddress": "Millbank, Boddam",
+                        "locality": "Peterhead",
+                        "region": "UKM50",
+                        "postalCode": "AB42 3AN",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Victoria Group Limited",
+                    "id": "GB-FTS-185712",
+                    "identifier": {
+                        "legalName": "Victoria Group Limited"
+                    },
+                    "address": {
+                        "streetAddress": "Longside Road, Forehill",
+                        "locality": "Peterhead",
+                        "region": "UKM50",
+                        "postalCode": "AB42 3LA",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Whytes Coaches Ltd",
+                    "id": "GB-FTS-184925",
+                    "identifier": {
+                        "legalName": "Whytes Coaches Ltd"
+                    },
+                    "address": {
+                        "streetAddress": "Scotstown Road, Newmachar",
+                        "locality": "ABERDEEN",
+                        "region": "UKM50",
+                        "postalCode": "AB21 7PP",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "RS Coaches",
+                    "id": "GB-FTS-88753",
+                    "identifier": {
+                        "legalName": "RS Coaches"
+                    },
+                    "address": {
+                        "streetAddress": "blackstock, sauchen",
+                        "locality": "ilnverurie",
+                        "region": "UKM50",
+                        "postalCode": "AB51 7RD",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "A&I Coaches Ltd",
+                    "id": "GB-FTS-129415",
+                    "identifier": {
+                        "legalName": "A&I Coaches Ltd"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 19/20 Spurryhillock Industrial Estate, Broomhill Road",
+                        "locality": "Stonehaven",
+                        "region": "UKM50",
+                        "postalCode": "AB39 2NH",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 1569764333"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Aberdeen Sheriff Court",
+                    "id": "GB-FTS-5546",
+                    "identifier": {
+                        "legalName": "Aberdeen Sheriff Court"
+                    },
+                    "address": {
+                        "locality": "Aberdeen",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-756",
+                "name": "Aberdeenshire Council"
+            },
+            "contracts": [
+                {
+                    "id": "112310-2026-1",
+                    "awardID": "112310-2026-1",
+                    "title": "Dedicated School Transport, Minimum Cost Combined Local Bus/School Transport and Other Scheduled Education Transport Services",
+                    "status": "active",
+                    "value": {
+                        "amount": 722820.34,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-10-15T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "261",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 33
+                    },
+                    {
+                        "id": "262",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "263",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "264",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "265",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 33
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://api.publiccontractsscotland.gov.uk/v1/Notice?id=ocds-r6ebe6-0000730576"
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c50b",
+            "id": "112297-2026",
+            "date": "2026-11-26T16:30:26Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "This is a Public Contracts Regulations 2015 Contract Award Notice. The Awarding of this contract is subject to the Public Contracts Regulations 2015. For the avoidance of doubt, the provisions of the /Procurement Act 2023 do not apply to this award.\n(WA Ref:174083)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c50b",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "BCU-DCO-64511 - MEDICAL RECORDS LIBRARY REFURBISHMENT WMH",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "45000000",
+                    "description": "Construction work"
+                },
+                "mainProcurementCategory": "works",
+                "description": "Betsi Cadwaladr University Health Board requires a suitably qualified and experienced contractor to undertake the works to Wrexham Maelor Hospital - Medical Records Library Refurbishment.  The proposed works include dismantling, removal and temporary storage of the existing Multitrak mobile shelving system.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Betsi Cadwaladr University Health Board requires a suitably qualified and experienced contractor to undertake the works to Wrexham Maelor Hospital - Medical Records Library Refurbishment.  The proposed works include dismantling, removal and temporary storage of the existing Multitrak mobile shelving system.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKL23"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "direct award under the NHS Supply Chain Framework 2025/S 000-046095, Lot 3."
+            },
+            "awards": [
+                {
+                    "id": "112297-2026-BCU-DCO-64511-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188635",
+                            "name": "RACKLINE LTD"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Betsi Cadwaladr University Health Board",
+                    "id": "GB-FTS-188634",
+                    "identifier": {
+                        "legalName": "Betsi Cadwaladr University Health Board"
+                    },
+                    "address": {
+                        "streetAddress": "Headquarters Ysbyty Gwynedd Penrhosgarnedd,",
+                        "locality": "Bangor,  Gwynedd",
+                        "region": "UK",
+                        "postalCode": "LL57 2PW",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Holly Jones",
+                        "email": "Holly.jones10@wales.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer",
+                        "centralPurchasingBody"
+                    ],
+                    "details": {
+                        "url": "http://nwssp.nhs.wales/ourservices/procurement-services/",
+                        "buyerProfile": "https://www.sell2wales.gov.wales/search/Search_AuthProfile.aspx?ID=AA0221",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "RACKLINE LTD",
+                    "id": "GB-FTS-188635",
+                    "identifier": {
+                        "legalName": "RACKLINE LTD"
+                    },
+                    "address": {
+                        "streetAddress": "RACKLINE LTD, Pit Lane Talke",
+                        "locality": "STOKE-ON-TRENT",
+                        "region": "UK",
+                        "postalCode": "ST71RX",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 1782777666"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "High Court",
+                    "id": "GB-FTS-111",
+                    "identifier": {
+                        "legalName": "High Court"
+                    },
+                    "address": {
+                        "streetAddress": "Royal Courts of Justice, The Strand",
+                        "locality": "London",
+                        "postalCode": "WC2A 2LL",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2079477501"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-188634",
+                "name": "Betsi Cadwaladr University Health Board"
+            },
+            "contracts": [
+                {
+                    "id": "112297-2026-BCU-DCO-64511-1",
+                    "awardID": "112297-2026-BCU-DCO-64511-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 14151.00,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-16T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "3",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "4",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "5",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c500",
+            "id": "112284-2026",
+            "date": "2026-11-26T16:13:47Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "(WA Ref:174076)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "RFA2028",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Civica - Data Complaints, DPIAs & Incident  Breach MGMT",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "72268000",
+                    "description": "Software supply services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "The Civica Case Management platform is a multi-channel contact and case management solution\nproviding end-to-end support for any case management process – capturing, managing, responding\nto as well as analysing performance and trends. Also providing dedicated pre-configured template\nsolutions for Complaint and Feedback Management, Information Request Handling, Legal Case\nManagement, Registrations, Coroners as well as Employee Relations case management.Introducing the CIVICA system for DPIA’s, SAR’s and Incident and breach Management will deliver\nmeasurable efficiency gains across the core Information Governance (IG) function",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Aneurin Bevan University Health Board (ABUHB) requires the provision of the Civica Case Management platform, a software-as-a-service (SaaS) solution that supports the management of information governance and corporate case management processes.\nThe Civica Case Management platform is a multi-channel contact and case management system that provides end-to-end support for the capture, management, processing, response and reporting of cases. The solution includes configurable workflows and pre-configured modules to support a range of business functions including Complaint and Feedback Management, Information Request Handling, Legal Case Management, Registrations, Coroners' Services and Employee Relations case management.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "72268000",
+                                "description": "Software supply services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKL16"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Aneurin Bevan University Health Board"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The contract is being awarded by Aneurin Bevan University Health Board through the Crown Commercial Service framework agreement in accordance with the procedures and terms established under the framework. The framework was procured in compliance with the Public Contracts Regulations 2015 and permits the award of call-off contracts by direct award where the framework award criteria are met."
+            },
+            "awards": [
+                {
+                    "id": "112284-2026-RFA2028-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188633",
+                            "name": "Civica UK Limited"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
+                    "id": "GB-FTS-109",
+                    "identifier": {
+                        "legalName": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)"
+                    },
+                    "address": {
+                        "streetAddress": "4-5 Charnwood Court,, Heol Billingsley, Parc Nantgarw",
+                        "locality": "Cardiff",
+                        "region": "UK",
+                        "postalCode": "CF15 7QZ",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2921501500",
+                        "email": "ABB.DigitalBusinessUnit@wales.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://nwssp.nhs.wales/ourservices/procurement-services/",
+                        "buyerProfile": "https://www.sell2wales.gov.wales/search/Search_AuthProfile.aspx?ID=AA0221",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Civica UK Limited",
+                    "id": "GB-FTS-188633",
+                    "identifier": {
+                        "legalName": "Civica UK Limited"
+                    },
+                    "address": {
+                        "streetAddress": "30 Stamford Street",
+                        "locality": "London",
+                        "region": "UKI3",
+                        "postalCode": "SE19LQ",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 3333214914",
+                        "faxNumber": "+44 3333214914"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "High Court",
+                    "id": "GB-FTS-111",
+                    "identifier": {
+                        "legalName": "High Court"
+                    },
+                    "address": {
+                        "streetAddress": "Royal Courts of Justice, The Strand",
+                        "locality": "London",
+                        "postalCode": "WC2A 2LL",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2079477501"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-109",
+                "name": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)"
+            },
+            "contracts": [
+                {
+                    "id": "112284-2026-RFA2028-1",
+                    "awardID": "112284-2026-RFA2028-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 75750,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-06-30T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "3",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "4",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "5",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-060b86",
+            "id": "112277-2026",
+            "date": "2026-11-26T16:05:21Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "DN833933",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Baby Steps",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85000000",
+                    "description": "Health and social work services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "The Baby Steps Service is a clinical local early-help and parenting / parent–infant relationship support service. Its primary purpose is prevention and early intervention within the Family Hubs and Best Start system. The service supports parents and carers of children under 2 years (0–24-month-olds) to strengthen early relationships, responsive caregiving, parental confidence, reflective capacity, emotional regulation and early communication during the first 1,001 days. It has two strands.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "The Baby Steps Service is a clinical local early-help and parenting / parent–infant relationship support service. Its primary purpose is prevention and early intervention within the Family Hubs and Best Start system. The service supports parents and carers of children under 2 years (0–24-month-olds) to strengthen early relationships, responsive caregiving, parental confidence, reflective capacity, emotional regulation and early communication during the first 1,001 days. It has two strands.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "1",
+                                    "type": "quality",
+                                    "description": "50"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "50"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "85000000",
+                                "description": "Health and social work services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKI41"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This is a Provider Selection Regime (PSR) confirmation of contract award notice. This contract has been awarded under the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this award.'"
+            },
+            "awards": [
+                {
+                    "id": "112277-2026-1-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188630",
+                            "name": "Homerton Health Care NHS Foundation Trust"
+                        }
+                    ]
+                },
+                {
+                    "id": "112277-2026-1-2",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188631",
+                            "name": "Homerton NHS Foundation Trust"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "London Borough of Hackney",
+                    "id": "GB-FTS-18547",
+                    "identifier": {
+                        "legalName": "London Borough of Hackney"
+                    },
+                    "address": {
+                        "streetAddress": "Hackney Service Centre, 1 Hillman Street",
+                        "locality": "Hackney",
+                        "region": "UKI41",
+                        "postalCode": "E8 1DY",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Gemma Ware",
+                        "telephone": "+44 2083563000",
+                        "email": "Gemma.Ware@hackney.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.hackney.gov.uk",
+                        "buyerProfile": "http://www.hackney.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Homerton Health Care NHS Foundation Trust",
+                    "id": "GB-FTS-188630",
+                    "identifier": {
+                        "legalName": "Homerton Health Care NHS Foundation Trust"
+                    },
+                    "address": {
+                        "streetAddress": "Homerton Row",
+                        "locality": "London",
+                        "region": "UKI41",
+                        "postalCode": "E9 6SR",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "bethjhill@nhs.net"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "Homerton NHS Foundation Trust",
+                    "id": "GB-FTS-188631",
+                    "identifier": {
+                        "legalName": "Homerton NHS Foundation Trust"
+                    },
+                    "address": {
+                        "streetAddress": "Homerton Row",
+                        "locality": "London",
+                        "region": "UKI41",
+                        "postalCode": "E9 6SR",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "London Borough Of Hackney",
+                    "id": "GB-FTS-188632",
+                    "identifier": {
+                        "legalName": "London Borough Of Hackney"
+                    },
+                    "address": {
+                        "streetAddress": "1 Hillman Street",
+                        "locality": "London",
+                        "postalCode": "E8 1EA",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-18547",
+                "name": "London Borough of Hackney"
+            },
+            "contracts": [
+                {
+                    "id": "112277-2026-1-1",
+                    "awardID": "112277-2026-1-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 169156.96,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-08-31T00:00:00+01:00"
+                },
+                {
+                    "id": "112277-2026-1-2",
+                    "awardID": "112277-2026-1-2",
+                    "status": "active",
+                    "value": {
+                        "amount": 169156.96,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-08-31T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "6",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "7",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "3",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "8",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "4",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "9",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "5",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "10",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4f8",
+            "id": "112268-2026",
+            "date": "2026-11-26T15:58:30Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "C8857",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Operation and Maintenance of Hebburn and VENJ Heat Networks",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "50720000",
+                    "description": "Repair and maintenance services of central heating"
+                },
+                "mainProcurementCategory": "services",
+                "description": "South Tyneside Council is appointing an operation & maintenance contractor for two heat networks in Jarrow (VENJ) and Hebburn Renewable Energy Network that were completed in September 2023.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "VENJ\nThe VENJ network currently feeds 9 Council buildings (3 with 44 flats each) with heat via buried pipework and 5 with private wire electricity via HV link. The energy centre comprises a 700kWth ammonia river source heat pump with river abstraction filters and pumps, 2 no. 850kW Hoval gas boilers, 43kWe CHP, 4 heating pumps, associated DH water treatment, 100m3 thermal storage & 90 no. (225m2) solar thermal system. System temperatures are 75/55 by design and 73/58 in practice. Hydraulic separation to buildings is provided by Danfoss heat exchange skids with ECL310 controllers & Kamstrup 603 heat meters networked back to the energy centre BMS over fibre. Electrical equipment includes HV switchgear, 2MVA HV/LV transformer, 1MW Solar PV farm and a containerised 500kWh, 200kW LiOn battery. There is scope to expand heat supply to 20 buildings in future phases. The energy centre is an industrial profiled steel building on a brownfield site off Blackett St. Current annual heat load is approx. 2.6MWh p.a.\nHebburn Renewable Energy Network\nHebburn Renewable Energy Network supplies heat via buried pipework to Durham Court (111 flats), Hebburn Central leisure centre, a children's home and other buildings in development.  The energy centre is an architectural  design adjacent to Mountbatten shopping centre. Main heat source is a 500kW cascade heat pump forming primary heat supply at 75/65'C drawing from fan coil units on the roof. Secondary heat is provided by 3 no. Hoval boilers located in the adjacent leisure centre, Hebburn Central, and 125kWe CHP. There are two sets of DH pumps and associated water treatment and pressurisation units. Hydraulic separation from Durham Court is plate heat exchangers, effectively the network primary is part of Hebburn Central LTHW system. Metering is by Kamstrup 603 series. LV electricity is drawn from Hebburn Central via private wire. Annual heat demand is approx. 2MWh p.a.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Details of management structure",
+                                    "type": "quality",
+                                    "description": "10"
+                                },
+                                {
+                                    "name": "Responding to non-scheduled events",
+                                    "type": "quality",
+                                    "description": "10"
+                                },
+                                {
+                                    "name": "Key challenges",
+                                    "type": "quality",
+                                    "description": "5"
+                                },
+                                {
+                                    "name": "Meeting reporting requirements",
+                                    "type": "quality",
+                                    "description": "5"
+                                },
+                                {
+                                    "name": "Proposals for optimising heat pump use",
+                                    "type": "quality",
+                                    "description": "10"
+                                },
+                                {
+                                    "name": "Social value",
+                                    "type": "quality",
+                                    "description": "10"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "50"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "The initial contract duration is 3 years, and the value in II.1.7 reflects the 3 year period. There is also an option to extend for 2 x 12 month periods"
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "09323000",
+                                "description": "District heating"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKC22"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The tender exercise was a mini-competition using NOE 0609 Specialist Estates Engineering Framework, Lot 15 Renewable and Low Carbon Heating Systems"
+            },
+            "awards": [
+                {
+                    "id": "112268-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-2585759",
+                            "name": "Veolia Energy & Utility Services UK Limited"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "South Tyneside Borough Council",
+                    "id": "GB-FTS-140413",
+                    "identifier": {
+                        "legalName": "South Tyneside Borough Council",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "Town Hall and Civic Offices, Westoe Road",
+                        "locality": "South Shields",
+                        "region": "UKC22",
+                        "postalCode": "NE332RL",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Kevin Graham",
+                        "email": "kevin.graham@southtyneside.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.southtyneside.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Veolia Energy & Utility Services UK Limited",
+                    "id": "GB-COH-2585759",
+                    "identifier": {
+                        "legalName": "Veolia Energy & Utility Services UK Limited",
+                        "id": "2585759",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "region": "UKI",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "South Tyneside Council",
+                    "id": "GB-FTS-170559",
+                    "identifier": {
+                        "legalName": "South Tyneside Council"
+                    },
+                    "address": {
+                        "streetAddress": "Town Hall",
+                        "locality": "South Shields",
+                        "postalCode": "NE33 2RL",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-140413",
+                "name": "South Tyneside Borough Council"
+            },
+            "contracts": [
+                {
+                    "id": "112268-2026-1",
+                    "awardID": "112268-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 321605,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-17T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 3
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4f0",
+            "id": "112250-2026",
+            "date": "2026-11-26T15:39:02Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "(WA Ref:174064)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "RFA2027",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "SolarWinds",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "72268000",
+                    "description": "Software supply services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "SolarWinds is a licensed solution that provides access to both the web-based toolset via the SolarWinds platform console and the desktop-based Engineer’s Toolset. The licence permits a defined number of users to access these tools, which are essential for network monitoring and troubleshooting across the ABUHB infrastructure.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "SolarWinds is a licensed solution that provides access to both the web-based toolset via the SolarWinds platform console and the desktop-based Engineer’s Toolset. The licence permits a defined number of users to access these tools, which are essential for network monitoring and troubleshooting across the ABUHB infrastructure.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "72268000",
+                                "description": "Software supply services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKL16"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Aneurin Bevan University Health Board Sites"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The contract is being awarded by Aneurin Bevan University Health Board through the Crown Commercial Service framework agreement in accordance with the procedures and terms established under the framework. The framework was procured in compliance with the Public Contracts Regulations 2015 and permits the award of call-off contracts by direct award where the framework award criteria are met."
+            },
+            "awards": [
+                {
+                    "id": "112250-2026-RFA2027-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188628",
+                            "name": "Prosperon Networks Ltd."
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
+                    "id": "GB-FTS-109",
+                    "identifier": {
+                        "legalName": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)"
+                    },
+                    "address": {
+                        "streetAddress": "4-5 Charnwood Court,, Heol Billingsley, Parc Nantgarw",
+                        "locality": "Cardiff",
+                        "region": "UK",
+                        "postalCode": "CF15 7QZ",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2921501500",
+                        "email": "ABB.DigitalBusinessUnit@wales.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://nwssp.nhs.wales/ourservices/procurement-services/",
+                        "buyerProfile": "https://www.sell2wales.gov.wales/search/Search_AuthProfile.aspx?ID=AA0221",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Prosperon Networks Ltd.",
+                    "id": "GB-FTS-188628",
+                    "identifier": {
+                        "legalName": "Prosperon Networks Ltd."
+                    },
+                    "address": {
+                        "streetAddress": "Argyll House, 15 Liverpool Gardens",
+                        "locality": "Worthing",
+                        "region": "UKJ2",
+                        "postalCode": "BN111RY",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 1903340993",
+                        "faxNumber": "+44 1903340993"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "High Court",
+                    "id": "GB-FTS-111",
+                    "identifier": {
+                        "legalName": "High Court"
+                    },
+                    "address": {
+                        "streetAddress": "Royal Courts of Justice, The Strand",
+                        "locality": "London",
+                        "postalCode": "WC2A 2LL",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2079477501"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-109",
+                "name": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)"
+            },
+            "contracts": [
+                {
+                    "id": "112250-2026-RFA2027-1",
+                    "awardID": "112250-2026-RFA2027-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 63879,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-07-08T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "3",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "4",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "5",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4e7",
+            "id": "112230-2026",
+            "date": "2026-11-26T15:24:22Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "Extension of value less than 50% of original contract and time extension of 12 months as permitted under the Procurement Act 2015 regulations.\nValue increase total call off contract value from to $14,426,902 to $20,000,000.00. Expiry date of contract changing from 30/11/2026 to 30/11/2027.",
+            "initiationType": "tender",
+            "tender": {
+                "id": "PU-24-0143",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "ONS AWS OGVA",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "72000000",
+                    "description": "IT services: consulting, software development, Internet and support"
+                },
+                "mainProcurementCategory": "services",
+                "description": "This call-off contract is for the use of Amazon Web Services\nMoU between CCS (now GCA), ONS and AWS",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "This call-off contract is for the use of Amazon Web Services\nMoU between GCA, ONS and AWS\nThe current contract is governed by the CCS now GCA under G-Cloud 13 Framework Agreement (RM1557.13)",
+                        "hasOptions": true,
+                        "options": {
+                            "description": "Extension of value less than 50% of original contract and time extension of 12 months as permitted under the Procurement Act 2015 regulations.\nValue increase total call off contract value from to $14,426,902 to $20,000,000.00. Expiry date of contract changing from 30/11/2026 to 30/11/2027."
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UK"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Negotiated without publication of a contract notice",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_ADD_DELIVERIES_ORDERED",
+                        "description": "Additional deliveries by the original supplier ordered under the strict conditions stated in the directive"
+                    }
+                ],
+                "procurementMethodRationale": "Extension of value less than 50% of original contract and time extension of 12 months as permitted under the Procurement Act 2015 regulations."
+            },
+            "awards": [
+                {
+                    "id": "112230-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-FC034225",
+                            "name": "Amazon Web Services EMEA SARL"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Office for National Statistics",
+                    "id": "GB-FTS-139225",
+                    "identifier": {
+                        "legalName": "Office for National Statistics",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "Government Buildings, Cardiff Road",
+                        "locality": "Newport",
+                        "region": "UKL21",
+                        "postalCode": "NP108XG",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "commercialteam@ons.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.ons.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "NATIONAL_AGENCY",
+                                "description": "National or federal agency/office"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Amazon Web Services EMEA SARL",
+                    "id": "GB-COH-FC034225",
+                    "identifier": {
+                        "legalName": "Amazon Web Services EMEA SARL",
+                        "id": "FC034225",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "region": "UK",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "High Court of England and Wales",
+                    "id": "GB-FTS-136",
+                    "identifier": {
+                        "legalName": "High Court of England and Wales"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-139225",
+                "name": "Office for National Statistics"
+            },
+            "contracts": [
+                {
+                    "id": "112230-2026-1",
+                    "awardID": "112230-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 20000000.00,
+                        "currency": "USD"
+                    },
+                    "dateSigned": "2023-12-01T00:00:00Z"
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4e5",
+            "id": "112225-2026",
+            "date": "2026-11-26T15:17:47Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c4e5",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Hastings Town Family Hub - Heating, Ventilation & A/C Replacement Project",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "45000000",
+                    "description": "Construction work"
+                },
+                "mainProcurementCategory": "works",
+                "description": "Replacement of the existing heating, ventilation and air-conditioning systems to the building",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Replacement of the existing heating, ventilation and air-conditioning systems to the building",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "This is a programme of works so timescales may need to be extended."
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKJ22"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This project was run as a mini competition on the PCR15 framework"
+            },
+            "awards": [
+                {
+                    "id": "112225-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-01027457",
+                            "name": "TSS Facilities Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "East Sussex County Council",
+                    "id": "GB-FTS-161756",
+                    "identifier": {
+                        "legalName": "East Sussex County Council",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "County Hall, St Anne's Crescent",
+                        "locality": "Lewes",
+                        "region": "UKJ22",
+                        "postalCode": "BN71UE",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Sue Kaulsi",
+                        "email": "procurementpmo@eastsussex.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.eastsussex.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "TSS Facilities Ltd",
+                    "id": "GB-COH-01027457",
+                    "identifier": {
+                        "legalName": "TSS Facilities Ltd",
+                        "id": "01027457",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "Brighton",
+                        "region": "UKJ",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "UK Royal Courts of Justice",
+                    "id": "GB-FTS-183310",
+                    "identifier": {
+                        "legalName": "UK Royal Courts of Justice"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-161756",
+                "name": "East Sussex County Council"
+            },
+            "contracts": [
+                {
+                    "id": "112225-2026-1",
+                    "awardID": "112225-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 141416.03,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-10-13T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 3
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 3
+                    },
+                    {
+                        "id": "3",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 3
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4e2",
+            "id": "112219-2026",
+            "date": "2026-11-26T15:15:13Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "(WA Ref:174068)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "PS5048",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Maintenance of GC85",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "50000000",
+                    "description": "Repair and maintenance services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Maintenance of GC85",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Maintenance of GC85",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKL1"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Withybush"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "nhssc"
+            },
+            "awards": [
+                {
+                    "id": "112219-2026-PS5048-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-184364",
+                            "name": "MEDICAL IMAGING SYSTEMS LIMITED"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NHS Wales Shared Services Partnership-Procurement Services",
+                    "id": "GB-FTS-183143",
+                    "identifier": {
+                        "legalName": "NHS Wales Shared Services Partnership-Procurement Services"
+                    },
+                    "address": {
+                        "streetAddress": "4-5 Charnwood Court,, Heol Billingsley, Parc Nantgarw",
+                        "locality": "Cardiff",
+                        "region": "UK",
+                        "postalCode": "CF15 7QZ",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Olivia Baker",
+                        "telephone": "+44 2921501500",
+                        "email": "olivia.baker@wales.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://nwssp.nhs.wales/ourservices/procurement-services/",
+                        "buyerProfile": "https://www.sell2wales.gov.wales/search/Search_AuthProfile.aspx?ID=AA0221",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "MEDICAL IMAGING SYSTEMS LIMITED",
+                    "id": "GB-FTS-184364",
+                    "identifier": {
+                        "legalName": "MEDICAL IMAGING SYSTEMS LIMITED"
+                    },
+                    "address": {
+                        "streetAddress": "26-27 Capitol Park Capitol Way, Colindale",
+                        "locality": "London",
+                        "region": "UKI",
+                        "postalCode": "NW90EQ",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "High Court",
+                    "id": "GB-FTS-111",
+                    "identifier": {
+                        "legalName": "High Court"
+                    },
+                    "address": {
+                        "streetAddress": "Royal Courts of Justice, The Strand",
+                        "locality": "London",
+                        "postalCode": "WC2A 2LL",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 2079477501"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-183143",
+                "name": "NHS Wales Shared Services Partnership-Procurement Services"
+            },
+            "contracts": [
+                {
+                    "id": "112219-2026-PS5048-1",
+                    "awardID": "112219-2026-PS5048-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 91844.10,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-25T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "3",
+                        "measure": "foreignBidsFromEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "4",
+                        "measure": "foreignBidsFromNonEU",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "5",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-060fc9",
+            "id": "112195-2026",
+            "date": "2026-11-26T14:56:16Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "In line with 72 - Modifications of Contracts during their Term, of the Public Contracts (Scotland) Regulations 2015, this Contract may be modified without a new procurement procedure in accordance with this Part in some cases.\n(SC Ref:849580)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "UOS-36989-2025",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Provision of a Safety Access Systems Maintenance Measured Term Contract (MTC) (including Edge Protection) (2025-29)",
+                "status": "cancelled",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "50000000",
+                    "description": "Repair and maintenance services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "The University of Strathclyde (\"the University\") is seeking to establish a Contract for the Provision of a Safety Access Systems Maintenance Measured Term Contract (MTC) (including Edge Protection) (2025-29) (UOS-36989-2025).",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "The University of Strathclyde (the “University”) is seeking to establish a contract to support the delivery of activities outlined below. The Contract will include, however, will not be limited to:\n- Carry out safety inspections, testing, and certification of all free-standing roof edge protection systems across the John Anderson Campus in full accordance with the requirements of BS EN 13374:2013 + A1:2018, using competent and appropriately trained personnel:\n- Carry out Safety inspection to roof fixed roof ladder access system inline with BS 4211:2005+A1:2008 Specification for permanently fixed ladders:\n- BS EN 12951:2004 Prefabricated accessories for roofing - Permanently fixed roof ladders Product specification and test methods:\n- A detailed report must be provided, including photographic evidence, system locations, and Pass/Fail certification:\n- The principal systems covered under this Contract include the EVO Guardrail Safety System (including inclined and radius configurations and associated accessories) and IKO roofing rail systems, specifically the Elite Safety Systems Po-Guard edge protection system and related accessories:\n- Planned and preventative maintenance (PPM) of campus wide safety access systems including eye bolts, abseil points and latch way systems. Eye bolts and latch ways require inspection and maintenance on an annual basis, and abseil points require testing every six months:\n- Supply, delivery & installation of safety access systems where required:\n- Provide training - Safe Work at Height Training (for Site Operatives) and Rescue & Evacuation Training at height; and\n- Ad hoc / reactive services / works. Additional information: Economic operators may be excluded from this competition if they are in any of the situations referred to in Regulation 58 of the Public Contracts (Scotland) Regulations 2015.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Technical",
+                                    "type": "quality",
+                                    "description": "40"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "60"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "In line with 72 - Modification of Contracts During their Term, of the Public Contracts (Scotland) Regulations 2015, this Contract may be modified without a new procurement procedure in accordance with this Part in some cases."
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "35113100",
+                                "description": "Site-safety equipment"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "35113300",
+                                "description": "Safety installations"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "45233292",
+                                "description": "Installation of safety equipment"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "50800000",
+                                "description": "Miscellaneous repair and maintenance services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKM82"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "University of Strathclyde"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "reviewDetails": "An economic operator that suffers, or risks suffering, loss or damage attributable to a breach of duty under the Public Contract (Scotland) Regulations 2015 (SSI2015/446) (as amended) may bring proceedings to the Sheriff Court or the Court of Session."
+            },
+            "awards": [
+                {
+                    "id": "112195-2026-UOS-36989-2025-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "unsuccessful",
+                    "statusDetails": "discontinued"
+                }
+            ],
+            "parties": [
+                {
+                    "name": "University of Strathclyde",
+                    "id": "GB-FTS-135284",
+                    "identifier": {
+                        "legalName": "University of Strathclyde"
+                    },
+                    "address": {
+                        "streetAddress": "Learning & Teaching Building, 49 Richmond Street",
+                        "locality": "Glasgow",
+                        "region": "UKM82",
+                        "postalCode": "G1 1XU",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Amanda McFarlane, Senior Procurement Specialist",
+                        "email": "amanda.mcfarlane@strath.ac.uk"
+                    },
+                    "roles": [
+                        "buyer",
+                        "centralPurchasingBody"
+                    ],
+                    "details": {
+                        "url": "http://www.strath.ac.uk/",
+                        "buyerProfile": "https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00113",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "09",
+                                "description": "Education"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Glasgow Sheriff Court and Justice of the Peace Court",
+                    "id": "GB-FTS-178443",
+                    "identifier": {
+                        "legalName": "Glasgow Sheriff Court and Justice of the Peace Court"
+                    },
+                    "address": {
+                        "streetAddress": "1 Carlton Place",
+                        "locality": "Glasgow",
+                        "postalCode": "G696ER",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-135284",
+                "name": "University of Strathclyde"
+            },
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://api.publiccontractsscotland.gov.uk/v1/Notice?id=ocds-r6ebe6-0000827092"
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4d3",
+            "id": "112189-2026",
+            "date": "2026-11-26T14:53:10Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "\"This is a Provider Selection Regime (PSR) confirmation of contract award notice. This contract has been awarded under the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this award.\nThe decision to award this contract was made by the NHS Birmingham and Solihull ICB All Age Continuing Healthcare Team and no declarations of interest have been declared.\"",
+            "initiationType": "tender",
+            "tender": {
+                "id": "BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85144100",
+                    "description": "Residential nursing care services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Care home placements",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "\"The service provided under this notice will be for home care placements.\nThis contract award has been made following Direct Award Process B under the Health Care Services (Provider Selection Regime) Regulations 2023 and the Public Contract Regulations 2015 (as amended) do not apply.\nThe contract is awarded with no guarantee of activity. The value will vary dependent on the activity delivered.\nThis is a new contract.  The contract will run from 23rd September 2026 to 31st March 2027.\"",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Patient choice",
+                                    "type": "quality",
+                                    "description": "100"
+                                },
+                                {
+                                    "name": "None",
+                                    "type": "cost",
+                                    "description": "0"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKG24"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This is a Provider Selection Regime (PSR) intention to award notice. The awarding of this contract is subject to the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this award."
+            },
+            "awards": [
+                {
+                    "id": "112189-2026-BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "title": "BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC",
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-03993042",
+                            "name": "Hyde Lea Nursing Homes Limited"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NHS BIRMINGHAM AND SOLIHULL INTEGRATED CARE BOARD",
+                    "id": "GB-NHS-QHL",
+                    "identifier": {
+                        "legalName": "NHS BIRMINGHAM AND SOLIHULL INTEGRATED CARE BOARD",
+                        "id": "QHL",
+                        "scheme": "GB-NHS"
+                    },
+                    "address": {
+                        "streetAddress": "NHS Birmingham and Solihull Integrated Care Board Alpha Tower, 8th Floor, Suffolk Street Queensway",
+                        "locality": "Birmingham",
+                        "region": "UKG31",
+                        "postalCode": "B11TT",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Contracting team",
+                        "email": "bso.ifpcontracts@nhs.net"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.birminghamsolihull.icb.nhs.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Hyde Lea Nursing Homes Limited",
+                    "id": "GB-COH-03993042",
+                    "identifier": {
+                        "legalName": "Hyde Lea Nursing Homes Limited",
+                        "id": "03993042",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "Slough",
+                        "region": "UKJ11",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "NHS Birmingham and Solihull ICB",
+                    "id": "GB-FTS-112972",
+                    "identifier": {
+                        "legalName": "NHS Birmingham and Solihull ICB"
+                    },
+                    "address": {
+                        "locality": "Birmingham",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-NHS-QHL",
+                "name": "NHS BIRMINGHAM AND SOLIHULL INTEGRATED CARE BOARD"
+            },
+            "contracts": [
+                {
+                    "id": "112189-2026-BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC-1",
+                    "awardID": "112189-2026-BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC-1",
+                    "title": "BSOL_Hyde Lea Nursing Homes Limited_2026-27_IFPCHC",
+                    "status": "active",
+                    "value": {
+                        "amount": 1,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-10-29T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4d1",
+            "id": "112184-2026",
+            "date": "2026-11-26T14:48:15Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "This is a Provider Selection Regime (PSR) confirmation of contract award notice, This\ncontract has been awarded under the Health Care Services (PSR) Regulations 2023. For\nthe avoidance of doubt, the provision of the Public Contracts Regulations 2016 do not\napply to this award.\nNo declared conflicts of interest.",
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c4d1",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "UHL Pathology 26-28 / UHL_A_Pathology_2628.V.0.1",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85111800",
+                    "description": "Pathology services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Provision of pathology services, support patient care across relevant Trust services.\nThere is an existing service.\nThere is no realistic alternative to the existing provider due to the nature of the health care services.  \nDirect Award B would not apply, as patients do not have a choice of provider.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "PSR Direct Award A\nThere is an existing service.\nThere is no realistic alternative to the existing provider due to the nature of the health care services. Services are provided by UHL with results shared via the Subcontractors  Information Systems. The integrated nature of our services, systems and processes means this could not reasonably be provided by another supplier.\nDirect Award B would not apply, as patients do not have a choice of provider. \nTotal Contract value £1,393,938.00\nContract Length 01/04/2026 - 31/03/2028",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "No realistic alternative provider/patient choice",
+                                    "type": "quality",
+                                    "description": "100"
+                                },
+                                {
+                                    "name": "see above",
+                                    "type": "cost",
+                                    "description": "0"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKF2"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This is a Provider Selection Regime (PSR) confirmation of contract award notice, This contract has been awarded under the Health Care Services (PSR) Regulations 2023. For the avoidance of doubt, the provision of the Public Contracts Regulations 2016 do not apply to this award.\nNo declared conflicts of interest."
+            },
+            "awards": [
+                {
+                    "id": "112184-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188626",
+                            "name": "University Hospitals of Leicester NHS Trust  Leicester Royal Infirmary Leicester LE1 6WW"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "LEICESTERSHIRE PARTNERSHIP NHS TRUST",
+                    "id": "GB-FTS-183789",
+                    "identifier": {
+                        "legalName": "LEICESTERSHIRE PARTNERSHIP NHS TRUST",
+                        "noIdentifierRationale": "partnership"
+                    },
+                    "address": {
+                        "streetAddress": "Room 100/110 Pen Lloyd Building County Hall Leicester Road Glenfield",
+                        "locality": "Leicester Leicestershire",
+                        "region": "UKF22",
+                        "postalCode": "LE3 8RA",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Jevgenija Zulfugarova",
+                        "email": "jevgenija.zulfugarova@nhs.net"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.leicspart.nhs.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "University Hospitals of Leicester NHS Trust  Leicester Royal Infirmary Leicester LE1 6WW",
+                    "id": "GB-FTS-188626",
+                    "identifier": {
+                        "legalName": "University Hospitals of Leicester NHS Trust  Leicester Royal Infirmary Leicester LE1 6WW",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "locality": "Leicester",
+                        "region": "UKF2",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Leicestershire Partnership NHS Foundation Trust County Hall Leicester Road Leicester ,Leicestershire LE3 8RA  County Hall Leicester Road Leicester ,Leicestershire LE3 8RA",
+                    "id": "GB-FTS-188627",
+                    "identifier": {
+                        "legalName": "Leicestershire Partnership NHS Foundation Trust County Hall Leicester Road Leicester ,Leicestershire LE3 8RA  County Hall Leicester Road Leicester ,Leicestershire LE3 8RA"
+                    },
+                    "address": {
+                        "locality": "Leicester Leicestershire",
+                        "postalCode": "LE3 8RA",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-183789",
+                "name": "LEICESTERSHIRE PARTNERSHIP NHS TRUST"
+            },
+            "contracts": [
+                {
+                    "id": "112184-2026-1",
+                    "awardID": "112184-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 1393938.00,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-04-01T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4bc",
+            "id": "112146-2026",
+            "date": "2026-11-26T13:37:03Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "9187",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "ESCC DR Darktrace Security Immune System",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "72000000",
+                    "description": "IT services: consulting, software development, Internet and support"
+                },
+                "mainProcurementCategory": "services",
+                "description": "East Sussex County Council has awarded a new contract to the supplier to deliver to the Council the Darktrace Enterprise Immune System ('Darktrace') software.\nThe contractual service commencement date is 30th November 2026.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "The Council elected to run a Mini-Competition via the HealthTrust Europe Enterprise Level Information Communication Technology (ICT) Solutions 2023 Digital Technology Framework Agreement (ComIT 3 - Complete IT 3) to procure the new contract.  The contract Call-Off period is for a duration of four (4) years.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKJ22"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The new contract was procured via a mini-competition process Call-Off Contract under the HealthTrust Europe LLP Framework Agreement for the Enterprise Level Information Communication Technology (ICT) Digital Technology Solutions 2023 (ComIT 3 - Complete IT 3."
+            },
+            "awards": [
+                {
+                    "id": "112146-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-02548628",
+                            "name": "Phoenix Software Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "East Sussex County Council",
+                    "id": "GB-FTS-161756",
+                    "identifier": {
+                        "legalName": "East Sussex County Council",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "County Hall, St Anne's Crescent",
+                        "locality": "Lewes",
+                        "region": "UKJ22",
+                        "postalCode": "BN71UE",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Debby Rowley",
+                        "email": "debby.rowley@eastsussex.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.eastsussex.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Phoenix Software Ltd",
+                    "id": "GB-COH-02548628",
+                    "identifier": {
+                        "legalName": "Phoenix Software Ltd",
+                        "id": "02548628",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "streetAddress": "Blenheim House York Road",
+                        "locality": "Pocklington, York",
+                        "region": "UKE12",
+                        "postalCode": "YO42 1NS",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "The Royal Courts of Justice",
+                    "id": "GB-FTS-2932",
+                    "identifier": {
+                        "legalName": "The Royal Courts of Justice"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-161756",
+                "name": "East Sussex County Council"
+            },
+            "contracts": [
+                {
+                    "id": "112146-2026-1",
+                    "awardID": "112146-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 591575.64,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-26T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4bb",
+            "id": "112144-2026",
+            "date": "2026-11-26T13:36:40Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "This is a Provider Selection Regime (PSR) confirmation of contract award notice. This contract has been awarded under the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of  the Procurement Act 2023   do not apply to this award.\nAward of contract has been approved by the NHS South East London ICB Executive Committee.",
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c4bb",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Adult ADHD Assessment and Treatment",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85100000",
+                    "description": "Health services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Adult ADHD Assessment and Treatment Services",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Xyla is a Private Limited Company providing ADHD assessment and treatment health care services. The Waiting List Clearance for SLaM is a new service and will be provided by a new provider.\nThis contract award has been made following Direct Award Process B (The Health Care Services (Provider Selection Regime) Regulations 2023, Regulation 8).\nThe lifetime Value of the contract is £1,000,000,000.\nThe contract term will be 1 year and has been extended for a further 3 months.\nThe contract started on 06/01/2026 and will end 31/03/2027.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Patient Choice",
+                                    "type": "cost",
+                                    "description": "100"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "2 year extension"
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "85100000",
+                                "description": "Health services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKI"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This is a Provider Selection Regime (PSR) Notice of Award which followed a Direct Award B process. The awarding of this contract is subject to the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Procurement Act 2023  do not apply to this award. The publication of this notice meets  the transparency obligations under the Health Care Services (Provider Selection Regime) Regulations 2023 in relation to the Direct Award B process."
+            },
+            "awards": [
+                {
+                    "id": "112144-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-04793945",
+                            "name": "ICS Operations Limited Ltd Trading as Xyla"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NHS SOUTH EAST LONDON INTERGRATED CARE BOARD (SEL ICB)",
+                    "id": "GB-NHS-72Q",
+                    "identifier": {
+                        "legalName": "NHS SOUTH EAST LONDON INTERGRATED CARE BOARD (SEL ICB)",
+                        "id": "72Q",
+                        "scheme": "GB-NHS"
+                    },
+                    "address": {
+                        "streetAddress": "160 Tooley street",
+                        "locality": "London",
+                        "region": "UKI",
+                        "postalCode": "SE1 2TZ",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "hub.queries@nhs.net"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.selondonics.org/icb/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "ICS Operations Limited Ltd Trading as Xyla",
+                    "id": "GB-COH-04793945",
+                    "identifier": {
+                        "legalName": "ICS Operations Limited Ltd Trading as Xyla",
+                        "id": "04793945",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "streetAddress": "9 Appold Street",
+                        "locality": "London",
+                        "region": "UKI",
+                        "postalCode": "EC2A 2AP",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "N/A",
+                    "id": "GB-FTS-1091",
+                    "identifier": {
+                        "legalName": "N/A"
+                    },
+                    "address": {
+                        "locality": "N/A",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-NHS-72Q",
+                "name": "NHS SOUTH EAST LONDON INTERGRATED CARE BOARD (SEL ICB)"
+            },
+            "contracts": [
+                {
+                    "id": "112144-2026-1",
+                    "awardID": "112144-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 1000000,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-01-06T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4b7",
+            "id": "112139-2026",
+            "date": "2026-11-26T13:33:18Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "3256-2026",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "The Provision of Mobile Preliminary Drug Testing Devices HP",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "38544000",
+                    "description": "Drug detection apparatus"
+                },
+                "mainProcurementCategory": "goods",
+                "description": "The contract is a direct award to D Tec International for the supply of Drug Wipes DW3S due to them being the only supplier on LOT 1 of the Blue Light Commercial DPS framework ref  51349-FCN-00004",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "The contract is a direct award to D Tec International for the supply of Drug Wipes DW3S due to them being the only supplier on LOT 1 of the Blue Light Commercial DPS framework ref  51349-FCN-00004",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKC"
+                            },
+                            {
+                                "region": "UKD"
+                            },
+                            {
+                                "region": "UKE"
+                            },
+                            {
+                                "region": "UKF"
+                            },
+                            {
+                                "region": "UKG"
+                            },
+                            {
+                                "region": "UKH"
+                            },
+                            {
+                                "region": "UKI"
+                            },
+                            {
+                                "region": "UKJ"
+                            },
+                            {
+                                "region": "UKK"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The contract is a direct award to D Tec International for the supply of Drug Wipes DW3S due to them being the only supplier on LOT 1 of the Blue Light Commercial DPS framework ref  51349-FCN-00004"
+            },
+            "awards": [
+                {
+                    "id": "112139-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-03206088",
+                            "name": "D. Tec International Limited"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "The Police and Crime Commissioner for Humberside",
+                    "id": "GB-FTS-143536",
+                    "identifier": {
+                        "legalName": "The Police and Crime Commissioner for Humberside",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "The Lawns, Harland Way",
+                        "locality": "Cottingham",
+                        "region": "UKE12",
+                        "postalCode": "HU165SN",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Lisa Humphrey",
+                        "email": "lisa.humphrey@humberside.police.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.humberside-pcc.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "03",
+                                "description": "Public order and safety"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "D. Tec International Limited",
+                    "id": "GB-COH-03206088",
+                    "identifier": {
+                        "legalName": "D. Tec International Limited",
+                        "id": "03206088",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "Merseyside",
+                        "region": "UK",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "Cabinet Office",
+                    "id": "GB-FTS-569",
+                    "identifier": {
+                        "legalName": "Cabinet Office"
+                    },
+                    "address": {
+                        "locality": "London",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-143536",
+                "name": "The Police and Crime Commissioner for Humberside"
+            },
+            "contracts": [
+                {
+                    "id": "112139-2026-1",
+                    "awardID": "112139-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 122000,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-18T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c4a4",
+            "id": "112106-2026",
+            "date": "2026-11-26T12:42:29Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "CPA/SPU/2760P",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Provision of Occupational Health, Psychological and Physiotherapy Services.",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85140000",
+                    "description": "Miscellaneous health services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Occupational Health, Psychological and Physiotherapy Services.  This was a mini-competition call-off under DPS RM6296",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Provision of Occupational Health, Psychological and Physiotherapy Services. This is awarded after a further competition under CCS Framework DPS RM6296 Occupational Health and Related Services. The value shown in the notice is an estimate of the services which may be required in the initial 2 year period. Additional information: This further competition was off the RM6296 DPS",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Quality",
+                                    "type": "quality",
+                                    "description": "60%"
+                                },
+                                {
+                                    "name": "Price",
+                                    "type": "cost",
+                                    "description": "40%"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "There is an option to extend by 2 x 12months"
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "85140000",
+                                "description": "Miscellaneous health services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKD6"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Cheshire Constabulary area"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This contract award is following a further competition under the RM6296 Dynamic Purchasing System (DPS) . As this is a call off under an existing DPS, no advance publication was required, just an F03 Contract Award Notice"
+            },
+            "awards": [
+                {
+                    "id": "112106-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-188624",
+                            "name": "Nation Occupational Health Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Police and Crime Commissioner for Cheshire",
+                    "id": "GB-FTS-188409",
+                    "identifier": {
+                        "legalName": "Police and Crime Commissioner for Cheshire",
+                        "id": "N/A"
+                    },
+                    "address": {
+                        "streetAddress": "Commercial Unit, Clemonds Hey, Oakmere Road, Winsford, CW7 2UA",
+                        "locality": "Winsford",
+                        "region": "UKD6",
+                        "postalCode": "CW7 2UA",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Katie Howell",
+                        "telephone": "+44 7977024085",
+                        "email": "katie.howell2@cheshire.police.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.cheshire.police.uk",
+                        "buyerProfile": "https://atamis-7459.my.site.com/s/Welcome",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "03",
+                                "description": "Public order and safety"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Nation Occupational Health Ltd",
+                    "id": "GB-FTS-188624",
+                    "identifier": {
+                        "legalName": "Nation Occupational Health Ltd",
+                        "id": "14528753"
+                    },
+                    "address": {
+                        "streetAddress": "22 St John Street,",
+                        "locality": "Manchester",
+                        "region": "UKD33",
+                        "postalCode": "M3 4EB",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme"
+                    }
+                },
+                {
+                    "name": "Police and Crime Commissioner for Cheshire",
+                    "id": "GB-FTS-188411",
+                    "identifier": {
+                        "legalName": "Police and Crime Commissioner for Cheshire"
+                    },
+                    "address": {
+                        "streetAddress": "Commercial Unit, Clemonds Hey, Oakmere Road, Winsford, CW7 2UA",
+                        "locality": "Winsford",
+                        "postalCode": "CW7 2UA",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@cheshire.police.uk"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ],
+                    "details": {
+                        "url": "http://www.cheshire.police.uk"
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-188409",
+                "name": "Police and Crime Commissioner for Cheshire"
+            },
+            "contracts": [
+                {
+                    "id": "112106-2026-1",
+                    "awardID": "112106-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 1500000.00,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-17T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 4
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c49c",
+            "id": "112095-2026",
+            "date": "2026-11-26T12:27:09Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "This contract has been awarded under a framework without competition via the Provider election Regime (PSR). This contract has been awarded under the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this award.\nAward under a framework without competition. ENT Insourcing services required to improve access via additional clinics filled from validated lists and matched to clinician competence and required diagnostics for a period of 3 months from 01/10/2026 to 31/12/2026. Decision maker roles include: UHN Head of Commissioning & Contracting, Head of Operations - Surgery Division, Deputy COO - Planned Care, Head of Procurement, and Chief Financial Officer.\nContract awarded against national framework agreement via NHS Sub-Contract for the provision of ENT Insourcing services with no conflicts of interest identified.",
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c49c",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "ENT Insourcing",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85100000",
+                    "description": "Health services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Additional weekend/evening capacity via insourcing for ENT outpatients",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Additional weekend/evening capacity via insourcing for ENT outpatients for the period - 1/10/26 - 31/12/26",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKF2"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_REPETITION_EXISTING",
+                        "description": "New works/services, constituting a repetition of existing works/services and ordered in accordance with the strict conditions stated in the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This contract has been awarded under a framework without competition via the Provider election Regime (PSR). This contract has been awarded under the Health Care Services (Provider Selection Regime) Regulations 2023. For the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this award.\nAward under a framework without competition. ENT Insourcing services required to improve access via additional clinics filled from validated lists and matched to clinician competence and required diagnostics for a period of 3 months from 01/10/2026 to 31/12/2026. Decision maker roles include: UHN Head of Commissioning & Contracting, Head of Operations - Surgery Division, Deputy COO - Planned Care, Head of Procurement, and Chief Financial Officer.\nContract awarded against national framework agreement via NHS Sub-Contract for the provision of ENT Insourcing services with no conflicts of interest identified."
+            },
+            "awards": [
+                {
+                    "id": "112095-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-05460751",
+                            "name": "Your World Recruitment Ltd t/a Your Medical Services"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "NORTHAMPTON GENERAL HOSPITAL NHS TRUST",
+                    "id": "GB-NHS-RNS",
+                    "identifier": {
+                        "legalName": "NORTHAMPTON GENERAL HOSPITAL NHS TRUST",
+                        "id": "RNS",
+                        "scheme": "GB-NHS"
+                    },
+                    "address": {
+                        "streetAddress": "Cliftonville",
+                        "locality": "Northampton",
+                        "region": "UKF24",
+                        "postalCode": "NN1 5BD",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "email": "christopher.smedley@nhs.net"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://WWW.NORTHAMPTONGENERAL.NHS.UK",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Your World Recruitment Ltd t/a Your Medical Services",
+                    "id": "GB-COH-05460751",
+                    "identifier": {
+                        "legalName": "Your World Recruitment Ltd t/a Your Medical Services",
+                        "id": "05460751",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "streetAddress": "69 Wilson Street",
+                        "locality": "London",
+                        "region": "UKI",
+                        "postalCode": "EC2A 2BB",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Northampton General Hospital NHS Trust",
+                    "id": "GB-FTS-803",
+                    "identifier": {
+                        "legalName": "Northampton General Hospital NHS Trust"
+                    },
+                    "address": {
+                        "streetAddress": "Cliftonville",
+                        "locality": "Northampton",
+                        "postalCode": "NN1 5BD",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ],
+                    "details": {
+                        "url": "http://WWW.NORTHAMPTONGENERAL.NHS.NET"
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-NHS-RNS",
+                "name": "NORTHAMPTON GENERAL HOSPITAL NHS TRUST"
+            },
+            "contracts": [
+                {
+                    "id": "112095-2026-1",
+                    "awardID": "112095-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 153000,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-10-01T00:00:00+01:00"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c49a",
+            "id": "112093-2026",
+            "date": "2026-11-26T12:24:35Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "This contract has already been awarded (2019/S 202-491600) following an OPEN process under PCR 2015.   Due to technical issues with FTS, it is not possible to link any modification notices to the original notices.   This award notice is setting out the modification to the contract .  \nThis is a Provider Selection Regime (PSR) contract modification notice. This contract has been modified under Regulation 13(1)(a) Health Care Services (Provider Selection Regime) Regulations 2023 as the modification is clearly and unambiguously provided for in the contract documents.\nFor the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this modification. This contract has now been formally modified.\nModifications:\n1st March 2026 - 31st March 2026 - One-off uplift to the Community Detoxification offer for a sum of £37,677 to strengthen and expand the community detox pathway outline in the Service Specification.\n1st April 2026 to 31st March 2027 - Additional funding to support the continuation of drug and alcohol prevention, treatment and recovery provision across Sunderland at an additional cost of £1,975,800.48 (the National Drug and Alcohol Funding arrangements have changed and now form part of the Public Health Grant under a ringfenced drug and alcohol allocation).  This provides a basis for the maintaining and developing treatment and recovery capacity across Sunderland.\n1st July 2026 - 30th June 2028 - To utilise the optional 2 x 12 month contract extension and extend the contract from 1st July 2026 to 30th June 2028 with a total cost of £6,996,944 (equivalent to an annual value of £3,498,472 for contract years 1st July 2026 - 30th June 2027 and 1st July 2027 - 30th June 2028).",
+            "initiationType": "tender",
+            "tender": {
+                "id": "ocds-h6vhtk-07c49a",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Sunderland Integrated Drug and Alcohol Recovery and Harm Minimisation Service",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "85100000",
+                    "description": "Health services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "This contract has already been awarded (2019/S 202-491600) following an OPEN process under PCR 2015.   Due to technical issues with FTS, it is not possible to link any modification notices to the original notices.   This award notice is setting out the modification to the contract (detailed under Section VI.  Complementary information - Additional information).  \nThis is a Provider Selection Regime (PSR) contract modification notice. This contract has been modified under Regulation 13(1)(a) Health Care Services (Provider Selection Regime) Regulations 2023 as the modification is clearly and unambiguously provided for in the contract documents.\nFor the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this modification. This contract has now been formally modified.\nThe delivery of Sunderland Integrated Drug and Alcohol Recovery and Harm Minimisation Service that aims to provide an integrated model and places Service Users, their families and Carers, at the heart of the recovery process.",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "This contract has already been awarded (2019/S 202-491600) following an OPEN process under PCR 2015.   Due to technical issues with FTS, it is not possible to link any modification notices to the original notices.   This award notice is setting out the modification to the contract (detailed under Section VI.  Complementary information - Additional information).  \nThis is a Provider Selection Regime (PSR) contract modification notice. This contract has been modified under Regulation 13(1)(a) Health Care Services (Provider Selection Regime) Regulations 2023 as the modification is clearly and unambiguously provided for in the contract documents.\nFor the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this modification. This contract has now been formally modified.\nThe delivery of Sunderland Integrated Drug and Alcohol Recovery and Harm Minimisation Service that aims to provide an integrated model and places Service Users, their families and Carers, at the heart of the recovery process.\nThe service will take a recovery focused approach to enable people to improve their health and wellness, live self-directed lives, and strive to reach their full potential.\nThe Service will be delivered using the principles of a whole system approach which will comprise of the following 5 broad areas of activity:\n• Access to Specialist Drug and Alcohol Harm Minimisation\n• Identification and support for Higher Risk Drinkers\n• Structured treatment for adults who are dependent on drugs or alcohol\n• Support for system Integrated Working\n• Completion and recovery Additional information: This contract has already been awarded (2019/S 202-491600) following an OPEN process under PCR 2015.   Due to technical issues with FTS, it is not possible to link any modification notices to the original notices.   This award notice is setting out the modification to the contract (detailed under Section VI.  Complementary information - Additional information).  \nThis is a Provider Selection Regime (PSR) contract modification notice. This contract has been modified under Regulation 13(1)(a) Health Care Services (Provider Selection Regime) Regulations 2023 as the modification is clearly and unambiguously provided for in the contract documents.\nFor the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this modification. This contract has now been formally modified.",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Quality criterion - Name: Pass/Fail and Percentage Weighting",
+                                    "type": "quality",
+                                    "description": "70"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "30"
+                                }
+                            ]
+                        },
+                        "hasOptions": true,
+                        "options": {
+                            "description": "Optional extension of up to a maximum of 24 months at the discretion of the Council"
+                        },
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKC23"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Boundaries of the City of Sunderland"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "This contract has already been awarded (2019/S 202-491600) following an OPEN process under PCR 2015.   Due to technical issues with FTS, it is not possible to link any modification notices to the original notices.     This award notice is setting out the modification to the contract .  \nThis is a Provider Selection Regime (PSR) contract modification notice. This contract has been modified under Regulation 13(1)(a) Health Care Services (Provider Selection Regime) Regulations 2023 as the modification is clearly and unambiguously provided for in the contract documents.\nFor the avoidance of doubt, the provisions of the Public Contracts Regulations 2015 do not apply to this modification. This contract has now been formally modified."
+            },
+            "awards": [
+                {
+                    "id": "112093-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-06228752",
+                            "name": "Change Grow Live Services Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Sunderland City Council",
+                    "id": "GB-FTS-139398",
+                    "identifier": {
+                        "legalName": "Sunderland City Council",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "City Hall, Plater Way,",
+                        "locality": "Sunderland",
+                        "region": "UKC23",
+                        "postalCode": "SR13AA",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Issy Langley",
+                        "telephone": "+44 1915612366",
+                        "email": "issy.langley@sunderland.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.sunderland.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Change Grow Live Services Ltd",
+                    "id": "GB-COH-06228752",
+                    "identifier": {
+                        "legalName": "Change Grow Live Services Ltd",
+                        "id": "06228752",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "Brighton",
+                        "region": "UKJ2",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Council of the City of Sunderland",
+                    "id": "GB-FTS-188623",
+                    "identifier": {
+                        "legalName": "Council of the City of Sunderland"
+                    },
+                    "address": {
+                        "streetAddress": "City Hall, Plater Way",
+                        "locality": "Sunderland",
+                        "postalCode": "SR1 1AA",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-139398",
+                "name": "Sunderland City Council"
+            },
+            "contracts": [
+                {
+                    "id": "112093-2026-1",
+                    "awardID": "112093-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 16275871.00,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2020-01-29T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "3",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c492",
+            "id": "112084-2026",
+            "date": "2026-11-26T12:10:15Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "STAR UID 021245",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "GMPF - Cyber Partner",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "72000000",
+                    "description": "IT services: consulting, software development, Internet and support"
+                },
+                "mainProcurementCategory": "services",
+                "description": "GMPF Cyber Partner\nInitial 3 year contract with an option to extend for a further 2 years",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "GMPF Cyber Partner\nFurther Competition using GCA CCS Cyber Security Services 3 framework (RM3764.3).",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "type": "price"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "48000000",
+                                "description": "Software package and information systems"
+                            },
+                            {
+                                "scheme": "CPV",
+                                "id": "72000000",
+                                "description": "IT services: consulting, software development, Internet and support"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKD"
+                            }
+                        ],
+                        "deliveryLocation": {
+                            "description": "Tameside Council - Greater Manchester Pension Fund"
+                        },
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "Procurement route - Further Competition using GCA CCS Cyber Security Services 3 framework (RM3764.3)"
+            },
+            "awards": [
+                {
+                    "id": "112084-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-11555611",
+                            "name": "Maple Networks Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Tameside Metropolitan Borough Council",
+                    "id": "GB-FTS-157213",
+                    "identifier": {
+                        "legalName": "Tameside Metropolitan Borough Council",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "Tameside One",
+                        "locality": "Ashton under Lyne",
+                        "region": "UKD",
+                        "postalCode": "OL60GS",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "PHILIP STEPHENS",
+                        "email": "philip.stephens@star-procurement.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.tameside.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Maple Networks Ltd",
+                    "id": "GB-COH-11555611",
+                    "identifier": {
+                        "legalName": "Maple Networks Ltd",
+                        "id": "11555611",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "locality": "Wetherby",
+                        "region": "UKD",
+                        "postalCode": "LS22 6LX",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "STAR PROCUREMENT",
+                    "id": "GB-FTS-188622",
+                    "identifier": {
+                        "legalName": "STAR PROCUREMENT"
+                    },
+                    "address": {
+                        "locality": "Sale",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-157213",
+                "name": "Tameside Metropolitan Borough Council"
+            },
+            "contracts": [
+                {
+                    "id": "112084-2026-1",
+                    "awardID": "112084-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 900000,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-11-26T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-07c485",
+            "id": "112057-2026",
+            "date": "2026-11-26T11:37:01Z",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "initiationType": "tender",
+            "tender": {
+                "id": "LFRS223",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "Servicing and Maintenance of Fire Alarms, Emergency Lighting and Smoke Detection Systems (LFR06)",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "50000000",
+                    "description": "Repair and maintenance services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "Servicing and Maintenance of Fire Alarms, Emergency Lighting and Smoke Detection Systems - FURTHER COMPETITION UNDER FRAMEWORK Y23025 FIRE SAFETY PRODUCTS AND ASSOCIATED SERVICES Lot 3 and 4\nFor the period of 3 years with a possible 2 x 12  month extension periods",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "Servicing and Maintenance of Fire Alarms, Emergency Lighting and Smoke Detection Systems",
+                        "awardCriteria": {
+                            "criteria": [
+                                {
+                                    "name": "Quality",
+                                    "type": "quality",
+                                    "description": "35%"
+                                },
+                                {
+                                    "name": "Social Value",
+                                    "type": "quality",
+                                    "description": "5%"
+                                },
+                                {
+                                    "type": "price",
+                                    "description": "60%"
+                                }
+                            ]
+                        },
+                        "hasOptions": false,
+                        "status": "cancelled"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "deliveryAddresses": [
+                            {
+                                "region": "UK"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "The procurement exercise was undertaken via an external Framework as below, following a further competition exercise to all suppliers on the framework under the specific Lots -  FURTHER COMPETITION UNDER FRAMEWORK Y23025 FIRE SAFETY PRODUCTS AND ASSOCIATED SERVICES Lot 3 and 4"
+            },
+            "awards": [
+                {
+                    "id": "112057-2026-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-3151149",
+                            "name": "EA-RS Group Ltd"
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "Lancashire Combined Fire Authority",
+                    "id": "GB-FTS-169839",
+                    "identifier": {
+                        "legalName": "Lancashire Combined Fire Authority",
+                        "noIdentifierRationale": "notOnAnyRegister"
+                    },
+                    "address": {
+                        "streetAddress": "Lancashire Fire and Rescue Service Head Quarters",
+                        "locality": "Preston",
+                        "region": "UKD45",
+                        "postalCode": "PR23LH",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "name": "Joanne Waddilove",
+                        "email": "joanne.waddilove@star-procurement.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.starprocurement.com",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "REGIONAL_AUTHORITY",
+                                "description": "Regional or local authority"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "01",
+                                "description": "General public services"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "EA-RS Group Ltd",
+                    "id": "GB-COH-3151149",
+                    "identifier": {
+                        "legalName": "EA-RS Group Ltd",
+                        "id": "3151149",
+                        "scheme": "GB-COH"
+                    },
+                    "address": {
+                        "streetAddress": "4 SWANBRIDGE INDUSTRIAL PARK, BLACK CROFT ROAD, WITHAM, Essex",
+                        "locality": "Essex",
+                        "region": "UK",
+                        "postalCode": "CM8 3YN",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Star Procurement",
+                    "id": "GB-FTS-110426",
+                    "identifier": {
+                        "legalName": "Star Procurement"
+                    },
+                    "address": {
+                        "locality": "Trafford",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-169839",
+                "name": "Lancashire Combined Fire Authority"
+            },
+            "contracts": [
+                {
+                    "id": "112057-2026-1",
+                    "awardID": "112057-2026-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 125240.00,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-10-27T00:00:00Z"
+                }
+            ],
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "relatedLot": "1",
+                        "value": 1
+                    },
+                    {
+                        "id": "2",
+                        "measure": "smeBids",
+                        "relatedLot": "1",
+                        "value": 0
+                    },
+                    {
+                        "id": "3",
+                        "measure": "electronicBids",
+                        "relatedLot": "1",
+                        "value": 1
+                    }
+                ]
+            },
+            "language": "en"
+        }
+    ],
+    "links": {
+        "next": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updatedFrom=2026-11-24T18:35:16&stages=award&limit=20&updatedTo=2026-11-26T18:35:16&cursor=dXBkYXRlZEZyb209MjAyNi0xMS0yNFQxODozNToxNnx1cGRhdGVkVG89MjAyNi0xMS0yNlQxODozNToxNnxuZXh0Q3Vyc29yPTc2Mzk5NQ=="
+    }
+}

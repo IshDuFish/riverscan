@@ -1,0 +1,332 @@
+STATUS 200
+CT application/xml
+
+<allTrials totalCount="1" xmlns="http://www.67bricks.com/isrctn"><fullTrial>
+  <trial lastUpdated="2026-05-07T13:25:47.902330197Z" version="25" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN50499387" publicIdentifierDateAssigned="2026-04-07T08:04:29.096419Z">
+    <isrctn dateAssigned="2026-04-07T08:04:29.096419Z">50499387</isrctn>
+    <trialDescription thirdPartyFilesAcknowledgement="false">
+      <acknowledgment>true</acknowledgment>
+      <title>Testing a new treatment to prevent severe immune reactions in people with multiple myeloma taking teclistamab</title>
+      <scientificTitle>A non-randomised, single-arm, multi-centre, open-label Phase I/II trial to investigate novel cytokine release syndrome prevention in patients with multiple myeloma eligible to receive the bispecific T-cell engager antibody, teclistamab, within its licensed indication</scientificTitle>
+      <acronym>TOPICAL</acronym>
+      <studyHypothesis>The purpose of this study is to test a new way to reduce the risk of a common side effect called cytokine release syndrome (CRS) in people with multiple myeloma who are starting treatment with a medicine called teclistamab. The trial will test whether a new oral drug called POLB 001 can help prevent CRS when given before and during the early stages of teclistamab treatment. The main goal is to see if POLB 001 is safe and whether it can prevent CRS or makes it less severe.
+
+Researchers will also look at how well teclistamab works and how POLB 001 behaves in the body.</studyHypothesis>
+      <plainEnglishSummary>Background and study aims 
+This study is testing a new way to reduce the risk of a common side effect called cytokine release syndrome (CRS) in people with multiple myeloma whose disease has come back or stopped responding to treatment and who are starting treatment with a medicine called teclistamab. Teclistamab is a type of immunotherapy that helps the body’s immune system fight myeloma. While it can be effective, it can also cause CRS, a reaction where the immune system becomes overactive and causes symptoms like fever, low blood pressure, or breathing problems. This trial will test whether a new oral drug called POLB 001 can help prevent CRS when given before and during the early stages of teclistamab treatment.
+
+Who can participate? 
+Adult patients with a prior diagnosis of multiple myeloma, as defined according to IMWG criteria, who fulfil NICE criteria for teclistamab eligibility via the NHS.
+
+What does the study involve? 
+- Around 30 patients will take part across 6 hospitals in the UK.
+- All participants will receive POLB 001for 14 days, starting just before their first dose of teclistamab.
+- After that, they will continue teclistamab on the trial for 2 cycles (8 weeks) before seamlessly moving over to NHS-supplied teclistamab, which can be continued for as long as it remains effective. Patients will be in this study for around 3 months.
+- Patients will be closely monitored for side effects and signs of CRS.
+- Some patients may receive a lower dose of POLB 001 if early results suggest the higher dose causes side effects.
+
+The main goal is to see if POLB 001 is safe and whether it can prevent CRS or make it less severe. Researchers will also look at how well teclistamab works and how POLB 001 moves through the body (for example, absorption and metabolism). 
+
+What are the possible benefits and risks of participating? 
+- POLB 001 has been found to be well tolerated in healthy volunteer studies, with no serious side effects reported. POLB 001 is a new drug, so there may be unknown side effects.
+- Patients will be monitored closely, and treatments will be given to manage CRS if it occurs.
+- The study may help improve the safety of teclistamab treatment for future patients.
+
+Study design: The study design is based as closely as possible to the standard of care (SOC) pathway in this patient population; therefore, the additional burden to patients as a result of being on the study is minimal. In this study, patients can be treated in the outpatient setting, provided that the participating sites have outpatient protocols in place. This will minimise further patient burden and inpatient time. 
+
+Possible side effects to participants related to bone marrow and blood sample collection include: discomfort, bleeding, bruising and/or swelling or, rarely, a clot or infection in the area where the blood samples are taken from. Some people also become faint, dizzy, or light-headed during or immediately after the blood is taken. 
+
+Risks associated with PET-CT: feeling uncomfortable from lying still or experiencing a warm sensation. The small injection given before the scan may cause a brief sting or, very rarely, a bruise or minor infection at the site. Allergic reactions are uncommon. A few people might feel slightly dizzy or light-headed afterwards, but this usually passes quickly. 
+
+Risks associated with MRI: the dye used for some scans may cause mild symptoms like a warm feeling, a metallic taste, tingling, or slight discomfort, but these effects are uncommon and usually pass quickly. Serious allergic reactions or kidney problems are very rare. 
+
+Risk related to POLB 001: 
+	- Increased liver enzymes – this was a side effect reported by a small number of healthy volunteers participating in previous studies of POLB 001. It was mild with no symptoms and resolved once POLB 001 was stopped.
+	- Skin Rashes and Dizziness – these are known side effects with other drugs which work in the same way as POLB 001 (p38 kinase inhibitors). These are generally mild and resolve quickly. 
+
+Risk related to Teclistamab: CRS, ICANS, TLS. 
+
+All study treatments may cause harm to an unborn child if administered during pregnancy. Therefore, females of childbearing potential will need to undergo pregnancy tests, and all patients must be willing to use highly effective contraception during the study and for six months following the last dose of their study treatment (females) or for 3 months following the last dose of their study treatment (males). 
+
+Patients will be closely monitored throughout the study. Potential risks and burdens are described in the PIS so that potential patients can clearly understand what is involved if they consent to take part. Supportive medications will be given as per local practice.
+
+Where is the study run from?  
+DIDACT Foundation, UK.
+
+When is the study starting and how long is it expected to run for? 
+March 2026 to June 2027.
+
+Who is funding the study? 
+Poolbeg Pharma plc, UK
+
+Who is the main contact?
+Study Management, ACT-MM-001@act4patients.com</plainEnglishSummary>
+      <primaryOutcomes>
+	<outcomeMeasure id="70e7561c-e45e-45a1-a3d6-81570727440a">
+	  <variable>Incidence and Severity of adverse events (AEs) and serious AEs (SAEs) over 28 days and 84 days after initiation of teclistamab treatment</variable>
+	  <method>data collected from electronic Case Report Forms (eCRF)</method>
+	  <timepoints>28 days and 84 days after initiation of teclistamab treatment</timepoints>
+	</outcomeMeasure>
+      </primaryOutcomes>
+      <primaryOutcome/>
+      <secondaryOutcomes>
+	<outcomeMeasure id="6811940d-fbd0-421c-a122-5e11fb52114b">
+	  <variable>Early efficacy signals of CRS prevention will be assessed through a) Incidence and severity and duration of CRS/ICANS over 28 and 84 days, b) Duration of hospitalisation for CRS/ICANS, and c) Requirements for tocilizumab for CRS/ICANS</variable>
+	  <method>data collected from eCRF</method>
+	  <timepoints>28 days and 84 days after initiation of teclistamab treatment</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="07a51ca7-df52-4edc-b457-1f862ddca146">
+	  <variable>The PK/PD profile of POLB 001 in patients with RRMM will be assessed through a) Pharmacokinetics of POLB 001 and b) Pharmacodynamics of POLB 001 as measured by cytokine responses</variable>
+	  <method>PK, PD and cytokine blood panels</method>
+	  <timepoints>baseline through to Cycle 1 Day 8 after initiation of teclistamab treatment</timepoints>
+	</outcomeMeasure>
+      </secondaryOutcomes>
+      <secondaryOutcome/>
+      <ethicsApprovalRequired>Ethics approval required</ethicsApprovalRequired>
+      <ethicsCommittees>
+	<ethicsCommittee id="f566ef24-72e0-4058-b92e-9cc41bf1c4ed" approvalStatus="submitted" statusDate="2026-01-09T00:00:00.000Z">
+	  <committeeName>To be confirmed</committeeName>
+	  <contactDetails>
+	    <address>-</address>
+	    <city>-</city>
+	    <state/>
+	    <country>United Kingdom</country>
+	    <zip>-</zip>
+	    <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	    <email xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	  </contactDetails>
+	  <committeeReference>26/WM/0017</committeeReference>
+	</ethicsCommittee>
+      </ethicsCommittees>
+    </trialDescription>
+    <externalRefs>
+      <doi>10.1186/ISRCTN50499387</doi>
+      <eudraCTNumber/>
+      <irasNumber>1012909</irasNumber>
+      <clinicalTrialsGovNumber/>
+      <protocolSerialNumber>CPMS: 70304, ACT-MM-001</protocolSerialNumber>
+      <secondaryNumbers>
+	<secondaryNumber id="2ff57841-51af-4e53-bfd9-3f6b95aeb03e" numberType="iras" canonicalSecondaryNumber="IRAS1012909">1012909</secondaryNumber>
+	<secondaryNumber id="4ae61ef3-ef0f-4233-9354-64d157385200" numberType="cpms" canonicalSecondaryNumber="CPMS70304">70304</secondaryNumber>
+	<secondaryNumber id="06e7e3be-8098-46ac-919f-7c3b21fc2eee" numberType="Sponsor's protocol code number">ACT-MM-001</secondaryNumber>
+      </secondaryNumbers>
+    </externalRefs>
+    <trialDesign>
+      <studyDesign/>
+      <primaryStudyDesign>Interventional</primaryStudyDesign>
+      <interventionalTrialDesign>
+	<allocation>N/A: single arm study</allocation>
+	<masking>Open (masking not used)</masking>
+	<control>Uncontrolled</control>
+	<assignment>Single</assignment>
+	<purposes>
+	  <purpose>Prevention</purpose>
+	  <purpose>Treatment</purpose>
+	</purposes>
+      </interventionalTrialDesign>
+      <secondaryStudyDesign>Not applicable</secondaryStudyDesign>
+      <trialTypes>
+	<trialType>Efficacy</trialType>
+	<trialType>Safety</trialType>
+      </trialTypes>
+      <overallEndDate>2027-06-30T00:00:00.000Z</overallEndDate>
+    </trialDesign>
+    <participants>
+      <recruitmentCountries>
+	<country>United Kingdom</country>
+	<country>England</country>
+      </recruitmentCountries>
+      <trialCentres>
+	<trialCentre id="715fbea3-c04f-436e-a53e-f204880fc843">
+	  <name>The Christie</name>
+	  <address>550 Wilmslow Road
+Withington</address>
+	  <city>Manchester</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>M20 4BX</zip>
+	  <rtsId>RBV01@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="0bb93c7e-c3f5-4dbd-910b-4d995861bc26">
+	  <name>University College London Hospitals</name>
+	  <address>52 Gower Street</address>
+	  <city>London</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>WC1E 6EB</zip>
+	</trialCentre>
+	<trialCentre id="3eeac755-2182-491d-9bda-de93428312b9">
+	  <name>The Royal Marsden Hospital</name>
+	  <address>Fulham Road</address>
+	  <city>London</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>SW3 6JJ</zip>
+	  <rtsId>W5Z3P@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="c98fdd64-d252-41c7-8e81-d074e9a21ba4">
+	  <name>Queen Elizabeth Hospital</name>
+	  <address>Mindelsohn Way
+Edgbaston</address>
+	  <city>Birmingham</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>B15 2GW</zip>
+	</trialCentre>
+      </trialCentres>
+      <participantTypes/>
+      <healthyVolunteersAllowed>false</healthyVolunteersAllowed>
+      <inclusion>1.	Male or female participants aged ≥18 years at the time of informed consent.
+2.	Participants must be able to give signed informed consent and be willing and able to comply with all scheduled visits, treatment plan, laboratory tests, lifestyle considerations, and other study procedures. 
+3.	Participant must be able to take oral medication. 
+4.	Prior diagnosis of MM as defined according to IMWG criteria 
+5.	Patients must fulfil NICE criteria for teclistamab eligibility via the NHS; 
+5.1.	Prior diagnosis of relapsed or refractory multiple myeloma (RRMM)
+5.2.	Received at least three prior treatment therapies for RRMM, including an immunomodulatory agent, a proteasome inhibitor, and an anti-CD38 antibody
+5.3.	Documented evidence of progressive disease based on investigator’s determination of response by IMWG criteria on or after their last regimen.
+6.	ECOG performance status ≤2.
+7.	Adequate hepatic function characterized by the following: Total bilirubin ≤2 x ULN (≤3 x ULN if documented Gilbert’s syndrome); AST ≤2.5 x ULN; and ALT ≤2.5 x ULN
+8.	Adequate renal function defined by an estimated creatinine clearance ≥30 mL/min (according to the Cockcroft Gault formula, by 24-hour urine collection for creatinine clearance, or according to local institutional standard method).
+9.	Adequate BM function characterized by the following:
+9.1. ANC ≥1.0 × 109/L (use of granulocyte-colony stimulating factors is permitted if completed at least 7 days prior to planned start of dosing);
+9.2. Platelets ≥25 × 109/L (transfusion support is permitted if completed at least 7 days prior to planned start of dosing); 
+9.3. Haemoglobin ≥8 g/dL (EPO and transfusion support is permitted).
+10.	Resolved acute effects of any prior therapy to baseline severity or CTCAE Grade ≤1.</inclusion>
+      <ageRange>Mixed</ageRange>
+      <lowerAgeLimit unit="years" value="18.0">18 Years</lowerAgeLimit>
+      <upperAgeLimit unit="years" value="110.0">110 Years</upperAgeLimit>
+      <gender>All</gender>
+      <targetEnrolment>30</targetEnrolment>
+      <totalFinalEnrolment>0</totalFinalEnrolment>
+      <exclusion>1.	Previous treatment with an anti-BCMA bispecific antibody
+2.	Active plasma cell leukaemia
+3.	Amyloidosis
+4.	POEMS syndrome
+5.	Prior antitumor therapy as follows, in the specified time frame prior to the first dose of study treatment:
+5.1. Targeted therapy, epigenetic therapy, or treatment with an investigational drug or an invasive investigational medical device within 21 days or at least 5 half-lives, whichever is less.
+5.2. Gene-modified adoptive cell therapy (eg, CAR-modified T-cells, NK cells) within 3 months.
+5.3. mAb treatment or bispecific T-cell redirector therapy for multiple myeloma within 21 days.
+5.4. Cytotoxic therapy within 14 days.
+5.5. PI therapy within 14 days.
+5.6. Immunomodulatory agent therapy within 7 days.
+5.7. Radiotherapy within 14 days. However, if palliative focal radiation is used, the participant is eligible irrespective of the end date of radiotherapy.
+6.	Stem cell transplant:
+6.1.	An allogeneic stem cell transplant within 6 months before enrolment. Participants who received an allogeneic transplant must be off all immunosuppressive medications for ≥42 days without signs of graft versus host disease before enrolment.
+6.2.	An autologous stem cell transplant within 12 weeks before enrolment.
+7.	Impaired cardiovascular function [ NYHA stage III OR IV] or clinically significant cardiovascular diseases, defined as any of the following within 6 months prior to enrolment
+8.	QTcF over 480ms at screening
+9.	Ongoing Grade ≥2 peripheral sensory or motor neuropathy. 
+10.	Active HBV, HCV, SARS-CoV2, HIV, or any active, uncontrolled bacterial, fungal, or viral infection. Active infections must be resolved at least 7 days prior to enrolment.
+11.	Other ongoing active malignancies within 1 year except carcinoma in situ or BCC/SCC that has been adequately treated
+12.	Contraindications or life-threatening allergies, hypersensitivity, or intolerance to any study drug or its excipients
+13.	Received a cumulative dose of corticosteroids equivalent to ≥140 mg of prednisone within 14 days before enrolment. 
+14.	CNS involvement or clinical signs of meningeal involvement of multiple myeloma. If either is suspected, negative whole-brain MRI and lumbar cytology are required.
+15.	Previous administration with an investigational drug within 30 days or 5 half-lives preceding the first dose of study intervention used in this study (whichever is shorter).
+16.	Live attenuated vaccine must not be administered within 4 weeks of the first dose of study intervention. Non-live or non-replicating vaccines authorized for emergency use (eg, COVID-19) by local health authorities are allowed.
+17.	Participant had major surgery or had significant traumatic injury within 2 weeks prior to the start of administration of study treatment, or will not have fully recovered from surgery, or has major surgery planned during the time the participant is expected to be treated in the study or within 2 weeks after administration of the last dose of study treatment. 
+18.	Concurrent medical or psychiatric condition or disease that is likely to interfere with study procedures or results, or that in the opinion of the investigator, would constitute a hazard for participating in this study
+19.	Female patients must not be pregnant or breastfeeding;
+19.1.	Females of childbearing potential must be willing to use a highly effective method of contraception (hormonal birth control; abstinence). 
+19.2.	A female participant of childbearing potential must have a negative highly sensitive serum pregnancy test at screening and again either a serum pregnancy test prior to the start of study treatment and must agree to further urine pregnancy tests during the study.
+19.3.	Females must not be breastfeeding.
+19.4.	A female participant must agree not to donate eggs (ova, oocytes) or freeze them for future use, for the purposes of assisted reproduction during the study and for 6 months after receiving the last dose of study treatment. 
+20.	A male participant must be willing to use a highly effective method of contraception;
+20.1.	A male participant must wear a condom (with or without spermicidal foam/gel/film/cream/suppository) when engaging in any activity that allows for passage of ejaculate to another person during the study and understand the need to continue for highly effective contraception for 3 months after receiving the last dose of study treatment. 
+20.2.	If a male participant’s partner is a female of childbearing potential, the male participant must use condoms (with or without spermicide) and the female partner of the male participant must also be practicing a highly effective method of contraception
+20.3.	A male participant must agree not to donate sperm for the purpose of reproduction during the study and understand the need to continue for 3 months after receiving the last dose of study treatment.</exclusion>
+      <recruitmentStart>2026-03-29T00:00:00.000Z</recruitmentStart>
+      <recruitmentEnd>2027-03-30T00:00:00.000Z</recruitmentEnd>
+      <recruitmentStartStatusOverride/>
+      <recruitmentStatusOverride/>
+    </participants>
+    <conditions>
+      <condition>
+	<description>Medical condition: relapsed or refractory multiple myeloma (RRMM)
+Medical condition in lay language: Myeloma (blood cancer)
+Therapeutic areas: Diseases [C] - Cancer [C04]</description>
+	<diseaseClass1>Cancer</diseaseClass1>
+	<diseaseClass2/>
+      </condition>
+    </conditions>
+    <interventions>
+      <intervention>
+	<description>This is a non-randomised, single-arm study seeking to evaluate the safety and early efficacy signals of POLB 001, a novel oral small molecule inhibitor of Cytokine Release Syndrome (CRS), in patients receiving teclistamab (Tecvayli). A total of approximately 30 evaluable patients will be enrolled. In the Phase I part of the study, an initial safety cohort of 6 patients will be enrolled and will receive POLB 001 at a dose of 150 mg twice daily (BID) for 14 days. Patients will be observed for Dose Limiting Toxicities (DLTs) over a 14-day period. If 2 or more patients encounter a DLT during this period, the safety cohort will be expanded by 3 patients, who will be observed at the same dose level for DLTs over a 14-day period. If 2 or more patients encounter DLT during this expansion period, a second safety cohort of 6 patients will be enrolled at a lower dose of 70mg BID and observed for DLTs for 14 days. Phase II part of the study starts when a dose is shown to be tolerable in the safety cohort (less than 2 pts with DLTs), and all the remainder of the planned patients can be enrolled at that dose level. To be evaluable for DLT assessment, a patient must receive at least 75% of the planned dose of POLB 001 and 2 doses of teclistamab in the initial 14-day evaluation period. Patients will receive POLB 001 twice daily for 14 days during Cycle 1 only, starting on D-4. Teclistamab will then be administered from D1 for 2 cycles. The treatment phase of the study will be followed by a 28-day safety follow-up period during which participants are allowed to receive teclistamab treatment to ensure a safe transition to local supply.</description>
+	<interventionType>Drug</interventionType>
+	<phase>Phase II</phase>
+	<drugNames>POLB 001 [Not yet assigned, Not yet assigned] , Teclistamab [Teclistamab, Teclistamab]</drugNames>
+      </intervention>
+    </interventions>
+    <results>
+      <ipdSharingStatement>All data generated or analysed during this study will be included in the subsequent results publication.</ipdSharingStatement>
+      <dataPolicies>
+	<dataPolicy>Published as a supplement to the results publication</dataPolicy>
+      </dataPolicies>
+      <publicationDetails/>
+      <publicationStage/>
+      <basicReport/>
+      <plainEnglishReport/>
+    </results>
+    <outputs>
+      
+    </outputs>
+    <parties xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <funderId>4cfc6ffa-5be7-45fe-ad56-2ec923808337</funderId>
+      <contactId>a4599eb4-c198-4c1a-b47d-9d663ef09dcb</contactId>
+      <contactId>32d6ce33-fbe7-4445-ab57-0cac5f73ece4</contactId>
+      <sponsorId>0b8cf571-51f7-4afe-b8fd-43e2566d52b4</sponsorId>
+    </parties>
+    <miscellaneous xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <ipdSharingPlan>Yes</ipdSharingPlan>
+    </miscellaneous>
+    <attachedFiles/>
+  </trial>
+  <contact id="a4599eb4-c198-4c1a-b47d-9d663ef09dcb">
+    <title>None</title>
+    <forename>-</forename>
+    <surname>Study Management</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Scientific</contactType>
+      <contactType>Public</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Accelerating Clinical Trials Ltd
+48 Chancery Lane</address>
+      <city>London</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>WC2A 1JF</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">-</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">ACT-MM-001@act4patients.com</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="32d6ce33-fbe7-4445-ab57-0cac5f73ece4">
+    <title>Dr</title>
+    <forename>Emma</forename>
+    <surname>Searle</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Principal investigator</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Wilmslow Road
+Christie Hospital</address>
+      <city>Manchester</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>M20 4BX</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+44 07917554940</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">emma.searle9@nhs.net</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <sponsor id="0b8cf571-51f7-4afe-b8fd-43e2566d52b4">
+    <organisation>DIDACT Foundation</organisation>
+    <sponsorType/>
+    <commercialStatus>Non-commercial</commercialStatus>
+  </sponsor>
+  <funder id="4cfc6ffa-5be7-45fe-ad56-2ec923808337">
+    <name>Poolbeg Pharma plc</name>
+  </funder>
+</fullTrial></allTrials>

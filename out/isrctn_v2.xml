@@ -1,0 +1,614 @@
+STATUS 200
+CT application/xml
+
+<allTrials totalCount="3248" xmlns="http://www.67bricks.com/isrctn"><fullTrial>
+  <trial lastUpdated="2026-11-26T13:40:30.89914891Z" version="17" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN97694424" publicIdentifierDateAssigned="2026-11-26T13:40:31.133886Z">
+    <isrctn dateAssigned="2026-11-26T13:40:31.133886Z">97694424</isrctn>
+    <trialDescription thirdPartyFilesAcknowledgement="true">
+      <acknowledgment>true</acknowledgment>
+      <title>Integrating cervical and breast cancer prevention into routine women’s health services in Burkina Faso</title>
+      <scientificTitle>Integrated prevention and early detection of cervical and breast cancers within sexual, reproductive, maternal, newborn, child and adolescent health services in Burkina Faso: a multiphase research protocol</scientificTitle>
+      <acronym/>
+      <studyHypothesis>1. To assess the effect of the integrated model on indicators of cervical and breast cancer prevention and early detection, including cervical cancer screening coverage and early detection of breast abnormalities among eligible women.
+2. To assess the effect of the integrated model on the use of women’s contacts with the health system as opportunities for cervical and breast cancer prevention and early detection, including the reduction of missed opportunities and the integration of cervical cancer screening and breast abnormality detection into routine services.
+3. To assess women’s satisfaction and acceptability of the integrated model, particularly their satisfaction with receiving multiple integrated health services, including cervical cancer screening and early detection of breast abnormalities, during the same contact with health services.</studyHypothesis>
+      <plainEnglishSummary>Background and study aims
+Cervical cancer and breast cancer are the two most frequent and most deadly cancers among women in Burkina Faso. Simple and effective ways of detecting them early do exist, but very few women benefit from them: about one woman in four has ever been screened for cervical cancer and about one in seven for breast cancer, whereas the globally recommended target is 70%. One reason is that these services are usually offered separately, which forces women to make repeated trips and visits. Yet sexual, reproductive, maternal, newborn, child and adolescent health (SRMNCAH) services, such as antenatal care, family planning or childhood immunization, already see women on a regular basis.
+The study therefore aims to design, together with frontline stakeholders, and then test a model that integrates screening for both cancers directly into these routine services. The purpose is to improve access, coverage, quality and continuity of prevention, and to generate evidence useful for national decisions and for a possible scale-up of the model.
+
+Who can participate? 
+Recruitment takes place at three levels:
+1. At the institutional level, first-level health and social promotion centers (CSPS) offering SRMNCAH services and having a minimum capacity, namely counseling, cervical cancer screening (VIA/VILI), clinical breast examination and functioning thermocoagulation or cryotherapy, together with their staff (nurses, midwives, doctors, health facility managers). Facilities already involved in a similar intervention, or lacking the required minimum capacity, are excluded.
+2. At the beneficiary level, women aged 25 to 65 years attending SRMNCAH services in the included CSPS, excluding those with a history of total hysterectomy or bilateral mastectomy.
+3. At the community level, community-based health workers, community organizations, volunteers and women taking part in community activities. Participation is conditional on free and informed written consent, available in French and in local languages, with the possibility of withdrawing at any time without consequence.
+
+What does the study involve? 
+Four CSPS are all in the control group at the start of the study, after which one CSPS switches to the intervention at the start of each of the four following periods. The intervention is an integrated model of cervical and breast cancer prevention within SRMNCAH services, built around four dimensions, namely professional integration (training, mentoring, supervision), organizational integration (embedding screening in family planning, antenatal and postnatal care, immunization and child health), clinical integration (VIA/VILI, clinical breast examination, same-day treatment of eligible precancerous lesions, referral) and community integration (awareness raising, social mobilization, referral by community workers). The data are mixed, with repeated interviews and focus groups on one hand and data monitoring on the other, complemented by three participatory feedback workshops.
+
+What are the possible benefits and risks of participating? 
+The risks are considered low. They concern discomfort during screening, anxiety linked to a positive result and, for women treated on the same day for a precancerous cervical lesion, the risks specific to thermocoagulation or cryotherapy, namely pain, vaginal discharge, bleeding and, rarely, infection. These risks are mitigated by staff training, quality assurance procedures and an appropriate referral system. The expected benefits are earlier detection of cervical and breast cancer and better access to services. The study design ensures that all participating health facilities will benefit from the intervention.
+
+Where is the study run from?
+Joseph Ki-Zerbo University (Burkina Faso)
+
+When is the study starting and how long is it expected to run for? 
+October 2026 to September 2027
+
+Who is funding the study? 
+The OR Tambo Africa Research Chair, Research Chair for Action Against Cancer in Africa (ReAAC), hosted at Joseph Ki-Zerbo University (Burkina Faso)
+
+Who is the main contact? 
+Mr Lankoandé Larba, lankoandefrere@gmail.com</plainEnglishSummary>
+      <primaryOutcomes>
+	<outcomeMeasure id="61c9b6a9-3aa5-480d-ac76-e797b11ac697">
+	  <variable>Women’s uptake of cervical and breast cancer prevention and early detection services</variable>
+	  <method>: (1) Cervical cancer screening uptake (%) = Number of eligible women screened for cervical cancer / Total number of eligible women attending participating HSPCs × 100, and (2) Breast abnormality early-detection uptake (%) = Number of eligible women receiving clinical breast examination / Total number of eligible women attending participating HSPCs × 100. Measured</method>
+	  <timepoints>baseline, followed by repeated measurements at each predefined study period during the stepped-wedge trial, with outcome assessment conducted before and after the introduction of the integrated model in each HSPC.</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="4b7c5eb8-bb0a-4f2f-8a55-4e0d37e14ce2">
+	  <variable>Uptake of cervical cancer screening and breast abnormality early detection services</variable>
+	  <method>: (1) Cervical cancer screening uptake (%) = Number of eligible women screened for cervical cancer / Total number of eligible women attending participating HSPCs × 100, and  (2) Breast abnormality early-detection uptake (%) = Number of eligible women receiving clinical breast examination / Total number of eligible women attending participating HSPCs × 100. Measured</method>
+	  <timepoints>baseline, followed by repeated measurements at each predefined study period during the stepped-wedge trial, with outcome assessment conducted before and after the introduction of the integrated model in each HSPC.</timepoints>
+	</outcomeMeasure>
+      </primaryOutcomes>
+      <primaryOutcome/>
+      <secondaryOutcomes/>
+      <secondaryOutcome/>
+      <ethicsApprovalRequired>Ethics approval required</ethicsApprovalRequired>
+      <ethicsCommittees>
+	<ethicsCommittee id="17d9ea37-1387-44eb-b86e-c5c96ff9c110" approvalStatus="approved" statusDate="2025-04-02T00:00:00.000Z">
+	  <committeeName>Health Research Ethics Committee</committeeName>
+	  <contactDetails>
+	    <address>Ministère de la Santé, Building Lamizana</address>
+	    <city>Ouagadougou</city>
+	    <state/>
+	    <country>Burkina Faso</country>
+	    <zip>09 BP 7009 Ouagadougou</zip>
+	    <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	    <email xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	  </contactDetails>
+	  <committeeReference>-</committeeReference>
+	</ethicsCommittee>
+      </ethicsCommittees>
+    </trialDescription>
+    <externalRefs>
+      <doi>10.1186/ISRCTN97694424</doi>
+      <eudraCTNumber/>
+      <irasNumber/>
+      <clinicalTrialsGovNumber/>
+      <protocolSerialNumber/>
+      <secondaryNumbers/>
+    </externalRefs>
+    <trialDesign>
+      <studyDesign/>
+      <primaryStudyDesign>Interventional</primaryStudyDesign>
+      <interventionalTrialDesign>
+	<allocation>Randomized controlled trial</allocation>
+	<masking>Open (masking not used)</masking>
+	<control>Active</control>
+	<assignment>Stepped-wedge cluster-randomized trial</assignment>
+	<purposes>
+	  <purpose>Health services research</purpose>
+	  <purpose>Prevention</purpose>
+	  <purpose>Screening</purpose>
+	  <purpose>Supportive care</purpose>
+	  <purpose>Treatment</purpose>
+	</purposes>
+      </interventionalTrialDesign>
+      <secondaryStudyDesign>Not applicable</secondaryStudyDesign>
+      <trialTypes/>
+      <overallEndDate>2027-09-30T00:00:00.000Z</overallEndDate>
+    </trialDesign>
+    <participants>
+      <recruitmentCountries>
+	<country>Angola</country>
+	<country>Benin</country>
+	<country>Burkina Faso</country>
+	<country>Burundi</country>
+	<country>Cameroon</country>
+	<country>Central African Republic</country>
+	<country>Chad</country>
+	<country>Congo, Democratic Republic</country>
+	<country>Côte d'Ivoire</country>
+	<country>Egypt</country>
+	<country>Ethiopia</country>
+	<country>Ghana</country>
+	<country>Guinea</country>
+	<country>Guinea-Bissau</country>
+	<country>Kenya</country>
+	<country>Madagascar</country>
+	<country>Malawi</country>
+	<country>Mali</country>
+	<country>Morocco</country>
+	<country>Mozambique</country>
+	<country>Niger</country>
+	<country>Senegal</country>
+	<country>Somalia</country>
+	<country>Yemen</country>
+	<country>Zambia</country>
+	<country>Zimbabwe</country>
+      </recruitmentCountries>
+      <trialCentres/>
+      <participantTypes/>
+      <healthyVolunteersAllowed>true</healthyVolunteersAllowed>
+      <inclusion>Eligible participants will include:
+1. Healthcare providers and health facility managers involved in SRMNCAH services at selected Health and Social Promotion Centers (HSPCs)
+2. Women aged 25–65 years attending SRMNCAH services at participating facilities
+3. Community health workers, community-based organizations, volunteer health workers, and women involved in community activities within the catchment areas of participating HSPC
+
+Eligible HSPCs must provide SRMNCAH services, have the minimum technical and material capacity to provide cervical and breast cancer prevention and early detection services, perform VIA/VILI and clinical breast examination, and have functional thermocoagulation or cryotherapy equipment.
+
+Participation will require informed consent.</inclusion>
+      <ageRange>Mixed</ageRange>
+      <lowerAgeLimit unit="years" value="25.0">25 Years</lowerAgeLimit>
+      <upperAgeLimit unit="years" value="69.0">69 Years</upperAgeLimit>
+      <gender>Female</gender>
+      <targetEnrolment>280</targetEnrolment>
+      <totalFinalEnrolment>1</totalFinalEnrolment>
+      <exclusion>1. HSPCs that do not provide SRMNCAH services, lack the minimum technical or material capacity required for the intervention, do not perform VIA/VILI or clinical breast examination, lack functional thermocoagulation or cryotherapy equipment, or are involved in another similar intervention
+2. Healthcare providers not involved in SRMNCAH services or the intervention
+3. Women younger than 25 years or older than 65 years, women with a history of total hysterectomy for cervical cancer screening, and women with bilateral mastectomy for breast cancer screening will be excluded from the corresponding screening activities
+4. Community actors not operating within the catchment areas of participating HSPC or not involved in the intervention
+5. Participants who do not provide informed consent</exclusion>
+      <recruitmentStart>2026-10-01T00:00:00.000Z</recruitmentStart>
+      <recruitmentEnd>2026-11-01T00:00:00.000Z</recruitmentEnd>
+      <recruitmentStartStatusOverride/>
+      <recruitmentStatusOverride/>
+    </participants>
+    <conditions>
+      <condition>
+	<description>Cervical and breast cancer</description>
+	<diseaseClass1>Cancer</diseaseClass1>
+	<diseaseClass2/>
+      </condition>
+    </conditions>
+    <interventions>
+      <intervention>
+	<description>The intervention will be implemented in four Health and Social Promotion Centres (HSPCs) using a stepped-wedge cluster-randomized design. All four HSPCs will initially provide routine care and undergo a baseline assessment. The HSPCs will then be randomly allocated to different intervention sequences, with successive groups of HSPCs crossing over from the control condition to the integrated model at predefined timepoints. By the end of the study, all four HSPCs will have implemented the intervention. The randomization sequence will be generated by a statistician independent of the field team using computer software, which reduces the risk of selection bias.
+
+The integrated model will use women’s routine contacts with health services as opportunities for cervical and breast cancer prevention and early detection, with the aim of reducing missed opportunities. The intervention will be integrated into routine sexual, reproductive, maternal, newborn, child and adolescent health (SRMNCAH) services and will include provider training and mentoring; health education and counselling; cervical cancer screening using VIA/VILI, as applicable; clinical breast examination for the early detection of breast abnormalities; identification and reduction of missed opportunities; referral and follow-up of women with abnormal findings; and strengthening of service organization, coordination, and patient flow to facilitate the delivery of multiple services during the same health-system contact.
+
+Repeated measurements will be conducted across study periods to assess changes associated with the introduction of the integrated model, including cervical cancer screening, early detection of breast abnormalities, missed opportunities, use of integrated services, and women’s satisfaction.</description>
+	<interventionType>Behavioural</interventionType>
+	<phase/>
+	<drugNames/>
+      </intervention>
+    </interventions>
+    <results>
+      <ipdSharingStatement/>
+      <dataPolicies>
+	<dataPolicy>Not expected to be made available</dataPolicy>
+      </dataPolicies>
+      <publicationDetails/>
+      <publicationStage/>
+      <basicReport/>
+      <plainEnglishReport/>
+    </results>
+    <outputs>
+      
+    </outputs>
+    <parties xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <funderId>2fe6926d-184d-45f1-a515-00604ffa89e7</funderId>
+      <contactId>8af6329a-cd7a-467b-8f88-c34c2eaf9ff2</contactId>
+      <contactId>88ad1947-6681-42c3-8990-e2871277886e</contactId>
+      <contactId>ebd87f24-89bf-498e-a381-74504a5c9e98</contactId>
+      <contactId>de169715-e9dc-4396-be07-ac4f2caa76dc</contactId>
+      <sponsorId>e1220a35-a7e4-467e-ab1f-eac349798211</sponsorId>
+    </parties>
+    <miscellaneous xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <ipdSharingPlan>No</ipdSharingPlan>
+    </miscellaneous>
+    <attachedFiles/>
+  </trial>
+  <contact id="8af6329a-cd7a-467b-8f88-c34c2eaf9ff2">
+    <title>Mr</title>
+    <forename>Larba</forename>
+    <surname>Lankoandé</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Scientific</contactType>
+      <contactType>Principal investigator</contactType>
+      <contactType>Public</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Université Joseph Ki-Zerbo</address>
+      <city>Ouagadougou</city>
+      <state/>
+      <country>Burkina Faso</country>
+      <zip>03 BP 7021  Ouagadougou 03</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+226 (0)67032696</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">llarba79@gmail.com</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="88ad1947-6681-42c3-8990-e2871277886e">
+    <title>Dr</title>
+    <forename>Samiratou</forename>
+    <surname>Ouédraogo</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Scientific</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Université Joseph Ki-Zerbo</address>
+      <city>Ouagadougou</city>
+      <state/>
+      <country>Burkina Faso</country>
+      <zip>03 BP 7021  Ouagadougou 03</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+226 (0)76904545</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">samioued@yahoo.fr</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="ebd87f24-89bf-498e-a381-74504a5c9e98">
+    <title>Prof</title>
+    <forename>Bassiahi Abdramane</forename>
+    <surname>Soura</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Scientific</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Boulevard Charles De Gaulle</address>
+      <city>Ouagadougou</city>
+      <state/>
+      <country>Burkina Faso</country>
+      <zip>03 BP 7118 Ouagadougou 03</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+226 (0)70026232</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">bassiahi@hotmail.com</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="de169715-e9dc-4396-be07-ac4f2caa76dc">
+    <title>Prof</title>
+    <forename>Smaïla</forename>
+    <surname>Ouédraogo</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Scientific</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Yalgado Ouédraogo University Hospital Center</address>
+      <city>Ouagadougou</city>
+      <state/>
+      <country>Burkina Faso</country>
+      <zip>03 BP 7022 Ouagadougou 03</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+226 (0)70208609</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">samioued@yahoo.fr</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <sponsor id="e1220a35-a7e4-467e-ab1f-eac349798211">
+    <organisation>Université Joseph Ki-Zerbo</organisation>
+    <sponsorType/>
+    <rorId>https://ror.org/00t5e2y66</rorId>
+    <commercialStatus>Non-commercial</commercialStatus>
+  </sponsor>
+  <funder id="2fe6926d-184d-45f1-a515-00604ffa89e7">
+    <name>OR Tambo Africa Research Chair, the Research Chair for Action Against Cancer in Africa (ReAAC), hosted at the University Joseph Ki-Zerbo in Burkina Faso.</name>
+  </funder>
+</fullTrial><fullTrial>
+  <trial lastUpdated="2026-11-23T16:21:50.810593667Z" version="6" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN12675265" publicIdentifierDateAssigned="2026-11-23T16:21:50.945845Z">
+    <isrctn dateAssigned="2026-11-23T16:21:50.945845Z">12675265</isrctn>
+    <trialDescription thirdPartyFilesAcknowledgement="false">
+      <acknowledgment>true</acknowledgment>
+      <title>IMProVE: a pilot study of prostate cancer screening in Yorkshire</title>
+      <scientificTitle>Prostate cancer screening using a risk adapted PSA/image-based approach: pilot study for a Yorkshire-wide comparison with standard care</scientificTitle>
+      <acronym/>
+      <studyHypothesis>1.	Determine screening uptake by invitation methods and demographic factors
+2.	To determine prostate cancers detected by each arm</studyHypothesis>
+      <plainEnglishSummary>Background and study aims
+In the UK, prostate cancer is the second commonest cause of cancer death in men and people with prostates. There is no NHS screening (searching for cancer in those without symptoms) for this cancer. Men considered at risk are offered a prostate specific antigen (PSA) blood test. However, this test is not definitive. Not all patients with prostate cancer have elevated PSA levels and high PSA values may be due to other causes. Screening for prostate cancer using PSA tests improves survival from the cancer but often finds slow growing cancers that do not need treatment. An MRI scan can identify which men have aggressive prostate cancer and which do not but is unaffordable for everyone. Evidence suggests that combining PSA testing with prostate MRI may improve the detection of aggressive prostate cancer while reducing unnecessary diagnosis of slow-growing cancers. This approach should reduce unnecessary detection of people with slow growing cancers, whilst saving many lives. Importantly, our approach is deliverable by the NHS. Before starting a larger trial, which might involve 300,000 people with a prostate, it is necessary to undertake a pilot study to test the study designs and ideas.
+
+Firstly, the pilot will understand views of men from Black and from lower income backgrounds on prostate screening. Secondly, image-based testing will be compared with traditional NHS care in 4,500 people with a prostate. This study will find out how best to invite people who would benefit most. Thirdly, it will work out the most affordable way to screen for this cancer within the NHS.
+
+Who can participate?
+Men, or people with a prostate aged 50-69 years (inclusive) who are living at an address in selected locations within Leeds and Sheffield will be invited to take part. People who match the study criteria could also take part by signing up through our study website.
+
+What does the study involve?
+Taking part in the study may involve: 
+1.	Clinic appointment for a Prostate Specific Antigen (PSA) blood test: about 30-45 minutes 
+2.	Magnetic Resonance Imaging (MRI) scan or biopsy (if needed): separate appointments, about 1 hour each 
+3.	Surveys: short online questionnaires completed at several time points over 12 months
+
+What are the possible benefits and risks of participating?
+Possible benefits:
+Participants may not benefit directly however their participation will help improve how prostate cancer is detected in the future.
+
+Possible risks:
+Participants may need extra tests or appointments. Waiting for results may feel worrying for some people. Some cancers found may not have caused harm (overdiagnosis).
+
+Where is the study run from?
+The University of Sheffield is the sponsor. The Cancer Prevention Trials Unit at Queen Mary University of London is coordinating the study. The Coordinating Investigator is Professor James Catto, Consultant Urological Surgeon, University of Sheffield. The study team are also working with Sheffield Teaching Hospitals NHS Foundation Trust.
+
+When is the study starting and how long is it expected to run for?
+April 2027 to June 2028.
+
+Who is funding the study?
+Yorkshire Cancer Research, UK.
+
+Who is the main contact?
+IMProVE study team at improve@qmul.ac.uk.</plainEnglishSummary>
+      <primaryOutcomes>
+	<outcomeMeasure id="b3610923-8fd0-4430-83d4-fdc17a9f4b0b">
+	  <variable>Screening uptake by invitation methods and demographic factors</variable>
+	  <method>study data collection from the electronic Case Report Form (eCRF) system on attendance at screening following invitation, invitation cost by methods, and adherence with referrals (e.g. MRI, prostate biopsy, repeat PSA)</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="366a39b0-d3dd-4b8a-9b66-43c37c9540da">
+	  <variable>Prostate cancers detected by each arm</variable>
+	  <method>screen-detected prostate cancer, clinical insignificant prostate cancer, clinically significant cancer and clinical stage at diagnosis,</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+      </primaryOutcomes>
+      <primaryOutcome/>
+      <secondaryOutcomes>
+	<outcomeMeasure id="94398f5e-38e0-407b-a221-b90689334a84">
+	  <variable>Baseline PSA and PRS values</variable>
+	  <method>PSA blood testing and optional PRS analysis of saliva samples</method>
+	  <timepoints>the baseline mobile clinic visit prior to randomisation</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="a4a1b848-1726-4152-b42c-34cca1a968d7">
+	  <variable>MRI findings</variable>
+	  <method>consultant radiologist-assigned Likert scores from bpMRI or mpMRI scans</method>
+	  <timepoints>following referral for MRI after PSA testing</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="a28315a5-11df-497c-84ef-a70d6f8ed91f">
+	  <variable>Prostate biopsy findings</variable>
+	  <method>histopathology reports of biopsy samples, including Gleason Grade Group, maximum cancer core length, number of cores taken and number of cores with cancer,</method>
+	  <timepoints>the time of biopsy</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="1715fa07-aebb-427f-b1f3-280ee89ced27">
+	  <variable>Compliance with trial procedures</variable>
+	  <method>trial records of completion of protocol-specified MRI scans, biopsies and repeat PSA tests</method>
+	  <timepoints>throughout the study pathway until completion of study investigations</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="63e82b70-0049-4b67-ba50-3c3924d5624e">
+	  <variable>Compliance with end-of-trial referral</variable>
+	  <method>active follow-up data on adherence to end-of-trial referral recommendations</method>
+	  <timepoints>6 months after diagnosis</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="d7645fef-4998-47e3-83b9-388752678c13">
+	  <variable>Treatment patterns and outcomes in participants diagnosed with prostate cancer</variable>
+	  <method>routine NHS records and medical record review, including treatment pattern at diagnosis and active follow-up and treatment outcomes</method>
+	  <timepoints>6 months post-diagnosis</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="1417bea9-1bb6-4a90-b937-0e9780ffabbd">
+	  <variable>Treatment patterns and outcomes compared with contemporary NHS prostate cancer patterns</variable>
+	  <method>diagnosis and treatment data, including patient characteristics, disease characteristics and treatments received,</method>
+	  <timepoints>diagnosis and active follow-up</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="0d3ee301-67b6-4de8-b994-b1f923bcf1c9">
+	  <variable>Economic impact of screening</variable>
+	  <method>a health economic model incorporating trial data to estimate cost per quality-adjusted life year (QALY) gained and incremental net benefit over a lifetime horizon</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="ab9b0642-87cf-4100-a17a-0e78a7ec84e3">
+	  <variable>Clinical benefits of screening</variable>
+	  <method>a health economic model incorporating trial data to estimate QALYs gained over a lifetime horizon</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="4bf947d5-8d05-4aa9-8509-3021ca6d74a9">
+	  <variable>Lifetime NHS costs associated with screening</variable>
+	  <method>a health economic model incorporating trial data to estimate total screening, diagnostic and treatment costs and incremental cost per additional participant recruited over a lifetime horizon</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="11f52a3c-fb93-4963-8cd3-d0c488f80b24">
+	  <variable>Clinical benefits of screening</variable>
+	  <method>a health economic model incorporating trial data to estimate life years gained and the detection of early-stage versus late-stage disease over a lifetime horizon</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+	<outcomeMeasure id="1aecc248-9841-48d6-b8b9-70843b296a68">
+	  <variable>Screening-related harms</variable>
+	  <method>a health economic model incorporating trial data to estimate false-positive rates and overdiagnosis over a lifetime horizon</method>
+	  <timepoints>study end</timepoints>
+	</outcomeMeasure>
+      </secondaryOutcomes>
+      <secondaryOutcome/>
+      <ethicsApprovalRequired>Ethics approval required</ethicsApprovalRequired>
+      <ethicsCommittees>
+	<ethicsCommittee id="c1b24033-1742-49ab-83e4-68045e5c7f23" approvalStatus="approved" statusDate="2026-09-30T00:00:00.000Z">
+	  <committeeName>West Midlands - South Birmingham Research Ethics Committee</committeeName>
+	  <contactDetails>
+	    <address>2 Redman Place, Stratford</address>
+	    <city>London</city>
+	    <state/>
+	    <country>United Kingdom</country>
+	    <zip>E20 1JQ</zip>
+	    <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	    <email xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	  </contactDetails>
+	  <committeeReference>26/WM/0160</committeeReference>
+	</ethicsCommittee>
+      </ethicsCommittees>
+    </trialDescription>
+    <externalRefs>
+      <doi>10.1186/ISRCTN12675265</doi>
+      <eudraCTNumber/>
+      <irasNumber>328102</irasNumber>
+      <clinicalTrialsGovNumber/>
+      <protocolSerialNumber>CPMS: 56053, RA\2024\R2\116</protocolSerialNumber>
+      <secondaryNumbers>
+	<secondaryNumber id="1b22b2db-07e1-4b8b-9999-729437136e3f" numberType="iras" canonicalSecondaryNumber="IRAS328102">328102</secondaryNumber>
+	<secondaryNumber id="905cc156-6ce4-4cda-83af-c679933ea5c3" numberType="cpms" canonicalSecondaryNumber="CPMS56053">56053</secondaryNumber>
+	<secondaryNumber id="374eddd9-e8f0-4bec-9333-5fdfe9affce9" numberType="Yorkshire Cancer Research Grant Code">RA\2024\R2\116</secondaryNumber>
+      </secondaryNumbers>
+    </externalRefs>
+    <trialDesign>
+      <studyDesign/>
+      <primaryStudyDesign>Interventional</primaryStudyDesign>
+      <interventionalTrialDesign>
+	<allocation>Randomized controlled trial</allocation>
+	<masking>Open (masking not used)</masking>
+	<control>Active</control>
+	<assignment>Parallel</assignment>
+	<purposes>
+	  <purpose>Diagnostic</purpose>
+	  <purpose>Screening</purpose>
+	</purposes>
+      </interventionalTrialDesign>
+      <secondaryStudyDesign>Not applicable</secondaryStudyDesign>
+      <trialTypes>
+	<trialType>Diagnostic</trialType>
+	<trialType>Screening</trialType>
+      </trialTypes>
+      <overallEndDate>2028-06-30T00:00:00.000Z</overallEndDate>
+    </trialDesign>
+    <participants>
+      <recruitmentCountries>
+	<country>United Kingdom</country>
+	<country>England</country>
+      </recruitmentCountries>
+      <trialCentres>
+	<trialCentre id="f5c6780e-9c4e-4de8-9727-e1b31767b85d">
+	  <name>Northern General Hospital</name>
+	  <address>Herries Road</address>
+	  <city>Sheffield</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>S5 7AU</zip>
+	</trialCentre>
+	<trialCentre id="65bc6de5-5893-47ee-b33f-3c499d0aec99">
+	  <name>St. James's University Hospital</name>
+	  <address>Beckett Street</address>
+	  <city>Leeds</city>
+	  <state/>
+	  <country>England</country>
+	  <zip>LS9 7TF</zip>
+	</trialCentre>
+      </trialCentres>
+      <participantTypes/>
+      <healthyVolunteersAllowed>false</healthyVolunteersAllowed>
+      <inclusion>1. Capacity to provide informed consent prior to study entry
+2. Men,or people with a prostate aged 50 – 69 years (inclusive) at the time of invitation into the study 
+3. Living at an address in selected locations within Leeds and Sheffield. 
+4. Have a phone number*
+5. Have an NHS number
+5. Residency in the UK for 12 months prior to consent to enter the study
+
+*Participants recruited via NHS DigiTrials will require a mobile telephone number to receive the SMS study invitation.</inclusion>
+      <ageRange>Mixed</ageRange>
+      <lowerAgeLimit unit="years" value="50.0">50 Years</lowerAgeLimit>
+      <upperAgeLimit unit="years" value="69.0">69 Years</upperAgeLimit>
+      <gender>All</gender>
+      <targetEnrolment>4500</targetEnrolment>
+      <totalFinalEnrolment>0</totalFinalEnrolment>
+      <exclusion>1. PSA testing within 12 months prior to invitation into the study
+2. Prostate MRI scan within 24 months prior to invitation into the study
+3. Prostate biopsy within 36 months prior to invitation into the study
+4.Received antibiotics for urinary tract infection within 3 months prior to receiving invitation to the study
+5. Current or prior prostate cancer diagnosis
+6. Participant has opted out of data use via the National Data Opt-Out or Study Specific Opt-Out
+7. A weight ≥ 200kg
+8. Eastern Cooperative Oncology Group (ECOG) performance status ≥ 2 due to a severe comorbidity*
+9. Known chronic kidney disease with estimated glomerular filtration rate (eGFR – based on the CKD-EPI Equation) of ≤30 mL/min/1.73 m² (CKD stage 4–5), receiving renal replacement therapy including dialysis, or previous kidney transplantation** 
+
+*NB – This will be self-reported by participants against the following lay wording “A severe medical condition which means you have difficulty carrying out normal daily activities e.g. able to care for yourself but unable to work or carry out strenuous activities.” 
+
+**NB – This will be self-reported by participants against the following lay wording “Have you ever been told by a doctor that you have severe kidney disease or kidney failure, or are you currently under hospital care for kidney failure or disease (for example, seeing a kidney specialist, receiving dialysis, or having had a kidney transplant)?”</exclusion>
+      <recruitmentStart>2027-04-01T00:00:00.000Z</recruitmentStart>
+      <recruitmentEnd>2027-12-31T00:00:00.000Z</recruitmentEnd>
+      <recruitmentStartStatusOverride/>
+      <recruitmentStatusOverride/>
+    </participants>
+    <conditions>
+      <condition>
+	<description>Malignant neoplasms of male genital organs</description>
+	<diseaseClass1>Cancer</diseaseClass1>
+	<diseaseClass2/>
+      </condition>
+    </conditions>
+    <interventions>
+      <intervention>
+	<description>Participants will be invited to take part in prostate cancer screening as part of the IMProVE study via 1 of 5 invitation routes, selected at random:
+1.	SMS invitation only
+2.	SMS invitation + SMS reminder
+3.	SMS invitation + letter reminder
+4.	Letter invitation + SMS reminder
+5.	Letter invitation only
+These invitation methods will form a Study Within a Trial (SWAT). A SWAT analysis will be conducted after the first 10,000 invitations to evaluate the effectiveness of each methods, with ineffective methods discontinued.
+
+Participants will be identified by NHS DigiTrials via searches of the Personal Demographics Service (PDS). Searches will be based on predefined postcode sectors within Sheffield and Leeds. A self-referral pathway will also be available to participants outside the main 5 invitation routes.
+
+Consenting participants will be invited to mobile clinic visit in the community, where they will undergo Prostate Specific Antigen (PSA) and optional Polygenic Risk Scoring (PRS) testing. Participants who complete the PSA test will then be randomised into one of two study arms. Randomisation will be conducted by the Central Research Nursing Team using a randomisation electronic Case Report Form (eCRF) hosted in REDCap after valid PSA results are received from the laboratory. The randomisation schedule will be generated and maintained by the Trial Statistician. Randomisation will occur after PSA sampling, but the PSA result will not influence group allocation:
+•	Image-guided pathway:  Participants whose PSA is &gt;1ng/ml will be referred for a bi-parametric MRI (bpMRI) within a Community Diagnostic Centre (CDC). Participants found to have a lesion with a Likert score 4 or 5, will be referred for an image-guided prostate biopsy within a CDC. Based on the biopsy and MRI results, participants will either be discharged, referred for surveillance or referred for radical treatment via their local secondary care provider. Those with a Likert score of 3 will be offered a repeat PSA test at 6 months following their initial PSA result date. Those found to have a PSA density &gt; 0.15nf/ml2 on the repeat PSA, will be referred to their local secondary care provider for a prostate biopsy as per local practice.
+•	NHS Pathway: Participants whose PSA is above their age-specific threshold will be referred for a multi-parametric MRI (mpMRI) within a CDC. Participants found to have a lesion with a Likert score of 4 or 5, and those with Likert 3 with a PSA density ≥0.15ng/ml2 will be referred for a prostate biopsy within a CDC. Based on the biopsy and MRI results, participants will either be discharged, referred for surveillance or referred for radical treatment via their local secondary care provider.</description>
+	<interventionType>Procedure/Surgery</interventionType>
+	<phase/>
+	<drugNames/>
+      </intervention>
+    </interventions>
+    <results>
+      <ipdSharingStatement/>
+      <dataPolicies>
+	<dataPolicy>Data sharing statement to be made available at a later date</dataPolicy>
+      </dataPolicies>
+      <publicationDetails/>
+      <publicationStage/>
+      <basicReport/>
+      <plainEnglishReport/>
+    </results>
+    <outputs>
+      
+    </outputs>
+    <parties xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <funderId>87f3b1c1-243a-466e-bbb7-adea57d1e758</funderId>
+      <contactId>77b90329-9236-4113-b02f-ff2f425df491</contactId>
+      <contactId>853f4e30-71b4-46c8-bb34-eb992fbbe9fd</contactId>
+      <sponsorId>29296272-da04-480f-97e5-bd12715f369b</sponsorId>
+    </parties>
+    <miscellaneous xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <ipdSharingPlan>No</ipdSharingPlan>
+    </miscellaneous>
+    <attachedFiles/>
+  </trial>
+  <contact id="77b90329-9236-4113-b02f-ff2f425df491">
+    <title>None</title>
+    <forename>-</forename>
+    <surname>IMProVE study team</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Public</contactType>
+      <contactType>Scientific</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Cancer Prevention Trials Unit (CPTU), Queen Mary University of London, 1st Floor Empire House, 67-75 New Road</address>
+      <city>London</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>E1 1HH</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">-</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">sth.improve@nhs.net</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="853f4e30-71b4-46c8-bb34-eb992fbbe9fd">
+    <title>Prof</title>
+    <forename>James</forename>
+    <surname>Catto</surname>
+    <orcid>https://orcid.org/0000-0003-2787-8828</orcid>
+    <contactTypes>
+      <contactType>Principal investigator</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Academic Units of Urology and Molecular Oncology, Department of Oncology and Metabolism, University of Sheffield, GU22, G Floor, The Medical School, Beech Hill Road</address>
+      <city>Sheffield</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>S10 2RX</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+44 114 215 9002</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">j.catto@sheffield.ac.uk</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <sponsor id="29296272-da04-480f-97e5-bd12715f369b">
+    <organisation>University of Sheffield</organisation>
+    <sponsorType>Hospital/treatment centre</sponsorType>
+    <rorId>https://ror.org/05krs5044</rorId>
+    <commercialStatus>Non-commercial</commercialStatus>
+  </sponsor>
+  <funder id="87f3b1c1-243a-466e-bbb7-adea57d1e758">
+    <name>Yorkshire Cancer Research</name>
+    <fundRef>http://dx.doi.org/10.13039/100011703</fundRef>
+  </funder>
+</fullTrial></allTrials>
