@@ -197,8 +197,8 @@ def drift(rows):
 
 
 def main():
-    path = DATA / "signals.json"
-    signals = json.loads(path.read_text()) if path.exists() else []
+    sig_file = DATA / "signals.json"
+    signals = json.loads(sig_file.read_text()) if sig_file.exists() else []
     tracked = [s for s in signals if s["severity"] in {"high", "medium"}]
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     rows = []
