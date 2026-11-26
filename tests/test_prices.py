@@ -22,7 +22,9 @@ def test_moves_use_close_before_signal_day():
 def test_categories():
     assert prices.category({"type": "contract_award", "framework": True, "severity": "medium"}) == "Framework place"
     assert prices.category({"type": "change", "field": "status", "severity": "high"}) == "Trial stopped"
-    assert prices.category({"type": "change", "field": "overall_end", "severity": "medium"}) == "Date change"
+    assert prices.category({"type": "change", "field": "overall_end", "severity": "medium", "old": "2027-03", "new": "2027-09"}) == "Delay"
+    assert prices.category({"type": "change", "field": "completion", "severity": "medium", "old": "2027-09", "new": "2027-03"}) == "Brought forward"
+    assert prices.EXPECTED["Delay"] == -1 and prices.EXPECTED["Brought forward"] == 1
 
 
 def test_summary():

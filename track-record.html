@@ -59,7 +59,7 @@
         <li><strong>Starting point:</strong> the last closing price before we caught the signal. The scanner runs before the London market opens, so this is the price before anyone could act on it.</li>
         <li><strong>After 1, 5 and 20 trading days:</strong> the company's move over each period.</li>
         <li><strong>Against the market:</strong> we subtract the move in a benchmark index over the same days, so a rising market doesn't flatter the result. Biotechs are compared with the FTSE AIM All-Share and contractors with the FTSE All-Share.</li>
-        <li><strong>Good news and bad news:</strong> each kind of signal has an expected direction. A contract win should help a share price, so it counts as right if the company beats the market. A stopped trial should hurt it, so it counts as right if the company lags the market. Signals that could go either way, like posted results or a registry mismatch, are measured but not scored.</li>
+        <li><strong>Good news and bad news:</strong> each kind of signal has an expected direction. A contract win should help a share price, so it counts as right if the company beats the market. A stopped trial should hurt it, so it counts as right if the company lags the market. A date pushed back counts as bad news and a date brought forward as good news. Signals that could go either way, like posted results or a registry mismatch, are measured but not scored.</li>
         <li><strong>Every signal:</strong> all medium and high signals are included, whatever happened. Nothing is removed after the fact.</li>
         <li><strong>Averages only where they mean something:</strong> a category is shown once it has at least <span id="min-group">5</span> results.</li>
       </ul>

@@ -47,10 +47,12 @@ def category(s):
     if f in ("status", "status_override"):
         return "Trial stopped" if s["severity"] == "high" else "Trial status change"
     if f in ("halts", "safety_measures", "serious_breaches"):
-        return "Safety event"
+        return "Safety event" if (s.get("new") or 0) > (s.get("old") or 0) else "Other"
     if f == "has_results":
         return "Results posted"
     if f in ("primary_completion", "completion", "recruitment_start", "recruitment_end", "overall_end", "end_date"):
+        if s.get("old") and s.get("new"):
+            return "Delay" if str(s["new"]) > str(s["old"]) else "Brought forward"
         return "Date change"
     if f in ("enrollment", "target_enrolment", "final_enrolment"):
         return "Enrolment change"
@@ -67,7 +69,9 @@ EXPECTED = {
     "Framework place": 1,
     "Trial stopped": -1,
     "Safety event": -1,
-    "Date change": 0,          # usually a delay, but dates can also be pulled forward
+    "Delay": -1,               # a completion or end date pushed later
+    "Brought forward": 1,      # a date moved earlier
+    "Date change": 0,          # a date added or removed
     "Results posted": 0,       # good or bad depending on the results
     "Registry mismatch": 0,
     "Trial status change": 0,

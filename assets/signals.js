@@ -46,11 +46,27 @@
     for (var i = 0; i < units.length; i++) if (v >= units[i][0]) return sym + (v / units[i][0]).toFixed(1).replace(/\.0$/, "") + units[i][1];
     return sym + Math.round(v);
   }
+  // Same rules as the track record (prices.py): which way would we expect the price to move?
+  var DATE_FIELDS = ["primary_completion", "completion", "recruitment_start", "recruitment_end", "overall_end", "end_date"];
+  function direction(s) {
+    if (s.type === "contract_award") return 1;
+    if (s.field === "halts" || s.field === "safety_measures" || s.field === "serious_breaches") return (s.new || 0) > (s.old || 0) ? -1 : 0;
+    if ((s.field === "status" || s.field === "status_override") && s.severity === "high") return -1;
+    if (s.type === "change" && DATE_FIELDS.indexOf(s.field) !== -1 && s.old && s.new) return String(s.new) > String(s.old) ? -1 : 1;
+    return 0;
+  }
+  function newsBadge(s) {
+    var d = direction(s);
+    if (d > 0) return '<span class="news news--good" title="Usually good news for the share price">↑ Good news</span>';
+    if (d < 0) return '<span class="news news--bad" title="Usually bad news for the share price">↓ Bad news</span>';
+    return '<span class="news" title="Could be good or bad news depending on the details">Mixed</span>';
+  }
   function tagFor(s) {
     if (s.type === "contract_award") return ["tag--contract", s.framework ? "Framework place" : "Contract award"];
     if (s.type === "mismatch") return ["tag--mismatch", "Registry mismatch"];
     if (s.type === "new_trial") return ["tag--enrol", "New trial"];
     if (s.type === "removed") return ["tag--status", "Delisted"];
+    if (DATE_FIELDS.indexOf(s.field) !== -1 && s.old && s.new) return ["tag--date", String(s.new) > String(s.old) ? "Delay" : "Brought forward"];
     return TAGS[s.field] || ["tag--phase", "Change"];
   }
   function sentence(s) {
@@ -133,7 +149,7 @@
       if (s.url2) links += '<a href="' + esc(s.url2) + '" target="_blank" rel="noopener">' + esc(String(ref).split(" / ")[1] || "Other record") + " ↗</a>";
       return '<article class="signal signal--' + esc(s.severity) + '">' +
         '<div class="signal-top"><span class="ticker">' + esc(s.ticker) + "</span>" +
-        '<span class="tag ' + t[0] + '">' + t[1] + "</span>" +
+        '<span class="tag ' + t[0] + '">' + t[1] + "</span>" + newsBadge(s) +
         '<span class="signal-source">' + esc(source) + "</span></div>" +
         text(s) + sub + next(s) +
         '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
@@ -159,6 +175,7 @@
       return Promise.all([sig, tr]).then(function (x) { return x[0]; });
     },
     when: when,
+    direction: direction,
     money: money,
     stream: function (s) { return s.stream || "trials"; }
   };
