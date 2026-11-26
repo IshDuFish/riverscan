@@ -1,4 +1,0 @@
-STATUS 200
-CT application/xml
-
-<allTrials totalCount="0" xmlns="http://www.67bricks.com/isrctn"></allTrials>

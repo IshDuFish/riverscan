@@ -12,6 +12,10 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
+from config import TRIAL_COMPANIES, CONTRACT_COMPANIES
+
+YAHOO = {c["ticker"]: c["yahoo"] for c in TRIAL_COMPANIES + CONTRACT_COMPANIES if c.get("yahoo")}
+
 DATA = Path(__file__).resolve().parent / "data"
 BENCHMARK = "^FTAI"  # FTSE AIM All-Share; swap for "^FTSE" if you prefer
 HORIZONS = [1, 5, 20]
@@ -48,13 +52,14 @@ def main():
     cache = {}
     rows = []
     for s in signals:
-        sym = s["ticker"] + ".L"
+        sym = YAHOO.get(s["ticker"], s["ticker"].rstrip(".") + ".L")
         if sym not in cache:
             cache[sym] = closes(sym, start)
         day = pd.Timestamp(s["detected_at"][:10])
         price, rets = forward_returns(cache[sym], day)
         _, brets = forward_returns(bench, day) if not bench.empty else (None, {})
-        row = {k: s[k] for k in ("detected_at", "ticker", "nct_id", "note", "severity")}
+        row = {k: s.get(k) for k in ("detected_at", "stream", "source", "ticker", "note", "severity")}
+        row["ref"] = s.get("ref") or s.get("nct_id")
         row["price_at_signal"] = price
         for n in HORIZONS:
             r, b = rets.get(f"ret_{n}d"), brets.get(f"ret_{n}d")

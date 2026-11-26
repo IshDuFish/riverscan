@@ -1,6 +1,3 @@
-STATUS 200
-CT application/xml
-
 <allTrials totalCount="1" xmlns="http://www.67bricks.com/isrctn"><fullTrial>
   <trial lastUpdated="2026-05-07T13:25:47.902330197Z" version="25" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN50499387" publicIdentifierDateAssigned="2026-04-07T08:04:29.096419Z">
     <isrctn dateAssigned="2026-04-07T08:04:29.096419Z">50499387</isrctn>

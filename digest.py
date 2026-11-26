@@ -25,6 +25,23 @@ DISCLAIMER = ("Riverscan reports public registry changes for information only. "
               "It is not investment advice.")
 
 
+def ref(s):
+    return str(s.get("ref") or s.get("nct_id") or "")
+
+
+def title(s):
+    return s.get("title") or s.get("trial") or ""
+
+
+def describe(s):
+    if s["type"] == "contract_award":
+        from contracts import money
+        return f"{money(s.get('new'), s.get('currency', 'GBP'))} · {title(s)}"
+    if s["type"] in ("change", "mismatch"):
+        return f"{s['old']} → {s['new']}"
+    return str(s.get("new") or "")
+
+
 def recent_signals(days=7):
     path = DATA / "signals.json"
     if not path.exists():
@@ -40,23 +57,23 @@ def build(sigs):
     key = [s for s in sigs if s["severity"] != "low"]
     md = [f"# Riverscan weekly signals – {today}", ""]
     if not key:
-        md.append("No significant trial changes this week across the companies we track.")
+        md.append("No significant changes this week across the companies we track.")
     for s in key:
-        change = f"{s['old']} → {s['new']}" if s["type"] == "change" else (s["new"] or "")
+        change = describe(s)
         md += [f"**{s['company']} ({s['ticker']})** · {s['severity'].upper()}",
                f"{s['note']}: {change}",
-               f"_{s['trial']}_ – [{s['nct_id']}]({s['url']})", ""]
+               f"_{title(s)}_ – [{ref(s)}]({s['url']}) · {s.get('source', 'ClinicalTrials.gov')}", ""]
     md += ["---", DISCLAIMER, f"{SITE}/signals.html"]
 
     rows = "".join(
         f"<tr><td><b>{html.escape(s['company'])}</b><br><small>{s['ticker']}</small></td>"
         f"<td>{html.escape(s['note'] or '')}<br><small>"
-        f"{html.escape(str(s['old']))} → {html.escape(str(s['new']))}</small></td>"
-        f"<td><a href='{s['url']}'>{s['nct_id']}</a></td>"
+        f"{html.escape(describe(s))}</small></td>"
+        f"<td><a href='{s['url']}'>{html.escape(ref(s))}</a><br><small>{html.escape(s.get('source', 'ClinicalTrials.gov'))}</small></td>"
         f"<td>{s['severity'].upper()}</td></tr>"
         for s in key)
     body = (f"<table cellpadding='8' style='border-collapse:collapse'>{rows}</table>" if key
-            else "<p>No significant trial changes this week across the companies we track.</p>")
+            else "<p>No significant changes this week across the companies we track.</p>")
     page = (f"<div style='font-family:Arial,sans-serif;max-width:640px'>"
             f"<h2>Riverscan weekly signals – {today}</h2>{body}"
             f"<p><a href='{SITE}/signals.html'>See the full signal log</a></p>"
