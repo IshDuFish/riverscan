@@ -110,6 +110,18 @@
     return '<p class="signal-text is-clamped">' + body + "</p>" +
       '<button type="button" class="signal-more" aria-expanded="false">Show more</button>';
   }
+  // Only offer "Show more" when the text is actually cut off (wide screens often fit it all).
+  function checkClamps() {
+    document.querySelectorAll(".signal-text.is-clamped").forEach(function (p) {
+      var b = p.nextElementSibling;
+      if (b && b.classList.contains("signal-more")) b.hidden = p.scrollHeight <= p.clientHeight + 1;
+    });
+  }
+  if (typeof document !== "undefined" && typeof MutationObserver !== "undefined") {
+    new MutationObserver(function () { requestAnimationFrame(checkClamps); })
+      .observe(document.documentElement, { childList: true, subtree: true });
+    window.addEventListener("resize", checkClamps);
+  }
   if (typeof document !== "undefined") {
     document.addEventListener("click", function (e) {
       var b = e.target.closest && e.target.closest(".signal-more");
