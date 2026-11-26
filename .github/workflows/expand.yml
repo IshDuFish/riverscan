@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q -U -r requirements.txt
-      - run: python tools/discover.py 120
+      - run: python tools/verify.py
       - run: |
           git config user.name bot; git config user.email actions@users.noreply.github.com
-          git add -f data/discovery.json; git commit -qm "discovery" && git push || true
+          git add -f data/verify.json; git commit -qm "verify" && git push || true
