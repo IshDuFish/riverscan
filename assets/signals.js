@@ -56,7 +56,6 @@
   function sentence(s) {
     var o = "<strong>" + esc(nice(s.old)) + "</strong>", n = "<strong>" + esc(nice(s.new)) + "</strong>";
     var title = s.title || s.trial || "";
-    if (title.length > 150) title = title.slice(0, 147).replace(/\s+\S*$/, "") + "…";
     if (s.type === "contract_award") {
       var amt = "<strong>" + esc(money(s.new, s.currency)) + "</strong>";
       return (s.framework ? "Named on a " + amt + " framework: " : "Won a " + amt + " contract: ") + esc(title) + ".";
@@ -87,6 +86,24 @@
     }
     return esc(s.note);
   }
+  // Long titles start collapsed to three lines with a button to read the rest.
+  function text(s) {
+    var body = sentence(s).replace(/\.\.$/, ".");
+    if ((s.title || s.trial || "").length <= 150) return "<p>" + body + "</p>";
+    return '<p class="signal-text is-clamped">' + body + "</p>" +
+      '<button type="button" class="signal-more" aria-expanded="false">Show more</button>';
+  }
+  if (typeof document !== "undefined") {
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest && e.target.closest(".signal-more");
+      if (!b) return;
+      var p = b.previousElementSibling, open = b.getAttribute("aria-expanded") === "true";
+      p.classList.toggle("is-clamped", open);
+      b.setAttribute("aria-expanded", open ? "false" : "true");
+      b.textContent = open ? "Show more" : "Show less";
+    });
+  }
+
   function when(ts) {
     var d = new Date(ts);
     return isNaN(d) ? "" : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
@@ -105,7 +122,7 @@
         '<div class="signal-top"><span class="ticker">' + esc(s.ticker) + "</span>" +
         '<span class="tag ' + t[0] + '">' + t[1] + "</span>" +
         '<span class="signal-source">' + esc(source) + "</span></div>" +
-        "<p>" + sentence(s).replace(/…\.$/, "…").replace(/\.\.$/, ".") + "</p>" + sub +
+        text(s) + sub +
         '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
         '<span class="signal-co">' + esc(s.company) + (opts && opts.short ? "" : " · " + esc(when(s.detected_at))) + "</span></div>" +
         "</article>";

@@ -329,3 +329,8 @@ p { margin: 0; }
 .upcoming h3 { font-size: 17px; }
 ul.chips { list-style: none; padding: 0; margin: 0; }
 .section--dark .chip { color: var(--on-dark-muted); border-color: #3A5560; }
+
+/* Long signal text: collapsed to three lines until "Show more" is pressed */
+.signal-text.is-clamped { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.signal-more { align-self: flex-start; background: none; border: none; padding: 2px 0; color: var(--accent); font: 500 13px var(--font-body); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.signal-more:hover { color: #5AD6C4; }
