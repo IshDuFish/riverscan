@@ -24,7 +24,7 @@
         <span>RiverScan</span>
       </a>
       <div class="nav-links">
-        <a href="index.html#how">How it works</a>
+        <a href="index.html#how">What we do</a>
         <a href="signals.html" aria-current="page">Signals</a>
         <a href="index.html#coverage">Coverage</a>
         <a href="index.html#faq">FAQ</a>
@@ -40,7 +40,7 @@
     <div class="container page-hero">
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Live · Updated every morning</p>
       <h1>Signals.</h1>
-      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every change our scanner has spotted in the trials of the London-listed biotechs we cover, timestamped the moment we caught it. Nothing is edited after the fact.</p>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every change our scanner has spotted in clinical trial registries and UK government contract awards for the London-listed companies we cover, timestamped the moment we caught it. Nothing is edited after the fact.</p>
       <p><a href="#guide" style="color: var(--accent);">New here? How to read a signal ↓</a></p>
     </div>
   </section>
@@ -50,6 +50,11 @@
       <h2 id="log-title" class="sr-only">Signal log</h2>
       <div class="stats" id="stats"></div>
       <p class="status-line" id="status-line">Loading the log…</p>
+      <div class="filters" id="streams" role="group" aria-label="Filter by data stream">
+        <button type="button" data-s="all" aria-pressed="true">Everything</button>
+        <button type="button" data-s="trials" aria-pressed="false">Trials</button>
+        <button type="button" data-s="contracts" aria-pressed="false">Contracts</button>
+      </div>
       <div class="filters" id="filters" role="group" aria-label="Filter by severity">
         <button type="button" data-f="all" aria-pressed="true">All</button>
         <button type="button" data-f="high" aria-pressed="false">High</button>
@@ -73,10 +78,10 @@
         </article>
       </div>
       <ul>
-        <li><strong>Ticker</strong> — the London-listed company behind the trial's sponsor.</li>
+        <li><strong>Ticker</strong> — the London-listed company behind the trial's sponsor or the contract's supplier.</li>
         <li><strong>Type</strong> — what kind of change it is (below).</li>
         <li><strong>Severity</strong> — how much this kind of change usually matters (below).</li>
-        <li><strong>Trial ID</strong> — links straight to the original record, so you can check it yourself.</li>
+        <li><strong>Record ID</strong> — links straight to the original trial record or contract notice, so you can check it yourself.</li>
       </ul>
 
       <h2>Signal types</h2>
@@ -98,18 +103,28 @@
       <h3><span class="tag tag--enrol">New trial</span></h3>
       <p>A new trial has been registered under the company. New trials often appear on the registry before they are announced.</p>
 
-      <h3><span class="tag tag--status">Registry mismatch</span> <span class="pill pill--soft" style="vertical-align:middle">Coming soon</span></h3>
-      <p>The same trial says different things in different registries. Often this just means one record hasn't been updated yet. Sometimes it's the first place a change shows up.</p>
+      <h3><span class="tag tag--status">Halted</span> <span class="tag tag--status">Safety measure</span></h3>
+      <p>The EU register records temporary halts, urgent safety measures and serious breaches. These are rare and always rated high.</p>
+
+      <h3><span class="tag tag--mismatch">Registry mismatch</span></h3>
+      <p>The same trial is often registered in more than one place. We link the records and flag it when one registry says the trial is still running while another says it's over. Often one record just hasn't been updated yet. Sometimes it's the first place a change shows up.</p>
+
+      <h2>Government contract signals</h2>
+      <h3><span class="tag tag--contract">Contract award</span></h3>
+      <p>A UK public body has awarded work to a company we cover. The signal shows the buyer, the value and a link to the official notice on Find a Tender or Contracts Finder.</p>
+
+      <h3><span class="tag tag--contract">Framework place</span></h3>
+      <p>The company has been named as one of several approved suppliers on a framework or purchasing system. The headline value is usually shared between suppliers and may never be fully spent, so framework places are rated lower than solo contract wins.</p>
 
       <h2>Severity</h2>
       <ul>
-        <li><span class="sev sev--high" style="color:#B3261E">High</span> — a trial is terminated, withdrawn or suspended, results are posted, or a programme changes phase.</li>
-        <li><span class="sev sev--medium" style="color:#8A6A00">Medium</span> — a trial completes, a completion date moves, enrolment changes by 20% or more, or a new trial is registered.</li>
+        <li><span class="sev sev--high" style="color:#B3261E">High</span> — a trial is terminated, withdrawn, suspended or halted, results are posted, a programme changes phase, registries disagree about a stopped trial, or a contract worth £100m or more is won.</li>
+        <li><span class="sev sev--medium" style="color:#8A6A00">Medium</span> — a trial completes, a date moves, enrolment changes by 20% or more, a new trial is registered, registries disagree, a contract worth £5m or more is won, or a framework place worth £100m or more is announced.</li>
         <li><span class="sev sev--low" style="color:var(--muted)">Low</span> — smaller housekeeping changes.</li>
       </ul>
 
       <h2>A worked example</h2>
-      <p>In February 2026, Synairgen announced it was ending its Phase 2 trial of SNG001 because recruitment was far behind expectations. Afterwards, the EU registry (CTIS) recorded the trial as <strong>Ended</strong>, while the UK registry (ISRCTN) recorded it as <strong>Completed</strong>. That is the kind of mismatch RiverScan is being built to surface.</p>
+      <p>In February 2026, Synairgen announced it was ending its Phase 2 trial of SNG001 because recruitment was far behind expectations. Afterwards, the EU registry (CTIS) recorded the trial as <strong>Ended</strong>, while the UK registry (ISRCTN) recorded it as <strong>Completed</strong>. Small differences like that are common. RiverScan flags the bigger kind: one registry still saying a trial is running after another says it's over.</p>
 
       <div class="callout">
         <p><strong>What a signal is not.</strong> A signal tells you that something changed. It does not tell you whether a company is a good or bad investment, and it is never a recommendation to buy or sell. Always read the original record and the company's own announcements. See our <a href="terms.html">terms and disclaimer</a>.</p>
@@ -131,7 +146,7 @@
         <a href="contact.html">Contact</a>
       </nav>
     </div>
-    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine). © <span id="year">2026</span> RiverScan.</p>
+    <p class="disclaimer">RiverScan is a data analytics company. It provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine), ISRCTN (CC BY 4.0) and EU CTIS (European Medicines Agency). Contract notices from Find a Tender and Contracts Finder, containing public sector information licensed under the Open Government Licence v3.0. © <span id="year">2026</span> RiverScan.</p>
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
@@ -139,13 +154,15 @@
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 (function () {
-  var all = [], filter = "all", shown = 25, PAGE = 25;
+  var all = [], filter = "all", stream = "all", shown = 25, PAGE = 25;
   var log = document.getElementById("log"), more = document.getElementById("more");
   function render() {
-    var rows = all.filter(function (s) { return filter === "all" || s.severity === filter; });
+    var rows = all.filter(function (s) {
+      return (filter === "all" || s.severity === filter) && (stream === "all" || RiverScan.stream(s) === stream);
+    });
     if (!rows.length) {
       log.innerHTML = '<div class="log-empty">' + (all.length
-        ? "No " + filter + "-severity signals yet."
+        ? "Nothing matches these filters yet."
         : "<strong>No signals logged yet.</strong> The scanner checks every covered trial each morning and compares it with the day before. The first changes will appear here as soon as they happen.") + "</div>";
       more.hidden = true; return;
     }
@@ -155,6 +172,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
   document.getElementById("filters").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
     filter = b.dataset.f; shown = PAGE;
+    this.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+    render();
+  });
+  document.getElementById("streams").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    stream = b.dataset.s; shown = PAGE;
     this.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
     render();
   });
@@ -168,8 +191,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
       '<div class="stat"><b>' + hi + '</b><span>high severity</span></div>' +
       '<div class="stat"><b>' + Object.keys(cos).length + '</b><span>companies with signals</span></div>';
     document.getElementById("status-line").textContent = d.length
-      ? "Latest signal: " + RiverScan.when(d[0].detected_at) + " · Source: ClinicalTrials.gov"
-      : "Scanning daily · Source: ClinicalTrials.gov";
+      ? "Latest scan with changes: " + RiverScan.when(d[0].detected_at) + ". Sources: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender, Contracts Finder."
+      : "Scanning daily. Sources: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender, Contracts Finder.";
     render();
   });
 })();

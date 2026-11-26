@@ -1,5 +1,13 @@
 # Riverscan scanner: setup
 
+RiverScan now scans five public sources every morning:
+
+- **Clinical trials:** ClinicalTrials.gov, ISRCTN (UK) and EU CTIS, plus *registry mismatches* between them
+- **Government contracts:** Find a Tender and Contracts Finder, matched to the London-listed companies in `config.py` (`CONTRACT_COMPANIES`)
+
+To add or remove a company, edit `TRIAL_COMPANIES` or `CONTRACT_COMPANIES` in `config.py`. The first run after adding a source or company only saves a baseline, so its signals start the next day (new contract awards are logged straight away).
+
+
 ## What's here
 | File | Job |
 |---|---|

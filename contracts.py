@@ -123,7 +123,9 @@ def scan(state, detected_at, now=None, backfill_days=14):
                     vals = [_value(rel, a) for a in awards]
                     amount = max((v[0] for v in vals if v[0]), default=None)
                     cur = next((v[1] for v in vals if v[0] == amount), "GBP")
-                    framework = h["shared"] or bool(tech.get("hasFrameworkAgreement") or tech.get("hasDynamicPurchasingSystem"))
+                    names = " ".join([tender.get("title") or ""] + [a.get("title") or "" for a in awards]).lower()
+                    framework = (h["shared"] or bool(tech.get("hasFrameworkAgreement") or tech.get("hasDynamicPurchasingSystem"))
+                                 or "framework" in names or "dynamic purchasing" in names)
                     lots = f" ({len(awards)} lots)" if len(awards) > 1 else ""
                     if framework:
                         note = f"Named on {money(amount, cur)} framework by {buyer}{lots}"
