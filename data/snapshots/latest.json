@@ -1,6 +1,6 @@
 {
  "contracts": {
-  "last_run": "2026-11-26T18:40:46",
+  "last_run": "2026-11-26T18:42:32",
   "seen": {
    "ocds-b5fd17-0eab381a-8f1f-4c0b-8262-a7bee257cbb7|ocds-b5fd17-0eab381a-8f1f-4c0b-8262-a7bee257cbb7-1|GFRD": "2026-11-26",
    "ocds-b5fd17-3aabd189-c1d4-4587-bb8a-5d1d770ffc86|ocds-b5fd17-3aabd189-c1d4-4587-bb8a-5d1d770ffc86-1|GFRD": "2026-11-26",
@@ -3864,12 +3864,152 @@
  "isrctn": {
   "AREC": {},
   "AVCT": {},
-  "EVG": {},
+  "EVG": {
+   "ISRCTN96285652": {
+    "final_enrolment": 24,
+    "has_results": true,
+    "id": "ISRCTN96285652",
+    "last_update": "2024-11-20",
+    "overall_end": "2023-03-31",
+    "phase": "Phase I",
+    "recruitment_end": "2023-02-06",
+    "recruitment_start": "2022-10-13",
+    "sponsors": [
+     "Evgen Pharma (United Kingdom)",
+     "Evgen Pharma plc (United Kingdom)"
+    ],
+    "status_override": null,
+    "target_enrolment": 32,
+    "title": "A study to investigate the safety, tolerability, and concentration in the blood of different dose strengths of SFX-01 tablets in healthy volunteers.",
+    "url": "https://www.isrctn.com/ISRCTN96285652",
+    "xrefs": [
+     "2022-001601-43"
+    ]
+   }
+  },
   "FARN": {},
   "FUM": {},
   "HCM": {},
-  "HVO": {},
-  "IMM": {},
+  "HVO": {
+   "ISRCTN13559330": {
+    "final_enrolment": 279,
+    "has_results": false,
+    "id": "ISRCTN13559330",
+    "last_update": "2025-04-22",
+    "overall_end": "2024-10-14",
+    "phase": "Phase II",
+    "recruitment_end": "2024-10-14",
+    "recruitment_start": "2024-04-08",
+    "sponsors": [
+     "hVIVO (United Kingdom)",
+     "Pfizer"
+    ],
+    "status_override": null,
+    "target_enrolment": 280,
+    "title": "To test the efficacy, safety, and immunogenicity of the influenza virus vaccines (modRNA) in a human influenza B challenge model in healthy adult participants",
+    "url": "https://www.isrctn.com/ISRCTN13559330",
+    "xrefs": []
+   },
+   "ISRCTN13789612": {
+    "final_enrolment": 285,
+    "has_results": true,
+    "id": "ISRCTN13789612",
+    "last_update": "2025-11-20",
+    "overall_end": "2023-08-31",
+    "phase": "Phase II",
+    "recruitment_end": "2023-05-15",
+    "recruitment_start": "2022-12-13",
+    "sponsors": [
+     "hVIVO Services Ltd.",
+     "Pfizer UK"
+    ],
+    "status_override": null,
+    "target_enrolment": 240,
+    "title": "A study to evaluate if influenza virus vaccines (modRNA and saRNA) can prevent influenza infection in healthy adults.",
+    "url": "https://www.isrctn.com/ISRCTN13789612",
+    "xrefs": []
+   },
+   "ISRCTN14841526": {
+    "final_enrolment": 59,
+    "has_results": true,
+    "id": "ISRCTN14841526",
+    "last_update": "2024-12-03",
+    "overall_end": "2023-07-17",
+    "phase": "Phase II",
+    "recruitment_end": "2023-01-05",
+    "recruitment_start": "2022-08-29",
+    "sponsors": [
+     "hVIVO Limited Services",
+     "Cidara Therapeutics"
+    ],
+    "status_override": null,
+    "target_enrolment": 168,
+    "title": "A study to evaluate if CD388 can prevent infection with flu virus and to assess the safety, tolerability, absorption, distribution and excretion of CD388 in healthy adults",
+    "url": "https://www.isrctn.com/ISRCTN14841526",
+    "xrefs": []
+   },
+   "ISRCTN16102371": {
+    "final_enrolment": null,
+    "has_results": false,
+    "id": "ISRCTN16102371",
+    "last_update": "2025-01-20",
+    "overall_end": "2029-10-19",
+    "phase": "Not Specified",
+    "recruitment_end": "2029-09-24",
+    "recruitment_start": "2024-09-24",
+    "sponsors": [
+     "hVIVO (United Kingdom)",
+     "hVIVO Services Limited"
+    ],
+    "status_override": null,
+    "target_enrolment": 1000,
+    "title": "A platform study to characterize respiratory challenge agents in healthy male and female adult participants",
+    "url": "https://www.isrctn.com/ISRCTN16102371",
+    "xrefs": []
+   },
+   "ISRCTN20641445": {
+    "final_enrolment": 0,
+    "has_results": false,
+    "id": "ISRCTN20641445",
+    "last_update": "2026-11-18",
+    "overall_end": "2027-08-06",
+    "phase": "Phase II",
+    "recruitment_end": "2027-08-06",
+    "recruitment_start": "2025-11-01",
+    "sponsors": [
+     "hVIVO Limited Services",
+     "Cidara Therapeutics, Inc."
+    ],
+    "status_override": null,
+    "target_enrolment": 400,
+    "title": "A long-term study testing the safety and effects of a new yearly antiviral treatment (CD388) in healthy people",
+    "url": "https://www.isrctn.com/ISRCTN20641445",
+    "xrefs": []
+   }
+  },
+  "IMM": {
+   "ISRCTN16878305": {
+    "final_enrolment": 16,
+    "has_results": true,
+    "id": "ISRCTN16878305",
+    "last_update": "2023-12-06",
+    "overall_end": "2023-03-21",
+    "phase": "Phase I",
+    "recruitment_end": "2022-02-22",
+    "recruitment_start": "2022-01-18",
+    "sponsors": [
+     "ImmuPharma S.A",
+     "ImmuPharma S.A"
+    ],
+    "status_override": null,
+    "target_enrolment": 24,
+    "title": "A study to investigate the safety, tolerability and activity of IPP-201101 in healthy volunteers",
+    "url": "https://www.isrctn.com/ISRCTN16878305",
+    "xrefs": [
+     "2021-004976-33"
+    ]
+   }
+  },
   "OXB": {
    "ISRCTN39198692": {
     "final_enrolment": null,
@@ -3914,13 +4054,31 @@
     ]
    }
   },
-  "POLB": {},
+  "POLB": {
+   "ISRCTN50499387": {
+    "final_enrolment": 0,
+    "has_results": false,
+    "id": "ISRCTN50499387",
+    "last_update": "2026-05-07",
+    "overall_end": "2027-06-30",
+    "phase": "Phase II",
+    "recruitment_end": "2027-03-30",
+    "recruitment_start": "2026-03-29",
+    "sponsors": [
+     "DIDACT Foundation",
+     "Poolbeg Pharma plc"
+    ],
+    "status_override": null,
+    "target_enrolment": 30,
+    "title": "Testing a new treatment to prevent severe immune reactions in people with multiple myeloma taking teclistamab",
+    "url": "https://www.isrctn.com/ISRCTN50499387",
+    "xrefs": []
+   }
+  },
   "SCLP": {},
   "STX": {}
  },
  "mismatches": [
-  "ctgov:NCT03779113|ctis:2024-515123-11-00",
-  "ctgov:NCT04762602|ctis:2024-516370-30-00",
   "ctgov:NCT05428969|ctis:2024-517444-64-00"
  ],
  "version": 2

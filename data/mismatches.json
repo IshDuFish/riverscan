@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "HCM",
-  "company": "HUTCHMED",
-  "title": "An Open-label, Dose Escalation Trial to Evaluate the Safety and Pharmacokinetics of HMPL-523 in Patients With Lymphoma",
-  "a": {
-   "registry": "ClinicalTrials.gov",
-   "id": "NCT03779113",
-   "status": "TERMINATED",
-   "bucket": "stopped",
-   "url": "https://clinicaltrials.gov/study/NCT03779113"
-  },
-  "b": {
-   "registry": "EU CTIS",
-   "id": "2024-515123-11-00",
-   "status": "Ended",
-   "bucket": "ended",
-   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2024-515123-11-00"
-  }
- },
- {
-  "ticker": "HCM",
-  "company": "HUTCHMED",
-  "title": "A Study of HMPL-306 in Advanced Solid Tumors With IDH Mutations",
-  "a": {
-   "registry": "ClinicalTrials.gov",
-   "id": "NCT04762602",
-   "status": "TERMINATED",
-   "bucket": "stopped",
-   "url": "https://clinicaltrials.gov/study/NCT04762602"
-  },
-  "b": {
-   "registry": "EU CTIS",
-   "id": "2024-516370-30-00",
-   "status": "Ended",
-   "bucket": "ended",
-   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2024-516370-30-00"
-  }
- },
- {
   "ticker": "FARN",
   "company": "Faron Pharmaceuticals",
   "title": "A Study to Assess Safety, Tolerability and Preliminary Efficacy of Bexmarilimab in Combination With Standard of Care in Patients With Hematological Malignancies",

@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-26T18:40:20Z",
+ "updated": "2026-11-26T18:42:04Z",
  "trials": {
   "ClinicalTrials.gov": 210,
-  "ISRCTN": 2,
+  "ISRCTN": 10,
   "EU CTIS": 6
  },
  "trial_companies": [
@@ -91,5 +91,5 @@
    "sector": "Defence"
   }
  ],
- "open_mismatches": 3
+ "open_mismatches": 1
 }
