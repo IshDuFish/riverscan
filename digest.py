@@ -130,6 +130,88 @@ def recent_signals(days=7):
     return [s for s in load("signals.json", []) if s["detected_at"] >= cutoff]
 
 
+def poss(name):
+    return name + ("'" if name.endswith("s") else "'s")
+
+
+def short_title(t, n=90):
+    import re
+    t = (t or "").strip()
+    t = re.sub(r"\s*[-–]\s*contract (award )?notice\s*$", "", t, flags=re.I)       # "... - Contract Award Notice"
+    t = re.sub(r"^(lot\s*\d+[a-z]?|[A-Z0-9][A-Z0-9/._-]*\d[A-Z0-9/._-]*)\s*[-–:]\s*", "", t, flags=re.I)  # "Lot 1 - ", "TSSP/114 - "
+    for sep in (" - ", " – ", ": "):
+        if sep in t and 12 < len(t.split(sep)[0]) <= n:
+            return t.split(sep)[0]
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
+
+
+def tidy_buyer(b):
+    b = b or "A public body"
+    if b.isupper():
+        small = {"OF", "AND", "FOR", "THE"}
+        acronyms = {"NHS", "HM", "UK", "MOD", "DWP", "HMRC", "YPO", "ESPO", "CCS", "TFL", "TFW", "BBC", "DSIT", "UKRI", "PLC"}
+        b = " ".join(w.lower() if w in small and i else w if w in acronyms or len(w) <= 2 else w.capitalize()
+                     for i, w in enumerate(b.split()))
+    return b
+
+
+def paragraph(s, funds):
+    """A short written paragraph, the way a newsletter would put it."""
+    co, t = s["company"], s["type"]
+    rev = (funds.get(s["ticker"]) or {}).get("revenue")
+    title = short_title(s.get("title") or s.get("trial"))
+    if t == "contract_award":
+        buyer = tidy_buyer(s.get("buyer"))
+        years = s.get("years") if (s.get("years") or 0) > 1.5 else None
+        if s.get("framework"):
+            out = f"{buyer} named {co} as a supplier on {('a ' + money(s['new'])) if s.get('new') else 'a'} framework for {title.lower() if title.isupper() else title}."
+            out += f" Frameworks are shared and often only partly used, so {poss(co)} slice isn't known."
+            if rev:
+                out += f" For scale, its annual revenue is {money(rev)}."
+            return out
+        if not s.get("new"):
+            return f"{buyer} awarded {co} a contract for {title}. The notice doesn't give a value."
+        out = f"{buyer} awarded {co} a {money(s['new'])} contract for {title}"
+        out += f", running {years:g} years." if years else "."
+        share = share_of_revenue(s, funds)
+        if share is not None and rev:
+            per_year = s["new"] / (years or 1)
+            out += (f" That works out at {money(per_year)} a year, {pct(share).replace('about ', 'roughly ')} of its {money(rev)} annual revenue."
+                    if years else f" That's {pct(share).replace('about ', 'roughly ')} of its {money(rev)} annual revenue.")
+        return out
+    if t == "mismatch":
+        a, b = str(s["old"]).split(": ", 1), str(s["new"]).split(": ", 1)
+        return (f"The registries disagree about {poss(co)} trial “{title}”. {a[0]} lists it as {nice(a[-1]).lower().replace('active not', 'active, not')}, "
+                f"while {b[0]} shows it as {nice(b[-1]).lower().replace('active not', 'active, not')}. One record is usually just out of date, but it's worth checking which.")
+    if t == "new_trial":
+        return f"{co} has registered a new trial: “{title}”."
+    if t == "removed":
+        return f"A trial no longer appears under {co} in the registry: “{title}”."
+    f = s.get("field")
+    if f in DATE_FIELDS and s.get("old") and s.get("new"):
+        word = "pushed back" if str(s["new"]) > str(s["old"]) else "brought forward"
+        what = (s.get("note") or "A date").replace(" changed", "").lower()
+        return f"{co} has {word} the {what} on “{title}”, from {s['old']} to {s['new']}."
+    if f in ("status", "status_override"):
+        why = (s.get("note") or "").split("reason given: ")
+        extra = f" The reason given: {why[1].rstrip(')')}." if len(why) > 1 else ""
+        return f"{poss(co)} trial “{title}” changed status from {nice(s['old']).lower()} to {nice(s['new']).lower()}.{extra}"
+    if f in ("enrollment", "target_enrolment", "final_enrolment"):
+        return f"{co} changed enrolment on “{title}” from {s['old']} to {s['new']} participants."
+    if f == "has_results":
+        return f"{co} has posted results for “{title}”."
+    if f in ("halts", "safety_measures", "serious_breaches"):
+        kind = {"halts": "a temporary halt", "safety_measures": "an urgent safety measure", "serious_breaches": "a serious breach"}[f]
+        return f"The EU register now records {kind} on {poss(co)} trial “{title}”."
+    return f"{co}: {s.get('note')} on “{title}” ({nice(s.get('old'))} to {nice(s.get('new'))})."
+
+
+def kind_label(s):
+    if s["type"] == "contract_award":
+        return "Framework place" if s.get("framework") else "Contract award"
+    return {"mismatch": "Registry mismatch", "new_trial": "New trial", "removed": "Trial removed"}.get(s["type"], "Trial update")
+
+
 def build(sigs):
     funds, cov = load("fundamentals.json", {}), load("coverage.json", {})
     covered = set(cov.get("trial_companies", [])) | {c["ticker"] for c in cov.get("contract_companies", [])}
@@ -140,65 +222,62 @@ def build(sigs):
     order = {"high": 0, "medium": 1, "low": 2}
     key = sorted([s for s in sigs if s["_sev"] != "low"], key=lambda s: (order[s["_sev"]], s["company"]))
     low = [s for s in sigs if s["_sev"] == "low"]
-    today = datetime.now(timezone.utc).strftime("%-d %B %Y")
-    subject = f"RiverScan weekly: {len(key)} signal{'s' if len(key) != 1 else ''} worth a look ({today})"
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%-d %B %Y")
+    names = list(dict.fromkeys(s["company"] for s in key))
+    who = ", ".join(names[:-1]) + (" and " + names[-1] if len(names) > 1 else (names[0] if names else ""))
+    subject = f"RiverScan Weekly, {now.strftime('%-d %b')}: {who}" if names else f"RiverScan Weekly, {now.strftime('%-d %b')}: a quiet week"
 
-    streams = [("Clinical trials", [s for s in key if s.get("stream", "trials") == "trials"]),
-               ("Government contracts", [s for s in key if s.get("stream") == "contracts"])]
-    n_cos = len({s["ticker"] for s in key})
-    intro = (f"This week we logged {len(sigs)} changes across the companies we cover. "
-             f"{len(key)} are worth a look, from {n_cos} compan{'ies' if n_cos != 1 else 'y'}; "
-             f"the other {len(low)} were minor and are in the full log.")
-    if not key:
-        intro = f"A quiet week: {len(sigs)} minor changes, nothing rated medium or high. Everything is in the full log."
+    words = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+    n = len(key)
+    num = words[n] if n < len(words) else str(n)
+    nc = len(names)
+    cos = (words[nc].lower() if nc < len(words) else str(nc)) + (" companies" if nc != 1 else " company")
+    intro = (f"{num} signal{'s' if n != 1 else ''} this week, across {cos}. "
+             f"Another {len(low)} smaller change{'s are' if len(low) != 1 else ' is'} in the full log." if n else
+             f"A quiet week. Nothing we track moved enough to flag; {len(low)} smaller change{'s are' if len(low) != 1 else ' is'} in the full log.")
+
+    sections = [("Contracts", [s for s in key if s.get("stream") == "contracts"]),
+                ("Clinical trials", [s for s in key if s.get("stream", "trials") == "trials"])]
 
     # ---- plain text ----
-    md = [f"RiverScan weekly signals, {today}", "", intro, ""]
-    for label, items in streams:
-        if not items:
-            continue
-        md += [label.upper(), ""]
-        for s in items:
-            md += [f"{s['company']} ({s['ticker']}) · {s['_sev'].upper()} · {news(s)}", headline(s)]
-            if size_line(s, funds):
-                md.append(size_line(s, funds))
-            md += [f"{s.get('title') or s.get('trial') or ''}", f"Source: {s.get('source', 'ClinicalTrials.gov')}, {s['url']}", ""]
-    md += ["Full signal log: " + SITE + "/signals.html", "Track record: " + SITE + "/track-record.html", "", DISCLAIMER]
+    md = [f"RIVERSCAN WEEKLY | {today}", "", intro, ""]
+    for label, items in sections:
+        if items:
+            md += [label.upper(), "-" * len(label), ""]
+            for s in items:
+                md += [f"{s['company']} ({s['ticker']})", paragraph(s, funds),
+                       f"{kind_label(s)}, {s['_sev']} importance. Source: {s.get('source', 'ClinicalTrials.gov')}, {s['url']}", ""]
+    md += [f"Full log: {SITE}/signals.html", f"Track record: {SITE}/track-record.html", "", DISCLAIMER]
 
-    # ---- HTML (inline styles so it looks right in every email app) ----
-    def card(s):
-        sev, nw = s["_sev"], news(s)
-        nw_col = {"Good news": "#0B7A52", "Bad news": "#B3261E"}.get(nw, MUTED)
-        size = size_line(s, funds)
-        title = s.get("title") or s.get("trial") or ""
-        if len(title) > 160:
-            title = title[:157].rsplit(" ", 1)[0] + "…"
-        link = "View notice" if s["type"] == "contract_award" else (s.get("ref") or s.get("nct_id") or "View record")
-        return (
-            f'<div style="border:1px solid {LINE};border-left:4px solid {SEV_COLOUR[sev]};border-radius:8px;padding:14px 16px;margin:0 0 12px">'
-            f'<div style="font-size:17px;font-weight:bold;color:{INK}">{esc(s["company"])} '
-            f'<span style="font-size:12px;font-weight:normal;color:{MUTED};font-family:monospace">{esc(s["ticker"])}</span></div>'
-            f'<div style="font-size:12px;margin:4px 0 8px"><span style="color:{SEV_COLOUR[sev]};font-weight:bold;text-transform:uppercase">{sev}</span>'
-            f' &nbsp;·&nbsp; <span style="color:{nw_col};font-weight:bold">{nw}</span>'
-            f' &nbsp;·&nbsp; <span style="color:{MUTED}">{esc(s.get("source", "ClinicalTrials.gov"))}</span></div>'
-            f'<div style="font-size:15px;color:{INK};margin-bottom:6px">{esc(headline(s))}</div>'
-            + (f'<div style="font-size:14px;background:#EEF8F6;border-left:2px solid {TEAL};padding:6px 10px;margin:6px 0;color:{INK}">{esc(size)}</div>' if size else "")
-            + f'<div style="font-size:13px;color:{MUTED};margin:6px 0">{esc(title)}</div>'
-            f'<a href="{esc(s["url"])}" style="font-size:13px;color:{TEAL}">{esc(link)} →</a></div>')
+    # ---- HTML: plain newsletter, table layout for email apps ----
+    serif = "Georgia,'Times New Roman',serif"
+    sans = "Helvetica,Arial,sans-serif"
 
-    sections = "".join(
-        f'<h3 style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:{MUTED};margin:24px 0 10px">{label}</h3>'
-        + "".join(card(s) for s in items) for label, items in streams if items)
+    def item(s):
+        src = s.get("source", "ClinicalTrials.gov")
+        link = "Read the notice" if s["type"] == "contract_award" else "Read the record"
+        return (f'<tr><td style="padding:18px 0;border-top:1px solid #DDD">'
+                f'<div style="font-family:{sans};font-size:15px;font-weight:bold;color:#111">{esc(s["company"])}'
+                f'<span style="font-weight:normal;color:#777"> ({esc(s["ticker"])})</span></div>'
+                f'<div style="font-family:{serif};font-size:16px;line-height:1.55;color:#222;margin:6px 0 8px">{esc(paragraph(s, funds))}</div>'
+                f'<div style="font-family:{sans};font-size:12px;color:#777">{esc(kind_label(s))}, {esc(s["_sev"])} importance. '
+                f'{esc(src)}. <a href="{esc(s["url"])}" style="color:#0F5F59">{link}</a></div></td></tr>')
+
+    body = "".join(
+        f'<tr><td style="padding:26px 0 4px;font-family:{sans};font-size:12px;font-weight:bold;color:#0F5F59">{label}</td></tr>'
+        + "".join(item(s) for s in items) for label, items in sections if items)
     page = (
-        f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:620px;margin:0 auto;color:{INK};line-height:1.5">'
-        f'<div style="background:{INK};color:#EEF3F1;padding:20px 22px;border-radius:10px">'
-        f'<div style="font-size:13px;color:#3CC9B5">RiverScan weekly · {today}</div>'
-        f'<div style="font-size:22px;font-weight:bold;margin-top:4px">What changed upstream this week</div></div>'
-        f'<p style="font-size:15px;margin:18px 0">{esc(intro)}</p>'
-        + sections +
-        f'<p style="margin:24px 0"><a href="{SITE}/signals.html" style="background:#3CC9B5;color:#06161E;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:bold">See the full signal log</a></p>'
-        f'<p style="font-size:14px;color:{MUTED}">How did prices react to past signals? See the <a href="{SITE}/track-record.html" style="color:{TEAL}">track record</a>.</p>'
-        f'<p style="font-size:12px;color:#888;margin-top:24px">{DISCLAIMER}</p></div>')
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:0 auto;background:#fff">'
+        f'<tr><td style="padding:24px 0 14px;border-bottom:3px solid #111">'
+        f'<div style="font-family:{sans};font-size:20px;font-weight:bold;letter-spacing:.02em;color:#111">RiverScan Weekly</div>'
+        f'<div style="font-family:{sans};font-size:12px;color:#777;margin-top:2px">{today}</div></td></tr>'
+        f'<tr><td style="padding:18px 0 0;font-family:{serif};font-size:17px;line-height:1.5;color:#222">{esc(intro)}</td></tr>'
+        + body +
+        f'<tr><td style="padding:22px 0;border-top:1px solid #DDD;font-family:{sans};font-size:14px;color:#333">'
+        f'Every signal, with links to the source, is in the <a href="{SITE}/signals.html" style="color:#0F5F59">full log</a>. '
+        f'To see how prices moved after past signals, read the <a href="{SITE}/track-record.html" style="color:#0F5F59">track record</a>.</td></tr>'
+        f'<tr><td style="padding:8px 0 0;font-family:{sans};font-size:11px;line-height:1.5;color:#999">{DISCLAIMER}</td></tr></table>')
     for s in sigs:
         s.pop("_sev", None)
     return "\n".join(md), page, subject

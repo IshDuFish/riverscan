@@ -48,13 +48,13 @@ function unsubscribeLink_(email) {
 }
 
 function footer_(email) {
-  return '<p style="color:#777;font-size:12px;line-height:1.5;margin-top:28px">' + DISCLAIMER +
-    '<br>You signed up at <a href="' + SITE + '">riverscan.com</a>. ' +
-    '<a href="' + unsubscribeLink_(email) + '">Unsubscribe</a>.</p>';
+  return '<p style="font-family:Helvetica,Arial,sans-serif;color:#999;font-size:11px;line-height:1.5;margin-top:28px">' +
+    "You're receiving this because you signed up at riverscan.com. " +
+    '<a href="' + unsubscribeLink_(email) + '" style="color:#999">Unsubscribe</a>.<br>' + DISCLAIMER + "</p>";
 }
 
 function wrap_(inner) {
-  return '<div style="font-family:Arial,Helvetica,sans-serif;max-width:620px;color:#10222B;line-height:1.55">' + inner + "</div>";
+  return '<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:16px;max-width:600px;color:#222;line-height:1.55">' + inner + "</div>";
 }
 
 /** Sign-ups (form posts) and the weekly digest (JSON with the token). */
@@ -103,16 +103,17 @@ function latestSignals_() {
 
 function sendWelcome_(email) {
   var sigs = latestSignals_();
-  var list = sigs.length ? "<p><strong>A few recent signals:</strong></p><ul>" + sigs.map(function (s) {
-    return "<li><strong>" + s.company + "</strong>: " + s.note + ' (<a href="' + s.url + '">source</a>)</li>';
-  }).join("") + "</ul>" : "";
+  var list = sigs.length ? "<p>Three recent ones:</p>" + sigs.map(function (s) {
+    return '<p style="margin:0 0 10px"><strong>' + s.company + "</strong>. " + s.note + '. <a href="' + s.url + '" style="color:#0F5F59">Source</a></p>';
+  }).join("") : "";
   var html = wrap_(
-    "<h2 style=\"margin:0 0 12px\">Welcome to RiverScan</h2>" +
-    "<p>Thanks for signing up. RiverScan reads the public records that move small company share prices first: clinical trial registries and UK government contract awards for London-listed companies worth under £1bn. Every morning we flag what changed.</p>" +
-    "<p>You'll get our <strong>weekly digest every Friday</strong> with the most important signals. Until then, the full log is always on the site:</p>" +
-    '<p><a href="' + SITE + '/signals.html" style="background:#3CC9B5;color:#06161E;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:bold">See the latest signals</a></p>' +
+    '<p style="font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:bold;color:#111;border-bottom:3px solid #111;padding-bottom:12px">RiverScan</p>' +
+    "<p>Thanks for signing up.</p>" +
+    "<p>Each morning we read clinical trial registries and UK government contract awards, and note what changed for London-listed companies worth under £1bn. Those are the companies few analysts follow, so the news can take a while to reach the share price.</p>" +
+    "<p>The weekly email arrives on Fridays. In the meantime, everything we've logged is on the site: " +
+    '<a href="' + SITE + '/signals.html" style="color:#0F5F59">riverscan.com/signals</a>.</p>' +
     list + footer_(email));
-  var subject = "Welcome to RiverScan";
+  var subject = "You're on the RiverScan list";
   MailApp.sendEmail({ to: email, subject: subject, htmlBody: html, name: FROM_NAME });
   MailApp.sendEmail({ to: OWNER_EMAIL, subject: "[Copy] " + subject + " — new sign-up: " + email,
                       htmlBody: wrap_("<p><strong>New sign-up:</strong> " + email + "</p><hr>") + html, name: FROM_NAME });
