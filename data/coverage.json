@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T19:10:56Z",
+ "updated": "2026-11-26T20:22:55Z",
  "trials": {
-  "ClinicalTrials.gov": 210,
-  "ISRCTN": 10,
-  "EU CTIS": 6
+  "ClinicalTrials.gov": 75,
+  "ISRCTN": 9,
+  "EU CTIS": 2
  },
+ "max_market_cap": 1000000000,
  "trial_companies": [
-  "HCM",
   "SCLP",
   "FARN",
   "AVCT",
@@ -15,80 +15,218 @@
   "AREC",
   "IMM",
   "STX",
-  "EVG",
   "HVO",
   "OXB"
  ],
+ "trial_detail": [
+  {
+   "ticker": "SCLP",
+   "name": "Scancell",
+   "market_cap": 107177336
+  },
+  {
+   "ticker": "FARN",
+   "name": "Faron Pharmaceuticals",
+   "market_cap": 55792360
+  },
+  {
+   "ticker": "AVCT",
+   "name": "Avacta",
+   "market_cap": 245074576
+  },
+  {
+   "ticker": "POLB",
+   "name": "Poolbeg Pharma",
+   "market_cap": 44774092
+  },
+  {
+   "ticker": "FUM",
+   "name": "Futura Medical",
+   "market_cap": 3112888
+  },
+  {
+   "ticker": "AREC",
+   "name": "Arecor Therapeutics",
+   "market_cap": 30804490
+  },
+  {
+   "ticker": "IMM",
+   "name": "ImmuPharma",
+   "market_cap": 13756301
+  },
+  {
+   "ticker": "STX",
+   "name": "Shield Therapeutics",
+   "market_cap": 30614518
+  },
+  {
+   "ticker": "HVO",
+   "name": "hVIVO",
+   "market_cap": 31666450
+  },
+  {
+   "ticker": "OXB",
+   "name": "Oxford Biomedica",
+   "market_cap": 630486272
+  }
+ ],
  "contract_companies": [
-  {
-   "ticker": "BBY",
-   "name": "Balfour Beatty",
-   "sector": "Construction"
-  },
-  {
-   "ticker": "MGNS",
-   "name": "Morgan Sindall",
-   "sector": "Construction"
-  },
-  {
-   "ticker": "KIE",
-   "name": "Kier Group",
-   "sector": "Construction"
-  },
   {
    "ticker": "COST",
    "name": "Costain",
-   "sector": "Construction"
+   "sector": "Construction",
+   "market_cap": 610578368
   },
   {
    "ticker": "GFRD",
    "name": "Galliford Try",
-   "sector": "Construction"
-  },
-  {
-   "ticker": "KLR",
-   "name": "Keller Group",
-   "sector": "Construction"
+   "sector": "Construction",
+   "market_cap": 654080768
   },
   {
    "ticker": "RNWH",
    "name": "Renew Holdings",
-   "sector": "Construction"
+   "sector": "Construction",
+   "market_cap": 760761472
   },
   {
-   "ticker": "SRP",
-   "name": "Serco",
-   "sector": "Services"
+   "ticker": "SFR",
+   "name": "Severfield",
+   "sector": "Construction",
+   "market_cap": 117965272
   },
   {
-   "ticker": "MTO",
-   "name": "Mitie",
-   "sector": "Services"
+   "ticker": "BOOT",
+   "name": "Henry Boot",
+   "sector": "Construction",
+   "market_cap": 162862240
+  },
+  {
+   "ticker": "NTBR",
+   "name": "Northern Bear",
+   "sector": "Construction",
+   "market_cap": 17337948
   },
   {
    "ticker": "CPI",
    "name": "Capita",
-   "sector": "Services"
+   "sector": "Services",
+   "market_cap": 67039280
   },
   {
-   "ticker": "BA.",
-   "name": "BAE Systems",
-   "sector": "Defence"
+   "ticker": "MER",
+   "name": "Mears Group",
+   "sector": "Services",
+   "market_cap": 345736608
   },
   {
-   "ticker": "BAB",
-   "name": "Babcock",
-   "sector": "Defence"
+   "ticker": "RST",
+   "name": "Restore",
+   "sector": "Services",
+   "market_cap": 386538208
   },
   {
-   "ticker": "QQ.",
-   "name": "QinetiQ",
-   "sector": "Defence"
+   "ticker": "MTEC",
+   "name": "Made Tech",
+   "sector": "Digital",
+   "market_cap": 70889008
+  },
+  {
+   "ticker": "TPX",
+   "name": "TPXimpact",
+   "sector": "Digital",
+   "market_cap": 95331192
+  },
+  {
+   "ticker": "NCC",
+   "name": "NCC Group",
+   "sector": "Digital",
+   "market_cap": 224096304
+  },
+  {
+   "ticker": "CHRT",
+   "name": "Cohort",
+   "sector": "Defence",
+   "market_cap": 595700352
+  },
+  {
+   "ticker": "AVON",
+   "name": "Avon Technologies",
+   "sector": "Defence",
+   "market_cap": 647338816
+  },
+  {
+   "ticker": "PEG",
+   "name": "Petards Group",
+   "sector": "Defence",
+   "market_cap": 5159928
+  }
+ ],
+ "excluded": [
+  {
+   "ticker": "HCM",
+   "name": "HUTCHMED",
+   "reason": "market value \u00a31.9bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "EVG",
+   "name": "Evgen Pharma",
+   "reason": "no market data (may no longer be listed)"
+  },
+  {
+   "ticker": "KIE",
+   "name": "Kier Group",
+   "reason": "market value \u00a31.3bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "MGNS",
+   "name": "Morgan Sindall",
+   "reason": "market value \u00a32.0bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "BBY",
+   "name": "Balfour Beatty",
+   "reason": "market value \u00a34.1bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "KLR",
+   "name": "Keller Group",
+   "reason": "market value \u00a31.8bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "SRP",
+   "name": "Serco",
+   "reason": "market value \u00a32.5bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "MTO",
+   "name": "Mitie",
+   "reason": "market value \u00a32.6bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "KNOS",
+   "name": "Kainos",
+   "reason": "market value \u00a31.2bn, above the \u00a31bn limit"
   },
   {
    "ticker": "CHG",
    "name": "Chemring",
-   "sector": "Defence"
+   "reason": "market value \u00a31.5bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "QQ.",
+   "name": "QinetiQ",
+   "reason": "market value \u00a32.4bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "BAB",
+   "name": "Babcock",
+   "reason": "market value \u00a35.3bn, above the \u00a31bn limit"
+  },
+  {
+   "ticker": "BA.",
+   "name": "BAE Systems",
+   "reason": "market value \u00a355.4bn, above the \u00a31bn limit"
   }
  ],
  "open_mismatches": 1
