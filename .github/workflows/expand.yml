@@ -1,0 +1,16 @@
+name: expand (temporary)
+on: {push: {branches: [expand]}}
+permissions: {contents: write}
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q -U -r requirements.txt
+      - run: python tools/universe.py
+      - run: |
+          git config user.name bot; git config user.email actions@users.noreply.github.com
+          git add -f data/universe_raw.json; git commit -qm "universe" && git push || true
