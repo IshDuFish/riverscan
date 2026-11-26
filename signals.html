@@ -1,105 +1,86 @@
-<!doctype html>
-<html lang="en-GB">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to read a signal — RiverScan</title>
-<meta name="description" content="What each type of RiverScan signal means, with a worked example.">
-<meta name="theme-color" content="#0B1F2A">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css">
+<title>Signal log – Riverscan</title>
+<style>
+  :root { --ink:#0e1b24; --muted:#5b6b75; --line:#e3e8eb; --bg:#f7f9fa; --river:#1d6f8c;
+          --high:#b3261e; --med:#b86e00; --low:#5b6b75; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:48px 20px 24px; max-width:960px; margin:auto; }
+  header a { color:var(--river); text-decoration:none; font-weight:600; }
+  h1 { font-size:2rem; margin:12px 0 8px; letter-spacing:-0.02em; }
+  .lede { color:var(--muted); max-width:620px; line-height:1.5; margin:0; }
+  main { max-width:960px; margin:auto; padding:0 20px 60px; }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin:20px 0; }
+  .stat { background:#fff; border:1px solid var(--line); border-radius:10px; padding:12px 16px; min-width:120px; }
+  .stat b { display:block; font-size:1.5rem; }
+  .stat span { color:var(--muted); font-size:.85rem; }
+  .filters { display:flex; gap:8px; margin:16px 0; flex-wrap:wrap; }
+  .filters button { border:1px solid var(--line); background:#fff; padding:6px 14px; border-radius:999px; cursor:pointer; font:inherit; }
+  .filters button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .sig { background:#fff; border:1px solid var(--line); border-left:4px solid var(--low); border-radius:8px; padding:14px 16px; margin-bottom:10px; }
+  .sig.high { border-left-color:var(--high); } .sig.medium { border-left-color:var(--med); }
+  .top { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .co { font-weight:700; } .tk { color:var(--muted); font-weight:400; }
+  .when { color:var(--muted); font-size:.85rem; font-variant-numeric:tabular-nums; }
+  .note { margin:6px 0 2px; }
+  .chg { font-family:ui-monospace,Menlo,monospace; font-size:.85rem; color:var(--muted); }
+  .trial { font-size:.85rem; color:var(--muted); margin-top:6px; }
+  .trial a { color:var(--river); }
+  .empty { color:var(--muted); padding:30px 0; }
+  footer { color:var(--muted); font-size:.8rem; max-width:960px; margin:auto; padding:0 20px 40px; }
+</style>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-
-<!-- ===== HEADER (copy this block to every page) ===== -->
-<header class="site-header">
-  <div class="container">
-    <nav class="nav" aria-label="Main">
-      <a class="brand" href="index.html">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#3CC9B5" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 9c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 15c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 21c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/></svg>
-        <span>RiverScan</span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html#how">How it works</a>
-        <a href="signals.html" aria-current="page">Signals</a>
-        <a href="index.html#coverage">Coverage</a>
-        <a href="index.html#faq">FAQ</a>
-        <a class="btn btn--small" href="index.html#access">Get early access</a>
-      </div>
-    </nav>
-  </div>
+<header>
+  <a href="index.html">← Riverscan</a>
+  <h1>Signal log</h1>
+  <p class="lede">Every change our scanner has spotted in the clinical trials of the London-listed biotechs we track, timestamped when we caught it. Nothing is edited after the fact.</p>
 </header>
-<!-- ===== END HEADER ===== -->
-
-<main id="main">
-  <section class="site-header">
-    <div class="container page-hero">
-      <p class="eyebrow">Guide</p>
-      <h1>How to read a signal.</h1>
-      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every signal is a change in a public record. Here's what each type means — and what it doesn't.</p>
-    </div>
-  </section>
-  <section class="prose">
-    <div class="container narrow">
-      <h2>Anatomy of a signal</h2>
-      <div class="signal-grid">
-        <article class="signal">
-          <div class="signal-top"><span class="ticker">TICKER</span><span class="tag tag--date">Date slip</span><span class="signal-source">Registry</span></div>
-          <p>What changed, in one sentence, with the <strong>old and new values</strong>.</p>
-        </article>
-      </div>
-      <ul>
-        <li><strong>Ticker</strong> — the London-listed company behind the trial's sponsor.</li>
-        <li><strong>Type</strong> — what kind of change it is (below).</li>
-        <li><strong>Source</strong> — the registry where the change appeared. Every signal links to the original record.</li>
-      </ul>
-
-      <h2>Signal types</h2>
-      <h3><span class="tag tag--status">Status change</span></h3>
-      <p>A trial's status moved — for example from Recruiting to Active, Suspended, Terminated, Withdrawn or Completed. Terminations and suspensions are the changes people most often want to know about.</p>
-
-      <h3><span class="tag tag--date">Date slip</span></h3>
-      <p>The estimated primary completion date moved. A later date means the trial is expected to take longer than the sponsor last said. Delays can happen for many reasons, from slow recruitment to adding new trial sites, so one slip on its own rarely tells the whole story. Repeated slips are more notable.</p>
-
-      <h3><span class="tag tag--enrol">Enrolment</span></h3>
-      <p>The target or actual number of participants changed. A large cut can mean a trial is being scaled back; an increase can mean it's being expanded.</p>
-
-      <h3><span class="tag tag--phase">Phase change</span></h3>
-      <p>A programme moved stage — for example from dose escalation to dose expansion, or from Phase 1 to Phase 2.</p>
-
-      <h3><span class="tag tag--status">Registry mismatch</span></h3>
-      <p>The same trial says different things in different registries. Often this just means one record hasn't been updated yet. Sometimes it's the first place a change shows up.</p>
-
-      <h2>A worked example</h2>
-      <p>In February 2026, Synairgen announced it was ending its Phase 2 trial of SNG001 because recruitment was far behind expectations. Afterwards, the EU registry (CTIS) recorded the trial as <strong>Ended</strong>, while the UK registry (ISRCTN) recorded it as <strong>Completed</strong>. That is the kind of mismatch RiverScan is built to surface.</p>
-
-      <div class="callout">
-        <p><strong>What a signal is not.</strong> A signal tells you that something changed. It does not tell you whether a company is a good or bad investment, and it is never a recommendation to buy or sell. Always read the original record and the company's own announcements. See our <a href="terms.html">terms and disclaimer</a>.</p>
-      </div>
-    </div>
-  </section>
-</main>
-
-<!-- ===== FOOTER (copy this block to every page) ===== -->
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-top">
-      <a class="brand" href="index.html"><span>RiverScan</span></a>
-      <nav class="footer-links" aria-label="Footer">
-        <a href="signals.html">How to read a signal</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms &amp; disclaimer</a>
-        <a href="mailto:[YOUR EMAIL]">Contact</a>
-      </nav>
-    </div>
-    <p class="disclaimer">RiverScan provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov, ISRCTN (CC BY 4.0) and EU CTIS. © <span id="year">2026</span> RiverScan.</p>
+<main>
+  <div class="stats" id="stats"></div>
+  <div class="filters" id="filters">
+    <button class="on" data-f="all">All</button>
+    <button data-f="high">High</button>
+    <button data-f="medium">Medium</button>
+    <button data-f="low">Low</button>
   </div>
-</footer>
-<!-- ===== END FOOTER ===== -->
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div id="list"><p class="empty">Loading…</p></div>
+</main>
+<footer>Data from ClinicalTrials.gov, checked daily. For information only, not investment advice.</footer>
+<script>
+const esc = s => String(s ?? "–").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let all = [], filter = "all";
+function render() {
+  const rows = all.filter(s => filter === "all" || s.severity === filter);
+  document.getElementById("list").innerHTML = rows.length ? rows.map(s => `
+    <div class="sig ${s.severity}">
+      <div class="top"><div class="co">${esc(s.company)} <span class="tk">${esc(s.ticker)}</span></div>
+      <div class="when">${esc(s.detected_at.replace("T"," ").replace("Z"," UTC"))}</div></div>
+      <div class="note">${esc(s.note)}</div>
+      ${s.type === "change" ? `<div class="chg">${esc(s.old)} → ${esc(s.new)}</div>` : ""}
+      <div class="trial">${esc(s.trial)} · <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.nct_id)}</a></div>
+    </div>`).join("") : `<p class="empty">No signals logged yet. The scanner runs every morning.</p>`;
+}
+document.getElementById("filters").onclick = e => {
+  if (!e.target.dataset.f) return;
+  filter = e.target.dataset.f;
+  document.querySelectorAll("#filters button").forEach(b => b.classList.toggle("on", b === e.target));
+  render();
+};
+fetch("data/signals.json", {cache:"no-store"}).then(r => r.json()).then(d => {
+  all = d.slice().reverse();
+  const cos = new Set(all.map(s => s.ticker)).size;
+  const hi = all.filter(s => s.severity === "high").length;
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${all.length}</b><span>signals logged</span></div>
+     <div class="stat"><b>${hi}</b><span>high severity</span></div>
+     <div class="stat"><b>${cos}</b><span>companies with signals</span></div>`;
+  render();
+}).catch(() => { document.getElementById("list").innerHTML = `<p class="empty">Couldn't load the signal log.</p>`; });
+</script>
 </body>
 </html>
