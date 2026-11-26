@@ -361,3 +361,32 @@ ul.chips { list-style: none; padding: 0; margin: 0; }
 .news--bad { color: #FF9C85; }
 .news--light { font-size: 13px; padding: 2px 8px; border-radius: 4px; background: var(--ink); color: var(--on-dark-muted); }
 .news--light.news--good { color: #7BE3B4; } .news--light.news--bad { color: #FF9C85; }
+
+/* ==========================================================
+   Phone and tablet fixes
+   ========================================================== */
+/* Page headers kept their side padding off on narrow screens */
+.container.page-hero { padding-left: 24px; padding-right: 24px; }
+
+/* "What we do" steps: 4 across on wide screens, 2x2 on tablets, stacked on phones */
+.steps--numbered { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px 24px; }
+@media (max-width: 1000px) { .steps--numbered { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .steps--numbered { grid-template-columns: 1fr; } }
+
+/* Bigger tap targets on touch screens */
+@media (pointer: coarse) {
+  .signal-foot a, .signal-more { display: inline-flex; align-items: center; min-height: 36px; }
+  .footer-links a, .nav-links a:not(.btn) { min-height: 44px; display: inline-flex; align-items: center; }
+}
+
+@media (max-width: 640px) {
+  /* Stat tiles: three small tiles in a row instead of three tall ones */
+  .stats { gap: 8px; }
+  .stat { flex: 1 1 0; min-width: 0; padding: 12px; }
+  .stat b { font-size: 24px; }
+  .stat span { font-size: 12.5px; display: block; line-height: 1.35; }
+  .latest-grid { grid-template-columns: 1fr; }
+  .page-hero h1 { font-size: 44px; }
+  .tr-table th, .tr-table td { padding: 12px 14px; }
+  .filters button { min-height: 44px; }
+}
