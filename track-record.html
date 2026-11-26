@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track record — RiverScan</title>
+<meta name="description" content="What happened to share prices after RiverScan signals: every medium and high signal, measured against the market.">
+<meta name="theme-color" content="#0B1F2A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER (copy this block to every page) ===== -->
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#3CC9B5" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 9c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 15c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 21c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/></svg>
+        <span>RiverScan</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#how">What we do</a>
+        <a href="signals.html">Signals</a>
+        <a href="track-record.html" aria-current="page">Track record</a>
+        <a href="index.html#coverage">Coverage</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="btn btn--small" href="index.html#access">Get early access</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- ===== END HEADER ===== -->
+
+<main id="main">
+  <section class="site-header">
+    <div class="container page-hero">
+      <p class="eyebrow">Track record</p>
+      <h1>What happened next.</h1>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 660px;">For every medium and high signal, we measure how the company's share price moved afterwards compared with the market. Every signal counts, not just the good calls.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-labelledby="tr-title">
+    <div class="container narrow">
+      <h2 id="tr-title" class="sr-only">Results</h2>
+      <div id="tr-body"><p class="muted">Loading…</p></div>
+    </div>
+  </section>
+
+  <section class="prose section--white" style="padding-top: 64px;">
+    <div class="container narrow">
+      <h2 style="margin-top:0">How we measure it</h2>
+      <ul>
+        <li><strong>Starting point:</strong> the last closing price before we caught the signal. The scanner runs before the London market opens, so this is the price before anyone could act on it.</li>
+        <li><strong>After 1, 5 and 20 trading days:</strong> the company's move over each period.</li>
+        <li><strong>Against the market:</strong> we subtract the move in a benchmark index over the same days, so a rising market doesn't flatter the result. Biotechs are compared with the FTSE AIM All-Share and contractors with the FTSE All-Share.</li>
+        <li><strong>Every signal:</strong> all medium and high signals are included, whatever happened. Nothing is removed after the fact.</li>
+        <li><strong>Averages only where they mean something:</strong> a category is shown once it has at least <span id="min-group">5</span> results.</li>
+      </ul>
+      <div class="callout">
+        <p><strong>Past performance is not a reliable indicator of future results.</strong> Share prices move for many reasons, and a signal arriving before a price move doesn't mean it caused it. This is a record of public data and market prices, not a recommendation to buy or sell anything. See our <a href="terms.html">terms and disclaimer</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER (copy this block to every page) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="brand" href="index.html"><span>RiverScan</span></a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="signals.html">Signal log</a>
+        <a href="signals.html#guide">How to read a signal</a>
+        <a href="track-record.html">Track record</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms &amp; disclaimer</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="disclaimer">RiverScan is a data analytics company. It provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine), ISRCTN (CC BY 4.0) and EU CTIS (European Medicines Agency). Contract notices from Find a Tender and Contracts Finder, containing public sector information licensed under the Open Government Licence v3.0. © <span id="year">2026</span> RiverScan.</p>
+  </div>
+</footer>
+<!-- ===== END FOOTER ===== -->
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+(function () {
+  var body = document.getElementById("tr-body");
+  function pct(v) { return v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(1) + "%"; }
+  function cls(v) { return v == null ? "" : v > 0 ? "up" : v < 0 ? "down" : ""; }
+  fetch("data/track_record.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (t) {
+    if (!t) { body.innerHTML = '<div class="log-empty">The track record starts with the first weekly price check.</div>'; return; }
+    document.getElementById("min-group").textContent = t.min_group;
+    if (!t.public) {
+      var pctDone = Math.min(100, Math.round(100 * t.with_5d_result / t.min_signals));
+      body.innerHTML =
+        '<div class="tr-collect"><h3>Collecting the record</h3>' +
+        '<p>We need at least ' + t.min_signals + ' signals with a full five trading days of price history before averages are worth publishing. Until then the results are recorded but not shown.</p>' +
+        '<div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="' + t.min_signals + '" aria-valuenow="' + t.with_5d_result + '" aria-label="Signals with a 5-day result"><span style="width:' + pctDone + '%"></span></div>' +
+        '<p class="meter-label"><strong>' + t.with_5d_result + ' of ' + t.min_signals + '</strong> signals have a 5-day result · ' + t.signals_tracked + ' signals tracked so far</p></div>';
+      return;
+    }
+    var o = t.overall || {};
+    var head = '<div class="stats">' + ["1d", "5d", "20d"].map(function (h) {
+      var x = o[h]; if (!x) return "";
+      return '<div class="stat"><b class="' + cls(x.mean_excess) + '">' + pct(x.mean_excess) + '</b><span>average vs market after ' + h.replace("d", " trading day" + (h === "1d" ? "" : "s")) + ' · ' + x.beat_market_pct + '% beat it · ' + x.n + ' signals</span></div>';
+    }).join("") + "</div>";
+    var rows = (t.categories || []).map(function (c) {
+      return "<tr><th scope=\"row\">" + c.category + '<small>' + (c.stream === "contracts" ? "Contracts" : "Trials") + " · " + c.signals + " signals</small></th>" +
+        ["1d", "5d", "20d"].map(function (h) { var x = c[h]; return '<td class="' + cls(x && x.mean_excess) + '">' + (x ? pct(x.mean_excess) + "<small>" + x.beat_market_pct + "% beat · n=" + x.n + "</small>" : "–") + "</td>"; }).join("") + "</tr>";
+    }).join("");
+    body.innerHTML = head +
+      '<div class="table-wrap"><table class="tr-table"><caption>Average move against the market after each kind of signal</caption>' +
+      '<thead><tr><th scope="col">Signal type</th><th scope="col">1 day</th><th scope="col">5 days</th><th scope="col">20 days</th></tr></thead><tbody>' +
+      (rows || '<tr><td colspan="4">No category has enough results yet.</td></tr>') + "</tbody></table></div>" +
+      '<p class="status-line" style="margin-top:16px">Updated ' + new Date(t.updated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) + ' · ' + t.signals_tracked + ' signals tracked</p>';
+  }).catch(function () { body.innerHTML = '<div class="log-empty">The track record couldn\'t load. Refresh the page to try again.</div>'; });
+})();
+</script>
+</body>
+</html>
