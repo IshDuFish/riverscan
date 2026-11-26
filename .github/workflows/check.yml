@@ -8,4 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q -r requirements.txt
-      - run: python tmpcheck/caps.py
+      - run: python -m pytest -q
+      - run: git fetch -q origin main && git checkout origin/main -- data
+      - run: python scan.py
+      - run: cat data/fundamentals.json | head -60

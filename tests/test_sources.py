@@ -91,3 +91,32 @@ def test_v1_snapshot_migrates(tmp_path, monkeypatch):
     monkeypatch.setattr(scan, "LATEST", latest)
     snap = scan.load_snapshot()
     assert snap["version"] == 2 and "SCLP" in snap["ctgov"]
+
+
+def test_contract_rated_by_size_of_winner(monkeypatch):
+    rel = {"id": "1-2026", "ocid": "ocds-x-1", "date": "2026-11-20T00:00:00Z", "buyer": {"name": "Ministry of Justice"},
+           "tender": {"title": "Roof repairs"}, "links": [],
+           "awards": [{"id": "a1", "title": "Roof repairs", "value": {"amount": 6_000_000, "currency": "GBP"},
+                       "contractPeriod": {"startDate": "2027-01-01", "endDate": "2029-01-01"},
+                       "suppliers": [{"name": "Severfield (UK) Limited"}]}]}
+    monkeypatch.setattr(contracts, "releases", lambda source, since, until: iter([rel] if source == "Find a Tender" else []))
+    cos = [c for c in contracts.CONTRACT_COMPANIES if c["ticker"] == "SFR"]
+    # £6m over 2 years = £3m a year; revenue £50m -> 6% -> medium
+    sigs, _, _ = contracts.scan({}, "t", companies=cos, funds={"SFR": {"revenue": 50_000_000}})
+    assert sigs[0]["severity"] == "medium" and abs(sigs[0]["share_of_revenue"] - 0.06) < 0.001
+    assert "6.0% of annual revenue per year" in sigs[0]["note"]
+    # same contract for a £20m-revenue company -> 15% -> high
+    sigs, _, _ = contracts.scan({}, "t", companies=cos, funds={"SFR": {"revenue": 20_000_000}})
+    assert sigs[0]["severity"] == "high"
+    # company not covered (e.g. too big) -> no signal
+    sigs, _, _ = contracts.scan({}, "t", companies=[], funds={})
+    assert sigs == []
+
+
+def test_size_split():
+    import fundamentals
+    cos = [{"ticker": "A", "name": "A"}, {"ticker": "B", "name": "B"}, {"ticker": "C", "name": "C"}, {"ticker": "D", "name": "D"}]
+    funds = {"A": {"market_cap": 5e8}, "B": {"market_cap": 4e9}, "C": {"market_cap": None}}
+    covered, excluded = fundamentals.split(cos, funds)
+    assert [c["ticker"] for c in covered] == ["A", "D"]  # D has no data yet, so it isn't dropped
+    assert [c["ticker"] for c, _ in excluded] == ["B", "C"]

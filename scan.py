@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import contracts
+import fundamentals
 import ctis
 import isrctn
 import mismatch
@@ -48,10 +49,10 @@ def load_snapshot():
     return snap
 
 
-def fetch_registry(key, old):
+def fetch_registry(key, old, companies):
     label, fn, _ = REGISTRIES[key]
     new, ok = {}, 0
-    for c in TRIAL_COMPANIES:
+    for c in companies:
         t = c["ticker"]
         try:
             trials = fn(c, old.get(t))
@@ -78,22 +79,30 @@ def main():
     new = {"version": 2}
     signals = []
 
+    # 0. Company sizes: only cover companies valued under the limit
+    funds = fundamentals.update()
+    trial_cos, trial_out = fundamentals.split(TRIAL_COMPANIES, funds)
+    contract_cos, contract_out = fundamentals.split(CONTRACT_COMPANIES, funds)
+    for c, why in trial_out + contract_out:
+        print(f"[skip] {c['ticker']} {c['name']}: {why}")
+
     # 1. Trial registries
     for key, (label, _, fields) in REGISTRIES.items():
         old_reg = old.get(key, {})
-        new[key], ok = fetch_registry(key, old_reg)
+        new[key], ok = fetch_registry(key, old_reg, trial_cos)
         if not old_reg:
             print(f"{label}: first run, saving baseline (no signals)")
             continue
-        signals += diff_all(TRIAL_COMPANIES, old_reg, new[key], stamp, fields, label)
+        signals += diff_all(trial_cos, old_reg, new[key], stamp, fields, label)
 
     # 2. Registry mismatches
-    current = mismatch.find(TRIAL_COMPANIES, new, today)
+    current = mismatch.find(trial_cos, new, today)
     signals += mismatch.signals(current, set(old.get("mismatches", [])), stamp)
     new["mismatches"] = sorted(current)
 
     # 3. Government contracts
-    c_signals, new["contracts"], errors = contracts.scan(old.get("contracts", {}), stamp)
+    c_signals, new["contracts"], errors = contracts.scan(old.get("contracts", {}), stamp,
+                                                         companies=contract_cos, funds=funds)
     for e in errors:
         print(f"[warn] contracts {e}", file=sys.stderr)
     print(f"Contracts: {len(c_signals)} new award(s) to covered companies")
@@ -109,8 +118,12 @@ def main():
     coverage = {
         "updated": stamp,
         "trials": {lab: sum(len(v) for v in new[k].values()) for k, (lab, _, _) in REGISTRIES.items()},
-        "trial_companies": [c["ticker"] for c in TRIAL_COMPANIES],
-        "contract_companies": [{"ticker": c["ticker"], "name": c["name"], "sector": c["sector"]} for c in CONTRACT_COMPANIES],
+        "max_market_cap": fundamentals.MAX_MARKET_CAP,
+        "trial_companies": [c["ticker"] for c in trial_cos],
+        "trial_detail": [{"ticker": c["ticker"], "name": c["name"], "market_cap": (funds.get(c["ticker"]) or {}).get("market_cap")} for c in trial_cos],
+        "contract_companies": [{"ticker": c["ticker"], "name": c["name"], "sector": c["sector"],
+                                "market_cap": (funds.get(c["ticker"]) or {}).get("market_cap")} for c in contract_cos],
+        "excluded": [{"ticker": c["ticker"], "name": c["name"], "reason": why} for c, why in trial_out + contract_out],
         "open_mismatches": len(current),
     }
     (DATA / "coverage.json").write_text(json.dumps(coverage, indent=1))
