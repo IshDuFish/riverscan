@@ -41,3 +41,10 @@ run("fts.json", lambda: S.get("https://www.find-tender.service.gov.uk/api/1.0/oc
                               params={"updatedFrom": since, "stages": "award", "limit": 20}, timeout=90))
 run("cf.json", lambda: S.get("https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search",
                              params={"publishedFrom": since, "stages": "award", "limit": 20}, timeout=90))
+
+# ISRCTN query variants
+for i, params in enumerate([{"q": "Scancell"}, {"q": "scancell", "limit": 5}, {"q": "condition:cancer", "limit": 2},
+                            {"q": "Scancell Ltd"}, {"q": "Hutchmed"}, {"q": "Poolbeg"}]):
+    run(f"isrctn_v{i}.xml", lambda p=params: S.get("https://www.isrctn.com/api/query/format/default", params=p, timeout=60))
+run("isrctn_trial2.xml", lambda: S.get("https://www.isrctn.com/api/trial/ISRCTN10000000/format/default", timeout=60))
+run("isrctn_web.html", lambda: S.get("https://www.isrctn.com/search", params={"q": "Scancell"}, timeout=60))
