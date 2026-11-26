@@ -1,0 +1,36 @@
+name: Weekly digest and price check
+
+on:
+  schedule:
+    - cron: "43 17 * * 5"   # Fridays 17:43 UTC, after the London close
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Price check (step 5)
+        run: python prices.py || echo "price check failed, continuing"
+      - name: Build and send digest (step 6)
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+        run: python digest.py --send
+      - name: Commit
+        run: |
+          git config user.name "riverscan-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Weekly digest $(date -u +%F)"
+          git push
