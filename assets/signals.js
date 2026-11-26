@@ -89,7 +89,8 @@
   // Long titles start collapsed to three lines with a button to read the rest.
   function text(s) {
     var body = sentence(s).replace(/\.\.$/, ".");
-    if ((s.title || s.trial || "").length <= 150) return "<p>" + body + "</p>";
+    var titleInText = ["contract_award", "new_trial", "removed"].indexOf(s.type) !== -1;
+    if (!titleInText || (s.title || s.trial || "").length <= 150) return "<p>" + body + "</p>";
     return '<p class="signal-text is-clamped">' + body + "</p>" +
       '<button type="button" class="signal-more" aria-expanded="false">Show more</button>';
   }
@@ -109,6 +110,18 @@
     return isNaN(d) ? "" : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
   }
 
+  function sid(s) {
+    return ["detected_at", "ticker", "ref", "nct_id", "field", "type"].map(function (k) { return s[k] == null ? "" : String(s[k]); }).join("|");
+  }
+  var results = {};
+  function next(s) {
+    var r = results[sid(s)];
+    if (!r) return "";
+    var parts = [[1, "1 day"], [5, "5 days"], [20, "20 days"]].filter(function (h) { return r["excess_" + h[0] + "d"] != null; })
+      .map(function (h) { var v = r["excess_" + h[0] + "d"]; return '<b class="' + (v > 0 ? "up" : v < 0 ? "down" : "") + '">' + (v > 0 ? "+" : "") + v.toFixed(1) + "%</b> " + h[1]; });
+    return parts.length ? '<p class="signal-next">What happened next, vs ' + esc(r.benchmark) + ": " + parts.join(" · ") + "</p>" : "";
+  }
+
   window.RiverScan = {
     card: function (s, opts) {
       var t = tagFor(s), ref = s.ref || s.nct_id, title = s.title || s.trial;
@@ -122,13 +135,17 @@
         '<div class="signal-top"><span class="ticker">' + esc(s.ticker) + "</span>" +
         '<span class="tag ' + t[0] + '">' + t[1] + "</span>" +
         '<span class="signal-source">' + esc(source) + "</span></div>" +
-        text(s) + sub +
+        text(s) + sub + next(s) +
         '<div class="signal-foot"><span class="sev sev--' + esc(s.severity) + '">' + esc(s.severity) + "</span>" + links +
         '<span class="signal-co">' + esc(s.company) + (opts && opts.short ? "" : " · " + esc(when(s.detected_at))) + "</span></div>" +
         "</article>";
     },
     load: function () {
-      return fetch("data/signals.json", { cache: "no-store" })
+      var tr = fetch("data/track_record.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (t) { if (t && t.public && t.signals) results = t.signals; })
+        .catch(function () {});
+      var sig = fetch("data/signals.json", { cache: "no-store" })
         .then(function (r) { return r.ok ? r.json() : []; })
         .catch(function () { return []; })
         .then(function (d) {
@@ -139,6 +156,7 @@
             return (a.severity in rank ? rank[a.severity] : 3) - (b.severity in rank ? rank[b.severity] : 3);
           });
         });
+      return Promise.all([sig, tr]).then(function (x) { return x[0]; });
     },
     when: when,
     money: money,

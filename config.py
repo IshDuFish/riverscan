@@ -23,9 +23,9 @@ TRIAL_COMPANIES = [
     {"ticker": "AREC", "name": "Arecor Therapeutics",   "sponsor_terms": ["arecor"]},
     {"ticker": "IMM",  "name": "ImmuPharma",            "sponsor_terms": ["immupharma"]},
     {"ticker": "STX",  "name": "Shield Therapeutics",   "sponsor_terms": ["shield therapeutics"]},
-    {"ticker": "EVG",  "name": "Evgen Pharma",          "sponsor_terms": ["evgen"]},
+    {"ticker": "EVG",  "name": "Evgen Pharma",          "sponsor_terms": ["evgen"]},  # no Yahoo price data as of Nov 2026: check it is still listed
     {"ticker": "HVO",  "name": "hVIVO",                 "sponsor_terms": ["hvivo"]},
-    {"ticker": "OXB",  "name": "Oxford Biomedica",      "sponsor_terms": ["oxford biomedica"]},
+    {"ticker": "OXB",  "name": "Oxford Biomedica",      "sponsor_terms": ["oxford biomedica"], "benchmark": "^FTAS"},
 ]
 COMPANIES = TRIAL_COMPANIES  # older name, kept so nothing else breaks
 
@@ -89,3 +89,17 @@ CTIS_FIELDS = {
 # Statuses that usually move a small-cap share price.
 BAD_STATUSES = {"TERMINATED", "WITHDRAWN", "SUSPENDED", "STOPPED", "HALTED", "TEMPORARILY HALTED",
                 "REVOKED", "NOT AUTHORISED", "CANCELLED"}
+
+# ---------------------------------------------------------------------------
+# Track record (prices.py)
+# Price moves after each signal are measured every Friday. They stay off the
+# website until you switch TRACK_RECORD_PUBLIC to True AND at least
+# TRACK_RECORD_MIN_SIGNALS signals have a 5-day result. Before switching it on,
+# check you're allowed to publish the price data you use (Yahoo Finance's terms
+# are for personal use), and that the wording meets UK financial promotion rules.
+TRACK_RECORD_PUBLIC = False
+TRACK_RECORD_MIN_SIGNALS = 20
+TRACK_RECORD_MIN_GROUP = 5   # a category needs this many results before its average is shown
+
+# Benchmarks: trial companies are compared with the FTSE AIM All-Share and contract
+# companies with the FTSE All-Share, unless a company sets its own "benchmark".

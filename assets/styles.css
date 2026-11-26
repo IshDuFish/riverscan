@@ -334,3 +334,22 @@ ul.chips { list-style: none; padding: 0; margin: 0; }
 .signal-text.is-clamped { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .signal-more { align-self: flex-start; background: none; border: none; padding: 2px 0; color: var(--accent); font: 500 13px var(--font-body); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .signal-more:hover { color: #5AD6C4; }
+
+/* ---------- Track record ---------- */
+.tr-collect { background: var(--white); border: 1px solid var(--line); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.tr-collect p { color: var(--muted); max-width: 640px; }
+.meter { height: 12px; border-radius: 999px; background: #E3E9E6; overflow: hidden; }
+.meter span { display: block; height: 100%; background: var(--accent-dark); border-radius: 999px; min-width: 12px; }
+.meter-label { font-size: 15px; }
+.stat b.up, .tr-table td.up { color: #0B7A52; }
+.stat b.down, .tr-table td.down { color: #B3261E; }
+.table-wrap { overflow-x: auto; background: var(--white); border: 1px solid var(--line); border-radius: 12px; }
+.tr-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.tr-table caption { text-align: left; padding: 16px 20px 4px; color: var(--muted); font-size: 14px; }
+.tr-table th, .tr-table td { padding: 14px 20px; border-top: 1px solid var(--line); text-align: right; vertical-align: top; }
+.tr-table thead th { font-size: 13px; color: var(--muted); font-weight: 600; border-top: none; }
+.tr-table th[scope="row"], .tr-table thead th:first-child { text-align: left; }
+.tr-table small { display: block; font-size: 12px; color: var(--muted); font-weight: 400; margin-top: 2px; }
+.tr-table td { font-weight: 600; }
+.signal-next { font-size: 13px !important; color: var(--on-dark-muted) !important; border-top: 1px solid var(--ink-line); padding-top: 8px; }
+.signal-next b.up { color: #7BE3B4; } .signal-next b.down { color: #FF9C85; }
