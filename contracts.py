@@ -131,6 +131,9 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
     now = now or datetime.now(timezone.utc).replace(tzinfo=None)
     last = state.get("last_run")
     since = (datetime.fromisoformat(last) - timedelta(days=1)) if last else now - timedelta(days=backfill_days)
+    tickers = sorted(c["ticker"] for c in (companies if companies is not None else CONTRACT_COMPANIES))
+    if last and set(tickers) - set(state.get("covered", tickers)):
+        since = min(since, now - timedelta(days=backfill_days))  # newly covered companies: look back two weeks
     seen = state.get("seen", {})
     if isinstance(seen, list):
         seen = {k: now.date().isoformat() for k in seen}
@@ -176,7 +179,8 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
                         per_year /= h["suppliers"]
                     revenue = (funds.get(c["ticker"]) or {}).get("revenue")
                     share = materiality(per_year if cur == "GBP" else None, revenue)
-                    size = f" (about {share * 100:.1f}% of annual revenue{' per year' if years and years > 1.5 else ''})" if share is not None else ""
+                    pct = "under 0.1%" if share is not None and share < 0.001 else f"about {share * 100:.1f}%" if share is not None else ""
+                    size = f" ({pct} of annual revenue{' per year' if years and years > 1.5 else ''})" if share is not None else ""
                     if framework:
                         note = f"Named on {money(amount, cur)} framework by {buyer}{lots}{size}"
                         sev = severity_by_share(share)
@@ -202,5 +206,6 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
             errors.append(f"{source}: {e}")
         print(f"{source:18} scanned {scanned} award notices since {since:%Y-%m-%d %H:%M}")
     new_state = {"last_run": now.isoformat(timespec="seconds") if not errors else (last or since.isoformat(timespec="seconds")),
-                 "seen": {k: d for k, d in seen.items() if d >= (now - timedelta(days=45)).date().isoformat()}}
+                 "seen": {k: d for k, d in seen.items() if d >= (now - timedelta(days=45)).date().isoformat()},
+                 "covered": tickers}
     return signals, new_state, errors
