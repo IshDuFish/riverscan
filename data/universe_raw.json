@@ -1,0 +1,8399 @@
+{
+ "KZG.L": {
+  "name": "Kazera Global plc",
+  "mcap": 13992215,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MATD.L": {
+  "name": "Petro Matad Limited",
+  "mcap": 13941002,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ONDO.L": {
+  "name": "Ondo InsurTech Plc",
+  "mcap": 13928650,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TAND.L": {
+  "name": "Tan Delta Systems plc",
+  "mcap": 13912522,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HZW.L": {
+  "name": "VIEL & Cie, soci\u00e9t\u00e9 anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PULS.L": {
+  "name": "Pulsar Group plc",
+  "mcap": 13898331,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EML.L": {
+  "name": "Emmerson PLC",
+  "mcap": 13898208,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OBD.L": {
+  "name": "Oxford BioDynamics Plc",
+  "mcap": 13776934,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RDH.L": {
+  "name": "Hexatronic Group AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ZOO.L": {
+  "name": "ZOO Digital Group plc",
+  "mcap": 13772956,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CKT.L": {
+  "name": "Checkit plc",
+  "mcap": 13771091,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IMM.L": {
+  "name": "ImmuPharma plc",
+  "mcap": 13756301,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K45.L": {
+  "name": "NCR Voyix Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FPJ.L": {
+  "name": "Prologue S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKD.L": {
+  "name": "Forbo Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NWT.L": {
+  "name": "Newmark Security plc",
+  "mcap": 13501372,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0BQE.L": {
+  "name": "KSB SE & Co. KGaA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0AHI.L": {
+  "name": "Caisse R\u00e9gionale de Cr\u00e9dit Agricole Mutuel Nord de France Soci\u00e9t\u00e9 coop\u00e9rative",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BHMU.L": {
+  "name": "BH Macro Limited",
+  "mcap": 1340563456,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RL4.L": {
+  "name": "Catella AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ANGS.L": {
+  "name": "Angus Energy plc",
+  "mcap": 13219625,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TFG.L": {
+  "name": "Tetragon Financial Group Limited",
+  "mcap": 1319455104,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KF3.L": {
+  "name": "Palatin Technologies, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EBQ.L": {
+  "name": "Ebiquity plc",
+  "mcap": 13165768,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RESI.L": {
+  "name": "Residential Secure Income Ord",
+  "mcap": 13146593,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EMH.L": {
+  "name": "European Metals Holdings Limited",
+  "mcap": 13114404,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DAR.L": {
+  "name": "Dar Global PLC",
+  "mcap": 1309657216,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MAFL.L": {
+  "name": "Mineral & Financial Investments Limited",
+  "mcap": 13050217,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FRMI.L": {
+  "name": "Fermi Inc.",
+  "mcap": 1297141760,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CFYN.L": {
+  "name": "Caffyns plc",
+  "mcap": 12952352,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J5H.L": {
+  "name": "Himax Technologies, Inc.",
+  "mcap": 1292695040,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NLY.L": {
+  "name": "Verbio SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LID.L": {
+  "name": "Ultra Clean Holdings, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CSSG.L": {
+  "name": "Croma Security Solutions Group plc",
+  "mcap": 12797484,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OMIP.L": {
+  "name": "One Media iP Group Plc",
+  "mcap": 12790660,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CSC.L": {
+  "name": "Chesterfield Special Cylinders Holdings Plc",
+  "mcap": 12760164,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F6L.L": {
+  "name": "Etablissements Maurel & Prom S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PAM.L": {
+  "name": "Potter & Moore Plc",
+  "mcap": 12677554,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TON.L": {
+  "name": "Titon Holdings Plc",
+  "mcap": 12654844,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GEMD.L": {
+  "name": "Gem Diamonds Limited",
+  "mcap": 12600436,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RQV.L": {
+  "name": "LU-VE S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NWC.L": {
+  "name": "secunet Security Networks Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LUG.L": {
+  "name": "Weibo Corporation",
+  "mcap": 1250842880,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BLOE.L": {
+  "name": "Block Energy Plc",
+  "mcap": 12492888,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0W1Q.L": {
+  "name": "MPH Health Care AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EMVC.L": {
+  "name": "EMV Capital plc",
+  "mcap": 12410612,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DXG.L": {
+  "name": "CropEnergies AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FIPP.L": {
+  "name": "Frontier IP Group Plc",
+  "mcap": 12387656,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0UNA.L": {
+  "name": "Canada Goose Holdings Inc.",
+  "mcap": null,
+  "currency": "CAD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O2B.L": {
+  "name": "Moltiply Group S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0SE5.L": {
+  "name": "Sensirion Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HM0.L": {
+  "name": "VGP NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0L35.L": {
+  "name": "Sarepta Therapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J7X.L": {
+  "name": "MBB SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SRVL.L": {
+  "name": "Serval Resources Plc",
+  "mcap": 12099429,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QN2.L": {
+  "name": "Interroll Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IOM.L": {
+  "name": "iomart Group plc",
+  "mcap": 12040329,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NDP.L": {
+  "name": "MLP SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TIA.L": {
+  "name": "Tialis Essential IT PLC",
+  "mcap": 11972950,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GLV.L": {
+  "name": "Glenveagh Properties PLC",
+  "mcap": 1182902528,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QPW.L": {
+  "name": "Zug Estates Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R40.L": {
+  "name": "Rai Way S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HFQ.L": {
+  "name": "AnaptysBio, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FHO.L": {
+  "name": "Piraeus Port Authority S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GN6.L": {
+  "name": "Argan SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JG5.L": {
+  "name": "Bittium Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VRCI.L": {
+  "name": "Verici Dx plc",
+  "mcap": 11659045,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VINO.L": {
+  "name": "Virgin Wines UK PLC",
+  "mcap": 11656253,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GWMO.L": {
+  "name": "Great Western Mining Corporation PLC",
+  "mcap": 11636388,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ZIN.L": {
+  "name": "Zinc Media Group plc",
+  "mcap": 11613047,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QI9.L": {
+  "name": "Creades AB",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IRK.L": {
+  "name": "Altarea SCA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RUA.L": {
+  "name": "RUA Life Sciences plc",
+  "mcap": 11481151,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RMR.L": {
+  "name": "Rome Resources Plc",
+  "mcap": 11377276,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LPA.L": {
+  "name": "LPA Group Plc",
+  "mcap": 11363378,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NBS.L": {
+  "name": "Nationwide Building Society",
+  "mcap": 1135731968,
+  "currency": "GBP",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BUC.L": {
+  "name": "Built Cybernetics plc",
+  "mcap": 11326555,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DSW.L": {
+  "name": "DSW Capital plc",
+  "mcap": 11308998,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EPP.L": {
+  "name": "EnergyPathways plc",
+  "mcap": 11285400,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FBM.L": {
+  "name": "Micro Systemation AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MYX.L": {
+  "name": "MYCELX Technologies Corporation",
+  "mcap": 11207355,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QNU.L": {
+  "name": "Luzerner Kantonalbank AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AEO.L": {
+  "name": "Aeorema Communications plc",
+  "mcap": 11127095,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BPCR.L": {
+  "name": "BioPharma Credit Ord",
+  "mcap": 1110970880,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CMRS.L": {
+  "name": "Critical Mineral Resources PLC",
+  "mcap": 11058468,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ATOM.L": {
+  "name": "Atome Plc",
+  "mcap": 11033972,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JOT.L": {
+  "name": "JetBlue Airways Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JSU.L": {
+  "name": "Sipef NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AIEA.L": {
+  "name": "AIREA plc",
+  "mcap": 10939835,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BANK.L": {
+  "name": "Fiinu Plc",
+  "mcap": 10890006,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RP4.L": {
+  "name": "Italmobiliare S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0YU1.L": {
+  "name": "Ambarella, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HVTA.L": {
+  "name": "The Heavitree Brewery PLC",
+  "mcap": 10848998,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "REAT.L": {
+  "name": "REACT Group PLC",
+  "mcap": 10754657,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "POW.L": {
+  "name": "Power Metal Resources plc",
+  "mcap": 10731217,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RTC.L": {
+  "name": "RTC Group plc",
+  "mcap": 10688884,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MET1.L": {
+  "name": "Metals One PLC",
+  "mcap": 10678118,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LMS.L": {
+  "name": "LMS Capital Ord",
+  "mcap": 10656023,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RFG.L": {
+  "name": "Roebuck Food Group plc",
+  "mcap": 10620114,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0M0F.L": {
+  "name": "Tandem Diabetes Care, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DXU.L": {
+  "name": "Cembre S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SALT.L": {
+  "name": "MicroSalt plc",
+  "mcap": 10611367,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JEV.L": {
+  "name": "Option NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LJQ.L": {
+  "name": "Uranium Energy Corp.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JSZ.L": {
+  "name": "Ladder Capital Corp",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0L9Q.L": {
+  "name": "Fiskars Oyj Abp",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JSI.L": {
+  "name": "LGI Homes, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O1O.L": {
+  "name": "Vetoquinol SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LIF.L": {
+  "name": "Ultragenyx Pharmaceutical Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DJN.L": {
+  "name": "Alma Media Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ARCM.L": {
+  "name": "Arc Minerals Limited",
+  "mcap": 10453247,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CPH2.L": {
+  "name": "Clean Power Hydrogen plc",
+  "mcap": 10424872,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "INV.L": {
+  "name": "Investment Company Ord",
+  "mcap": 10374259,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QZS.L": {
+  "name": "Tripadvisor, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "88E.L": {
+  "name": "88 Energy Limited",
+  "mcap": 10314885,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LORD.L": {
+  "name": "Lords Group Trading plc",
+  "mcap": 10224382,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HXW.L": {
+  "name": "Chipotle Mexican Grill, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ARC.L": {
+  "name": "Arcontech Group plc",
+  "mcap": 10163337,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SOUC.L": {
+  "name": "Southern Energy Corp.",
+  "mcap": 10072011,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GX2.L": {
+  "name": "Neurones S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "APTA.L": {
+  "name": "Aptamer Group PLC",
+  "mcap": 10057433,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QU6.L": {
+  "name": "HIAG Immobilien Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CAD.L": {
+  "name": "Cadogan Energy Solutions PLC",
+  "mcap": 10045137,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0L7S.L": {
+  "name": "SolarEdge Technologies, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BCG.L": {
+  "name": "Baltic Classifieds Group PLC",
+  "mcap": 998897920,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MAI.L": {
+  "name": "Maintel Holdings Plc",
+  "mcap": 9927449,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FMET.L": {
+  "name": "Fulcrum Metals plc",
+  "mcap": 9881763,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HW9.L": {
+  "name": "SinterCast AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IUV.L": {
+  "name": "TotalEnergies EP Gabon Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NBPU.L": {
+  "name": "Neuberger Private Equity Partners Limited",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "WINV.L": {
+  "name": "Worsley Investors Limited",
+  "mcap": 9683647,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ADF.L": {
+  "name": "Facilities by ADF plc",
+  "mcap": 9653243,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PRD.L": {
+  "name": "Predator Oil & Gas Holdings Plc",
+  "mcap": 9639943,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JDK.L": {
+  "name": "Iovance Biotherapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HEZ.L": {
+  "name": "Eastnine AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SNDA.L": {
+  "name": "Sunda Energy Plc",
+  "mcap": 9467270,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CMX.L": {
+  "name": "Catalyst Media Group plc",
+  "mcap": 9464413,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ORCA.L": {
+  "name": "Orcadian Energy Plc",
+  "mcap": 9420487,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "THAT.L": {
+  "name": "Thalia Therapeutics Plc",
+  "mcap": 9322534,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N9V.L": {
+  "name": "North Atlantic Energies",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RG5.L": {
+  "name": "Qt Group Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QND.L": {
+  "name": "Bachem Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AMP.L": {
+  "name": "AMPEAK ENERGY LIMITED",
+  "mcap": 9107280,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TND.L": {
+  "name": "Tandem Group plc",
+  "mcap": 9104218,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GENF.L": {
+  "name": "Genflow Biosciences plc",
+  "mcap": 9066655,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UOG.L": {
+  "name": "United Oil & Gas Plc",
+  "mcap": 9064967,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AFP.L": {
+  "name": "African Pioneer PLC",
+  "mcap": 8952752,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R6S.L": {
+  "name": "Zehnder Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MPL.L": {
+  "name": "Mercantile Ports & Logistics Limited",
+  "mcap": 8907818,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IX0.L": {
+  "name": "GL Events SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HW0.L": {
+  "name": "Kongsberg Automotive ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NQJ.L": {
+  "name": "RTX A/S",
+  "mcap": null,
+  "currency": "DKK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QJQ.L": {
+  "name": "ZEAL Network SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IZ2.L": {
+  "name": "Sonaecom, SGPS, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ORR.L": {
+  "name": "Oriole Resources PLC",
+  "mcap": 8814003,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R8X.L": {
+  "name": "Plazza AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EAAS.L": {
+  "name": "eEnergy Group Plc",
+  "mcap": 8798289,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PHE.L": {
+  "name": "PowerHouse Energy Group Plc",
+  "mcap": 8706813,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J38.L": {
+  "name": "Harmonic Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LEX.L": {
+  "name": "Lexington Gold Ltd",
+  "mcap": 8617731,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FADL.L": {
+  "name": "Fadel Partners, Inc.",
+  "mcap": 8595921,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EE0.L": {
+  "name": "uniQure N.V.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FCM.L": {
+  "name": "First Class Metals PLC",
+  "mcap": 8555579,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CAS.L": {
+  "name": "Candessa AI Plc",
+  "mcap": 8543307,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RTW.L": {
+  "name": "RTW Biotech Opportunities Ltd",
+  "mcap": 848118464,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CTA.L": {
+  "name": "CT Automotive Group plc",
+  "mcap": 8463718,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CRTA.L": {
+  "name": "Cirata plc",
+  "mcap": 8789107,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q3C.L": {
+  "name": "SUSS MicroTec SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "QUBE.L": {
+  "name": "Quantum Base Holdings PLC",
+  "mcap": 8436717,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O3R.L": {
+  "name": "Caisse R\u00e9gionale de Cr\u00e9dit Agricole Mutuel Alpes Provence Soci\u00e9t\u00e9 coop\u00e9rative",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MILA.L": {
+  "name": "Mila Resources Plc",
+  "mcap": 8409969,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "XTR.L": {
+  "name": "Xtract Resources Plc",
+  "mcap": 8398251,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "B90.L": {
+  "name": "B90 Holdings PLC",
+  "mcap": 8375480,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LST.L": {
+  "name": "Light Science Technologies Holdings Plc",
+  "mcap": 8364896,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QF8.L": {
+  "name": "Aktia Pankki Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CINH.L": {
+  "name": "Cindrigo Holdings Limited",
+  "mcap": 8297819,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GRP.L": {
+  "name": "Greencoat Renewables",
+  "mcap": 829735040,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RCGH.L": {
+  "name": "RC365 Holding plc",
+  "mcap": 8274552,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RVRB.L": {
+  "name": "River Global Plc",
+  "mcap": 9379551,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F7F.L": {
+  "name": "Duro Felguera, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KTX.L": {
+  "name": "Rapid7, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LJD.L": {
+  "name": "Universal Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ING.L": {
+  "name": "Ingenta plc",
+  "mcap": 8133058,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MDH.L": {
+  "name": "Mendell Helium plc",
+  "mcap": 8078210,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RGI.L": {
+  "name": "Cosmo N.V.",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HGV.L": {
+  "name": "Applied Optoelectronics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0M2Q.L": {
+  "name": "Yext, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CEPS.L": {
+  "name": "CEPS PLC",
+  "mcap": 7980000,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QO2.L": {
+  "name": "Burkhalter Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QNA.L": {
+  "name": "Basilea Pharmaceutica AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SBTX.L": {
+  "name": "SkinBioTherapeutics plc",
+  "mcap": 7904644,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HEM.L": {
+  "name": "Smith & Wesson Brands, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KCS.L": {
+  "name": "OPKO Health, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KBV.L": {
+  "name": "Realia Business, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HUI.L": {
+  "name": "Hydrogen Utopia International PLC",
+  "mcap": 7720948,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HTZ.L": {
+  "name": "Cars.com Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LJB.L": {
+  "name": "Uniti Group Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JD3.L": {
+  "name": "Invesco Mortgage Capital Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IMT.L": {
+  "name": "Photocure ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CPX.L": {
+  "name": "CAP-XX Limited",
+  "mcap": 7498232,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q59.L": {
+  "name": "Scanfil Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CLA.L": {
+  "name": "Celsius Resources Limited",
+  "mcap": 7456049,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RIFT.L": {
+  "name": "Rift Helium plc",
+  "mcap": 7444883,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0A32.L": {
+  "name": "UP Fintech Holding Limited",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NEXS.L": {
+  "name": "Nexus Infrastructure plc",
+  "mcap": 7408132,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ARK.L": {
+  "name": "Arkle Resources PLC",
+  "mcap": 7336399,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RBD.L": {
+  "name": "Reabold Resources Plc",
+  "mcap": 7323113,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0UC0.L": {
+  "name": "Nordic American Tankers Limited",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GLR.L": {
+  "name": "Galileo Resources Plc",
+  "mcap": 7282315,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SEED.L": {
+  "name": "Seed Innovations Limited",
+  "mcap": 7257687,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DTK.L": {
+  "name": "Savencia SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IMC.L": {
+  "name": "IMC Exploration Group Public Limited Company",
+  "mcap": 7221267,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HHU.L": {
+  "name": "ARMOUR Residential REIT, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SEEN.L": {
+  "name": "SEEEN plc",
+  "mcap": 7158998,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BOW.L": {
+  "name": "Bow Street Group plc",
+  "mcap": 7123008,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JZZ.L": {
+  "name": "Medical Properties Trust, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GROC.L": {
+  "name": "GreenRoc Strategic Materials Plc",
+  "mcap": 7092393,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MDP.L": {
+  "name": "GeoPark Limited",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R25.L": {
+  "name": "Prospect Capital Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TAN.L": {
+  "name": "Tanfield Group PLC",
+  "mcap": 6939832,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HALO.L": {
+  "name": "Halo Minerals PLC",
+  "mcap": 6935435,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RA9.L": {
+  "name": "ABIVAX Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DSG.L": {
+  "name": "Dillistone Group Plc",
+  "mcap": 6883379,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SELK.L": {
+  "name": "Selkirk Group Plc",
+  "mcap": 6862969,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KUR.L": {
+  "name": "PSI Software SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HDQ.L": {
+  "name": "Synergie SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "XSG.L": {
+  "name": "Xeros Technology Group plc",
+  "mcap": 6679421,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TRP.L": {
+  "name": "Tower Resources plc",
+  "mcap": 6672955,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O2W.L": {
+  "name": "GFT Technologies SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IPY.L": {
+  "name": "Aubay Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RHR.L": {
+  "name": "Richmond Hill Resources Plc",
+  "mcap": 6589314,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EEV.L": {
+  "name": "Exmar NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TIDE.L": {
+  "name": "Crimson Tide plc",
+  "mcap": 6574862,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NAR.L": {
+  "name": "Northamber plc",
+  "mcap": 6507216,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K2P.L": {
+  "name": "Hello Group Inc.",
+  "mcap": 711409728,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KBU.L": {
+  "name": "Omeros Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IFR.L": {
+  "name": "ChronoScale Holdings Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QS4.L": {
+  "name": "Thurgauer Kantonalbank",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HSM.L": {
+  "name": "Samuel Heath & Sons plc",
+  "mcap": 6462521,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QUS.L": {
+  "name": "G5 Entertainment AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FHS.L": {
+  "name": "Olvi Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MAC.L": {
+  "name": "Marechale Capital Plc",
+  "mcap": 6432181,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VEL.L": {
+  "name": "Velocity Composites plc",
+  "mcap": 6423651,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FIN.L": {
+  "name": "Finseta Plc",
+  "mcap": 6398899,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MBO.L": {
+  "name": "MobilityOne Limited",
+  "mcap": 6377927,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OG6.L": {
+  "name": "S\u00e9ch\u00e9 Environnement SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O2M.L": {
+  "name": "\u00c5landsbanken Abp",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CLBX.L": {
+  "name": "CelLBxHealth plc",
+  "mcap": 6250215,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0CUN.L": {
+  "name": "TCM Group A/S",
+  "mcap": null,
+  "currency": "DKK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LF5.L": {
+  "name": "The Trade Desk, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "WPHO.L": {
+  "name": "Windar Photonics PLC",
+  "mcap": 6199102,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DME.L": {
+  "name": "Ascopiave S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CRTX.L": {
+  "name": "CRISM Therapeutics Corporation",
+  "mcap": 6173455,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G5B.L": {
+  "name": "Sto SE & Co. KGaA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ITIM.L": {
+  "name": "Itim Group Plc",
+  "mcap": 6126043,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SVNS.L": {
+  "name": "Solvonis Therapeutics plc",
+  "mcap": 6125763,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ARS.L": {
+  "name": "Asiamet Resources Limited",
+  "mcap": 6078914,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QAV.L": {
+  "name": "Nanobiotix S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IUS.L": {
+  "name": "Genie Energy Ltd.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LOV.L": {
+  "name": "Verastem, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LSO.L": {
+  "name": "Wabash National Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CHSS.L": {
+  "name": "World Chess PLC",
+  "mcap": 5993936,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LEND.L": {
+  "name": "Sancus Lending Group Limited",
+  "mcap": 5992290,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ROZ.L": {
+  "name": "X-FAB Silicon Foundries SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GTC.L": {
+  "name": "Getech Group plc",
+  "mcap": 5961078,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NJB.L": {
+  "name": "SNP Schneider-Neureither & Partner SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "API.L": {
+  "name": "abrdn Property Income Trust Limited",
+  "mcap": 5908894,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKB.L": {
+  "name": "LEM Holding SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TRT.L": {
+  "name": "Transense Technologies plc",
+  "mcap": 5859655,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J0N.L": {
+  "name": "Green Dot Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RIS.L": {
+  "name": "Circio Holding ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TST.L": {
+  "name": "Touchstar plc",
+  "mcap": 5797458,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NNU.L": {
+  "name": "Nedap N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OA7.L": {
+  "name": "Assystem S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LND.L": {
+  "name": "Landore Resources Limited",
+  "mcap": 5770702,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IK3.L": {
+  "name": "FMC Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K6M.L": {
+  "name": "Netlist, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TGR.L": {
+  "name": "Total Graphite plc",
+  "mcap": 5663744,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IW3.L": {
+  "name": "Global Net Lease, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LDR.L": {
+  "name": "Teladoc Health, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "THRU.L": {
+  "name": "Thruvision Group plc",
+  "mcap": 5606987,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Z0F.L": {
+  "name": "Ichor Holdings, Ltd.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RG7.L": {
+  "name": "VP Bank AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TAP.L": {
+  "name": "Tap Global Group Plc",
+  "mcap": 5584572,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GWI.L": {
+  "name": "Globalworth Real Estate Investments Limited",
+  "mcap": 554230144,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QN0.L": {
+  "name": "APG|SGA SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DLI.L": {
+  "name": "Acomo N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QOB.L": {
+  "name": "Autoneum Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CGO.L": {
+  "name": "Contango Holdings plc",
+  "mcap": 5495350,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AXV.L": {
+  "name": "Axies Ventures Plc",
+  "mcap": 5488439,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MNTL.L": {
+  "name": "Mantle Resilience Plc",
+  "mcap": 5484131,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EX6.L": {
+  "name": "Jensen-Group NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RS2.L": {
+  "name": "Mensch und Maschine Software SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AEG.L": {
+  "name": "Active Energy Group Plc",
+  "mcap": 5440569,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DZJ.L": {
+  "name": "Groupe CRIT SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NNC.L": {
+  "name": "Zignago Vetro S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NL1.L": {
+  "name": "PVA TePla AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JTZ.L": {
+  "name": "LendingTree, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N5I.L": {
+  "name": "adesso SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G0X.L": {
+  "name": "First Sensor AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IXL.L": {
+  "name": "NRJ Group SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FNZ.L": {
+  "name": "Ponsse Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "COM.L": {
+  "name": "Comptoir Group PLC",
+  "mcap": 5213333,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TEK.L": {
+  "name": "Tekcapital plc",
+  "mcap": 5210025,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PEG.L": {
+  "name": "Petards Group plc",
+  "mcap": 5159928,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CGNR.L": {
+  "name": "Conroy Gold and Natural Resources plc",
+  "mcap": 5134906,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TYM.L": {
+  "name": "Tertiary Minerals plc",
+  "mcap": 5072088,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GEA.L": {
+  "name": "Keo Capital AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UFO.L": {
+  "name": "Alien Metals Limited",
+  "mcap": 5020659,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OPTI.L": {
+  "name": "OptiBiotix Health Plc",
+  "mcap": 5010064,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FAB.L": {
+  "name": "Fusion Antibodies plc",
+  "mcap": 5006275,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GRL.L": {
+  "name": "Goldstone Resources Limited",
+  "mcap": 4971863,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R6V.L": {
+  "name": "mobilezone holding ag",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QLD.L": {
+  "name": "Swissquote Group Holding SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CIZ.L": {
+  "name": "Cizzle Biotechnology Holdings Plc",
+  "mcap": 4923283,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SKA.L": {
+  "name": "Shuka Minerals Plc",
+  "mcap": 4915357,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AUTG.L": {
+  "name": "Autins Group plc",
+  "mcap": 4914089,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SUN.L": {
+  "name": "Surgical Innovations Group plc",
+  "mcap": 4897285,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DBOX.L": {
+  "name": "Digitalbox plc",
+  "mcap": 4893821,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ONR.L": {
+  "name": "CIR S.p.A. - Compagnie Industriali Riunite",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GST.L": {
+  "name": "GSTechnologies Ltd.",
+  "mcap": 4882731,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RL9.L": {
+  "name": "ProCredit Holding AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ACRM.L": {
+  "name": "Acuity RM Group Plc Ord",
+  "mcap": 4873775,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JBU.L": {
+  "name": "Intellia Therapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q19.L": {
+  "name": "CEVA, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QS9.L": {
+  "name": "eDreams ODIGEO S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BHL.L": {
+  "name": "Bradda Head Lithium Limited",
+  "mcap": 4845404,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N7N.L": {
+  "name": "Compagnie des Alpes SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KAV.L": {
+  "name": "Arnoldo Mondadori Editore S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QR1.L": {
+  "name": "Schweiter Technologies AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QNK.L": {
+  "name": "Warteck Invest AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IY1.L": {
+  "name": "Atria Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GE8.L": {
+  "name": "GomSpace Group AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SWT.L": {
+  "name": "Switch Metals Plc",
+  "mcap": 4728073,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q4G.L": {
+  "name": "ALNG ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "QHE.L": {
+  "name": "Quantum Helium Limited",
+  "mcap": 4718879,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NBB.L": {
+  "name": "Norman Broadbent plc",
+  "mcap": 4668669,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "POS.L": {
+  "name": "Plexus Holdings plc",
+  "mcap": 4662667,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DSJ.L": {
+  "name": "NRC Group ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQK.L": {
+  "name": "Meier Tobler Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JBD.L": {
+  "name": "Innovative Industrial Properties, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0XWG.L": {
+  "name": "iQIYI, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GLY.L": {
+  "name": "Samse SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QMR.L": {
+  "name": "BELIMO Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AIQ.L": {
+  "name": "AIQ Limited",
+  "mcap": 4533250,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O9C.L": {
+  "name": "Compagnie du Bois Sauvage S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "JAN.L": {
+  "name": "Jangada Mines Plc",
+  "mcap": 4504901,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ORCP.L": {
+  "name": "Oracle Power PLC",
+  "mcap": 4497419,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NCA.L": {
+  "name": "IVU Traffic Technologies AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TLM.L": {
+  "name": "Talisman Metals PLC",
+  "mcap": 4458968,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NANO.L": {
+  "name": "Nanoco Group plc",
+  "mcap": 4451568,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CDL.L": {
+  "name": "Cloudbreak Discovery Plc",
+  "mcap": 4431739,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "THR.L": {
+  "name": "Thor Energy Plc",
+  "mcap": 4377809,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "QDE.L": {
+  "name": "Quantum Data Energy PLC",
+  "mcap": 4362478,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NFM.L": {
+  "name": "New Frontier Minerals Limited",
+  "mcap": 4345741,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GSE.L": {
+  "name": "Midsona AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MRM.L": {
+  "name": "Bang & Olufsen A/S",
+  "mcap": null,
+  "currency": "DKK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PEY.L": {
+  "name": "Partners Group Private Equity Limited",
+  "mcap": 425475904,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ECR.L": {
+  "name": "ECR Minerals plc",
+  "mcap": 4254602,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IGE.L": {
+  "name": "Image Scan Holdings Plc",
+  "mcap": 4242492,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VOX.L": {
+  "name": "Vox Valor Capital Limited",
+  "mcap": 4179691,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKP.L": {
+  "name": "Phoenix Mecano AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "STG.L": {
+  "name": "Strip Tinning Holdings plc",
+  "mcap": 4100644,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GEO.L": {
+  "name": "Geo Exploration Limited",
+  "mcap": 4089305,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HUD.L": {
+  "name": "Huddled Group Plc",
+  "mcap": 4076093,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ATN.L": {
+  "name": "Aterian plc",
+  "mcap": 4045675,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K3W.L": {
+  "name": "Myriad Genetics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R9T.L": {
+  "name": "Equasens Soci\u00e9t\u00e9 anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IWV.L": {
+  "name": "Van de Velde NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N2C.L": {
+  "name": "Wereldhave Belgium",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "THAL.L": {
+  "name": "Thalassa Holdings Limited",
+  "mcap": 3997401,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GQU.L": {
+  "name": "Active Biotech AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R6B.L": {
+  "name": "Enento Group Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TERA.L": {
+  "name": "NeoTerra Group Plc",
+  "mcap": 3907162,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SSTY.L": {
+  "name": "Safestay plc",
+  "mcap": 3896124,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "URU.L": {
+  "name": "URU Metals Limited",
+  "mcap": 3894538,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FRI.L": {
+  "name": "Lumibird SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AYM.L": {
+  "name": "Anglesey Mining plc",
+  "mcap": 3851288,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TERN.L": {
+  "name": "Tern Plc",
+  "mcap": 3848560,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EWR.L": {
+  "name": "init innovation in traffic systems SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KD1.L": {
+  "name": "Tubacex, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CORO.L": {
+  "name": "Coro Energy plc",
+  "mcap": 3688397,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SHIP.L": {
+  "name": "Tufton Assets Limited",
+  "mcap": 365678144,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HSU.L": {
+  "name": "Camping World Holdings, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GEMR.L": {
+  "name": "Gem Resources Plc",
+  "mcap": 3608894,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GFIN.L": {
+  "name": "Gfinity plc",
+  "mcap": 3585431,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JCO.L": {
+  "name": "All for One Group SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FRG.L": {
+  "name": "Firering Strategic Minerals Plc",
+  "mcap": 3577435,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GENI.L": {
+  "name": "GENinCode Plc",
+  "mcap": 3576945,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0T6G.L": {
+  "name": "Q32 Bio Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0P2J.L": {
+  "name": "Ascencio SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PREM.L": {
+  "name": "Premier African Minerals Limited",
+  "mcap": 3556325,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QK5.L": {
+  "name": "INFICON Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0CIJ.L": {
+  "name": "Raisio plc",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RCFX.L": {
+  "name": "RC Fornax Plc",
+  "mcap": 3501909,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QPR.L": {
+  "name": "Cicor Technologies Ltd.",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NLT.L": {
+  "name": "Uzin Utz SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0M0Q.L": {
+  "name": "Deoleo, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OKB.L": {
+  "name": "Alantra Partners, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QNE.L": {
+  "name": "Leonteq AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CNSL.L": {
+  "name": "Cambridge Nutritional Sciences plc",
+  "mcap": 3450284,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FRW.L": {
+  "name": "Rosenbauer International AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PXC.L": {
+  "name": "Phoenix Copper Limited",
+  "mcap": 3447135,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BTC.L": {
+  "name": "London BTC Company Limited",
+  "mcap": 3445462,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0D1X.L": {
+  "name": "Groupe Guillin S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TCF.L": {
+  "name": "Theracryf Plc",
+  "mcap": 3438342,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PRIM.L": {
+  "name": "Primorus Investments plc",
+  "mcap": 3423750,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RAR.L": {
+  "name": "Stratec SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FORG.L": {
+  "name": "Forgent plc",
+  "mcap": 3400788,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QLX.L": {
+  "name": "Metall Zug AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RFM.L": {
+  "name": "Figeac Aero Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MN5.L": {
+  "name": "Sword Group S.E.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ATY.L": {
+  "name": "Athelney Trust Ord",
+  "mcap": 3344715,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N2Q.L": {
+  "name": "Bijou Brigitte modische Accessoires Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FLK.L": {
+  "name": "Fletcher King Plc",
+  "mcap": 3331968,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DKL.L": {
+  "name": "Dekel Agri-Vision plc",
+  "mcap": 3327775,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KJ7.L": {
+  "name": "Ibersol, S.G.P.S., S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R6M.L": {
+  "name": "Intershop Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NTVO.L": {
+  "name": "Nativo Resources plc",
+  "mcap": 3293937,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N66.L": {
+  "name": "ATOSS Software SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKG.L": {
+  "name": "Schweizerische Nationalbank",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QUI.L": {
+  "name": "Lucara Diamond Corp.",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "QBT.L": {
+  "name": "Quantum Blockchain Technologies Plc",
+  "mcap": 3233955,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OPJ.L": {
+  "name": "ABC arbitrage SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NARF.L": {
+  "name": "Narf Industries Plc",
+  "mcap": 3225024,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CVCE.L": {
+  "name": "CVC Income & Growth Limited",
+  "mcap": 320388512,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MLHL.L": {
+  "name": "Malibu Life Holdings Limited",
+  "mcap": 319644800,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MEL.L": {
+  "name": "Deceuninck NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MPO.L": {
+  "name": "Macau Property Opportunities Fund Limited",
+  "mcap": 3169081,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QV3.L": {
+  "name": "Glarner Kantonalbank",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0E9V.L": {
+  "name": "Energiekontor AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FUM.L": {
+  "name": "Futura Medical plc",
+  "mcap": 3112888,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0TCZ.L": {
+  "name": "Webstep ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QEJ.L": {
+  "name": "RCS MediaGroup S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "WTE.L": {
+  "name": "Westmount Energy Limited",
+  "mcap": 3097107,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BMIN.L": {
+  "name": "Botswana Minerals plc",
+  "mcap": 3067305,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UMR.L": {
+  "name": "Unicorn Mineral Resources Public Limited Company",
+  "mcap": 3064124,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QP7.L": {
+  "name": "COLTENE Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0I04.L": {
+  "name": "Clean Energy Fuels Corp.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O6D.L": {
+  "name": "Miquel y Costas & Miquel, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SAL.L": {
+  "name": "SpaceandPeople plc",
+  "mcap": 3026455,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OPA.L": {
+  "name": "Villeroy & Boch AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0W2J.L": {
+  "name": "Deutsche Rohstoff AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DTF.L": {
+  "name": "Boiron SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PRM.L": {
+  "name": "Proteome Sciences plc",
+  "mcap": 2981162,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DK7.L": {
+  "name": "eQ Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IVQ.L": {
+  "name": "Gladstone Commercial Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HAMA.L": {
+  "name": "Hamak Strategy Limited",
+  "mcap": 2941348,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J0P.L": {
+  "name": "Green Plains Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F2S.L": {
+  "name": "Linedata Services S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NFS.L": {
+  "name": "Esprinet S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "EME.L": {
+  "name": "Empyrean Energy Plc",
+  "mcap": 2915901,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QMS.L": {
+  "name": "dormakaba Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "WSBN.L": {
+  "name": "Wishbone Gold Plc",
+  "mcap": 2895381,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0CHZ.L": {
+  "name": "q.beyond AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DEY.L": {
+  "name": "Equita Group S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G29.L": {
+  "name": "Semperit Aktiengesellschaft Holding",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QW1.L": {
+  "name": "Bystronic AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQO.L": {
+  "name": "Siegfried Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BCE.L": {
+  "name": "Beacon Energy plc",
+  "mcap": 2807776,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Y3M.L": {
+  "name": "Prothena Corporation plc",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R7T.L": {
+  "name": "TINC NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G6W.L": {
+  "name": "SaltX Technology Holding AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RMP.L": {
+  "name": "Banque Cantonale de Gen\u00e8ve SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SOU.L": {
+  "name": "Sound Energy plc",
+  "mcap": 2749302,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IH4.L": {
+  "name": "TFF Group",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TOO.L": {
+  "name": "Tooru Ord",
+  "mcap": 2738103,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IDHC.L": {
+  "name": "Integrated Diagnostics Holdings plc",
+  "mcap": 270898048,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QME.L": {
+  "name": "Orell F\u00fcssli AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ZNF.L": {
+  "name": "Turtle Beach Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0YCG.L": {
+  "name": "Orsero S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MLVN.L": {
+  "name": "Malvern International Plc",
+  "mcap": 2677737,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Y9S.L": {
+  "name": "Check Point Software Technologies Ltd.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R6H.L": {
+  "name": "Care Property Invest NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKL.L": {
+  "name": "Komax Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0L9X.L": {
+  "name": "Stitch Fix, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQM.L": {
+  "name": "IVF Hartmann Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NUT.L": {
+  "name": "Nextensa NV/SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ALNA.L": {
+  "name": "Alina Holdings Plc",
+  "mcap": 2610200,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OR2.L": {
+  "name": "LNA Sant\u00e9 SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQF.L": {
+  "name": "Mikron Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LLP.L": {
+  "name": "Tessellis S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OQQ.L": {
+  "name": "Infotel SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "KCR.L": {
+  "name": "KCR Residential REIT",
+  "mcap": 2562682,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKR.L": {
+  "name": "Arbonia AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0P07.L": {
+  "name": "First Mining Gold Corp.",
+  "mcap": null,
+  "currency": "CAD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N9F.L": {
+  "name": "Einhell Germany AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JDU.L": {
+  "name": "Precise Biometrics AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MVY.L": {
+  "name": "SFC Energy AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BUCE.L": {
+  "name": "Buccaneer Energy plc.",
+  "mcap": 2402570,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0E1L.L": {
+  "name": "CapMan Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OKP.L": {
+  "name": "Okopa plc",
+  "mcap": 2353095,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G68.L": {
+  "name": "Kendrion N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HIY.L": {
+  "name": "Atara Biotherapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IGA.L": {
+  "name": "Emergent BioSolutions Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MET.L": {
+  "name": "Metir plc",
+  "mcap": 2333209,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RRC.L": {
+  "name": "H&R GmbH & Co. KGaA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RHR.L": {
+  "name": "Kuros Biosciences AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0A2T.L": {
+  "name": "High Templar Tech Limited",
+  "mcap": 224165184,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IH3.L": {
+  "name": "Energous Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TMI.L": {
+  "name": "Taylor Maritime Limited",
+  "mcap": 223126656,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IYQ.L": {
+  "name": "Gogo Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SURE.L": {
+  "name": "Sure Ventures Ord",
+  "mcap": 2185735,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OPY.L": {
+  "name": "Parrot S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N9Z.L": {
+  "name": "EVS SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OB3.L": {
+  "name": "Valneva SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ZQ7.L": {
+  "name": "Instone Real Estate Group SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0W1V.L": {
+  "name": "STEICO SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KCC.L": {
+  "name": "Insight Molecular Diagnostics Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IWU.L": {
+  "name": "Fabasoft AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RVRG.L": {
+  "name": "River Global Plc",
+  "mcap": 2102116,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VTA.L": {
+  "name": "Volta Finance Limited",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MTZ.L": {
+  "name": "Novabase S.G.P.S., S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BAF.L": {
+  "name": "British & American Ord",
+  "mcap": 2000000,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DPY.L": {
+  "name": "Bourse Direct SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LKB.L": {
+  "name": "Vanda Pharmaceuticals Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RQJ.L": {
+  "name": "Saniona AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UJO.L": {
+  "name": "Union Jack Oil plc",
+  "mcap": 1978639,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IFS.L": {
+  "name": "8x8, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R8H.L": {
+  "name": "Pihlajalinna Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PYC.L": {
+  "name": "Physiomics Plc",
+  "mcap": 1938916,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N9P.L": {
+  "name": "GROUPE SFPI SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J8S.L": {
+  "name": "Aspo Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0SZI.L": {
+  "name": "Corbus Pharmaceuticals Holdings, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PR1.L": {
+  "name": "Pri0r1ty Intelligence Group PLC",
+  "mcap": 1928084,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MW2.L": {
+  "name": "Lindex Group Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EDL.L": {
+  "name": "Etteplan Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MFAI.L": {
+  "name": "Mindflair Plc",
+  "mcap": 1858598,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CLCO.L": {
+  "name": "CloudCoCo Group plc",
+  "mcap": 1823995,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JMU.L": {
+  "name": "technotrans SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CHP.L": {
+  "name": "Caledonian Holdings PLC",
+  "mcap": 1817617,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AMOI.L": {
+  "name": "Anemoi International Limited",
+  "mcap": 1805979,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "JIM.L": {
+  "name": "Jarvis Securities plc",
+  "mcap": 1789240,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QON.L": {
+  "name": "Ascom Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UKR.L": {
+  "name": "Ukrproduct Group Limited",
+  "mcap": 1785287,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "VAL.L": {
+  "name": "ValiRx plc",
+  "mcap": 1782406,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MD5.L": {
+  "name": "Exel Composites Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NT5.L": {
+  "name": "Fourlis Holdings S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QYH.L": {
+  "name": "3D Systems Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BSFA.L": {
+  "name": "BSF Enterprise Plc",
+  "mcap": 1732720,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IFM.L": {
+  "name": "eGain Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QW7.L": {
+  "name": "Voltalia SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TRUE.L": {
+  "name": "Truetide plc",
+  "mcap": 1726416,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NFX.L": {
+  "name": "Nuformix plc",
+  "mcap": 1696337,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IV3.L": {
+  "name": "Geron Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IJ3.L": {
+  "name": "Everspin Technologies, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FDBK.L": {
+  "name": "Feedback plc",
+  "mcap": 1686869,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IBAI.L": {
+  "name": "Imaging Biometrics Ltd.",
+  "mcap": 1665291,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BLU.L": {
+  "name": "Blue Star Capital plc",
+  "mcap": 1661551,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PET.L": {
+  "name": "Petrel Resources Plc",
+  "mcap": 1661450,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0CXS.L": {
+  "name": "Gofore Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RUJ.L": {
+  "name": "Delta Plus Group",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TOM.L": {
+  "name": "TomCo Energy Plc",
+  "mcap": 1638107,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FDR.L": {
+  "name": "First Development Resources Plc",
+  "mcap": 1635514,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F8V.L": {
+  "name": "Akwel SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EHB.L": {
+  "name": "FNM S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SRES.L": {
+  "name": "Sunrise Resources plc",
+  "mcap": 1611185,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0REW.L": {
+  "name": "Z\u00fcblin Immobilien Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SIHL.L": {
+  "name": "Symphony International Holdings Limited",
+  "mcap": 159143520,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QB4.L": {
+  "name": "Medios AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MJH.L": {
+  "name": "Zumtobel Group AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IKK.L": {
+  "name": "Digia Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HLU.L": {
+  "name": "Baozun Inc.",
+  "mcap": 145804768,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QN1.L": {
+  "name": "Santhera Pharmaceuticals Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TORO.L": {
+  "name": "Chenavari Toro Income Fund Limited",
+  "mcap": 154534288,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QI6.L": {
+  "name": "NoHo Partners Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "UKEN.L": {
+  "name": "UK Energy Group PLC",
+  "mcap": 1525194,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CODE.L": {
+  "name": "Northcoders Group PLC",
+  "mcap": 1522179,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LRES.L": {
+  "name": "Lansdowne Resources Plc",
+  "mcap": 1517415,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CPAI.L": {
+  "name": "capAI Plc",
+  "mcap": 1498532,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MDZ.L": {
+  "name": "MediaZest plc",
+  "mcap": 1489701,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DI7.L": {
+  "name": "AFC Ajax NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q4C.L": {
+  "name": "Gesco SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RUM.L": {
+  "name": "Allgeier SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QLS.L": {
+  "name": "Private Equity Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DYQ.L": {
+  "name": "Cegedim SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RRB.L": {
+  "name": "DocMorris AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QVW.L": {
+  "name": "ATEME SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LH4.L": {
+  "name": "Tucows Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "IRON.L": {
+  "name": "Ironveld Plc",
+  "mcap": 1408951,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F8T.L": {
+  "name": "Hexaom S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RRR.L": {
+  "name": "Red Rock Resources Plc",
+  "mcap": 1384978,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QV6.L": {
+  "name": "7C Solarparken AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N8R.L": {
+  "name": "Digital Bros S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ENET.L": {
+  "name": "Ethernity Networks Ltd.",
+  "mcap": 1323509,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K05.L": {
+  "name": "Medifast, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EVE.L": {
+  "name": "Interoil Exploration and Production ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IL8.L": {
+  "name": "Kyntra Bio, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FAIR.L": {
+  "name": "Fair Oaks Income Limited",
+  "mcap": 127999296,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NES.L": {
+  "name": "Oriola Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "KDR.L": {
+  "name": "Karelian Diamond Resources Plc",
+  "mcap": 1276834,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DT1.L": {
+  "name": "Banque nationale de Belgique SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HC8.L": {
+  "name": "Roularta Media Group NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MS9.L": {
+  "name": "S.S. Lazio S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0AB6.L": {
+  "name": "Hyloris Pharmaceuticals SA",
+  "mcap": 0,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R4W.L": {
+  "name": "Multitude AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0W4N.L": {
+  "name": "Formycon AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AKN.L": {
+  "name": "Arkadian Strategic Metals Plc",
+  "mcap": 1212454,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DQP.L": {
+  "name": "Marie Brizard Wine & Spirits SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AMG.L": {
+  "name": "Atlas Metals Group plc",
+  "mcap": 1194863,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G2C.L": {
+  "name": "Soci\u00e9t\u00e9 Marseillaise du Tunnel Prado Car\u00e9nage",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ENJ.L": {
+  "name": "Hawesko Holding SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OM7.L": {
+  "name": "B&C Speakers S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RDT.L": {
+  "name": "Rosslyn Data Technologies plc",
+  "mcap": 1179029,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QP3.L": {
+  "name": "CALIDA Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QL5.L": {
+  "name": "Carlo Gavazzi Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "USF.L": {
+  "name": "US Solar Fund Ord",
+  "mcap": 115437520,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CLON.L": {
+  "name": "Clontarf Energy plc",
+  "mcap": 1147065,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TRAC.L": {
+  "name": "t42 IoT Tracking Solutions PLC",
+  "mcap": 1133914,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HX7.L": {
+  "name": "Adicet Bio, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R9G.L": {
+  "name": "Naturhouse Health, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G6J.L": {
+  "name": "Schloss Wachenheim AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SYN.L": {
+  "name": "Synergia Energy Ltd",
+  "mcap": 1090021,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PNPL.L": {
+  "name": "Pineapple Power Corporation plc",
+  "mcap": 1085597,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CHF.L": {
+  "name": "Chesterfield Resources plc",
+  "mcap": 1078667,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QHC.L": {
+  "name": "Bastei L\u00fcbbe AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0H8T.L": {
+  "name": "Aclaris Therapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QOI.L": {
+  "name": "Newron Pharmaceuticals S.p.A.",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CYKL.L": {
+  "name": "Cykel AI PLC",
+  "mcap": 1033496,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ISM.L": {
+  "name": "HKFoods Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RIL.L": {
+  "name": "La Fran\u00e7aise de l'Energie S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LTI.L": {
+  "name": "Lindsell Train Ord",
+  "mcap": 99520000,
+  "currency": "GBP",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NIG.L": {
+  "name": "Sabaf S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RWM.L": {
+  "name": "Bitcoin Group SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HS4.L": {
+  "name": "Cadiz Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HX1.L": {
+  "name": "Olympique Lyonnais Groupe Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QT0.L": {
+  "name": "lastminute.com N.V.",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OQX.L": {
+  "name": "Grammer AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J75.L": {
+  "name": "Fleury Michon SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SNT.L": {
+  "name": "Sabien Technology Group Plc",
+  "mcap": 951778,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "HMI.L": {
+  "name": "Harvest Minerals Limited",
+  "mcap": 950546,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GD5.L": {
+  "name": "UBM Development AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FPP.L": {
+  "name": "Fragrant Prosperity Holdings Limited",
+  "mcap": 929047,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OT4.L": {
+  "name": "Oxford Technology VCT 4 Ord",
+  "mcap": 920698,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QLZ.L": {
+  "name": "Bellevue Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "BMV.L": {
+  "name": "Bluebird Mining Ventures Ltd",
+  "mcap": 882837,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RDB.L": {
+  "name": "Oryzon Genomics S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FQ8.L": {
+  "name": "Pharol, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FT3.L": {
+  "name": "Riber S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KDD.L": {
+  "name": "Vocento, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NA0.L": {
+  "name": "EXEL Industries SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q9C.L": {
+  "name": "R. STAHL AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0IFK.L": {
+  "name": "Editas Medicine, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R1C.L": {
+  "name": "GoPro, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MTC.L": {
+  "name": "Mothercare plc",
+  "mcap": 845732,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "TMT.L": {
+  "name": "TMT Investments PLC",
+  "mcap": 84415296,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "COR.L": {
+  "name": "Corpus Resources Plc",
+  "mcap": 808840,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ELV.L": {
+  "name": "Guerbet SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GOX.L": {
+  "name": "Polytec Holding AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OJJ.L": {
+  "name": "ACTIA Group S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RK5.L": {
+  "name": "MAX Automation SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0E3F.L": {
+  "name": "DATA MODUL Aktiengesellschaft Produktion und Vertrieb von elektronischen Systemen",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKQ.L": {
+  "name": "MindMaze Therapeutics Holding SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F29.L": {
+  "name": "Luotea Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LSAA.L": {
+  "name": "Life Settlement Assets A Ord",
+  "mcap": 74719576,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DUI.L": {
+  "name": "Basler Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F2Z.L": {
+  "name": "Leifheit Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CHLL.L": {
+  "name": "Chill Brands Group PLC",
+  "mcap": 732097,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EVB.L": {
+  "name": "Airtificial Intelligence Structures, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NC0.L": {
+  "name": "Immobel SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JX9.L": {
+  "name": "Marimekko Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "CTAI.L": {
+  "name": "Catenai PLC",
+  "mcap": 716930,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QNQ.L": {
+  "name": "Kudelski SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0H7R.L": {
+  "name": "Abeona Therapeutics Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O9Y.L": {
+  "name": "High Co. SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HVA.L": {
+  "name": "Haulotte Group SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RH3.L": {
+  "name": "Singulus Technologies AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GUN.L": {
+  "name": "Gunsynd Plc",
+  "mcap": 665542,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ROH.L": {
+  "name": "Aquafil S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ND3.L": {
+  "name": "Landi Renzo S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QM6.L": {
+  "name": "ORIOR AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PHSC.L": {
+  "name": "PHSC plc",
+  "mcap": 642553,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EA2.L": {
+  "name": "Elica S.p.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "OT3.L": {
+  "name": "Oxford Technology VCT 3 Ord",
+  "mcap": 625459,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RNK.L": {
+  "name": "Inventiva S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0JW9.L": {
+  "name": "Lite Strategy, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NGP.L": {
+  "name": "Home Invest Belgium S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NHL.L": {
+  "name": "PWO AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0AH7.L": {
+  "name": "BayWa Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RBL.L": {
+  "name": "Berentzen-Gruppe Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ERY.L": {
+  "name": "Incap Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "FOX.L": {
+  "name": "Focus Xplore Plc",
+  "mcap": 566627,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AERI.L": {
+  "name": "Aquila European Renewables Ord",
+  "mcap": 55583956,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GED.L": {
+  "name": "Viscom SE",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0UNS.L": {
+  "name": "IBU-tec advanced materials AG",
+  "mcap": 61512464,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QW5.L": {
+  "name": "Heidelberg Pharma AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0K17.L": {
+  "name": "MicroVision, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GYZ.L": {
+  "name": "Nordic Mining ASA",
+  "mcap": null,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HFR.L": {
+  "name": "Anavex Life Sciences Corp.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MEF.L": {
+  "name": "Rapala VMC Corporation",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SPDI.L": {
+  "name": "Secure Property Development & Investment Plc",
+  "mcap": 516765,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RP3.L": {
+  "name": "Kamux Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQG.L": {
+  "name": "Romande Energie Holding SA",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0I0X.L": {
+  "name": "Codexis, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RHT.L": {
+  "name": "Sif Holding N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F2N.L": {
+  "name": "Groupe LDLC soci\u00e9t\u00e9 anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QLM.L": {
+  "name": "Feintool International Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QSV.L": {
+  "name": "EKINOPS S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0F1U.L": {
+  "name": "LACROIX Group SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RV4.L": {
+  "name": "Voltatron AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0D00.L": {
+  "name": "MGI Digital Technology Soci\u00e9t\u00e9 Anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "MODE.L": {
+  "name": "R8 Capital Investments plc",
+  "mcap": 453179,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OGG.L": {
+  "name": "SA Catana Group",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RFI.L": {
+  "name": "BRAIN Biotech AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QPF.L": {
+  "name": "MCH Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OCQ.L": {
+  "name": "Transgene SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ROS.L": {
+  "name": "Plastiques du Val de Loire",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "LIT.L": {
+  "name": "Litigation Capital Management Limited",
+  "mcap": 412029,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ASBE.L": {
+  "name": "Associated British Engineering Plc",
+  "mcap": 409798,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RPP.L": {
+  "name": "Valartis Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0E2F.L": {
+  "name": "Ctac N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O27.L": {
+  "name": "Hoenle AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QXX.L": {
+  "name": "Molecular Partners AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0W30.L": {
+  "name": "VANEA AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FRE.L": {
+  "name": "Quest for Growth NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "GSC.L": {
+  "name": "GS Chain plc",
+  "mcap": 380788,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DPA.L": {
+  "name": "DP Aircraft I Limited",
+  "mcap": 37120000,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GTO.L": {
+  "name": "Kapsch TrafficCom AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RQB.L": {
+  "name": "Prodways Group SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0N2B.L": {
+  "name": "MS Industrie AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FTQ.L": {
+  "name": "Risanamento SpA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "DISH.L": {
+  "name": "Amala Foods Plc",
+  "mcap": 335484,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RAG.L": {
+  "name": "ABIONYX Pharma SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "SHR.L": {
+  "name": "Shaires Holdings Ltd",
+  "mcap": 33114820,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RDE.L": {
+  "name": "Deutsche Konsum Real Estate AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GCJ.L": {
+  "name": "Tulikivi Corporation",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MV8.L": {
+  "name": "Vantiva S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PACS.L": {
+  "name": "PACSCo Limited",
+  "mcap": 305273,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0M1M.L": {
+  "name": "Suominen Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DRP.L": {
+  "name": "Biohit Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RS1.L": {
+  "name": "Lang & Schwarz Aktiengesellschaft",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RCOI.L": {
+  "name": "Riverstone Credit Opportunities Income",
+  "mcap": 28714132,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GP7.L": {
+  "name": "Medivir AB (publ)",
+  "mcap": null,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0HH6.L": {
+  "name": "Aqua Metals, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QAU.L": {
+  "name": "Verimatrix SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "AMIF.L": {
+  "name": "Amicorp FS (UK) plc",
+  "mcap": 26551038,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0ABT.L": {
+  "name": "Kalray S.A.",
+  "mcap": 26074056,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J4V.L": {
+  "name": "Heron Therapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QOJ.L": {
+  "name": "Peach Property Group AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "ICON.L": {
+  "name": "Iconic Labs Plc",
+  "mcap": 252528,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QR0.L": {
+  "name": "Adval Tech Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0LRL.L": {
+  "name": "Vuzix Corporation",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PRIS.L": {
+  "name": "Pristine Capital Plc",
+  "mcap": 241086,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0E4J.L": {
+  "name": "Delticom AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "PTAL.L": {
+  "name": "PetroTal Corp.",
+  "mcap": 234683,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QAI.L": {
+  "name": "Adocia SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQR.L": {
+  "name": "Gurit Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0Q77.L": {
+  "name": "AB Science S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "JPEL.L": {
+  "name": "JPEL Private Equity Limited",
+  "mcap": 19839470,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RAD.L": {
+  "name": "OSE Immunotherapeutics SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0GJS.L": {
+  "name": "Xilam Animation",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NWK.L": {
+  "name": "Valerio Therapeutics Soci\u00e9t\u00e9 anonyme",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0G73.L": {
+  "name": "Softing AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0MAU.L": {
+  "name": "H2APEX Group SCA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "RNEW.L": {
+  "name": "Ecofin US Renewables Infrastructure Ord",
+  "mcap": 17881166,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0OQ0.L": {
+  "name": "Pierre et Vacances SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QIH.L": {
+  "name": "Grupo Ezentis, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "NOG.L": {
+  "name": "Nostrum Oil & Gas PLC",
+  "mcap": 164950,
+  "currency": "GBp",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0CDX.L": {
+  "name": "Smartbroker Holding AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0KDU.L": {
+  "name": "Neighborhood Intelligence, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0EYY.L": {
+  "name": "Kesla Oyj",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0J2I.L": {
+  "name": "The Hain Celestial Group, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R1D.L": {
+  "name": "Sangamo Therapeutics, Inc.",
+  "mcap": null,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QKA.L": {
+  "name": "Rieter Holding AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RQK.L": {
+  "name": "Belysse Group NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NLV.L": {
+  "name": "FamiCord AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0M2T.L": {
+  "name": "KPS AG",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0R3M.L": {
+  "name": "Vivoryon Therapeutics N.V.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RCQ.L": {
+  "name": "Nicox S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QQI.L": {
+  "name": "Centiel AG",
+  "mcap": null,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RH8.L": {
+  "name": "Nyrstar NV",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NG6.L": {
+  "name": "Atenor SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0FQS.L": {
+  "name": "Pescanova, S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0P5I.L": {
+  "name": "Mauna Kea Technologies SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RIM.L": {
+  "name": "GenSight Biologics S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0QFK.L": {
+  "name": "Celyad Oncology SA",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0RAE.L": {
+  "name": "Amo\u00e9ba S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0DO7.L": {
+  "name": "Avenir Telecom S.A.",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0O0E.L": {
+  "name": "BigBen Interactive",
+  "mcap": null,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "LSE",
+  "sector": null,
+  "industry": null
+ },
+ "0NQT.IL": {
+  "name": "TF1 SA",
+  "mcap": 1396474496,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0J04.IL": {
+  "name": "PORR AG",
+  "mcap": 1372716032,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0FBS.IL": {
+  "name": "Orange Belgium S.A.",
+  "mcap": 1333771776,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0K8W.IL": {
+  "name": "Derichebourg SA",
+  "mcap": 1322601344,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RH2.IL": {
+  "name": "EL.En. S.p.A.",
+  "mcap": 1311048960,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0GJN.IL": {
+  "name": "W\u00fcstenrot & W\u00fcrttembergische AG",
+  "mcap": 1297703168,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0I3Z.IL": {
+  "name": "Deutsche EuroShop AG",
+  "mcap": 1263190400,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0AAR.IL": {
+  "name": "Intercos S.p.A.",
+  "mcap": 1255204352,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0A0F.IL": {
+  "name": "Citycon Oyj",
+  "mcap": 1246626688,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0K4O.IL": {
+  "name": "Icade",
+  "mcap": 1206425088,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NOL.IL": {
+  "name": "Adtran Networks SE",
+  "mcap": 1186507776,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0G9R.IL": {
+  "name": "PowerCell Sweden AB (publ)",
+  "mcap": 1160629248,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0L9J.IL": {
+  "name": "Kontron AG",
+  "mcap": 1152986496,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0H7I.IL": {
+  "name": "LANXESS Aktiengesellschaft",
+  "mcap": 1140489088,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0ABE.IL": {
+  "name": "Ariston Holding N.V.",
+  "mcap": 1120775296,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RJT.IL": {
+  "name": "Redcare Pharmacy NV",
+  "mcap": 1115617024,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R9S.IL": {
+  "name": "Avio S.p.A.",
+  "mcap": 1114838016,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0P52.IL": {
+  "name": "Salvatore Ferragamo S.p.A.",
+  "mcap": 1105708800,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R96.IL": {
+  "name": "Flow Traders Ltd.",
+  "mcap": 1086237952,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NTI.IL": {
+  "name": "Gerresheimer AG",
+  "mcap": 1079242752,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0E4K.IL": {
+  "name": "DEUTZ Aktiengesellschaft",
+  "mcap": 1075567872,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RC6.IL": {
+  "name": "Pharma Mar, S.A.",
+  "mcap": 1064552768,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RV8.IL": {
+  "name": "Aedas Homes, S.A.",
+  "mcap": 0,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0KCP.IL": {
+  "name": "Tessenderlo Group NV",
+  "mcap": 1050275776,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NJ5.IL": {
+  "name": "Safilo Group S.p.A.",
+  "mcap": 1044850432,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0FSO.IL": {
+  "name": "Retail Estates N.V.",
+  "mcap": 1036480768,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QSH.IL": {
+  "name": "Fnac Darty SA",
+  "mcap": 1029982784,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O7A.IL": {
+  "name": "Mets\u00e4 Board Oyj",
+  "mcap": 1025426304,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RNO.IL": {
+  "name": "Prosegur Cash, S.A.",
+  "mcap": 1008256064,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NQH.IL": {
+  "name": "RH\u00d6N-KLINIKUM Aktiengesellschaft",
+  "mcap": 1000815744,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MJ1.IL": {
+  "name": "Palfinger AG",
+  "mcap": 987052672,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RQE.IL": {
+  "name": "Idorsia Ltd",
+  "mcap": 981762624,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0IQU.IL": {
+  "name": "Mercialys SA",
+  "mcap": 973930048,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0Q6Q.IL": {
+  "name": "Mersen S.A.",
+  "mcap": 954291072,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QGH.IL": {
+  "name": "OCI N.V.",
+  "mcap": 949552448,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RHA.IL": {
+  "name": "Bonava AB (publ)",
+  "mcap": 940409920,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RD8.IL": {
+  "name": "Xior Student Housing NV",
+  "mcap": 934798976,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O7J.IL": {
+  "name": "Corticeira Amorim, S.G.P.S., S.A.",
+  "mcap": 930169536,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0GKA.IL": {
+  "name": "YIT Oyj",
+  "mcap": 893235584,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NEX.IL": {
+  "name": "emeis Soci\u00e9t\u00e9 anonyme",
+  "mcap": 889838144,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0IVJ.IL": {
+  "name": "Lectra SA",
+  "mcap": 877302592,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R6Y.IL": {
+  "name": "Thor Medical ASA",
+  "mcap": 868646400,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0A20.IL": {
+  "name": "Beyond Meat, Inc.",
+  "mcap": 867276736,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MSD.IL": {
+  "name": "CompuGroup Medical SE & Co. KGaA",
+  "mcap": 859966528,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0N2Z.IL": {
+  "name": "Vossloh AG",
+  "mcap": 845248512,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0FM1.IL": {
+  "name": "Piaggio & C. SpA",
+  "mcap": 843662336,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0DJV.IL": {
+  "name": "Altri, SGPS, S.A.",
+  "mcap": 832835904,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RTR.IL": {
+  "name": "JOST Werke SE",
+  "mcap": 829185024,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0N8F.IL": {
+  "name": "CEWE Stiftung & Co. KGaA",
+  "mcap": 823333952,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QCO.IL": {
+  "name": "Pharming Group N.V.",
+  "mcap": 819126336,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NDA.IL": {
+  "name": "Manitou BF SA",
+  "mcap": 817458624,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0ABF.IL": {
+  "name": "Harvia Oyj",
+  "mcap": 793442688,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NMR.IL": {
+  "name": "Wereldhave N.V.",
+  "mcap": 779418944,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R1J.IL": {
+  "name": "Plug Power Inc.",
+  "mcap": 759010304,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RV1.IL": {
+  "name": "Terveystalo Oyj",
+  "mcap": 756172096,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0LO9.IL": {
+  "name": "AMG Critical Materials N.V.",
+  "mcap": 754197568,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QW9.IL": {
+  "name": "FACC AG",
+  "mcap": 741641856,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QT8.IL": {
+  "name": "Irish Residential Properties REIT Plc",
+  "mcap": 734072064,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0FJC.IL": {
+  "name": "PATRIZIA SE",
+  "mcap": 723407232,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O0F.IL": {
+  "name": "Cancom SE",
+  "mcap": 711485184,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QIM.IL": {
+  "name": "CTT - Correios De Portugal, S.A.",
+  "mcap": 708486656,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NHV.IL": {
+  "name": "Recticel SA/NV",
+  "mcap": 706060224,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QG9.IL": {
+  "name": "ProSiebenSat.1 Media SE",
+  "mcap": 692861568,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0JVS.IL": {
+  "name": "Hypoport SE",
+  "mcap": 660355776,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RVI.IL": {
+  "name": "HelloFresh SE",
+  "mcap": 638774720,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MPL.IL": {
+  "name": "SGL Carbon SE",
+  "mcap": 603995136,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NE1.IL": {
+  "name": "MFE-Mediaforeurope N.V.",
+  "mcap": 602378688,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QT6.IL": {
+  "name": "Genfit S.A.",
+  "mcap": 588574016,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R97.IL": {
+  "name": "Grenke AG",
+  "mcap": 573105280,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0OPS.IL": {
+  "name": "Clariane SE",
+  "mcap": 555729472,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0K96.IL": {
+  "name": "ENCE Energ\u00eda y Celulosa, S.A.",
+  "mcap": 553415872,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0STP.IL": {
+  "name": "Immobiliare Grande Distribuzione SIIQ S.p.A.",
+  "mcap": 552111104,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0EGH.IL": {
+  "name": "Fiera Milano S.p.A.",
+  "mcap": 543087360,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MGV.IL": {
+  "name": "ERAMET S.A.",
+  "mcap": 539907456,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0EIB.IL": {
+  "name": "Audax Renovables, S.A.",
+  "mcap": 529049984,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MKS.IL": {
+  "name": "TomTom N.V.",
+  "mcap": 521718240,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O05.IL": {
+  "name": "SBO AG",
+  "mcap": 521363456,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RHZ.IL": {
+  "name": "ForFarmers N.V.",
+  "mcap": 520753952,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0GZK.IL": {
+  "name": "Ion Beam Applications SA",
+  "mcap": 513927744,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NBX.IL": {
+  "name": "Banca IFIS S.p.A.",
+  "mcap": 509728704,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NQ5.IL": {
+  "name": "Quadient S.A.",
+  "mcap": 504280544,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0IRF.IL": {
+  "name": "Evotec SE",
+  "mcap": 485617536,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0IN3.IL": {
+  "name": "Jacquet Metals SA",
+  "mcap": 484604768,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QIQ.IL": {
+  "name": "F.I.L.A. - Fabbrica Italiana Lapis ed Affini S.p.A.",
+  "mcap": 466926336,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QVP.IL": {
+  "name": "Elior Group SA",
+  "mcap": 466322784,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MG5.IL": {
+  "name": "ElringKlinger AG",
+  "mcap": 466096992,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QY5.IL": {
+  "name": "Ballard Power Systems Inc.",
+  "mcap": 460661312,
+  "currency": "CAD",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0P47.IL": {
+  "name": "PostNL N.V.",
+  "mcap": 446452992,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RFW.IL": {
+  "name": "Global Dominion Access, S.A.",
+  "mcap": 438655680,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MKM.IL": {
+  "name": "Sligro Food Group N.V.",
+  "mcap": 430364256,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0F07.IL": {
+  "name": "Kaufman & Broad S.A.",
+  "mcap": 426141920,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0K8N.IL": {
+  "name": "B\u00e9n\u00e9teau S.A.",
+  "mcap": 416919776,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0JOX.IL": {
+  "name": "Jinko Holdings Limited",
+  "mcap": 413104096,
+  "currency": "USD",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R9K.IL": {
+  "name": "Deutsche Pfandbriefbank AG",
+  "mcap": 410873632,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0GJK.IL": {
+  "name": "WashTec AG",
+  "mcap": 410720384,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NCV.IL": {
+  "name": "Lenzing Aktiengesellschaft",
+  "mcap": 405195328,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NVL.IL": {
+  "name": "Ubisoft Entertainment SA",
+  "mcap": 399063104,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0P38.IL": {
+  "name": "NORMA Group SE",
+  "mcap": 398578912,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QF7.IL": {
+  "name": "Deutsche Beteiligungs AG",
+  "mcap": 394248000,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0DVE.IL": {
+  "name": "Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien",
+  "mcap": 390852960,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NSS.IL": {
+  "name": "MARR S.p.A.",
+  "mcap": 387840768,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RG2.IL": {
+  "name": "Tokmanni Group Oyj",
+  "mcap": 382613952,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RVA.IL": {
+  "name": "SMCP S.A.",
+  "mcap": 379155552,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RQN.IL": {
+  "name": "NSI N.V.",
+  "mcap": 362007552,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0OC2.IL": {
+  "name": "Heidelberger Druckmaschinen Aktiengesellschaft",
+  "mcap": 344463392,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QUM.IL": {
+  "name": "Brunel International N.V.",
+  "mcap": 343095968,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0AA2.IL": {
+  "name": "Westwing Group SE",
+  "mcap": 342374400,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0KUY.IL": {
+  "name": "PNE AG",
+  "mcap": 336249152,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QUL.IL": {
+  "name": "Stabilus SE",
+  "mcap": 320605984,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NZY.IL": {
+  "name": "Eckert & Ziegler SE",
+  "mcap": 316764736,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0N7I.IL": {
+  "name": "Cairo Communication S.p.A.",
+  "mcap": 294707104,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R99.IL": {
+  "name": "Talgo, S.A.",
+  "mcap": 284259008,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RPX.IL": {
+  "name": "Econocom Group SE",
+  "mcap": 280267328,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0L91.IL": {
+  "name": "Grupo Empresarial San Jos\u00e9, S.A.",
+  "mcap": 273759872,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0KB3.IL": {
+  "name": "Nexity SA",
+  "mcap": 273110240,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O2T.IL": {
+  "name": "Compagnie d'Entreprises CFE SA",
+  "mcap": 271107552,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0N75.IL": {
+  "name": "Bonduelle SCA",
+  "mcap": 259525328,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RO8.IL": {
+  "name": "Aumann AG",
+  "mcap": 246916384,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RUE.IL": {
+  "name": "Catena Media plc",
+  "mcap": 243867392,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RON.IL": {
+  "name": "BFF Bank S.p.A.",
+  "mcap": 238799520,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QTW.IL": {
+  "name": "Vow ASA",
+  "mcap": 238325376,
+  "currency": "NOK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0H9P.IL": {
+  "name": "Intrum AB (publ)",
+  "mcap": 219282544,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0E1Y.IL": {
+  "name": "Belgrano",
+  "mcap": 216870704,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QAJ.IL": {
+  "name": "DBV Technologies S.A.",
+  "mcap": 214715424,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MKG.IL": {
+  "name": "Obrasc\u00f3n Huarte Lain, S.A.",
+  "mcap": 194897104,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0ND2.IL": {
+  "name": "LPKF Laser & Electronics SE",
+  "mcap": 191284432,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RN4.IL": {
+  "name": "Oncopeptides AB (publ)",
+  "mcap": 163527136,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RTI.IL": {
+  "name": "doValue S.p.A.",
+  "mcap": 158165568,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QF5.IL": {
+  "name": "bpost NV/SA",
+  "mcap": 156990384,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0G15.IL": {
+  "name": "Koenig & Bauer AG",
+  "mcap": 150321376,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0H22.IL": {
+  "name": "BioInvent International AB (publ)",
+  "mcap": 146208080,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0GC8.IL": {
+  "name": "TAKKT AG",
+  "mcap": 137042416,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0DUK.IL": {
+  "name": "Biesse S.p.A.",
+  "mcap": 121356544,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0DK9.IL": {
+  "name": "Amadeus FiRe AG",
+  "mcap": 107358568,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0ABP.IL": {
+  "name": "Novem Group S.A.",
+  "mcap": 105140336,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QVQ.IL": {
+  "name": "Ontex Group NV",
+  "mcap": 104858000,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0R6W.IL": {
+  "name": "Tobii AB (publ)",
+  "mcap": 0,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0O8X.IL": {
+  "name": "Wirecard AG",
+  "mcap": 84655072,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0NYZ.IL": {
+  "name": "Bertrandt Aktiengesellschaft",
+  "mcap": 79285000,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0E2J.IL": {
+  "name": "Componenta Corporation",
+  "mcap": 0,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0KHH.IL": {
+  "name": "Geox S.p.A.",
+  "mcap": 71697232,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QN3.IL": {
+  "name": "GAM Holding AG",
+  "mcap": 71696760,
+  "currency": "CHF",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0WA2.IL": {
+  "name": "Cellectis S.A.",
+  "mcap": 69857952,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0EVI.IL": {
+  "name": "Innate Pharma S.A.",
+  "mcap": 69258424,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0MFU.IL": {
+  "name": "Agfa-Gevaert NV",
+  "mcap": 58939252,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0A29.IL": {
+  "name": "Solutions 30 SE",
+  "mcap": 44198844,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0H19.IL": {
+  "name": "Orexo AB (publ)",
+  "mcap": 29907330,
+  "currency": "SEK",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0N6K.IL": {
+  "name": "Claranova SE",
+  "mcap": 28127304,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0QGG.IL": {
+  "name": "Branicks Group AG",
+  "mcap": 24986848,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RIP.IL": {
+  "name": "bet-at-home.com AG",
+  "mcap": 21121520,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RA1.IL": {
+  "name": "Adler Group S.A.",
+  "mcap": 13279822,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0HB1.IL": {
+  "name": "Casino, Guichard-Perrachon S.A.",
+  "mcap": 11870386,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RHL.IL": {
+  "name": "Maisons du Monde S.A.",
+  "mcap": 9795945,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ },
+ "0RA2.IL": {
+  "name": "Poxel S.A.",
+  "mcap": 4331985,
+  "currency": "EUR",
+  "quoteType": "EQUITY",
+  "exchange": "IOB",
+  "sector": null,
+  "industry": null
+ }
+}
