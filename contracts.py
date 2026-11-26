@@ -132,7 +132,7 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
     last = state.get("last_run")
     since = (datetime.fromisoformat(last) - timedelta(days=1)) if last else now - timedelta(days=backfill_days)
     tickers = sorted(c["ticker"] for c in (companies if companies is not None else CONTRACT_COMPANIES))
-    if last and set(tickers) - set(state.get("covered", tickers)):
+    if last and ("covered" not in state or set(tickers) - set(state["covered"])):
         since = min(since, now - timedelta(days=backfill_days))  # newly covered companies: look back two weeks
     seen = state.get("seen", {})
     if isinstance(seen, list):
