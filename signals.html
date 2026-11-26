@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css?v=20261126d">
+<link rel="stylesheet" href="assets/styles.css?v=20261126e">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -41,7 +41,7 @@
     <div class="container page-hero">
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Live · Updated every morning</p>
       <h1>Signals.</h1>
-      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every change our scanner has spotted in clinical trial registries and UK government contract awards for the London-listed companies we cover, timestamped the moment we caught it. Nothing is edited after the fact.</p>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 640px;">Every change our scanner has spotted in clinical trial registries and UK government contract awards for the London-listed companies we cover (those worth under £1bn), timestamped the moment we caught it. Nothing is edited after the fact.</p>
       <p><a href="#guide" style="color: var(--accent);">New here? How to read a signal ↓</a></p>
     </div>
   </section>
@@ -112,7 +112,7 @@
 
       <h2>Government contract signals</h2>
       <h3><span class="tag tag--contract">Contract award</span></h3>
-      <p>A UK public body has awarded work to a company we cover. The signal shows the buyer, the value and a link to the official notice on Find a Tender or Contracts Finder.</p>
+      <p>A UK public body has awarded work to a company we cover. The signal shows the buyer, the value, how big it is for the company (its value per year as a share of annual revenue), and a link to the official notice on Find a Tender or Contracts Finder.</p>
 
       <h3><span class="tag tag--contract">Framework place</span></h3>
       <p>The company has been named as one of several approved suppliers on a framework or purchasing system. The headline value is usually shared between suppliers and may never be fully spent, so framework places are rated lower than solo contract wins.</p>
@@ -128,8 +128,8 @@
 
       <h2>Severity</h2>
       <ul>
-        <li><span class="sev sev--high" style="color:#B3261E">High</span> — a trial is terminated, withdrawn, suspended or halted, results are posted, a programme changes phase, registries disagree about a stopped trial, or a contract worth £100m or more is won.</li>
-        <li><span class="sev sev--medium" style="color:#8A6A00">Medium</span> — a trial completes, a date moves, enrolment changes by 20% or more, a new trial is registered, registries disagree, a contract worth £5m or more is won, or a framework place worth £100m or more is announced.</li>
+        <li><span class="sev sev--high" style="color:#B3261E">High</span> — a trial is terminated, withdrawn, suspended or halted, results are posted, a programme changes phase, registries disagree about a stopped trial, or a company wins a contract worth 10% or more of its annual revenue per year.</li>
+        <li><span class="sev sev--medium" style="color:#8A6A00">Medium</span> — a trial completes, a date moves, enrolment changes by 20% or more, a new trial is registered, registries disagree, a company wins a contract worth 2% or more of its annual revenue per year, or a sizeable framework place.</li>
         <li><span class="sev sev--low" style="color:var(--muted)">Low</span> — smaller housekeeping changes.</li>
       </ul>
 
@@ -161,7 +161,7 @@
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
-<script src="assets/signals.js?v=20261126d"></script>
+<script src="assets/signals.js?v=20261126e"></script>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 (function () {

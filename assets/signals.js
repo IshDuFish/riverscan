@@ -74,7 +74,9 @@
     var title = s.title || s.trial || "";
     if (s.type === "contract_award") {
       var amt = "<strong>" + esc(money(s.new, s.currency)) + "</strong>";
-      return (s.framework ? "Named on a " + amt + " framework: " : "Won a " + amt + " contract: ") + esc(title) + ".";
+      if (!s.new) return (s.framework ? "Named on a framework (value not stated): " : "Won a contract (value not stated): ") + esc(title) + ".";
+      var share = s.share_of_revenue != null ? (s.share_of_revenue < 0.001 ? " (under 0.1% of revenue" : " (about " + (s.share_of_revenue * 100).toFixed(1) + "% of revenue") + (s.years > 1.5 ? " a year)" : ")") : "";
+      return (s.framework ? "Named on a " + amt + " framework" + share + ": " : "Won a " + amt + " contract" + share + ": ") + esc(title) + ".";
     }
     if (s.type === "mismatch") {
       var a = String(s.old || "").split(": "), b = String(s.new || "").split(": ");

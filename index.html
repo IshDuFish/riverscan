@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css?v=20261126d">
+<link rel="stylesheet" href="assets/styles.css?v=20261126e">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -47,9 +47,9 @@
   <section class="hero-river" aria-labelledby="hero-title">
     <div class="container hero-top">
       <div class="hero-copy">
-        <p class="eyebrow">Data analytics for London-listed companies</p>
+        <p class="eyebrow">Data analytics for smaller London-listed companies</p>
         <h1 id="hero-title">See it upstream.</h1>
-        <p class="lead">RiverScan is a data analytics company. Every morning we read the public records that move share prices first, from clinical trial registries to government contract awards, and flag what changed before it reaches the headlines.</p>
+        <p class="lead">RiverScan is a data analytics company. Every morning we read the public records that move share prices first, from clinical trial registries to government contract awards, and flag what changed for London-listed companies worth under £1bn, where few analysts are looking.</p>
         <form id="access" class="signup" action="https://formspree.io/f/myewlokg" method="post">
           <label class="sr-only" for="email">Email address</label>
           <input id="email" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>
@@ -225,26 +225,27 @@
   <section id="coverage" class="section section--dark" aria-labelledby="coverage-title">
     <div class="container">
       <div class="section-head">
-        <h2 id="coverage-title">Two tributaries live. More on the way.</h2>
-        <p class="lead">We start where public data is rich and analyst coverage is thin.</p>
+        <h2 id="coverage-title">Small companies, where the gaps are.</h2>
+        <p class="lead">We only cover London-listed companies worth under £1bn. Few analysts follow them, so news in public records can take longer to reach the share price. Company values are checked every day: a company that grows past £1bn drops out, and one that falls below it joins.</p>
       </div>
       <div class="streams">
         <div class="stream">
           <h3>Biotech trials</h3>
           <p class="stream-meta" id="cov-trials">ClinicalTrials.gov, ISRCTN and EU CTIS</p>
           <p>Status changes, delays, enrolment cuts, new trials, posted results, safety events, and registries that disagree with each other.</p>
-          <div class="tickers">
-            <span>HCM</span><span>SCLP</span><span>FARN</span><span>AVCT</span><span>POLB</span><span>FUM</span>
-            <span>AREC</span><span>IMM</span><span>STX</span><span>EVG</span><span>HVO</span><span>OXB</span>
+          <div class="tickers" id="cov-trial-list">
+            <span title="Scancell">SCLP</span><span title="Faron Pharmaceuticals">FARN</span><span title="Avacta">AVCT</span><span title="Poolbeg Pharma">POLB</span><span title="Futura Medical">FUM</span>
+            <span title="Arecor Therapeutics">AREC</span><span title="ImmuPharma">IMM</span><span title="Shield Therapeutics">STX</span><span title="hVIVO">HVO</span><span title="Oxford Biomedica">OXB</span>
           </div>
         </div>
         <div class="stream">
           <h3>Government contracts</h3>
-          <p class="stream-meta">Find a Tender and Contracts Finder</p>
-          <p>New UK public sector awards to London-listed builders, outsourcers and defence companies, with the buyer, value and whether it's a solo win or a framework place.</p>
-          <div class="tickers">
-            <span title="Balfour Beatty">BBY</span><span title="Morgan Sindall">MGNS</span><span title="Kier Group">KIE</span><span title="Costain">COST</span><span title="Galliford Try">GFRD</span><span title="Keller Group">KLR</span><span title="Renew Holdings">RNWH</span>
-            <span title="Serco">SRP</span><span title="Mitie">MTO</span><span title="Capita">CPI</span><span title="BAE Systems">BA.</span><span title="Babcock">BAB</span><span title="QinetiQ">QQ.</span><span title="Chemring">CHG</span>
+          <p class="stream-meta" id="cov-contracts">Find a Tender and Contracts Finder</p>
+          <p>New UK public sector awards to smaller builders, service providers, digital agencies and defence suppliers. Each is rated by how big it is for the company that won it: the contract's value per year as a share of its annual revenue.</p>
+          <div class="tickers" id="cov-contract-list">
+            <span title="Costain">COST</span><span title="Galliford Try">GFRD</span><span title="Renew Holdings">RNWH</span><span title="Severfield">SFR</span><span title="Henry Boot">BOOT</span><span title="Northern Bear">NTBR</span>
+            <span title="Capita">CPI</span><span title="Mears Group">MER</span><span title="Restore">RST</span><span title="Made Tech">MTEC</span><span title="TPXimpact">TPX</span><span title="NCC Group">NCC</span>
+            <span title="Cohort">CHRT</span><span title="Avon Technologies">AVON</span><span title="Petards Group">PEG</span>
           </div>
         </div>
       </div>
@@ -291,6 +292,10 @@
           <p>RiverScan is a data analytics company. We collect public records every day, find what changed, link each change to the London-listed company it affects, and publish the result as signals. We don't give investment advice.</p>
         </details>
         <details>
+          <summary>Why only companies under £1bn?</summary>
+          <p>Large companies are followed by dozens of analysts, so news about them is priced in quickly. Smaller companies get far less attention, which is where public records are most likely to tell you something the market hasn't noticed yet. The trade-off is that smaller shares can be harder and more expensive to buy and sell.</p>
+        </details>
+        <details>
           <summary>Is this investment advice?</summary>
           <p>No. RiverScan reports changes in public records. We never tell you to buy or sell anything, and nothing here is a personal recommendation. See our <a href="terms.html">terms and disclaimer</a>.</p>
         </details>
@@ -303,8 +308,8 @@
           <p>The same trial is often registered in more than one place. When one registry says it's still running and another says it has ended, we flag it. Often one record is just out of date, but sometimes it's the first place a change shows up.</p>
         </details>
         <details>
-          <summary>What's the difference between a contract and a framework?</summary>
-          <p>A contract award means a company has won specific work. A framework place means it has been chosen as one of several approved suppliers, often for a large headline value that is shared and may never be fully spent. We label each so you can tell them apart.</p>
+          <summary>How do you decide how important a contract is?</summary>
+          <p>By how big it is for the company that won it. We take the contract's value per year and compare it with the company's annual revenue: 10% or more is high, 2% or more is medium. A £5m contract can matter more to a £50m company than £300m does to a giant. A framework place means the company is one of several approved suppliers sharing a headline value that may never be fully spent, so we assume an equal share and never rate it high.</p>
         </details>
         <details>
           <summary>How quickly do signals appear?</summary>
@@ -342,18 +347,32 @@
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
-<script src="assets/signals.js?v=20261126d"></script>
+<script src="assets/signals.js?v=20261126e"></script>
 <script>
 // Homepage: latest real signals, and live counts on the river map.
-RiverScan.load().then(function (d) {
+var coverage = fetch("data/coverage.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+Promise.all([RiverScan.load(), coverage]).then(function (x) {
+  var d = x[0], cov = x[1];
+  if (cov && cov.trial_companies) {  // only feature companies we currently cover
+    var covered = {};
+    cov.trial_companies.concat((cov.contract_companies || []).map(function (c) { return c.ticker; })).forEach(function (t) { covered[t] = 1; });
+    d = d.filter(function (s) { return covered[s.ticker]; });
+  }
   var top = d.filter(function (s) { return s.severity !== "low"; }).slice(0, 6);
   if (top.length < 3) top = d.slice(0, 6);
   if (!top.length) return;
   document.getElementById("latest").innerHTML = top.map(function (s) { return RiverScan.card(s); }).join("");
   document.getElementById("latest-note").textContent = "Latest scan: " + RiverScan.when(top[0].detected_at) + ". Showing the most important changes first.";
 });
-fetch("data/coverage.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
+coverage.then(function (c) {
   if (!c || !c.trials) return;
+  function esc(v) { return String(v).replace(/[&<>"]/g, function (ch) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]; }); }
+  function chips(list) { return list.map(function (x) { return '<span title="' + esc(x.name) + '">' + esc(x.ticker) + "</span>"; }).join(""); }
+  if (c.trial_detail) document.getElementById("cov-trial-list").innerHTML = chips(c.trial_detail);
+  if (c.contract_companies) {
+    document.getElementById("cov-contract-list").innerHTML = chips(c.contract_companies);
+    document.getElementById("cov-contracts").textContent = c.contract_companies.length + " companies, from Find a Tender and Contracts Finder";
+  }
   var ids = { "ClinicalTrials.gov": "n-ctgov", "ISRCTN": "n-isrctn", "EU CTIS": "n-ctis" }, total = 0;
   Object.keys(ids).forEach(function (k) {
     var n = c.trials[k] || 0; total += n;
