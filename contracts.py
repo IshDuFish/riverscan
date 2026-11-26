@@ -26,11 +26,14 @@ def _ts(d):
 
 def releases(source, since, until):
     url, f_from, f_to = SOURCES[source]
-    params = {f_from: _ts(since), f_to: _ts(until), "stages": "award", "limit": 100}
+    # No "stages" filter: on Find a Tender it drops most award notices, so filter by tag here instead.
+    params = {f_from: _ts(since), f_to: _ts(until), "limit": 100}
     pages = 0
     while url and pages < MAX_PAGES:
         d = request("GET", url, params=params, timeout=120).json()
-        yield from d.get("releases", [])
+        for rel in d.get("releases", []):
+            if any(t.startswith(("award", "contract")) and "Termination" not in t for t in rel.get("tag") or []):
+                yield rel
         url = (d.get("links") or {}).get("next")
         params = None  # the next link already carries the query
         pages += 1
