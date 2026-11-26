@@ -86,14 +86,15 @@
     if (!rev) return "Revenue figure not available for " + name + ".";
     if (s.currency && s.currency !== "GBP") return name + "'s annual revenue is " + money(rev) + ".";
     var years = s.years && s.years > 1 ? s.years : null;
-    var per = years ? " a year over " + (Math.round(years * 10) / 10) + " years" : "";
     if (s.framework) {
       if (s.share_of_revenue == null)
         return "A shared framework, so " + name + "'s slice of the " + money(s.new) + " is unknown and may never be fully spent. For scale, its annual revenue is " + money(rev) + ".";
-      return "A shared framework, so " + name + "'s slice is unknown. Split equally between the named suppliers it would be about <strong>" + pctText(s.share_of_revenue) + "</strong> of its " + money(rev) + " annual revenue" + per + ".";
+      return "A shared framework, so " + name + "'s slice is unknown. Split equally between the named suppliers it would be " + (s.share_of_revenue < 0.001 ? "under <strong>0.1%</strong>" : "about <strong>" + pctText(s.share_of_revenue) + "</strong>") + " of its " + money(rev) + " annual revenue" + (years ? " each year" : "") + ".";
     }
     var share = s.share_of_revenue != null ? s.share_of_revenue : (s.new / (years || 1)) / rev;
-    return "That's about <strong>" + pctText(share) + "</strong> of " + name + "'s " + money(rev) + " annual revenue" + per + (years ? "" : " (contract length not given, so the full value is used)") + ".";
+    var amount = share < 0.001 ? "under <strong>0.1%</strong>" : "about <strong>" + pctText(share) + "</strong>";
+    if (years) return "Spread over " + (Math.round(years * 10) / 10) + " years, that's " + amount + " of " + name + "'s " + money(rev) + " annual revenue each year.";
+    return "That's " + amount + " of " + name + "'s " + money(rev) + " annual revenue (the notice gives no contract length, so this uses the full value)."
   }
   function sentence(s) {
     var o = "<strong>" + esc(nice(s.old)) + "</strong>", n = "<strong>" + esc(nice(s.new)) + "</strong>";
