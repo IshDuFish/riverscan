@@ -1,4 +1,28 @@
 {
+ "ABDX": {
+  "as_of": "2026-11-26",
+  "market_cap": 38068476,
+  "name": "ABINGDON HEALTH PLC ORD 0.025P",
+  "revenue": 10993000
+ },
+ "AGY": {
+  "as_of": "2026-11-26",
+  "market_cap": 74407216,
+  "name": "ALLERGY THERAPEUTICS PLC ORD 0.",
+  "revenue": 59869000
+ },
+ "AMS": {
+  "as_of": "2026-11-26",
+  "market_cap": 615917760,
+  "name": "ADVANCED MEDICAL SOLUTIONS GROU",
+  "revenue": 233624992
+ },
+ "APTA": {
+  "as_of": "2026-11-26",
+  "market_cap": 10057433,
+  "name": "APTAMER GROUP PLC ORD 0.1P",
+  "revenue": 1544000
+ },
  "AREC": {
   "as_of": "2026-11-26",
   "market_cap": 30804490,
@@ -15,7 +39,7 @@
   "as_of": "2026-11-26",
   "market_cap": 647338816,
   "name": "AVON TECHNOLOGIES PLC ORD #1",
-  "revenue": 269816502
+  "revenue": 269858956
  },
  "BA.": {
   "as_of": "2026-11-26",
@@ -41,6 +65,12 @@
   "name": "BOOT (HENRY) PLC ORD 10P",
   "revenue": 232900992
  },
+ "BVXP": {
+  "as_of": "2026-11-26",
+  "market_cap": 97966120,
+  "name": "BIOVENTIX PLC ORD 5P",
+  "revenue": 12971744
+ },
  "CHG": {
   "as_of": "2026-11-26",
   "market_cap": 1488214272,
@@ -52,6 +82,36 @@
   "market_cap": 595700352,
   "name": "COHORT PLC ORD 10P",
   "revenue": 306387008
+ },
+ "CIZ": {
+  "as_of": "2026-11-26",
+  "market_cap": 4923283,
+  "name": "CIZZLE BIOTECHNOLOGY HOLDINGS P",
+  "revenue": null
+ },
+ "CLBX": {
+  "as_of": "2026-11-26",
+  "market_cap": 6250215,
+  "name": "CELLBXHEALTH PLC ORD 0.05P",
+  "revenue": 1152000
+ },
+ "CNC": {
+  "as_of": "2026-11-26",
+  "market_cap": 282769312,
+  "name": "CONCURRENT TECHNOLOGIES PLC ORD",
+  "revenue": 47971400
+ },
+ "CNSL": {
+  "as_of": "2026-11-26",
+  "market_cap": 3450284,
+  "name": "CAMBRIDGE NUTRITIONAL SCIENCES ",
+  "revenue": 5471000
+ },
+ "COG": {
+  "as_of": "2026-11-26",
+  "market_cap": 14844888,
+  "name": "CAMBRIDGE COGNITION HOLDINGS PL",
+  "revenue": 10128000
  },
  "COST": {
   "as_of": "2026-11-26",
@@ -65,11 +125,53 @@
   "name": "CAPITA PLC ORD 31P",
   "revenue": 2300100096
  },
+ "CREO": {
+  "as_of": "2026-11-26",
+  "market_cap": 46598272,
+  "name": "CREO MEDICAL GROUP PLC ORD GBP0",
+  "revenue": 7000000
+ },
+ "CRTX": {
+  "as_of": "2026-11-26",
+  "market_cap": 6173455,
+  "name": "CRISM THERAPEUTICS CORPORATION ",
+  "revenue": 352000
+ },
+ "CSC": {
+  "as_of": "2026-11-26",
+  "market_cap": 12760164,
+  "name": "CHESTERFIELD SPECIAL CYLINDERS ",
+  "revenue": 17563000
+ },
+ "DXRX": {
+  "as_of": "2026-11-26",
+  "market_cap": 142753200,
+  "name": "DIACEUTICS PLC ORD GBP0.002",
+  "revenue": 41329000
+ },
+ "EAAS": {
+  "as_of": "2026-11-26",
+  "market_cap": 8798289,
+  "name": "EENERGY GROUP PLC ORD 0.3P",
+  "revenue": 30764000
+ },
+ "EBQ": {
+  "as_of": "2026-11-26",
+  "market_cap": 13165768,
+  "name": "EBIQUITY PLC ORD 0.01P",
+  "revenue": 71520000
+ },
  "EVG": {
   "as_of": "2026-11-26",
   "market_cap": null,
   "name": null,
   "revenue": null
+ },
+ "FAB": {
+  "as_of": "2026-11-26",
+  "market_cap": 5006275,
+  "name": "FUSION ANTIBODIES PLC ORD 4P",
+  "revenue": 2110000
  },
  "FARN": {
   "as_of": "2026-11-26",
@@ -77,11 +179,41 @@
   "name": "FARON PHARMACEUTICALS OY ORD NP",
   "revenue": null
  },
+ "FDBK": {
+  "as_of": "2026-11-26",
+  "market_cap": 1686869,
+  "name": "FEEDBACK PLC ORD 1P",
+  "revenue": 780139
+ },
  "FUM": {
   "as_of": "2026-11-26",
   "market_cap": 3112888,
   "name": "FUTURA MEDICAL PLC ORD 0.2P",
   "revenue": 2317030
+ },
+ "GATC": {
+  "as_of": "2026-11-26",
+  "market_cap": 49775580,
+  "name": "GATTACA PLC ORD 1P",
+  "revenue": 443271008
+ },
+ "GDR": {
+  "as_of": "2026-11-26",
+  "market_cap": 16055683,
+  "name": "GENEDRIVE PLC ORD 0.015P",
+  "revenue": 1361000
+ },
+ "GENF": {
+  "as_of": "2026-11-26",
+  "market_cap": 9066655,
+  "name": "GENFLOW BIOSCIENCES PLC ORD GBP",
+  "revenue": 585607
+ },
+ "GENI": {
+  "as_of": "2026-11-26",
+  "market_cap": 3576945,
+  "name": "GENINCODE PLC ORD 1P",
+  "revenue": 2599000
  },
  "GFRD": {
   "as_of": "2026-11-26",
@@ -89,11 +221,29 @@
   "name": "GALLIFORD TRY HOLDINGS PLC ORD ",
   "revenue": 1931100032
  },
+ "GTC": {
+  "as_of": "2026-11-26",
+  "market_cap": 5961078,
+  "name": "GETECH GROUP PLC ORD 0.25P",
+  "revenue": 5323000
+ },
  "HCM": {
   "as_of": "2026-11-26",
   "market_cap": 1859811584,
   "name": "HUTCHMED (CHINA) LIMITED ORD US",
-  "revenue": 418892204
+  "revenue": 418958116
+ },
+ "HEMO": {
+  "as_of": "2026-11-26",
+  "market_cap": 44070460,
+  "name": "HEMOGENYX PHARMACEUTICALS PLC O",
+  "revenue": null
+ },
+ "HSP": {
+  "as_of": "2026-11-26",
+  "market_cap": 275221280,
+  "name": "HARGREAVES SERVICES PLC ORD 10P",
+  "revenue": 351391008
  },
  "HVO": {
   "as_of": "2026-11-26",
@@ -101,11 +251,41 @@
   "name": "HVIVO PLC ORD 0.1P",
   "revenue": 42093000
  },
+ "IBAI": {
+  "as_of": "2026-11-26",
+  "market_cap": 1665291,
+  "name": "IMAGING BIOMETRICS LIMITED ORD ",
+  "revenue": 810416
+ },
+ "IDHC": {
+  "as_of": "2026-11-26",
+  "market_cap": 270898048,
+  "name": "INTEGRATED DIAGNOSTICS HOLDINGS",
+  "revenue": null
+ },
+ "IHC": {
+  "as_of": "2026-11-26",
+  "market_cap": 14570299,
+  "name": "INSPIRATION HEALTHCARE GROUP PL",
+  "revenue": 45597000
+ },
  "IMM": {
   "as_of": "2026-11-26",
   "market_cap": 13756301,
   "name": "IMMUPHARMA PLC ORD 1P",
   "revenue": null
+ },
+ "IOM": {
+  "as_of": "2026-11-26",
+  "market_cap": 12040329,
+  "name": "IOMART GROUP PLC ORD 1P",
+  "revenue": 154884992
+ },
+ "IXI": {
+  "as_of": "2026-11-26",
+  "market_cap": 27371786,
+  "name": "IXICO PLC ORD 1P",
+  "revenue": 7275000
  },
  "KIE": {
   "as_of": "2026-11-26",
@@ -119,11 +299,23 @@
   "name": "KELLER GROUP PLC ORD 10P",
   "revenue": 3237600000
  },
+ "KMK": {
+  "as_of": "2026-11-26",
+  "market_cap": 35648316,
+  "name": "KROMEK GROUP PLC ORD 1P",
+  "revenue": 27115000
+ },
  "KNOS": {
   "as_of": "2026-11-26",
   "market_cap": 1180368384,
   "name": "KAINOS GROUP PLC ORD 0.5P",
   "revenue": 503764992
+ },
+ "MAI": {
+  "as_of": "2026-11-26",
+  "market_cap": 9927449,
+  "name": "MAINTEL HOLDINGS PLC ORD 1P",
+  "revenue": 90932000
  },
  "MER": {
   "as_of": "2026-11-26",
@@ -155,11 +347,47 @@
   "name": "NCC GROUP PLC ORD 1P",
   "revenue": 233800000
  },
+ "NCYT": {
+  "as_of": "2026-11-26",
+  "market_cap": 23082084,
+  "name": "NOVACYT S.A. EUR1/15TH (CDI)",
+  "revenue": 21793000
+ },
+ "NET": {
+  "as_of": "2026-11-26",
+  "market_cap": 235423280,
+  "name": "NETCALL PLC ORD 5P",
+  "revenue": 57670000
+ },
+ "NFX": {
+  "as_of": "2026-11-26",
+  "market_cap": 1696337,
+  "name": "NUFORMIX PLC ORD 0.05P",
+  "revenue": null
+ },
+ "NIOX": {
+  "as_of": "2026-11-26",
+  "market_cap": 236679520,
+  "name": "NIOX GROUP PLC ORD 0.08P",
+  "revenue": 47500000
+ },
  "NTBR": {
   "as_of": "2026-11-26",
   "market_cap": 17337948,
   "name": "NORTHERN BEAR PLC ORD 1P",
   "revenue": 75615000
+ },
+ "OBD": {
+  "as_of": "2026-11-26",
+  "market_cap": 13776934,
+  "name": "OXFORD BIODYNAMICS PLC ORD GBP0",
+  "revenue": 1195000
+ },
+ "OPTI": {
+  "as_of": "2026-11-26",
+  "market_cap": 5010064,
+  "name": "OPTIBIOTIX HEALTH PLC ORD 2P",
+  "revenue": 1288000
  },
  "OXB": {
   "as_of": "2026-11-26",
@@ -179,11 +407,41 @@
   "name": "POOLBEG PHARMA PLC ORD 0.02P",
   "revenue": null
  },
+ "PRM": {
+  "as_of": "2026-11-26",
+  "market_cap": 2981162,
+  "name": "PROTEOME SCIENCES PLC ORD 1P",
+  "revenue": 3770000
+ },
+ "PRTC": {
+  "as_of": "2026-11-26",
+  "market_cap": 290641312,
+  "name": "PURETECH HEALTH PLC ORD 1P",
+  "revenue": 4856240
+ },
+ "PYC": {
+  "as_of": "2026-11-26",
+  "market_cap": 1938916,
+  "name": "PHYSIOMICS PLC ORD 0.4P",
+  "revenue": 1055169
+ },
  "QQ.": {
   "as_of": "2026-11-26",
   "market_cap": 2394265600,
   "name": "QINETIQ GROUP PLC ORD 1P",
   "revenue": 1945400064
+ },
+ "RCN": {
+  "as_of": "2026-11-26",
+  "market_cap": 102544480,
+  "name": "REDCENTRIC PLC ORD GBP0.001",
+  "revenue": 131985000
+ },
+ "RENX": {
+  "as_of": "2026-11-26",
+  "market_cap": 32852508,
+  "name": "RENALYTIX PLC ORD 0.25P",
+  "revenue": 2288880
  },
  "RNWH": {
   "as_of": "2026-11-26",
@@ -197,11 +455,41 @@
   "name": "RESTORE PLC ORD 5P",
   "revenue": 335700000
  },
+ "RUA": {
+  "as_of": "2026-11-26",
+  "market_cap": 11481151,
+  "name": "RUA LIFE SCIENCES PLC ORD 5P",
+  "revenue": 4617336
+ },
+ "SAG": {
+  "as_of": "2026-11-26",
+  "market_cap": 218994688,
+  "name": "SCIENCE GROUP PLC ORD 1P",
+  "revenue": 101699000
+ },
+ "SAR": {
+  "as_of": "2026-11-26",
+  "market_cap": 22525118,
+  "name": "SAREUM HOLDINGS PLC ORD GBP 0.0",
+  "revenue": null
+ },
+ "SBTX": {
+  "as_of": "2026-11-26",
+  "market_cap": 7904644,
+  "name": "SKINBIOTHERAPEUTICS PLC ORD 1P",
+  "revenue": 4652871
+ },
  "SCLP": {
   "as_of": "2026-11-26",
   "market_cap": 107177336,
   "name": "SCANCELL HOLDINGS PLC ORD 0.1P",
   "revenue": null
+ },
+ "SDY": {
+  "as_of": "2026-11-26",
+  "market_cap": 55360892,
+  "name": "SPEEDY HIRE PLC ORD 5P",
+  "revenue": 422500000
  },
  "SFR": {
   "as_of": "2026-11-26",
@@ -219,12 +507,72 @@
   "as_of": "2026-11-26",
   "market_cap": 30614518,
   "name": "SHIELD THERAPEUTICS PLC ORD 1.5",
-  "revenue": 44721494
+  "revenue": 44728531
+ },
+ "SUN": {
+  "as_of": "2026-11-26",
+  "market_cap": 4897285,
+  "name": "SURGICAL INNOVATIONS GROUP PLC ",
+  "revenue": 11476000
+ },
+ "SVNS": {
+  "as_of": "2026-11-26",
+  "market_cap": 7109763,
+  "name": "SOLVONIS THERAPEUTICS PLC ORD G",
+  "revenue": null
+ },
+ "TCF": {
+  "as_of": "2026-11-26",
+  "market_cap": 3438342,
+  "name": "THERACRYF PLC ORD 0.05P",
+  "revenue": null
+ },
+ "THAT": {
+  "as_of": "2026-11-26",
+  "market_cap": 9322534,
+  "name": "THALIA THERAPEUTICS PLC ORD 0.4",
+  "revenue": 7216
+ },
+ "THRU": {
+  "as_of": "2026-11-26",
+  "market_cap": 5606987,
+  "name": "THRUVISION GROUP PLC ORD 1P",
+  "revenue": 5943000
  },
  "TPX": {
   "as_of": "2026-11-26",
   "market_cap": 95331192,
   "name": "TPXIMPACT HOLDINGS PLC ORD 1P",
   "revenue": 99810000
+ },
+ "TRB": {
+  "as_of": "2026-11-26",
+  "market_cap": 217595600,
+  "name": "TRIBAL GROUP PLC ORD 5P",
+  "revenue": 96144000
+ },
+ "TRCS": {
+  "as_of": "2026-11-26",
+  "market_cap": 105812216,
+  "name": "TRACSIS PLC ORD 0.4P",
+  "revenue": 65200000
+ },
+ "TSTL": {
+  "as_of": "2026-11-26",
+  "market_cap": 185082944,
+  "name": "TRISTEL PLC ORD 1P",
+  "revenue": 51117000
+ },
+ "VAL": {
+  "as_of": "2026-11-26",
+  "market_cap": 1782406,
+  "name": "VALIRX PLC ORD 0.1P",
+  "revenue": 32672
+ },
+ "VRCI": {
+  "as_of": "2026-11-26",
+  "market_cap": 11659045,
+  "name": "VERICI DX PLC ORD GBP0.001",
+  "revenue": 2687145
  }
 }

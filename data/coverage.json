@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-26T20:22:55Z",
+ "updated": "2026-11-26T21:37:44Z",
  "trials": {
-  "ClinicalTrials.gov": 75,
-  "ISRCTN": 9,
-  "EU CTIS": 2
+  "ClinicalTrials.gov": 170,
+  "ISRCTN": 12,
+  "EU CTIS": 5
  },
  "max_market_cap": 1000000000,
  "trial_companies": [
@@ -16,7 +16,49 @@
   "IMM",
   "STX",
   "HVO",
-  "OXB"
+  "OXB",
+  "HEMO",
+  "SAR",
+  "BVXP",
+  "AGY",
+  "RENX",
+  "AMS",
+  "CREO",
+  "IHC",
+  "COG",
+  "ABDX",
+  "DXRX",
+  "GDR",
+  "IXI",
+  "KMK",
+  "NCYT",
+  "PRTC",
+  "NIOX",
+  "TSTL",
+  "PYC",
+  "VAL",
+  "OPTI",
+  "VRCI",
+  "OBD",
+  "CRTX",
+  "NFX",
+  "CIZ",
+  "GENF",
+  "FAB",
+  "APTA",
+  "SBTX",
+  "RUA",
+  "PRM",
+  "GENI",
+  "TCF",
+  "SVNS",
+  "CLBX",
+  "THAT",
+  "SUN",
+  "IDHC",
+  "IBAI",
+  "FDBK",
+  "CNSL"
  ],
  "trial_detail": [
   {
@@ -68,6 +110,216 @@
    "ticker": "OXB",
    "name": "Oxford Biomedica",
    "market_cap": 630486272
+  },
+  {
+   "ticker": "HEMO",
+   "name": "Hemogenyx Pharmaceuticals",
+   "market_cap": 44070460
+  },
+  {
+   "ticker": "SAR",
+   "name": "Sareum",
+   "market_cap": 22525118
+  },
+  {
+   "ticker": "BVXP",
+   "name": "Bioventix",
+   "market_cap": 97966120
+  },
+  {
+   "ticker": "AGY",
+   "name": "Allergy Therapeutics",
+   "market_cap": 74407216
+  },
+  {
+   "ticker": "RENX",
+   "name": "Renalytix",
+   "market_cap": 32852508
+  },
+  {
+   "ticker": "AMS",
+   "name": "Advanced Medical Solutions",
+   "market_cap": 615917760
+  },
+  {
+   "ticker": "CREO",
+   "name": "Creo Medical",
+   "market_cap": 46598272
+  },
+  {
+   "ticker": "IHC",
+   "name": "Inspiration Healthcare",
+   "market_cap": 14570299
+  },
+  {
+   "ticker": "COG",
+   "name": "Cambridge Cognition",
+   "market_cap": 14844888
+  },
+  {
+   "ticker": "ABDX",
+   "name": "Abingdon Health",
+   "market_cap": 38068476
+  },
+  {
+   "ticker": "DXRX",
+   "name": "Diaceutics",
+   "market_cap": 142753200
+  },
+  {
+   "ticker": "GDR",
+   "name": "genedrive",
+   "market_cap": 16055683
+  },
+  {
+   "ticker": "IXI",
+   "name": "IXICO",
+   "market_cap": 27371786
+  },
+  {
+   "ticker": "KMK",
+   "name": "Kromek",
+   "market_cap": 35648316
+  },
+  {
+   "ticker": "NCYT",
+   "name": "Novacyt",
+   "market_cap": 23082084
+  },
+  {
+   "ticker": "PRTC",
+   "name": "PureTech Health",
+   "market_cap": 290641312
+  },
+  {
+   "ticker": "NIOX",
+   "name": "NIOX Group",
+   "market_cap": 236679520
+  },
+  {
+   "ticker": "TSTL",
+   "name": "Tristel",
+   "market_cap": 185082944
+  },
+  {
+   "ticker": "PYC",
+   "name": "Physiomics",
+   "market_cap": 1938916
+  },
+  {
+   "ticker": "VAL",
+   "name": "ValiRx",
+   "market_cap": 1782406
+  },
+  {
+   "ticker": "OPTI",
+   "name": "OptiBiotix Health",
+   "market_cap": 5010064
+  },
+  {
+   "ticker": "VRCI",
+   "name": "Verici Dx",
+   "market_cap": 11659045
+  },
+  {
+   "ticker": "OBD",
+   "name": "Oxford BioDynamics",
+   "market_cap": 13776934
+  },
+  {
+   "ticker": "CRTX",
+   "name": "CRISM Therapeutics",
+   "market_cap": 6173455
+  },
+  {
+   "ticker": "NFX",
+   "name": "Nuformix",
+   "market_cap": 1696337
+  },
+  {
+   "ticker": "CIZ",
+   "name": "Cizzle Biotechnology",
+   "market_cap": 4923283
+  },
+  {
+   "ticker": "GENF",
+   "name": "Genflow Biosciences",
+   "market_cap": 9066655
+  },
+  {
+   "ticker": "FAB",
+   "name": "Fusion Antibodies",
+   "market_cap": 5006275
+  },
+  {
+   "ticker": "APTA",
+   "name": "Aptamer Group",
+   "market_cap": 10057433
+  },
+  {
+   "ticker": "SBTX",
+   "name": "SkinBioTherapeutics",
+   "market_cap": 7904644
+  },
+  {
+   "ticker": "RUA",
+   "name": "RUA Life Sciences",
+   "market_cap": 11481151
+  },
+  {
+   "ticker": "PRM",
+   "name": "Proteome Sciences",
+   "market_cap": 2981162
+  },
+  {
+   "ticker": "GENI",
+   "name": "GENinCode",
+   "market_cap": 3576945
+  },
+  {
+   "ticker": "TCF",
+   "name": "Theracryf",
+   "market_cap": 3438342
+  },
+  {
+   "ticker": "SVNS",
+   "name": "Solvonis Therapeutics",
+   "market_cap": 7109763
+  },
+  {
+   "ticker": "CLBX",
+   "name": "CelLBxHealth",
+   "market_cap": 6250215
+  },
+  {
+   "ticker": "THAT",
+   "name": "Thalia Therapeutics",
+   "market_cap": 9322534
+  },
+  {
+   "ticker": "SUN",
+   "name": "Surgical Innovations Group",
+   "market_cap": 4897285
+  },
+  {
+   "ticker": "IDHC",
+   "name": "Integrated Diagnostics Holdings",
+   "market_cap": 270898048
+  },
+  {
+   "ticker": "IBAI",
+   "name": "Imaging Biometrics",
+   "market_cap": 1665291
+  },
+  {
+   "ticker": "FDBK",
+   "name": "Feedback",
+   "market_cap": 1686869
+  },
+  {
+   "ticker": "CNSL",
+   "name": "Cambridge Nutritional Sciences",
+   "market_cap": 3450284
   }
  ],
  "contract_companies": [
@@ -160,6 +412,108 @@
    "name": "Petards Group",
    "sector": "Defence",
    "market_cap": 5159928
+  },
+  {
+   "ticker": "TRB",
+   "name": "Tribal Group",
+   "sector": "Digital",
+   "market_cap": 217595600
+  },
+  {
+   "ticker": "NET",
+   "name": "Netcall",
+   "sector": "Digital",
+   "market_cap": 235423280
+  },
+  {
+   "ticker": "MAI",
+   "name": "Maintel",
+   "sector": "Digital",
+   "market_cap": 9927449
+  },
+  {
+   "ticker": "RCN",
+   "name": "Redcentric",
+   "sector": "Digital",
+   "market_cap": 102544480
+  },
+  {
+   "ticker": "IOM",
+   "name": "iomart",
+   "sector": "Digital",
+   "market_cap": 12040329
+  },
+  {
+   "ticker": "TRCS",
+   "name": "Tracsis",
+   "sector": "Digital",
+   "market_cap": 105812216
+  },
+  {
+   "ticker": "EBQ",
+   "name": "Ebiquity",
+   "sector": "Services",
+   "market_cap": 13165768
+  },
+  {
+   "ticker": "GATC",
+   "name": "Gattaca",
+   "sector": "Services",
+   "market_cap": 49775580
+  },
+  {
+   "ticker": "SDY",
+   "name": "Speedy Hire",
+   "sector": "Construction",
+   "market_cap": 55360892
+  },
+  {
+   "ticker": "HSP",
+   "name": "Hargreaves Services",
+   "sector": "Services",
+   "market_cap": 275221280
+  },
+  {
+   "ticker": "EAAS",
+   "name": "eEnergy Group",
+   "sector": "Services",
+   "market_cap": 8798289
+  },
+  {
+   "ticker": "GTC",
+   "name": "Getech Group",
+   "sector": "Services",
+   "market_cap": 5961078
+  },
+  {
+   "ticker": "SAG",
+   "name": "Science Group",
+   "sector": "Services",
+   "market_cap": 218994688
+  },
+  {
+   "ticker": "CNC",
+   "name": "Concurrent Technologies",
+   "sector": "Defence",
+   "market_cap": 282769312
+  },
+  {
+   "ticker": "CSC",
+   "name": "Chesterfield Special Cylinders",
+   "sector": "Defence",
+   "market_cap": 12760164
+  },
+  {
+   "ticker": "THRU",
+   "name": "Thruvision",
+   "sector": "Defence",
+   "market_cap": 5606987
+  },
+  {
+   "ticker": "KMK",
+   "name": "Kromek",
+   "sector": "Defence",
+   "market_cap": 35648316
   }
  ],
  "excluded": [
