@@ -13,6 +13,11 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
+      - name: Check notice links
+        run: |
+          curl -s -o /dev/null -L -w "%{http_code} %{url_effective}\n" "https://www.find-tender.service.gov.uk/Notice/110351-2026"
+          curl -s -o /dev/null -L -w "%{http_code} %{url_effective}\n" "https://clinicaltrials.gov/study/NCT05428969"
+          curl -s -o /dev/null -L -w "%{http_code} %{url_effective}\n" "https://www.contractsfinder.service.gov.uk/Notice/0eab381a-8f1f-4c0b-8262-a7bee257cbb7"
       - run: git fetch -q origin main && git checkout origin/main -- data
       - run: python scan.py
       - name: Save test output to this branch
