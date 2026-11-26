@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data — RiverScan</title>
+<meta name="description" content="Download RiverScan's signals and coverage data as JSON or CSV, updated every morning.">
+<meta name="theme-color" content="#0B1F2A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css?v=20261126h">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER (copy this block to every page) ===== -->
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#3CC9B5" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 9c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 15c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/><path d="M3 21c3-3 5-3 8 0s5 3 8 0 5-3 6-1"/></svg>
+        <span>RiverScan</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#how">What we do</a>
+        <a href="signals.html">Signals</a>
+        <a href="track-record.html">Track record</a>
+        <a href="index.html#coverage">Coverage</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="btn btn--small" href="index.html#access">Get early access</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- ===== END HEADER ===== -->
+
+<main id="main">
+  <section class="site-header">
+    <div class="container page-hero">
+      <p class="eyebrow">Data</p>
+      <h1>Download the data.</h1>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 660px;">Everything on the site comes from a few public files that update every morning after the scan. Download them, or point your own code at them.</p>
+    </div>
+  </section>
+  <section class="prose">
+    <div class="container narrow">
+      <h2 style="margin-top:0">Files</h2>
+      <div class="table-wrap"><table class="tr-table data-table">
+        <thead><tr><th scope="col">File</th><th scope="col">What's in it</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><a href="data/signals.json">signals.json</a><small>JSON</small></th><td>Every signal ever logged, oldest first. Nothing is edited after the fact; new signals are added to the end.</td></tr>
+          <tr><th scope="row"><a href="data/signals.csv" download>signals.csv</a><small>CSV</small></th><td>The same signals as a spreadsheet, with the main columns.</td></tr>
+          <tr><th scope="row"><a href="data/coverage.json">coverage.json</a><small>JSON</small></th><td>Which companies are covered today, trial counts by registry, and which companies were left out and why (for example, worth over £1bn).</td></tr>
+          <tr><th scope="row"><a href="data/mismatches.json">mismatches.json</a><small>JSON</small></th><td>Trials where the registries currently disagree about whether the trial is still running.</td></tr>
+          <tr><th scope="row"><a href="data/track_record.json">track_record.json</a><small>JSON</small></th><td>Progress of the price-reaction study. Results are added once enough signals have a full price history.</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2>Using it in code</h2>
+      <p>The files are plain static files, so any language can read them. In Python:</p>
+      <pre class="code"><code>import pandas as pd
+
+signals = pd.read_json("https://riverscan.com/data/signals.json")
+recent = signals[signals.severity != "low"].tail(20)
+print(recent[["detected_at", "company", "note"]])</code></pre>
+      <p>Or straight into a spreadsheet: in Excel, <strong>Data → From Web</strong>, or in Google Sheets, <code>=IMPORTDATA("https://riverscan.com/data/signals.csv")</code>.</p>
+
+      <h2>Fields in a signal</h2>
+      <div class="table-wrap"><table class="tr-table data-table"><tbody><tr><th scope="row"><code>detected_at</code></th><td>When RiverScan caught the change (UTC, ISO 8601). The scanner runs at about 06:17 UK time.</td></tr><tr><th scope="row"><code>stream</code></th><td><code>trials</code> or <code>contracts</code>.</td></tr><tr><th scope="row"><code>source</code></th><td>Where the change appeared: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender or Contracts Finder. Registry mismatches name both, e.g. <code>ClinicalTrials.gov vs EU CTIS</code>.</td></tr><tr><th scope="row"><code>ticker, company</code></th><td>The London-listed company and its ticker.</td></tr><tr><th scope="row"><code>ref</code></th><td>The record's own ID: an NCT number, ISRCTN number, EU CT number or contract notice ID.</td></tr><tr><th scope="row"><code>title</code></th><td>The trial or contract title, as published.</td></tr><tr><th scope="row"><code>type</code></th><td><code>change</code>, <code>new_trial</code>, <code>removed</code>, <code>mismatch</code> or <code>contract_award</code>.</td></tr><tr><th scope="row"><code>field</code></th><td>For changes, which field moved, e.g. <code>status</code>, <code>primary_completion</code>, <code>enrollment</code>.</td></tr><tr><th scope="row"><code>old, new</code></th><td>The value before and after. For contract awards, <code>new</code> is the contract value.</td></tr><tr><th scope="row"><code>severity</code></th><td><code>high</code>, <code>medium</code> or <code>low</code>. See <a href="signals.html#guide">how to read a signal</a>.</td></tr><tr><th scope="row"><code>note</code></th><td>A short description of the change.</td></tr><tr><th scope="row"><code>url</code></th><td>Link to the original public record.</td></tr><tr><th scope="row"><code>published</code></th><td>When the record itself says it changed or was published, where available.</td></tr><tr><th scope="row"><code>buyer, framework, years, share_of_revenue</code></th><td>Contract awards only: who awarded it, whether it's a shared framework, its length in years, and its value per year as a share of the winner's annual revenue.</td></tr></tbody></table></div>
+
+      <h2>Updates</h2>
+      <p>The scan runs every morning at about 06:17 UK time, before the London market opens, and the files update a few minutes later. Field names are kept stable; if one ever has to change, it will be announced here first.</p>
+
+      <div class="callout">
+        <p><strong>Using the data.</strong> The files are free to download and use for personal and research purposes. Please credit RiverScan. For commercial use, or if you need faster updates, full change history or more companies, <a href="contact.html">get in touch</a>. The underlying records come from ClinicalTrials.gov, ISRCTN (CC BY 4.0), EU CTIS, Find a Tender and Contracts Finder (Open Government Licence v3.0). This is not investment advice.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER (copy this block to every page) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="brand" href="index.html"><span>RiverScan</span></a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="signals.html">Signal log</a>
+        <a href="signals.html#guide">How to read a signal</a>
+        <a href="track-record.html">Track record</a>
+        <a href="data.html">Data</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms &amp; disclaimer</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="disclaimer">RiverScan is a data analytics company. It provides data and information only. It is not investment advice and does not make personal recommendations. Always do your own research. Trial records from ClinicalTrials.gov (US National Library of Medicine), ISRCTN (CC BY 4.0) and EU CTIS (European Medicines Agency). Contract notices from Find a Tender and Contracts Finder, containing public sector information licensed under the Open Government Licence v3.0. © <span id="year">2026</span> RiverScan.</p>
+  </div>
+</footer>
+<!-- ===== END FOOTER ===== -->
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
