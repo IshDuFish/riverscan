@@ -59,6 +59,26 @@ def category(s):
     return "Other"
 
 
+# Which way would we expect the share price to move after each kind of signal?
+#   +1 good news (expect it to beat the market), -1 bad news (expect it to lag the market),
+#    0 could go either way, so it's measured but not scored as right or wrong.
+EXPECTED = {
+    "Contract award": 1,
+    "Framework place": 1,
+    "Trial stopped": -1,
+    "Safety event": -1,
+    "Date change": 0,          # usually a delay, but dates can also be pulled forward
+    "Results posted": 0,       # good or bad depending on the results
+    "Registry mismatch": 0,
+    "Trial status change": 0,
+    "Enrolment change": 0,
+    "Phase change": 0,
+    "New trial": 0,
+    "Other": 0,
+}
+DIRECTION_LABEL = {1: "up", -1: "down", 0: "either"}
+
+
 def signal_id(s):
     return "|".join(str(s.get(k) or "") for k in ("detected_at", "ticker", "ref", "nct_id", "field", "type"))
 
@@ -85,14 +105,37 @@ def moves(series, day):
 
 
 def summarise(rows):
+    """Per horizon: average move vs the market, and (for signals with an expected
+    direction) how often the price moved the way the signal suggested."""
     out = {}
     for n in HORIZONS:
         vals = [r[f"excess_{n}d"] for r in rows if r.get(f"excess_{n}d") is not None]
-        if vals:
-            s = pd.Series(vals)
-            out[f"{n}d"] = {"n": len(vals), "mean_excess": round(float(s.mean()), 2),
-                           "median_excess": round(float(s.median()), 2),
-                           "beat_market_pct": round(float((s > 0).mean() * 100), 1)}
+        if not vals:
+            continue
+        s = pd.Series(vals)
+        h = {"n": len(vals), "mean_excess": round(float(s.mean()), 2),
+             "median_excess": round(float(s.median()), 2),
+             "beat_market_pct": round(float((s > 0).mean() * 100), 1)}
+        aligned = [r[f"aligned_{n}d"] for r in rows if r.get(f"aligned_{n}d") is not None]
+        if aligned:
+            a = pd.Series(aligned)
+            h["expected_pct"] = round(float((a > 0).mean() * 100), 1)
+            h["mean_aligned"] = round(float(a.mean()), 2)
+            h["n_directional"] = len(aligned)
+        out[f"{n}d"] = h
+    return out
+
+
+def summarise_directional(rows):
+    """Headline numbers across every signal with a clear expected direction, with bad-news
+    signals flipped so that 'right' is always positive."""
+    out = {}
+    for n in HORIZONS:
+        a = [r[f"aligned_{n}d"] for r in rows if r.get(f"aligned_{n}d") is not None]
+        if a:
+            s = pd.Series(a)
+            out[f"{n}d"] = {"n": len(a), "expected_pct": round(float((s > 0).mean() * 100), 1),
+                           "mean_aligned": round(float(s.mean()), 2)}
     return out
 
 
@@ -117,13 +160,17 @@ def main():
             bench = BENCH.get(s["ticker"], DEFAULT_BENCH[stream])
             day = pd.Timestamp(s["detected_at"][:10])
             stock, idx = moves(get(sym), day), moves(get(bench), day)
+            cat = category(s)
             row = {"id": signal_id(s), "detected_at": s["detected_at"], "ticker": s["ticker"], "stream": stream,
-                   "category": category(s), "severity": s["severity"], "ref": s.get("ref") or s.get("nct_id"),
+                   "category": cat, "expected": DIRECTION_LABEL[EXPECTED.get(cat, 0)], "severity": s["severity"], "ref": s.get("ref") or s.get("nct_id"),
                    "note": s.get("note"), "benchmark": BENCH_NAME.get(bench, bench), "price_data": bool(stock)}
             for n in HORIZONS:
                 row[f"stock_{n}d"] = stock.get(n)
                 row[f"index_{n}d"] = idx.get(n)
                 row[f"excess_{n}d"] = round(stock[n] - idx[n], 2) if n in stock and n in idx else None
+                d = EXPECTED.get(cat, 0)
+                # "in the expected direction": positive means the price moved the way the signal suggested
+                row[f"aligned_{n}d"] = round(row[f"excess_{n}d"] * d, 2) if d and row[f"excess_{n}d"] is not None else None
             rows.append(row)
 
     df = pd.DataFrame(rows)
@@ -147,9 +194,9 @@ def main():
         groups = {}
         for r in rows:
             groups.setdefault(r["category"], []).append(r)
-        report["overall"] = summarise(rows)
+        report["overall"] = summarise_directional(rows)
         report["categories"] = [
-            {"category": cat, "stream": rs[0]["stream"], "signals": len(rs), **summarise(rs)}
+            {"category": cat, "stream": rs[0]["stream"], "expected": rs[0]["expected"], "signals": len(rs), **summarise(rs)}
             for cat, rs in sorted(groups.items(), key=lambda kv: -len(kv[1]))
             if sum(1 for r in rs if r.get("excess_5d") is not None) >= TRACK_RECORD_MIN_GROUP
         ]

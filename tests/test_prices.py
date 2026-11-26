@@ -26,7 +26,16 @@ def test_categories():
 
 
 def test_summary():
-    rows = [{"excess_1d": 1, "excess_5d": 2, "excess_20d": None}, {"excess_1d": -3, "excess_5d": 4, "excess_20d": None}]
+    rows = [{"excess_1d": 1, "excess_5d": 2, "excess_20d": None}, {"excess_1d": -3, "excess_5d": 4, "excess_20d": None}]  # no expected direction
     s = prices.summarise(rows)
     assert s["5d"] == {"n": 2, "mean_excess": 3.0, "median_excess": 3.0, "beat_market_pct": 100.0}
     assert "20d" not in s
+
+
+def test_bad_news_flipped():
+    # a trial stopped and the price fell 5% vs the market: the signal was right
+    rows = [{"excess_5d": -5.0, "aligned_5d": 5.0, "excess_1d": None, "aligned_1d": None, "excess_20d": None, "aligned_20d": None},
+            {"excess_5d": 2.0, "aligned_5d": 2.0, "excess_1d": None, "aligned_1d": None, "excess_20d": None, "aligned_20d": None}]
+    d = prices.summarise_directional(rows)
+    assert d["5d"] == {"n": 2, "expected_pct": 100.0, "mean_aligned": 3.5}
+    assert prices.EXPECTED["Trial stopped"] == -1 and prices.EXPECTED["Contract award"] == 1

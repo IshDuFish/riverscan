@@ -59,6 +59,7 @@
         <li><strong>Starting point:</strong> the last closing price before we caught the signal. The scanner runs before the London market opens, so this is the price before anyone could act on it.</li>
         <li><strong>After 1, 5 and 20 trading days:</strong> the company's move over each period.</li>
         <li><strong>Against the market:</strong> we subtract the move in a benchmark index over the same days, so a rising market doesn't flatter the result. Biotechs are compared with the FTSE AIM All-Share and contractors with the FTSE All-Share.</li>
+        <li><strong>Good news and bad news:</strong> each kind of signal has an expected direction. A contract win should help a share price, so it counts as right if the company beats the market. A stopped trial should hurt it, so it counts as right if the company lags the market. Signals that could go either way, like posted results or a registry mismatch, are measured but not scored.</li>
         <li><strong>Every signal:</strong> all medium and high signals are included, whatever happened. Nothing is removed after the fact.</li>
         <li><strong>Averages only where they mean something:</strong> a category is shown once it has at least <span id="min-group">5</span> results.</li>
       </ul>
@@ -106,16 +107,23 @@ document.getElementById('year').textContent = new Date().getFullYear();
       return;
     }
     var o = t.overall || {};
-    var head = '<div class="stats">' + ["1d", "5d", "20d"].map(function (h) {
+    var days = { "1d": "1 trading day", "5d": "5 trading days", "20d": "20 trading days" };
+    var head = '<p class="tr-intro">Signals with a clear expected direction: good news like a contract win, or bad news like a trial being stopped. How often did the share price move the way the signal suggested?</p>' +
+      '<div class="stats">' + ["1d", "5d", "20d"].map(function (h) {
       var x = o[h]; if (!x) return "";
-      return '<div class="stat"><b class="' + cls(x.mean_excess) + '">' + pct(x.mean_excess) + '</b><span>average vs market after ' + h.replace("d", " trading day" + (h === "1d" ? "" : "s")) + ' · ' + x.beat_market_pct + '% beat it · ' + x.n + ' signals</span></div>';
+      return '<div class="stat"><b>' + x.expected_pct.toFixed(0) + '%</b><span>moved the expected way after ' + days[h] + '. Average ' + pct(x.mean_aligned) + ' in that direction, ' + x.n + ' signals.</span></div>';
     }).join("") + "</div>";
+    var arrow = { up: "Good news: expect it to beat the market", down: "Bad news: expect it to lag the market", either: "Could go either way" };
     var rows = (t.categories || []).map(function (c) {
-      return "<tr><th scope=\"row\">" + c.category + '<small>' + (c.stream === "contracts" ? "Contracts" : "Trials") + " · " + c.signals + " signals</small></th>" +
-        ["1d", "5d", "20d"].map(function (h) { var x = c[h]; return '<td class="' + cls(x && x.mean_excess) + '">' + (x ? pct(x.mean_excess) + "<small>" + x.beat_market_pct + "% beat · n=" + x.n + "</small>" : "–") + "</td>"; }).join("") + "</tr>";
+      return "<tr><th scope=\"row\">" + c.category + '<small>' + arrow[c.expected || "either"] + " · " + c.signals + " signals</small></th>" +
+        ["1d", "5d", "20d"].map(function (h) {
+          var x = c[h]; if (!x) return "<td>–</td>";
+          var hit = x.expected_pct != null ? x.expected_pct + "% as expected" : x.beat_market_pct + "% beat market";
+          return '<td class="' + cls(x.mean_excess) + '">' + pct(x.mean_excess) + "<small>" + hit + " · n=" + x.n + "</small></td>";
+        }).join("") + "</tr>";
     }).join("");
     body.innerHTML = head +
-      '<div class="table-wrap"><table class="tr-table"><caption>Average move against the market after each kind of signal</caption>' +
+      '<div class="table-wrap"><table class="tr-table"><caption>Average move against the market after each kind of signal. A minus means the share price did worse than the market.</caption>' +
       '<thead><tr><th scope="col">Signal type</th><th scope="col">1 day</th><th scope="col">5 days</th><th scope="col">20 days</th></tr></thead><tbody>' +
       (rows || '<tr><td colspan="4">No category has enough results yet.</td></tr>') + "</tbody></table></div>" +
       '<p class="status-line" style="margin-top:16px">Updated ' + new Date(t.updated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) + ' · ' + t.signals_tracked + ' signals tracked</p>';
