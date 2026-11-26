@@ -60,6 +60,7 @@ def test_contracts_match_and_value(monkeypatch):
     fts = next(s for s in sigs if s["source"] == "Find a Tender")
     assert fts["new"] == 722820.34  # value taken from the contract when the award has none
     assert fts["url"].startswith("https://")
+    assert fts["framework"] and fts["note"].startswith("Named on")  # shared dynamic purchasing system, not a solo win
     # second run with the same notices: nothing new
     again, _, _ = contracts.scan(state, "2026-11-27T06:17:00Z")
     assert again == []

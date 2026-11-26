@@ -103,28 +103,44 @@ def scan(state, detected_at, now=None, backfill_days=14):
                 scanned += 1
                 buyer = (rel.get("buyer") or {}).get("name") or "a public body"
                 tender = rel.get("tender") or {}
+                tech = tender.get("techniques") or {}
+                # Group this notice's awards (lots) by covered company: one signal per company per notice.
+                hits = {}
                 for award in rel.get("awards") or []:
-                    for sup in award.get("suppliers") or []:
+                    sups = award.get("suppliers") or []
+                    for sup in sups:
                         c = match_company(sup.get("name"))
-                        if not c:
-                            continue
-                        key = f"{rel.get('ocid')}|{award.get('id')}|{c['ticker']}"
-                        if key in seen:
-                            continue
-                        seen[key] = now.date().isoformat()
-                        amount, cur = _value(rel, award)
-                        title = award.get("title") or tender.get("title") or "Untitled contract"
-                        signals.append({
-                            "detected_at": detected_at, "stream": "contracts", "source": source,
-                            "ticker": c["ticker"], "company": c["name"], "sector": c["sector"],
-                            "ref": rel.get("id"), "title": title, "type": "contract_award",
-                            "field": None, "old": None, "new": amount, "currency": cur,
-                            "buyer": buyer, "supplier": sup.get("name"),
-                            "published": (rel.get("date") or "")[:10],
-                            "severity": severity(amount),
-                            "note": f"Awarded {money(amount, cur)} contract by {buyer}",
-                            "url": _url(source, rel),
-                        })
+                        if c:
+                            h = hits.setdefault(c["ticker"], {"c": c, "awards": [], "shared": False, "supplier": sup.get("name")})
+                            h["awards"].append(award)
+                            h["shared"] = h["shared"] or len(sups) > 1
+                for ticker, h in hits.items():
+                    key = f"{rel.get('ocid')}|{ticker}"
+                    if key in seen:
+                        continue
+                    seen[key] = now.date().isoformat()
+                    c, awards = h["c"], h["awards"]
+                    vals = [_value(rel, a) for a in awards]
+                    amount = max((v[0] for v in vals if v[0]), default=None)
+                    cur = next((v[1] for v in vals if v[0] == amount), "GBP")
+                    framework = h["shared"] or bool(tech.get("hasFrameworkAgreement") or tech.get("hasDynamicPurchasingSystem"))
+                    lots = f" ({len(awards)} lots)" if len(awards) > 1 else ""
+                    if framework:
+                        note = f"Named on {money(amount, cur)} framework by {buyer}{lots}"
+                        sev = "medium" if amount and amount >= CONTRACT_HIGH else "low"
+                    else:
+                        note = f"Awarded {money(amount, cur)} contract by {buyer}{lots}"
+                        sev = severity(amount)
+                    title = awards[0].get("title") or tender.get("title") or "Untitled contract"
+                    signals.append({
+                        "detected_at": detected_at, "stream": "contracts", "source": source,
+                        "ticker": c["ticker"], "company": c["name"], "sector": c["sector"],
+                        "ref": rel.get("id"), "title": title, "type": "contract_award",
+                        "field": None, "old": None, "new": amount, "currency": cur,
+                        "framework": framework, "buyer": buyer, "supplier": h["supplier"],
+                        "published": (rel.get("date") or "")[:10],
+                        "severity": sev, "note": note, "url": _url(source, rel),
+                    })
         except Exception as e:  # one source down shouldn't stop the other
             errors.append(f"{source}: {e}")
         print(f"{source:18} scanned {scanned} award notices since {since:%Y-%m-%d %H:%M}")
