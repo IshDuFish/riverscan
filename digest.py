@@ -181,8 +181,11 @@ def paragraph(s, funds):
         return out
     if t == "mismatch":
         a, b = str(s["old"]).split(": ", 1), str(s["new"]).split(": ", 1)
-        return (f"The registries disagree about {poss(co)} trial “{title}”. {a[0]} lists it as {nice(a[-1]).lower().replace('active not', 'active, not')}, "
-                f"while {b[0]} shows it as {nice(b[-1]).lower().replace('active not', 'active, not')}. One record is usually just out of date, but it's worth checking which.")
+        sa = nice(a[-1]).lower().replace('active not', 'active, not')
+        sb = nice(b[-1]).lower().replace('active not', 'active, not')
+        return (f"The same {co} trial (“{title}”) is registered in two places, and they no longer agree: "
+                f"{a[0]} still lists it as {sa}, while {b[0]} shows it as {sb}. Usually one record just hasn't been "
+                f"updated yet, but a gap like this can be the first public sign that a trial has wound down.")
     if t == "new_trial":
         return f"{co} has registered a new trial: “{title}”."
     if t == "removed":
@@ -204,6 +207,24 @@ def paragraph(s, funds):
         kind = {"halts": "a temporary halt", "safety_measures": "an urgent safety measure", "serious_breaches": "a serious breach"}[f]
         return f"The EU register now records {kind} on {poss(co)} trial “{title}”."
     return f"{co}: {s.get('note')} on “{title}” ({nice(s.get('old'))} to {nice(s.get('new'))})."
+
+
+def lead_phrase(s):
+    co = s["company"]
+    if s["type"] == "contract_award":
+        buyer = tidy_buyer(s.get("buyer"))
+        if s.get("framework"):
+            return f"{co} was named on a {money(s['new']) + ' ' if s.get('new') else ''}{buyer} framework"
+        return f"{co} won a {money(s['new']) + ' ' if s.get('new') else ''}contract from {buyer}"
+    if s["type"] == "mismatch":
+        return f"two registries disagree about one of {poss(co)} trials"
+    if s["type"] == "new_trial":
+        return f"{co} registered a new trial"
+    if s.get("field") in DATE_FIELDS and s.get("old") and s.get("new"):
+        return f"{co} {'pushed back' if str(s['new']) > str(s['old']) else 'brought forward'} a trial date"
+    if s.get("field") in ("status", "status_override"):
+        return f"one of {poss(co)} trials changed status to {nice(s.get('new')).lower()}"
+    return f"{co} updated a trial record"
 
 
 def kind_label(s):
@@ -233,7 +254,12 @@ def build(sigs):
     num = words[n] if n < len(words) else str(n)
     nc = len(names)
     cos = (words[nc].lower() if nc < len(words) else str(nc)) + (" companies" if nc != 1 else " company")
-    intro = (f"{num} signal{'s' if n != 1 else ''} this week, across {cos}. "
+    phrases = [lead_phrase(x) for x in key[:4]]
+    summary = ""
+    if phrases:
+        body = "; ".join(phrases[:-1]) + ("; and " if len(phrases) > 1 else "") + phrases[-1]
+        summary = " " + body[0].upper() + body[1:] + "."
+    intro = (f"{num} signal{'s' if n != 1 else ''} this week, across {cos}.{summary} "
              f"Another {len(low)} smaller change{'s are' if len(low) != 1 else ' is'} in the full log." if n else
              f"A quiet week. Nothing we track moved enough to flag; {len(low)} smaller change{'s are' if len(low) != 1 else ' is'} in the full log.")
 
@@ -250,34 +276,34 @@ def build(sigs):
                        f"{kind_label(s)}, {s['_sev']} importance. Source: {s.get('source', 'ClinicalTrials.gov')}, {s['url']}", ""]
     md += [f"Full log: {SITE}/signals.html", f"Track record: {SITE}/track-record.html", "", DISCLAIMER]
 
-    # ---- HTML: plain newsletter, table layout for email apps ----
-    serif = "Georgia,'Times New Roman',serif"
-    sans = "Helvetica,Arial,sans-serif"
+    # ---- HTML: one typeface throughout, logo masthead, table layout for email apps ----
+    font = "'Inter','Helvetica Neue',Helvetica,Arial,sans-serif"
+    ink, grey, rule, green = "#0B1F2A", "#6B7A80", "#E2E7E5", "#0F766E"
 
     def item(s):
-        src = s.get("source", "ClinicalTrials.gov")
         link = "Read the notice" if s["type"] == "contract_award" else "Read the record"
-        return (f'<tr><td style="padding:18px 0;border-top:1px solid #DDD">'
-                f'<div style="font-family:{sans};font-size:15px;font-weight:bold;color:#111">{esc(s["company"])}'
-                f'<span style="font-weight:normal;color:#777"> ({esc(s["ticker"])})</span></div>'
-                f'<div style="font-family:{serif};font-size:16px;line-height:1.55;color:#222;margin:6px 0 8px">{esc(paragraph(s, funds))}</div>'
-                f'<div style="font-family:{sans};font-size:12px;color:#777">{esc(kind_label(s))}, {esc(s["_sev"])} importance. '
-                f'{esc(src)}. <a href="{esc(s["url"])}" style="color:#0F5F59">{link}</a></div></td></tr>')
+        return (f'<tr><td style="padding:16px 0;border-top:1px solid {rule};font-family:{font}">'
+                f'<p style="margin:0;font-size:16px;line-height:1.65;color:{ink}">'
+                f'<strong>{esc(s["company"])}</strong> <span style="color:{grey}">({esc(s["ticker"])})</span>. {esc(paragraph(s, funds))}</p>'
+                f'<p style="margin:6px 0 0;font-size:13px;line-height:1.5;color:{grey}">{esc(kind_label(s))} · {esc(s["_sev"].capitalize())} importance · '
+                f'{esc(s.get("source", "ClinicalTrials.gov"))} · <a href="{esc(s["url"])}" style="color:{green}">{link}</a></p></td></tr>')
 
     body = "".join(
-        f'<tr><td style="padding:26px 0 4px;font-family:{sans};font-size:12px;font-weight:bold;color:#0F5F59">{label}</td></tr>'
+        f'<tr><td style="padding:24px 0 8px;font-family:{font};font-size:14px;font-weight:600;color:{green}">{label}</td></tr>'
         + "".join(item(s) for s in items) for label, items in sections if items)
     page = (
         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:0 auto;background:#fff">'
-        f'<tr><td style="padding:24px 0 14px;border-bottom:3px solid #111">'
-        f'<div style="font-family:{sans};font-size:20px;font-weight:bold;letter-spacing:.02em;color:#111">RiverScan Weekly</div>'
-        f'<div style="font-family:{sans};font-size:12px;color:#777;margin-top:2px">{today}</div></td></tr>'
-        f'<tr><td style="padding:18px 0 0;font-family:{serif};font-size:17px;line-height:1.5;color:#222">{esc(intro)}</td></tr>'
+        f'<tr><td style="padding:20px 0 16px;border-bottom:2px solid {ink}">'
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>'
+        f'<td><a href="{SITE}"><img src="{SITE}/assets/email-logo.png" width="170" height="36" alt="RiverScan" style="display:block;border:0"></a></td>'
+        f'<td align="right" style="font-family:{font};font-size:13px;color:{grey};vertical-align:bottom">Weekly · {today}</td>'
+        f'</tr></table></td></tr>'
+        f'<tr><td style="padding:20px 0 4px;font-family:{font};font-size:17px;line-height:1.65;color:{ink}">{esc(intro)}</td></tr>'
         + body +
-        f'<tr><td style="padding:22px 0;border-top:1px solid #DDD;font-family:{sans};font-size:14px;color:#333">'
-        f'Every signal, with links to the source, is in the <a href="{SITE}/signals.html" style="color:#0F5F59">full log</a>. '
-        f'To see how prices moved after past signals, read the <a href="{SITE}/track-record.html" style="color:#0F5F59">track record</a>.</td></tr>'
-        f'<tr><td style="padding:8px 0 0;font-family:{sans};font-size:11px;line-height:1.5;color:#999">{DISCLAIMER}</td></tr></table>')
+        f'<tr><td style="padding:20px 0;border-top:1px solid {rule};font-family:{font};font-size:15px;line-height:1.6;color:{ink}">'
+        f'Every signal, with a link to its source, is in the <a href="{SITE}/signals.html" style="color:{green}">full log</a>. '
+        f'To see how prices moved after past signals, read the <a href="{SITE}/track-record.html" style="color:{green}">track record</a>.</td></tr>'
+        f'<tr><td style="padding:4px 0 0;font-family:{font};font-size:12px;line-height:1.5;color:#98A3A7">{DISCLAIMER}</td></tr></table>')
     for s in sigs:
         s.pop("_sev", None)
     return "\n".join(md), page, subject

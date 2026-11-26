@@ -48,13 +48,14 @@ function unsubscribeLink_(email) {
 }
 
 function footer_(email) {
-  return '<p style="font-family:Helvetica,Arial,sans-serif;color:#999;font-size:11px;line-height:1.5;margin-top:28px">' +
+  return '<p style="color:#98A3A7;font-size:12px;line-height:1.5;margin-top:28px">' +
     "You're receiving this because you signed up at riverscan.com. " +
     '<a href="' + unsubscribeLink_(email) + '" style="color:#999">Unsubscribe</a>.<br>' + DISCLAIMER + "</p>";
 }
 
+var FONT = "'Inter','Helvetica Neue',Helvetica,Arial,sans-serif";
 function wrap_(inner) {
-  return '<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:16px;max-width:600px;color:#222;line-height:1.55">' + inner + "</div>";
+  return '<div style="font-family:' + FONT + ';font-size:16px;max-width:600px;color:#0B1F2A;line-height:1.65">' + inner + "</div>";
 }
 
 /** Sign-ups (form posts) and the weekly digest (JSON with the token). */
@@ -107,7 +108,7 @@ function sendWelcome_(email) {
     return '<p style="margin:0 0 10px"><strong>' + s.company + "</strong>. " + s.note + '. <a href="' + s.url + '" style="color:#0F5F59">Source</a></p>';
   }).join("") : "";
   var html = wrap_(
-    '<p style="font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:bold;color:#111;border-bottom:3px solid #111;padding-bottom:12px">RiverScan</p>' +
+    '<p style="border-bottom:2px solid #0B1F2A;padding-bottom:16px"><img src="' + SITE + '/assets/email-logo.png" width="170" height="36" alt="RiverScan" style="display:block;border:0"></p>' +
     "<p>Thanks for signing up.</p>" +
     "<p>Each morning we read clinical trial registries and UK government contract awards, and note what changed for London-listed companies worth under £1bn. Those are the companies few analysts follow, so the news can take a while to reach the share price.</p>" +
     "<p>The weekly email arrives on Fridays. In the meantime, everything we've logged is on the site: " +
