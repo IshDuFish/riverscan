@@ -126,3 +126,23 @@ TRACK_RECORD_MIN_GROUP = 5   # a category needs this many results before its ave
 
 # Benchmarks: trial companies are compared with the FTSE AIM All-Share and contract
 # companies with the FTSE All-Share, unless a company sets its own "benchmark".
+
+
+# ---------------------------------------------------------------------------
+# Extra companies found automatically (tools/discover.py, then reviewed) live in
+# data/companies.json, so this file stays readable. Hand-written entries above win
+# if a ticker appears in both.
+def _load_extra():
+    import json
+    from pathlib import Path
+    path = Path(__file__).resolve().parent / "data" / "companies.json"
+    if not path.exists():
+        return
+    extra = json.loads(path.read_text())
+    have = {c["ticker"] for c in TRIAL_COMPANIES}
+    TRIAL_COMPANIES.extend(c for c in extra.get("trials", []) if c["ticker"] not in have)
+    have = {c["ticker"] for c in CONTRACT_COMPANIES}
+    CONTRACT_COMPANIES.extend(c for c in extra.get("contracts", []) if c["ticker"] not in have)
+
+
+_load_extra()

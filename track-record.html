@@ -40,8 +40,8 @@
   <section class="site-header">
     <div class="container page-hero">
       <p class="eyebrow">Track record</p>
-      <h1>What happened next.</h1>
-      <p class="lead" style="color: var(--on-dark-muted); max-width: 660px;">For every medium and high signal, we measure how the company's share price moved afterwards compared with the market. Every signal counts, not just the good calls.</p>
+      <h1>Slow to price it in.</h1>
+      <p class="lead" style="color: var(--on-dark-muted); max-width: 680px;">If markets took in public information instantly, a company's share price would jump on the day a record went public and then stop. We follow every signal day by day to test whether small company shares keep moving for days afterwards. Every signal counts, not just the good calls.</p>
     </div>
   </section>
 
@@ -56,8 +56,9 @@
     <div class="container narrow">
       <h2 style="margin-top:0">How we measure it</h2>
       <ul>
-        <li><strong>Starting point:</strong> the last closing price before we caught the signal. The scanner runs before the London market opens, so this is the price before anyone could act on it.</li>
-        <li><strong>After 1, 5 and 20 trading days:</strong> the company's move over each period.</li>
+        <li><strong>Starting point:</strong> the last closing price before the record became public: the day a contract notice was published, or a trial registry record was updated. From then on, anyone could have known.</li>
+        <li><strong>Every day for 20 trading days:</strong> we follow the company's price, so you can see whether the move happened at once or kept going.</li>
+        <li><strong>When RiverScan flagged it:</strong> we also note how many trading days after the record went public our signal appeared, and how much of the move was still to come after that.</li>
         <li><strong>Against the market:</strong> we subtract the move in a benchmark index over the same days, so a rising market doesn't flatter the result. Biotechs are compared with the FTSE AIM All-Share and contractors with the FTSE All-Share.</li>
         <li><strong>Good news and bad news:</strong> each kind of signal has an expected direction. A contract win should help a share price, so it counts as right if the company beats the market. A stopped trial should hurt it, so it counts as right if the company lags the market. A date pushed back counts as bad news and a date brought forward as good news. Signals that could go either way, like posted results or a registry mismatch, are measured but not scored.</li>
         <li><strong>Every signal:</strong> all medium and high signals are included, whatever happened. Nothing is removed after the fact.</li>
@@ -94,40 +95,84 @@ document.getElementById('year').textContent = new Date().getFullYear();
   var body = document.getElementById("tr-body");
   function pct(v) { return v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(1) + "%"; }
   function cls(v) { return v == null ? "" : v > 0 ? "up" : v < 0 ? "down" : ""; }
+
+  // Line chart: average direction-adjusted move vs the market, day 0..20 after the record went public.
+  function chart(points, opts) {
+    var W = 720, H = 320, L = 56, R = 24, T = 24, B = 48;
+    var ys = [0].concat(points.map(function (p) { return p.y; })).concat((opts.ghost || []).map(function (p) { return p.y; }));
+    var lo = Math.min.apply(null, ys), hi = Math.max.apply(null, ys);
+    if (hi - lo < 1) { hi += 0.5; lo -= 0.5; }
+    var pad = (hi - lo) * 0.12; lo -= pad; hi += pad;
+    function x(d) { return L + (W - L - R) * d / 20; }
+    function y(v) { return T + (H - T - B) * (hi - v) / (hi - lo); }
+    function line(ps) { return ps.map(function (p, i) { return (i ? "L" : "M") + x(p.x).toFixed(1) + "," + y(p.y).toFixed(1); }).join(""); }
+    var g = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="drift-chart" role="img" aria-label="' + opts.label + '">';
+    var step = (hi - lo) > 8 ? 2 : (hi - lo) > 4 ? 1 : 0.5;
+    for (var v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+      g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(v) + '" y2="' + y(v) + '" class="' + (Math.abs(v) < 1e-9 ? "axis0" : "grid") + '"/>' +
+           '<text x="' + (L - 8) + '" y="' + (y(v) + 4) + '" text-anchor="end" class="tick">' + (opts.units === false ? "" : (v > 0 ? "+" : "") + (Math.round(v * 10) / 10) + "%") + "</text>";
+    }
+    [0, 5, 10, 15, 20].forEach(function (d) { g += '<text x="' + x(d) + '" y="' + (H - B + 20) + '" text-anchor="middle" class="tick">' + d + "</text>"; });
+    g += '<text x="' + ((L + W - R) / 2) + '" y="' + (H - 6) + '" text-anchor="middle" class="axis-title">Trading days after the record became public</text>';
+    if (opts.marker != null) {
+      g += '<line x1="' + x(opts.marker) + '" x2="' + x(opts.marker) + '" y1="' + T + '" y2="' + (H - B) + '" class="marker"/>' +
+           '<text x="' + (x(opts.marker) + 6) + '" y="' + (T + 12) + '" class="marker-label">' + opts.markerLabel + "</text>";
+    }
+    if (opts.ghost) g += '<path d="' + line(opts.ghost) + '" class="ghost"/>';
+    g += '<path d="' + line(points) + '" class="main"/>';
+    if (opts.ghostLabel) { var gl = opts.ghost[opts.ghost.length - 1]; g += '<text x="' + (x(gl.x) - 4) + '" y="' + (y(gl.y) - 8) + '" text-anchor="end" class="ghost-label">' + opts.ghostLabel + "</text>"; }
+    if (opts.mainLabel) { var ml = points[points.length - 1]; g += '<text x="' + (x(ml.x) - 4) + '" y="' + (y(ml.y) - 10) + '" text-anchor="end" class="main-label">' + opts.mainLabel + "</text>"; }
+    return g + "</svg>";
+  }
+
+  function illustration() {
+    var slow = [], fast = [];
+    for (var d = 0; d <= 20; d++) { slow.push({ x: d, y: 6 * (1 - Math.exp(-d / 6)) }); fast.push({ x: d, y: d === 0 ? 0 : 6 }); }
+    return '<figure class="drift-fig illustration"><figcaption><strong>How the chart will read.</strong> This is an illustration, not data.</figcaption>' +
+      chart(slow, { ghost: fast, units: false, ghostLabel: "Priced in instantly", mainLabel: "Priced in slowly", marker: 2, markerLabel: "RiverScan signal", label: "Illustration of instant versus slow pricing" }) +
+      "<p>If the market priced information in instantly, the line would jump on day 1 and go flat. A line that keeps climbing for days means the information wasn't fully priced in, and that there was still a move to come after RiverScan's signal.</p></figure>";
+  }
+
   fetch("data/track_record.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (t) {
-    if (!t) { body.innerHTML = '<div class="log-empty">The track record starts with the first weekly price check.</div>'; return; }
-    document.getElementById("min-group").textContent = t.min_group;
-    if (!t.public) {
-      var pctDone = Math.min(100, Math.round(100 * t.with_5d_result / t.min_signals));
-      body.innerHTML =
-        '<div class="tr-collect"><h3>Collecting the record</h3>' +
-        '<p>We need at least ' + t.min_signals + ' signals with a full five trading days of price history before averages are worth publishing. Until then the results are recorded but not shown.</p>' +
-        '<div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="' + t.min_signals + '" aria-valuenow="' + t.with_5d_result + '" aria-label="Signals with a 5-day result"><span style="width:' + pctDone + '%"></span></div>' +
-        '<p class="meter-label"><strong>' + t.with_5d_result + ' of ' + t.min_signals + '</strong> signals have a 5-day result · ' + t.signals_tracked + ' signals tracked so far</p></div>';
+    if (!t || !t.public) {
+      var n5 = t ? t.with_5d_result : 0, need = t ? t.min_signals : 20, tracked = t ? t.signals_tracked : 0;
+      var pctDone = Math.min(100, Math.round(100 * n5 / need));
+      body.innerHTML = '<div class="tr-collect"><h3>Collecting the record</h3>' +
+        "<p>We need at least " + need + " signals with five trading days of price history before the results are worth publishing. Until then they're recorded but not shown.</p>" +
+        '<div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="' + need + '" aria-valuenow="' + n5 + '" aria-label="Signals with a 5-day result"><span style="width:' + pctDone + '%"></span></div>' +
+        '<p class="meter-label"><strong>' + n5 + " of " + need + "</strong> signals have a 5-day result · " + tracked + " signals tracked so far</p></div>" + illustration();
+      if (t) document.getElementById("min-group").textContent = t.min_group;
       return;
     }
-    var o = t.overall || {};
+    document.getElementById("min-group").textContent = t.min_group;
+    var d = t.drift || {}, html = "";
+    if (d.curve && d.curve.length) {
+      var pts = [{ x: 0, y: 0 }].concat(d.curve.map(function (c) { return { x: c.day, y: c.mean }; }));
+      var day1 = d.curve[0].mean, ghost = [{ x: 0, y: 0 }];
+      for (var k = 1; k <= d.curve[d.curve.length - 1].day; k++) ghost.push({ x: k, y: day1 });
+      var claims = [];
+      if (d.late_share_pct != null) claims.push('<div class="claim"><b>' + Math.round(d.late_share_pct) + '%</b><span>of the 20-day move came <em>after</em> the first day the record was public</span></div>');
+      if (d.after_signal) claims.push('<div class="claim"><b>' + pct(d.after_signal.mean) + '</b><span>further move the expected way, on average, <em>after</em> RiverScan flagged it (' + d.after_signal.expected_pct + "% of " + d.after_signal.n + " signals)</span></div>");
+      html += (claims.length ? '<div class="claims">' + claims.join("") + "</div>" : "") +
+        '<figure class="drift-fig"><figcaption>Average share price move against the market after the record became public. Good-news and bad-news signals combined, with bad news flipped so the expected direction is always up. Based on ' + d.signals + " signals.</figcaption>" +
+        chart(pts, { ghost: ghost, ghostLabel: "If priced in on day 1", mainLabel: "What actually happened", marker: d.median_days_to_signal, markerLabel: "RiverScan signal (typical day)", label: "Average drift after signals" }) + "</figure>";
+    }
     var days = { "1d": "1 trading day", "5d": "5 trading days", "20d": "20 trading days" };
-    var head = '<p class="tr-intro">Signals with a clear expected direction: good news like a contract win, or bad news like a trial being stopped. How often did the share price move the way the signal suggested?</p>' +
-      '<div class="stats">' + ["1d", "5d", "20d"].map(function (h) {
-      var x = o[h]; if (!x) return "";
-      return '<div class="stat"><b>' + x.expected_pct.toFixed(0) + '%</b><span>moved the expected way after ' + days[h] + '. Average ' + pct(x.mean_aligned) + ' in that direction, ' + x.n + ' signals.</span></div>';
-    }).join("") + "</div>";
     var arrow = { up: "Good news: expect it to beat the market", down: "Bad news: expect it to lag the market", either: "Could go either way" };
     var rows = (t.categories || []).map(function (c) {
-      return "<tr><th scope=\"row\">" + c.category + '<small>' + arrow[c.expected || "either"] + " · " + c.signals + " signals</small></th>" +
+      return "<tr><th scope=\"row\">" + c.category + "<small>" + arrow[c.expected || "either"] + " · " + c.signals + " signals</small></th>" +
         ["1d", "5d", "20d"].map(function (h) {
           var x = c[h]; if (!x) return "<td>–</td>";
           var hit = x.expected_pct != null ? x.expected_pct + "% as expected" : x.beat_market_pct + "% beat market";
           return '<td class="' + cls(x.mean_excess) + '">' + pct(x.mean_excess) + "<small>" + hit + " · n=" + x.n + "</small></td>";
         }).join("") + "</tr>";
     }).join("");
-    body.innerHTML = head +
-      '<div class="table-wrap"><table class="tr-table"><caption>Average move against the market after each kind of signal. A minus means the share price did worse than the market.</caption>' +
+    html += '<div class="table-wrap"><table class="tr-table"><caption>Average move against the market after each kind of signal, from the day the record became public. A minus means the share price did worse than the market.</caption>' +
       '<thead><tr><th scope="col">Signal type</th><th scope="col">1 day</th><th scope="col">5 days</th><th scope="col">20 days</th></tr></thead><tbody>' +
       (rows || '<tr><td colspan="4">No category has enough results yet.</td></tr>') + "</tbody></table></div>" +
-      '<p class="status-line" style="margin-top:16px">Updated ' + new Date(t.updated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) + ' · ' + t.signals_tracked + ' signals tracked</p>';
-  }).catch(function () { body.innerHTML = '<div class="log-empty">The track record couldn\'t load. Refresh the page to try again.</div>'; });
+      '<p class="status-line" style="margin-top:16px">Updated ' + new Date(t.updated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) + " · " + t.signals_tracked + " signals tracked</p>";
+    body.innerHTML = html;
+  }).catch(function () { body.innerHTML = '<div class="log-empty">The track record didn\'t load. Refresh the page to try again.</div>'; });
 })();
 </script>
 </body>

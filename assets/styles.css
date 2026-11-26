@@ -390,3 +390,37 @@ ul.chips { list-style: none; padding: 0; margin: 0; }
   .tr-table th, .tr-table td { padding: 12px 14px; }
   .filters button { min-height: 44px; }
 }
+.stream-count { font: 500 14px var(--font-body); color: var(--on-dark-faint); margin-left: 6px; }
+.more-tickers { font: 500 14px var(--font-body); padding: 10px 14px; border-radius: 8px; border: 1px dashed #3A5560; background: none; color: #8FE3D6; cursor: pointer; }
+.tickers span[hidden] { display: none; }
+/* Map labels: dark outline so text never sits directly on the light river */
+.stage-name, .stage-note { paint-order: stroke; stroke: var(--ink); stroke-width: 6px; stroke-linejoin: round; }
+
+/* Signal cards lead with the company name */
+.signal-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.signal-co-name { font: 600 18px/1.25 var(--font-head); color: var(--on-dark); margin: 0; letter-spacing: -0.01em; }
+.signal-head .ticker { color: var(--on-dark-faint); font-size: 12px; }
+.signal-size { font-size: 14px !important; color: #DCE6E3 !important; background: rgba(143, 227, 214, .08); border-left: 2px solid #8FE3D6; padding: 6px 10px; border-radius: 0 6px 6px 0; }
+.signal-size strong { color: #8FE3D6; }
+
+/* Track record drift chart */
+.drift-fig { margin: 24px 0; background: var(--white); border: 1px solid var(--line); border-radius: 16px; padding: 20px 20px 12px; }
+.drift-fig figcaption { color: var(--muted); font-size: 14px; margin-bottom: 8px; max-width: 680px; }
+.drift-fig p { color: var(--muted); font-size: 15px; margin-top: 8px; max-width: 680px; }
+.drift-chart { width: 100%; height: auto; display: block; }
+.drift-chart .grid { stroke: #E3E9E6; }
+.drift-chart .axis0 { stroke: #9AAAA5; }
+.drift-chart .tick { font-size: 12px; fill: var(--muted); font-family: var(--font-body); }
+.drift-chart .axis-title { font-size: 13px; fill: var(--muted); font-family: var(--font-body); }
+.drift-chart .main { fill: none; stroke: var(--accent-dark); stroke-width: 3; stroke-linejoin: round; }
+.drift-chart .ghost { fill: none; stroke: #9AAAA5; stroke-width: 2; stroke-dasharray: 6 6; }
+.drift-chart .marker { stroke: #B86E00; stroke-width: 1.5; stroke-dasharray: 3 4; }
+.drift-chart .marker-label { font-size: 12px; fill: #8A5300; font-family: var(--font-body); font-weight: 600; }
+.drift-chart .main-label { font-size: 13px; fill: var(--accent-dark); font-weight: 600; font-family: var(--font-body); }
+.drift-chart .ghost-label { font-size: 13px; fill: var(--muted); font-family: var(--font-body); }
+.illustration { border-style: dashed; }
+.claims { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+.claim { flex: 1 1 260px; background: var(--ink); color: var(--on-dark); border-radius: 14px; padding: 18px 20px; }
+.claim b { display: block; font: 700 36px/1.1 var(--font-head); color: #8FE3D6; }
+.claim span { color: var(--on-dark-muted); font-size: 15px; }
+.claim em { font-style: normal; color: var(--on-dark); font-weight: 600; }

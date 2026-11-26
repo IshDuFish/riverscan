@@ -1,10 +1,14 @@
-"""Track record: what happened to the share price after each signal?
+"""Track record: how slowly do small-company share prices react to public information?
 
-For every medium or high signal, measures the company's share price move from
-the last close BEFORE the signal was caught (the scanner runs before the London
-open) to 1, 5 and 20 trading days later, and the same move in a benchmark
-index. The difference is the "excess return": how the company did against
-the market.
+For every medium or high signal we follow the share price day by day from the
+moment the underlying record became PUBLIC (the date a contract notice was
+published, or a trial registry record was updated), for 20 trading days, and
+subtract the move in a benchmark index ("excess return").
+
+If prices took information in instantly, all of the move would happen on day 1
+and the line would then go flat. If the line keeps drifting for days afterwards,
+including after RiverScan flagged the record, the information wasn't priced in.
+Signals are direction-adjusted (bad news flipped) so "the expected way" is always up.
 
 Writes
   data/track_record.json   summary by signal category, plus per-signal results
@@ -28,6 +32,7 @@ from config import (TRIAL_COMPANIES, CONTRACT_COMPANIES, TRACK_RECORD_PUBLIC,
 
 DATA = Path(__file__).resolve().parent / "data"
 HORIZONS = [1, 5, 20]
+DAYS = 20
 ALL_COS = TRIAL_COMPANIES + CONTRACT_COMPANIES
 YAHOO = {c["ticker"]: c.get("yahoo") or c["ticker"].rstrip(".") + ".L" for c in ALL_COS}
 DEFAULT_BENCH = {"trials": "^FTAI", "contracts": "^FTAS"}  # FTSE AIM All-Share / FTSE All-Share
@@ -99,6 +104,20 @@ def closes(symbol, start):
     return c.dropna()
 
 
+def path(series, day, n=DAYS):
+    """Cumulative % move from the last close before `day` to each of the next n trading days."""
+    before, after = series[series.index < day], series[series.index >= day]
+    if before.empty or after.empty:
+        return []
+    base = float(before.iloc[-1])
+    return [round((float(v) / base - 1) * 100, 3) for v in after.iloc[:n]]
+
+
+def trading_days_between(series, start, end):
+    """Number of trading days on/after `start` and before `end`."""
+    return int(((series.index >= start) & (series.index < end)).sum())
+
+
 def moves(series, day):
     """% moves from the last close before `day` to N trading days on (day itself = day 1)."""
     before, after = series[series.index < day], series[series.index >= day]
@@ -143,6 +162,40 @@ def summarise_directional(rows):
     return out
 
 
+def drift(rows):
+    """Average direction-adjusted path, day 1..20 after the information became public,
+    plus how much of the move came late, and how much was still to come after RiverScan's signal."""
+    paths = [r["aligned_path"] for r in rows if r.get("aligned_path")]
+    if not paths:
+        return None
+    curve = []
+    for k in range(DAYS):
+        vals = [p[k] for p in paths if len(p) > k]
+        if vals:
+            curve.append({"day": k + 1, "mean": round(sum(vals) / len(vals), 2), "n": len(vals)})
+    full = [p for p in paths if len(p) >= DAYS]
+    out = {"curve": curve, "signals": len(paths), "full_20d": len(full)}
+    if full:
+        m1 = sum(p[0] for p in full) / len(full)
+        m20 = sum(p[DAYS - 1] for p in full) / len(full)
+        out["day1_mean"], out["day20_mean"] = round(m1, 2), round(m20, 2)
+        if m20 > 0:
+            out["late_share_pct"] = round(max(0.0, (m20 - m1) / m20) * 100, 1)  # share of the 20-day move after day 1
+    after = []
+    for r in rows:
+        p, lag = r.get("aligned_path"), r.get("days_to_signal")
+        if p and lag is not None and lag < DAYS and len(p) >= DAYS:
+            at_signal = p[lag - 1] if lag > 0 else 0.0
+            after.append(p[DAYS - 1] - at_signal)
+    if after:
+        out["after_signal"] = {"n": len(after), "mean": round(sum(after) / len(after), 2),
+                               "expected_pct": round(100 * sum(1 for x in after if x > 0) / len(after), 1)}
+    lags = sorted(r["days_to_signal"] for r in rows if r.get("days_to_signal") is not None)
+    if lags:
+        out["median_days_to_signal"] = lags[len(lags) // 2]
+    return out
+
+
 def main():
     path = DATA / "signals.json"
     signals = json.loads(path.read_text()) if path.exists() else []
@@ -162,12 +215,22 @@ def main():
             stream = s.get("stream", "trials")
             sym = YAHOO.get(s["ticker"], s["ticker"].rstrip(".") + ".L")
             bench = BENCH.get(s["ticker"], DEFAULT_BENCH[stream])
-            day = pd.Timestamp(s["detected_at"][:10])
-            stock, idx = moves(get(sym), day), moves(get(bench), day)
+            caught = pd.Timestamp(s["detected_at"][:10])
+            public = pd.Timestamp((s.get("published") or s["detected_at"])[:10])
+            if public > caught:
+                public = caught
+            sp, ip = path(get(sym), public), path(get(bench), public)
+            excess_path = [round(a - b, 3) for a, b in zip(sp, ip)]
+            stock = {n: sp[n - 1] for n in HORIZONS if len(sp) >= n}
+            idx = {n: ip[n - 1] for n in HORIZONS if len(ip) >= n}
+            lag = trading_days_between(get(sym), public, caught) if sp else None
             cat = category(s)
             row = {"id": signal_id(s), "detected_at": s["detected_at"], "ticker": s["ticker"], "stream": stream,
                    "category": cat, "expected": DIRECTION_LABEL[EXPECTED.get(cat, 0)], "severity": s["severity"], "ref": s.get("ref") or s.get("nct_id"),
-                   "note": s.get("note"), "benchmark": BENCH_NAME.get(bench, bench), "price_data": bool(stock)}
+                   "note": s.get("note"), "benchmark": BENCH_NAME.get(bench, bench), "price_data": bool(stock),
+                   "public_date": public.date().isoformat(), "days_to_signal": lag}
+            d = EXPECTED.get(cat, 0)
+            row["aligned_path"] = [round(x * d, 3) for x in excess_path] if d else None
             for n in HORIZONS:
                 row[f"stock_{n}d"] = stock.get(n)
                 row[f"index_{n}d"] = idx.get(n)
@@ -179,7 +242,7 @@ def main():
 
     df = pd.DataFrame(rows)
     if not df.empty:
-        df.to_csv(DATA / "track_record_full.csv", index=False)
+        df.drop(columns=["aligned_path"]).to_csv(DATA / "track_record_full.csv", index=False)
 
     with5 = [r for r in rows if r.get("excess_5d") is not None]
     ready = len(with5) >= TRACK_RECORD_MIN_SIGNALS
@@ -194,6 +257,7 @@ def main():
         "min_group": TRACK_RECORD_MIN_GROUP,
         "horizons": HORIZONS,
     }
+    report["drift"] = drift(rows) if report["public"] else None
     if report["public"]:
         groups = {}
         for r in rows:

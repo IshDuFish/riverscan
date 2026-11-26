@@ -128,9 +128,8 @@
         <!-- labels -->
         <g class="map-labels">
           <g class="stage"><circle cx="70" cy="60" r="9" class="spring"/>
-            <text x="92" y="52" class="stage-name">Source</text>
-            <text x="92" y="74" class="stage-note">Public records.</text>
-            <text x="92" y="92" class="stage-note">RiverScan reads here.</text></g>
+            <text x="92" y="26" class="stage-name">Source</text>
+            <text x="92" y="46" class="stage-note">Public records. RiverScan reads here.</text></g>
           <g class="stage stage--end">
             <text x="1185" y="448" text-anchor="end" class="stage-name">The sea</text>
             <text x="1185" y="470" text-anchor="end" class="stage-note">Headlines and prices.</text></g>
@@ -230,7 +229,7 @@
       </div>
       <div class="streams">
         <div class="stream">
-          <h3>Biotech trials</h3>
+          <h3>Healthcare and research <span class="stream-count" id="cov-trials-count"></span></h3>
           <p class="stream-meta" id="cov-trials">ClinicalTrials.gov, ISRCTN and EU CTIS</p>
           <p>Status changes, delays, enrolment cuts, new trials, posted results, safety events, and registries that disagree with each other.</p>
           <div class="tickers" id="cov-trial-list">
@@ -239,7 +238,7 @@
           </div>
         </div>
         <div class="stream">
-          <h3>Government contracts</h3>
+          <h3>Government contracts <span class="stream-count" id="cov-contracts-count"></span></h3>
           <p class="stream-meta" id="cov-contracts">Find a Tender and Contracts Finder</p>
           <p>New UK public sector awards to smaller builders, service providers, digital agencies and defence suppliers. Each is rated by how big it is for the company that won it: the contract's value per year as a share of its annual revenue.</p>
           <div class="tickers" id="cov-contract-list">
@@ -367,11 +366,24 @@ Promise.all([RiverScan.load(), coverage]).then(function (x) {
 coverage.then(function (c) {
   if (!c || !c.trials) return;
   function esc(v) { return String(v).replace(/[&<>"]/g, function (ch) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]; }); }
-  function chips(list) { return list.map(function (x) { return '<span title="' + esc(x.name) + '">' + esc(x.ticker) + "</span>"; }).join(""); }
-  if (c.trial_detail) document.getElementById("cov-trial-list").innerHTML = chips(c.trial_detail);
+  function chips(list) {
+    var html = list.map(function (x, i) {
+      return '<span title="' + esc(x.name) + '"' + (i >= 18 ? ' class="extra" hidden' : "") + ">" + esc(x.ticker) + "</span>";
+    }).join("");
+    if (list.length > 18) html += '<button type="button" class="more-tickers">+ ' + (list.length - 18) + " more</button>";
+    return html;
+  }
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".more-tickers"); if (!b) return;
+    b.parentNode.querySelectorAll(".extra").forEach(function (x) { x.hidden = false; }); b.remove();
+  });
+  if (c.trial_detail) {
+    document.getElementById("cov-trial-list").innerHTML = chips(c.trial_detail);
+    document.getElementById("cov-trials-count").textContent = c.trial_detail.length + " companies";
+  }
   if (c.contract_companies) {
     document.getElementById("cov-contract-list").innerHTML = chips(c.contract_companies);
-    document.getElementById("cov-contracts").textContent = c.contract_companies.length + " companies, from Find a Tender and Contracts Finder";
+    document.getElementById("cov-contracts-count").textContent = c.contract_companies.length + " companies";
   }
   var ids = { "ClinicalTrials.gov": "n-ctgov", "ISRCTN": "n-isrctn", "EU CTIS": "n-ctis" }, total = 0;
   Object.keys(ids).forEach(function (k) {
