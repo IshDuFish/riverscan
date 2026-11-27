@@ -182,7 +182,51 @@
     return parts.length ? '<p class="signal-next">What happened next, vs ' + esc(r.benchmark) + ": " + parts.join(" · ") + "</p>" : "";
   }
 
+  // When did we last scan, and what did it check? (data/scan_log.json, one entry per run)
+  function relTime(ts) {
+    var d = new Date(ts); if (isNaN(d)) return "";
+    var t = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+    var today = new Date(), y = new Date(); y.setDate(today.getDate() - 1);
+    if (d.toDateString() === today.toDateString()) return "today at " + t;
+    if (d.toDateString() === y.toDateString()) return "yesterday at " + t;
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) + " at " + t;
+  }
+  function scanStatus() {
+    var log = fetch("data/scan_log.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
+    var cov = fetch("data/coverage.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+    return Promise.all([log, cov]).then(function (x) {
+      var runs = Array.isArray(x[0]) ? x[0] : [], c = x[1] || {};
+      var last = runs[runs.length - 1] || (c.updated ? { time: c.updated } : null);
+      if (!last) return null;
+      var checked = [];
+      if (last.trials_checked) checked.push(last.trials_checked.toLocaleString("en-GB") + " trials");
+      if (last.contract_notices_checked) checked.push(last.contract_notices_checked.toLocaleString("en-GB") + " contract notices");
+      var found = last.new_signals == null ? "" : last.new_signals === 0 ? "No new changes this time." :
+        last.new_signals + " new change" + (last.new_signals === 1 ? "" : "s") + " found.";
+      return { runs: runs, last: last, when: relTime(last.time),
+               text: "Last scan: " + relTime(last.time) + (checked.length ? ". Checked " + checked.join(" and ") + "." : ".") + (found ? " " + found : "") };
+    });
+  }
+  // A strip of the last 14 days: filled = changes found, outline = scanned with nothing new, dashed = no scan
+  function scanStrip(runs) {
+    var byDay = {};
+    runs.forEach(function (r) { var k = String(r.time).slice(0, 10); var o = byDay[k] || { n: 0 }; o.n += r.new_signals || 0; o.ran = true; byDay[k] = o; });
+    var cells = [];
+    for (var i = 13; i >= 0; i--) {
+      var d = new Date(); d.setDate(d.getDate() - i);
+      var k = d.toISOString().slice(0, 10), o = byDay[k];
+      var label = d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+      var cls = !o ? "none" : o.n ? "found" : "quiet";
+      var tip = label + ": " + (!o ? "no scan recorded" : o.n ? o.n + " new change" + (o.n === 1 ? "" : "s") : "scanned, nothing new");
+      cells.push('<span class="scan-day scan-day--' + cls + '" title="' + tip + '" aria-label="' + tip + '"></span>');
+    }
+    return '<div class="scan-strip"><span class="scan-strip-label">Last 14 days</span>' + cells.join("") +
+      '<span class="scan-key"><span class="scan-day scan-day--found"></span>changes found <span class="scan-day scan-day--quiet"></span>scanned, nothing new</span></div>';
+  }
+
   window.RiverScan = {
+    scanStatus: scanStatus,
+    scanStrip: scanStrip,
     card: function (s, opts) {
       var t = tagFor(s), ref = s.ref || s.nct_id, title = s.title || s.trial;
       var sev = severityOf(s);

@@ -432,3 +432,12 @@ ul.chips { list-style: none; padding: 0; margin: 0; }
 pre.code { background: var(--ink); color: #DCE6E3; border-radius: 10px; padding: 16px 18px; overflow-x: auto; font: 13.5px/1.6 var(--font-mono); max-width: 720px; }
 .prose code { font-family: var(--font-mono); font-size: 0.9em; }
 .prose p code, .prose td code { overflow-wrap: anywhere; }
+
+/* Scan status: proof the scanner runs every day, even when nothing changes */
+.scan-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-top: 10px; font-family: var(--font-body); }
+.scan-strip-label { font-size: 13px; color: var(--muted); margin-right: 6px; }
+.scan-day { display: inline-block; width: 14px; height: 14px; border-radius: 3px; border: 1.5px dashed #B9C3BF; }
+.scan-day--quiet { border: 1.5px solid var(--accent-dark); background: transparent; }
+.scan-day--found { border: 1.5px solid var(--accent-dark); background: var(--accent-dark); }
+.scan-key { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); margin-left: 10px; }
+.scan-key .scan-day { width: 10px; height: 10px; margin-left: 6px; }

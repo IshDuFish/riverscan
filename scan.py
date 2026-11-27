@@ -139,6 +139,19 @@ def main():
             w.writerows(signals)
     SIGNALS_JSON.write_text(json.dumps(log, indent=1))
 
+    # Scan log: one line per run, so the site can show that quiet days were still checked
+    log_path = DATA / "scan_log.json"
+    scan_log = load_json(log_path, [])
+    scan_log.append({
+        "time": stamp,
+        "trials_checked": sum(coverage["trials"].values()),
+        "companies": len(trial_cos) + len(contract_cos),
+        "contract_notices_checked": sum((new.get("contracts") or {}).get("last_scanned", {}).values()),
+        "new_signals": len(signals),
+        "notable_signals": sum(1 for s in signals if s["severity"] != "low"),
+    })
+    log_path.write_text(json.dumps(scan_log[-400:], indent=1))
+
     print(f"{len(signals)} new signal(s)")
     for s in signals[:60]:
         print(f"  [{s['severity']}] {s['source']} {s['ticker']} {s.get('ref')}: {s['note']} {s['old']} -> {s['new']}")

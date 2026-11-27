@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css?v=20261126h">
+<link rel="stylesheet" href="assets/styles.css?v=20261127a">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -171,7 +171,7 @@
       <div class="latest-head">
         <div>
           <h2 id="latest-title">Latest signals</h2>
-          <p class="muted" id="latest-note">Straight from this morning's scan.</p>
+          <p class="muted" id="latest-note">We scan every morning before the London market opens.</p>
         </div>
         <a class="btn btn--ghost" href="signals.html">Open the signal log</a>
       </div>
@@ -347,8 +347,8 @@
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
-<script src="assets/site-config.js?v=20261126h"></script>
-<script src="assets/signals.js?v=20261126h"></script>
+<script src="assets/site-config.js?v=20261127a"></script>
+<script src="assets/signals.js?v=20261127a"></script>
 <script>
 // Homepage: latest real signals, and live counts on the river map.
 var coverage = fetch("data/coverage.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
@@ -363,7 +363,11 @@ Promise.all([RiverScan.load(), coverage]).then(function (x) {
   if (top.length < 3) top = d.slice(0, 6);
   if (!top.length) return;
   document.getElementById("latest").innerHTML = top.map(function (s) { return RiverScan.card(s); }).join("");
-  document.getElementById("latest-note").textContent = "Latest scan: " + RiverScan.when(top[0].detected_at) + ". Showing the most important changes first.";
+  RiverScan.scanStatus().then(function (st) {
+    var note = document.getElementById("latest-note");
+    var since = "These are the most recent notable signals, from " + RiverScan.when(top[0].detected_at) + ".";
+    note.textContent = st ? st.text + " " + since : since;
+  });
 });
 coverage.then(function (c) {
   if (!c || !c.trials) return;

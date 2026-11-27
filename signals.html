@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css?v=20261126h">
+<link rel="stylesheet" href="assets/styles.css?v=20261127a">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -50,7 +50,7 @@
     <div class="container narrow">
       <h2 id="log-title" class="sr-only">Signal log</h2>
       <div class="stats" id="stats"></div>
-      <p class="status-line" id="status-line">Loading the log…</p>
+      <div class="status-line" id="status-line">Loading the log…</div>
       <div class="filters" id="streams" role="group" aria-label="Filter by data stream">
         <button type="button" data-s="all" aria-pressed="true">Everything</button>
         <button type="button" data-s="trials" aria-pressed="false">Trials</button>
@@ -162,7 +162,7 @@
   </div>
 </footer>
 <!-- ===== END FOOTER ===== -->
-<script src="assets/signals.js?v=20261126h"></script>
+<script src="assets/signals.js?v=20261127a"></script>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 (function () {
@@ -202,9 +202,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
       '<div class="stat"><b>' + d.length + '</b><span>signals logged</span></div>' +
       '<div class="stat"><b>' + hi + '</b><span>high severity</span></div>' +
       '<div class="stat"><b>' + Object.keys(cos).length + '</b><span>companies with signals</span></div>';
-    document.getElementById("status-line").textContent = d.length
-      ? "Latest scan with changes: " + RiverScan.when(d[0].detected_at) + ". Sources: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender, Contracts Finder."
-      : "Scanning daily. Sources: ClinicalTrials.gov, ISRCTN, EU CTIS, Find a Tender, Contracts Finder.";
+    RiverScan.scanStatus().then(function (st) {
+      var el = document.getElementById("status-line");
+      var latest = d.length ? " The most recent change was logged on " + RiverScan.when(d[0].detected_at) + "." : "";
+      if (!st) { el.textContent = "We scan every morning before the London market opens." + latest; return; }
+      el.innerHTML = st.text + latest + RiverScan.scanStrip(st.runs);
+    });
     render();
   });
 })();

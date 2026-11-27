@@ -137,7 +137,7 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
     seen = state.get("seen", {})
     if isinstance(seen, list):
         seen = {k: now.date().isoformat() for k in seen}
-    signals, errors = [], []
+    signals, errors, counts = [], [], {}
     for source in SOURCES:
         scanned = 0
         try:
@@ -206,8 +206,9 @@ def scan(state, detected_at, now=None, backfill_days=14, companies=None, funds=N
                     })
         except Exception as e:  # one source down shouldn't stop the other
             errors.append(f"{source}: {e}")
+        counts[source] = scanned
         print(f"{source:18} scanned {scanned} award notices since {since:%Y-%m-%d %H:%M}")
     new_state = {"last_run": now.isoformat(timespec="seconds") if not errors else (last or since.isoformat(timespec="seconds")),
                  "seen": {k: d for k, d in seen.items() if d >= (now - timedelta(days=45)).date().isoformat()},
-                 "covered": tickers}
+                 "covered": tickers, "last_scanned": counts}
     return signals, new_state, errors
