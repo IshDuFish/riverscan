@@ -39,7 +39,7 @@
   "as_of": "2026-11-27",
   "market_cap": 647338816,
   "name": "AVON TECHNOLOGIES PLC ORD #1",
-  "revenue": 269473428
+  "revenue": 269480501
  },
  "BA.": {
   "as_of": "2026-11-27",
@@ -231,7 +231,7 @@
   "as_of": "2026-11-27",
   "market_cap": 1859811584,
   "name": "HUTCHMED (CHINA) LIMITED ORD US",
-  "revenue": 418359579
+  "revenue": 418370561
  },
  "HEMO": {
   "as_of": "2026-11-27",
@@ -417,7 +417,7 @@
   "as_of": "2026-11-27",
   "market_cap": 292744512,
   "name": "PURETECH HEALTH PLC ORD 1P",
-  "revenue": 4849303
+  "revenue": 4849430
  },
  "PYC": {
   "as_of": "2026-11-27",
@@ -441,7 +441,7 @@
   "as_of": "2026-11-27",
   "market_cap": 32852508,
   "name": "RENALYTIX PLC ORD 0.25P",
-  "revenue": 2285610
+  "revenue": 2285670
  },
  "RNWH": {
   "as_of": "2026-11-27",
@@ -507,7 +507,7 @@
   "as_of": "2026-11-27",
   "market_cap": 30614518,
   "name": "SHIELD THERAPEUTICS PLC ORD 1.5",
-  "revenue": 44664630
+  "revenue": 44665803
  },
  "SUN": {
   "as_of": "2026-11-27",
@@ -573,6 +573,6 @@
   "as_of": "2026-11-27",
   "market_cap": 11659045,
   "name": "VERICI DX PLC ORD GBP0.001",
-  "revenue": 2683306
+  "revenue": 2683377
  }
 }

@@ -34,7 +34,11 @@
    "TRB",
    "TRCS"
   ],
-  "last_run": "2026-11-27T07:17:40",
+  "last_run": "2026-11-27T07:26:27",
+  "last_scanned": {
+   "Contracts Finder": 136,
+   "Find a Tender": 293
+  },
   "seen": {
    "ocds-b5fd17-0eab381a-8f1f-4c0b-8262-a7bee257cbb7|GFRD": "2026-11-26",
    "ocds-b5fd17-3aabd189-c1d4-4587-bb8a-5d1d770ffc86|GFRD": "2026-11-26",
