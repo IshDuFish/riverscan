@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:37:44Z",
+ "updated": "2026-11-27T07:15:56Z",
  "trials": {
   "ClinicalTrials.gov": 170,
   "ISRCTN": 12,
@@ -79,7 +79,7 @@
   {
    "ticker": "POLB",
    "name": "Poolbeg Pharma",
-   "market_cap": 44774092
+   "market_cap": 48478256
   },
   {
    "ticker": "FUM",
@@ -189,7 +189,7 @@
   {
    "ticker": "PRTC",
    "name": "PureTech Health",
-   "market_cap": 290641312
+   "market_cap": 292744512
   },
   {
    "ticker": "NIOX",
@@ -284,7 +284,7 @@
   {
    "ticker": "SVNS",
    "name": "Solvonis Therapeutics",
-   "market_cap": 7109763
+   "market_cap": 6125763
   },
   {
    "ticker": "CLBX",

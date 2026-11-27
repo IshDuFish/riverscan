@@ -1,0 +1,3780 @@
+{
+ "contracts": {
+  "covered": [
+   "AVON",
+   "BOOT",
+   "CHRT",
+   "CNC",
+   "COST",
+   "CPI",
+   "CSC",
+   "EAAS",
+   "EBQ",
+   "GATC",
+   "GFRD",
+   "GTC",
+   "HSP",
+   "IOM",
+   "KMK",
+   "MAI",
+   "MER",
+   "MTEC",
+   "NCC",
+   "NET",
+   "NTBR",
+   "PEG",
+   "RCN",
+   "RNWH",
+   "RST",
+   "SAG",
+   "SDY",
+   "SFR",
+   "THRU",
+   "TPX",
+   "TRB",
+   "TRCS"
+  ],
+  "last_run": "2026-11-27T07:17:40",
+  "seen": {
+   "ocds-b5fd17-0eab381a-8f1f-4c0b-8262-a7bee257cbb7|GFRD": "2026-11-26",
+   "ocds-b5fd17-3aabd189-c1d4-4587-bb8a-5d1d770ffc86|GFRD": "2026-11-26",
+   "ocds-b5fd17-4cea68ba-1fed-4359-a975-f78e4ed9ed1b|KIE": "2026-11-26",
+   "ocds-b5fd17-5ab68828-2a37-4c9c-ac9f-3b439e6a5dbb|MGNS": "2026-11-26",
+   "ocds-b5fd17-8a1f24e8-db05-495f-94b7-6901e9c732a3|NCC": "2026-11-26",
+   "ocds-b5fd17-a204724f-ce94-4c17-bd47-1c9b29080ace|BBY": "2026-11-26",
+   "ocds-b5fd17-ae76c8fb-e9b3-44e1-a85f-9972355443b9|KIE": "2026-11-26",
+   "ocds-b5fd17-b130934c-432b-4a7d-bd69-51bc139844ed|NET": "2026-11-26",
+   "ocds-b5fd17-beb737f7-6513-4c58-b5d7-5b33a7a65cc6|RST": "2026-11-26",
+   "ocds-h6vhtk-02f48c|MTO": "2026-11-26",
+   "ocds-h6vhtk-02f48c|SRP": "2026-11-26",
+   "ocds-h6vhtk-04ebac|MTO": "2026-11-26",
+   "ocds-h6vhtk-05047c|BAB": "2026-11-26",
+   "ocds-h6vhtk-050aa4|SRP": "2026-11-26",
+   "ocds-h6vhtk-052588|CPI": "2026-11-26",
+   "ocds-h6vhtk-05813b|BAB": "2026-11-26",
+   "ocds-h6vhtk-05d229|KIE": "2026-11-26",
+   "ocds-h6vhtk-05d229|MGNS": "2026-11-26",
+   "ocds-h6vhtk-067534|MTO": "2026-11-26",
+   "ocds-h6vhtk-068c14|GFRD": "2026-11-26",
+   "ocds-h6vhtk-068c14|KIE": "2026-11-26",
+   "ocds-h6vhtk-068c14|MGNS": "2026-11-26",
+   "ocds-h6vhtk-06b78c|MTO": "2026-11-26",
+   "ocds-h6vhtk-06d6e9|MGNS": "2026-11-26",
+   "ocds-h6vhtk-06de1f|RNWH": "2026-11-26",
+   "ocds-h6vhtk-06f0b2|CHRT": "2026-11-26",
+   "ocds-h6vhtk-07791d|CHRT": "2026-11-26",
+   "ocds-h6vhtk-07bd44|NCC": "2026-11-26",
+   "ocds-h6vhtk-07be49|NET": "2026-11-26",
+   "ocds-h6vhtk-07be5a|NET": "2026-11-26",
+   "ocds-h6vhtk-07be73|KLR": "2026-11-26",
+   "ocds-h6vhtk-07bef4|RST": "2026-11-26",
+   "ocds-h6vhtk-07c010|CPI": "2026-11-26",
+   "ocds-h6vhtk-07c0bc|COST": "2026-11-26",
+   "ocds-h6vhtk-07c33b|MTO": "2026-11-26",
+   "ocds-h6vhtk-07c3b4|RST": "2026-11-26",
+   "ocds-h6vhtk-07c419|TRCS": "2026-11-26",
+   "ocds-h6vhtk-07c433|RST": "2026-11-26",
+   "ocds-h6vhtk-07c446|CPI": "2026-11-26"
+  }
+ },
+ "ctgov": {
+  "ABDX": {},
+  "AGY": {
+   "NCT00104377": {
+    "completion": "2005-11",
+    "enrollment": 70,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00104377",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Induction of Immunogenicity With Different Doses of Grass MATA in Subjects Allergic to Grass and Rye Pollen",
+    "url": "https://clinicaltrials.gov/study/NCT00104377",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00104390": {
+    "completion": "2005-04",
+    "enrollment": 14,
+    "has_results": false,
+    "last_update": "2010-06-10",
+    "nct_id": "NCT00104390",
+    "phase": "PHASE1",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Assessment of Residual Allergenicity of Grass/Rye Pollen Allergoid Using Skin Prick Testing",
+    "url": "https://clinicaltrials.gov/study/NCT00104390",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00107705": {
+    "completion": "2005-05",
+    "enrollment": 12,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00107705",
+    "phase": "PHASE1",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Assessment of Residual Allergenicity of Tree (Birch, Hazel, and Alder) Pollen Allergoid Using Skin Prick Testing",
+    "url": "https://clinicaltrials.gov/study/NCT00107705",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00109759": {
+    "completion": "2005-06",
+    "enrollment": 0,
+    "has_results": false,
+    "last_update": "2021-08-12",
+    "nct_id": "NCT00109759",
+    "phase": "PHASE1",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "WITHDRAWN",
+    "title": "Evaluation of Safety and Tolerability of Tyrosine Adsorbed Ragweed Pollen Allergoid With MPL (Monophosphoryl Lipid A)",
+    "url": "https://clinicaltrials.gov/study/NCT00109759",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00110786": {
+    "completion": "2005-12",
+    "enrollment": 240,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00110786",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Investigation of Efficacy and Safety of Ragweed MATAMPL, Pollinex-R and Placebo in Patients With Ragweed Allergy",
+    "url": "https://clinicaltrials.gov/study/NCT00110786",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00113750": {
+    "completion": "2005-12",
+    "enrollment": 70,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00113750",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Induction of Immunogenicity With Different Doses of TreeMATA in Subjects Allergic to Tree Pollen",
+    "url": "https://clinicaltrials.gov/study/NCT00113750",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00116285": {
+    "completion": "2005-06",
+    "enrollment": 12,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00116285",
+    "phase": "PHASE1",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Assessment of Residual Allergenicity of Ragweed Pollen Allergoid With Monophosphoryl Lipid A (MPL) Using Skin Prick Testing",
+    "url": "https://clinicaltrials.gov/study/NCT00116285",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00118612": {
+    "completion": "2005-09-15",
+    "enrollment": 68,
+    "has_results": false,
+    "last_update": "2021-02-09",
+    "nct_id": "NCT00118612",
+    "phase": "PHASE2",
+    "primary_completion": "2005-09-15",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Different Doses of Tyrosine Adsorbed Tree Pollen Allergoid With Monophosphoryl Lipid A (MPL) in Patients Sensitized to Tree Pollen",
+    "url": "https://clinicaltrials.gov/study/NCT00118612",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00118625": {
+    "completion": "2005-09",
+    "enrollment": 40,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00118625",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Assessment of the Contribution of Monophosphoryl Lipid A (MPL) to a Tree Pollen Allergy Vaccine",
+    "url": "https://clinicaltrials.gov/study/NCT00118625",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00133146": {
+    "completion": "2005-11-23",
+    "enrollment": 41,
+    "has_results": false,
+    "last_update": "2021-07-13",
+    "nct_id": "NCT00133146",
+    "phase": "PHASE2",
+    "primary_completion": "2005-11-23",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Assessment of the Contribution of Monophosphoryl Lipid A (MPL) to a Grass Pollen Allergy Vaccine",
+    "url": "https://clinicaltrials.gov/study/NCT00133146",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00133159": {
+    "completion": "2005-11-08",
+    "enrollment": 68,
+    "has_results": false,
+    "last_update": "2021-05-18",
+    "nct_id": "NCT00133159",
+    "phase": "PHASE2",
+    "primary_completion": "2005-11-08",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Different Doses of Tyrosine Adsorbed Grass Pollen Allergoid With Monophosphoryl Lipid A (MPL) in Patients Sensitized to Grass Pollen",
+    "url": "https://clinicaltrials.gov/study/NCT00133159",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00241410": {
+    "completion": "2007-01",
+    "enrollment": 86,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00241410",
+    "phase": "PHASE1",
+    "primary_completion": "2007-01",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety, Immunological Effect and Efficacy of the Combined Application of MPL and Grass Pollen Allergen",
+    "url": "https://clinicaltrials.gov/study/NCT00241410",
+    "why_stopped": null,
+    "xrefs": [
+     "EudraCT No.: 2005-004095-20"
+    ]
+   },
+   "NCT00258635": {
+    "completion": "2006-08-07",
+    "enrollment": 69,
+    "has_results": false,
+    "last_update": "2021-06-11",
+    "nct_id": "NCT00258635",
+    "phase": "PHASE2",
+    "primary_completion": "2006-08-07",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Investigation of Safety+Efficacy of Different Doses of RagweedMATAMPL;Assessment of Residual Allergenicity Using Skin Prick Test",
+    "url": "https://clinicaltrials.gov/study/NCT00258635",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00325338": {
+    "completion": "2006-07",
+    "enrollment": 100,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00325338",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Follow-up Investigation of Efficacy of Ragweed MATAMPL,and Placebo in Patients With Ragweed-induced Seasonal Allergic Rhinitis",
+    "url": "https://clinicaltrials.gov/study/NCT00325338",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00387478": {
+    "completion": "2007-07",
+    "enrollment": 121,
+    "has_results": false,
+    "last_update": "2020-11-30",
+    "nct_id": "NCT00387478",
+    "phase": "PHASE2",
+    "primary_completion": "2007-07",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "TERMINATED",
+    "title": "Investigation of Efficacy and Safety of Tree MATAMPL,Tree MATA, and Placebo in Patients With Birch-Induced Seasonal Allergic Rhinitis",
+    "url": "https://clinicaltrials.gov/study/NCT00387478",
+    "why_stopped": "Enrollement target could not be achieved, study will not resume",
+    "xrefs": []
+   },
+   "NCT00414141": {
+    "completion": "2007-11",
+    "enrollment": 1028,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00414141",
+    "phase": "PHASE3",
+    "primary_completion": "2007-08",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Efficacy and Safety/Tolerability of Grass MATA MPL",
+    "url": "https://clinicaltrials.gov/study/NCT00414141",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00423787": {
+    "completion": "2008-03",
+    "enrollment": 993,
+    "has_results": false,
+    "last_update": "2010-06-17",
+    "nct_id": "NCT00423787",
+    "phase": "PHASE3",
+    "primary_completion": "2007-11",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Efficacy and Safety/Tolerability of Ragweed MATA MPL",
+    "url": "https://clinicaltrials.gov/study/NCT00423787",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02557633": {
+    "completion": "2016-10",
+    "enrollment": 29,
+    "has_results": false,
+    "last_update": "2017-03-03",
+    "nct_id": "NCT02557633",
+    "phase": "PHASE1",
+    "primary_completion": "2015-10",
+    "sponsors": [
+     "Allergy Therapeutics",
+     "Inflamax Research Incorporated",
+     "Metronomia Clinical Research GMBH"
+    ],
+    "status": "COMPLETED",
+    "title": "A Study of Tolerability and Safety of Two New Doses of Grass MATA MPL",
+    "url": "https://clinicaltrials.gov/study/NCT02557633",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02582073": {
+    "completion": "2017-04-28",
+    "enrollment": 265,
+    "has_results": false,
+    "last_update": "2021-01-29",
+    "nct_id": "NCT02582073",
+    "phase": "PHASE2",
+    "primary_completion": "2016-05-05",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Dose Selection Study of Efficacy and Safety of Different Doses of Grass MATA MPL and Grass MATA Using mEECs\u2122",
+    "url": "https://clinicaltrials.gov/study/NCT02582073",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03931993": {
+    "completion": "2017-04-27",
+    "enrollment": 30,
+    "has_results": false,
+    "last_update": "2019-04-30",
+    "nct_id": "NCT03931993",
+    "phase": "PHASE1",
+    "primary_completion": "2017-04-27",
+    "sponsors": [
+     "Allergy Therapeutics",
+     "SynteractHCR",
+     "Metronomia Clinical Research GMBH"
+    ],
+    "status": "COMPLETED",
+    "title": "A Study of Tolerability and Safety of a New Cumulative Dose of Grass MATA MPL",
+    "url": "https://clinicaltrials.gov/study/NCT03931993",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04389034": {
+    "completion": "2020-10-05",
+    "enrollment": 113,
+    "has_results": false,
+    "last_update": "2021-02-08",
+    "nct_id": "NCT04389034",
+    "phase": null,
+    "primary_completion": "2020-10-05",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Influence of Specific Immunotherapy With Pollinex Quattro (Tree-/Grass Pollen) on Allergen-specific Immunoglobulin E (IgE) Levels",
+    "url": "https://clinicaltrials.gov/study/NCT04389034",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04687059": {
+    "completion": "2021-10-28",
+    "enrollment": 119,
+    "has_results": true,
+    "last_update": "2026-04-29",
+    "nct_id": "NCT04687059",
+    "phase": "PHASE2/PHASE3",
+    "primary_completion": "2021-08-18",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "An Exploratory Study of PQ Grass 27600 SU",
+    "url": "https://clinicaltrials.gov/study/NCT04687059",
+    "why_stopped": null,
+    "xrefs": [
+     "2020-000408-13"
+    ]
+   },
+   "NCT05186025": {
+    "completion": "2026-10",
+    "enrollment": 320,
+    "has_results": false,
+    "last_update": "2026-01-30",
+    "nct_id": "NCT05186025",
+    "phase": null,
+    "primary_completion": "2026-06",
+    "sponsors": [
+     "Allergy Therapeutics",
+     "Bencard Allergie GmbH"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Tyrosine Allergoid Paediatric and Adult Study",
+    "url": "https://clinicaltrials.gov/study/NCT05186025",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05455749": {
+    "completion": "2022-03-16",
+    "enrollment": 42,
+    "has_results": false,
+    "last_update": "2023-12-18",
+    "nct_id": "NCT05455749",
+    "phase": "NA",
+    "primary_completion": "2022-03-15",
+    "sponsors": [
+     "Allergy Therapeutics",
+     "Ecarf Institute GmbH",
+     "Bencard Allergie GmbH"
+    ],
+    "status": "COMPLETED",
+    "title": "Effect of holoBLG on Cat Allergic Patients",
+    "url": "https://clinicaltrials.gov/study/NCT05455749",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05476497": {
+    "completion": "2026-11",
+    "enrollment": 46,
+    "has_results": false,
+    "last_update": "2026-03-13",
+    "nct_id": "NCT05476497",
+    "phase": "PHASE1",
+    "primary_completion": "2026-11",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Phase I Trial to Evaluate VLP Peanut in Healthy and Peanut Allergic Subjects",
+    "url": "https://clinicaltrials.gov/study/NCT05476497",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05540717": {
+    "completion": "2023-11-01",
+    "enrollment": 555,
+    "has_results": true,
+    "last_update": "2025-04-02",
+    "nct_id": "NCT05540717",
+    "phase": "PHASE3",
+    "primary_completion": "2023-11-01",
+    "sponsors": [
+     "Allergy Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Efficacy and Safety of PQ Grass in Subjects With Seasonal Allergic Rhinitis and/or Rhinoconjunctivitis Induced by Grass Pollen",
+    "url": "https://clinicaltrials.gov/study/NCT05540717",
+    "why_stopped": null,
+    "xrefs": [
+     "2019-001517-16"
+    ]
+   },
+   "NCT07412990": {
+    "completion": "2028-10-02",
+    "enrollment": 1000,
+    "has_results": false,
+    "last_update": "2026-03-20",
+    "nct_id": "NCT07412990",
+    "phase": null,
+    "primary_completion": "2028-10-02",
+    "sponsors": [
+     "Allergy Therapeutics",
+     "Bencard Allergie GmbH",
+     "ClinCompetence Cologne GmbH"
+    ],
+    "status": "RECRUITING",
+    "title": "GRASS (Grass MATA MPL Real-world Assessment Study)",
+    "url": "https://clinicaltrials.gov/study/NCT07412990",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "AMS": {
+   "NCT00281723": {
+    "completion": "2007-05",
+    "enrollment": 50,
+    "has_results": false,
+    "last_update": "2007-05-08",
+    "nct_id": "NCT00281723",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Hadassah Medical Organization",
+     "Grant from \"Axiomedic. Advanced Medical Solutions\", Zurich, Switzerland"
+    ],
+    "status": "SUSPENDED",
+    "title": "Efficacy of Adhesive Tablets in Treating Oral Ulcers (Aphthous)",
+    "url": "https://clinicaltrials.gov/study/NCT00281723",
+    "why_stopped": "The company which holds the patent was not interested.",
+    "xrefs": []
+   },
+   "NCT01835405": {
+    "completion": "2014-02-14",
+    "enrollment": 66,
+    "has_results": false,
+    "last_update": "2017-01-24",
+    "nct_id": "NCT01835405",
+    "phase": "NA",
+    "primary_completion": "2014-02-14",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "LiquiBand Versus Dermabond Versus Sutures for Closure of Surgical Wounds",
+    "url": "https://clinicaltrials.gov/study/NCT01835405",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04009213": {
+    "completion": "2022-11-23",
+    "enrollment": 284,
+    "has_results": true,
+    "last_update": "2024-01-11",
+    "nct_id": "NCT04009213",
+    "phase": "NA",
+    "primary_completion": "2022-06-13",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "A Clinical Study to Evaluate the Clinical Performance and Safety of LiquiBand FIX8\u00ae Versus AbsorbaTack\u2122 for Hernia Mesh Fixation and Peritoneal Closure in Groin Hernia Repair",
+    "url": "https://clinicaltrials.gov/study/NCT04009213",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04059640": {
+    "completion": "2026-07-31",
+    "enrollment": 109,
+    "has_results": false,
+    "last_update": "2025-10-02",
+    "nct_id": "NCT04059640",
+    "phase": "NA",
+    "primary_completion": "2025-07-31",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "Imarc Research, Inc."
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "PMCF Study of LiquiBand FIX8\u00ae OHMF Device",
+    "url": "https://clinicaltrials.gov/study/NCT04059640",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04482140": {
+    "completion": "2025-11-07",
+    "enrollment": 15,
+    "has_results": false,
+    "last_update": "2025-11-19",
+    "nct_id": "NCT04482140",
+    "phase": null,
+    "primary_completion": "2025-11-07",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "Newcastle-upon-Tyne Hospitals NHS Trust",
+     "KAT General Hospital"
+    ],
+    "status": "TERMINATED",
+    "title": "Post Approval Study to Evaluate the Safety and Performance of GENTA-FOIL Resorb\u00ae in Hand Surgery",
+    "url": "https://clinicaltrials.gov/study/NCT04482140",
+    "why_stopped": "slow recruitment.",
+    "xrefs": []
+   },
+   "NCT04532515": {
+    "completion": "2023-10-30",
+    "enrollment": 160,
+    "has_results": false,
+    "last_update": "2023-12-11",
+    "nct_id": "NCT04532515",
+    "phase": "NA",
+    "primary_completion": "2023-07-25",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "ClinSearch",
+     "Advanced Medical Solutions Israel (Sealantis) Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "Seal-G / Seal-G MIST Study",
+    "url": "https://clinicaltrials.gov/study/NCT04532515",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04621825": {
+    "completion": "2024-07-30",
+    "enrollment": 187,
+    "has_results": false,
+    "last_update": "2025-01-28",
+    "nct_id": "NCT04621825",
+    "phase": "NA",
+    "primary_completion": "2024-05-30",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "Imarc Research, Inc."
+    ],
+    "status": "COMPLETED",
+    "title": "Post Market Surveillance Study to Confirm Safety and Performance of Silicone PHMB Foam",
+    "url": "https://clinicaltrials.gov/study/NCT04621825",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04621838": {
+    "completion": "2022-02-28",
+    "enrollment": 160,
+    "has_results": false,
+    "last_update": "2022-05-12",
+    "nct_id": "NCT04621838",
+    "phase": "NA",
+    "primary_completion": "2022-01-30",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "Cliniscience Sp."
+    ],
+    "status": "COMPLETED",
+    "title": "To Evaluate the Safety and Performance of the AMS ActivHeal Silicone Foam and the ActivHeal Silicone Foam Lite Dressing.",
+    "url": "https://clinicaltrials.gov/study/NCT04621838",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04740775": {
+    "completion": "2024-09-30",
+    "enrollment": 101,
+    "has_results": false,
+    "last_update": "2025-01-28",
+    "nct_id": "NCT04740775",
+    "phase": "NA",
+    "primary_completion": "2024-03-19",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "BioStat International, Inc."
+    ],
+    "status": "COMPLETED",
+    "title": "LiquiBand\u00ae Exceed\u2122 and LiquiBand\u00ae Rapid\u2122 for General Surgery Procedures",
+    "url": "https://clinicaltrials.gov/study/NCT04740775",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05045430": {
+    "completion": "2025-09-30",
+    "enrollment": 240,
+    "has_results": false,
+    "last_update": "2025-11-25",
+    "nct_id": "NCT05045430",
+    "phase": "NA",
+    "primary_completion": "2025-09-30",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "NAMSA"
+    ],
+    "status": "COMPLETED",
+    "title": "PMS Study to Confirm the Ongoing Safety and Performance of Silver II Non-woven Dressing in Chronic and Acute Wounds",
+    "url": "https://clinicaltrials.gov/study/NCT05045430",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05690685": {
+    "completion": "2025-07-31",
+    "enrollment": 56,
+    "has_results": false,
+    "last_update": "2025-11-25",
+    "nct_id": "NCT05690685",
+    "phase": "NA",
+    "primary_completion": "2025-07-31",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "NAMSA"
+    ],
+    "status": "COMPLETED",
+    "title": "PMS Study of Silver I Alginate Non-Woven Dressing (Hydro-Alginate)",
+    "url": "https://clinicaltrials.gov/study/NCT05690685",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06326827": {
+    "completion": "2028-10",
+    "enrollment": 200,
+    "has_results": false,
+    "last_update": "2026-09-24",
+    "nct_id": "NCT06326827",
+    "phase": "NA",
+    "primary_completion": "2027-10",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd.",
+     "Advanced Medical Solutions (Nantes)"
+    ],
+    "status": "NOT_YET_RECRUITING",
+    "title": "X-BS Ortho Bone Graft Study",
+    "url": "https://clinicaltrials.gov/study/NCT06326827",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07100886": {
+    "completion": "2026-01-30",
+    "enrollment": 208,
+    "has_results": false,
+    "last_update": "2025-08-03",
+    "nct_id": "NCT07100886",
+    "phase": null,
+    "primary_completion": "2025-11-30",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd."
+    ],
+    "status": "NOT_YET_RECRUITING",
+    "title": "Seal-G/ Seal-G MIST Long-Term Follow-up PMCF (Continue) Study",
+    "url": "https://clinicaltrials.gov/study/NCT07100886",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07255937": {
+    "completion": "2026-03-31",
+    "enrollment": 184,
+    "has_results": false,
+    "last_update": "2026-07-08",
+    "nct_id": "NCT07255937",
+    "phase": "NA",
+    "primary_completion": "2026-03-31",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "PMCF Study of Debridement Pad",
+    "url": "https://clinicaltrials.gov/study/NCT07255937",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07295379": {
+    "completion": "2026-07-30",
+    "enrollment": 148,
+    "has_results": false,
+    "last_update": "2026-07-08",
+    "nct_id": "NCT07295379",
+    "phase": null,
+    "primary_completion": "2026-07-30",
+    "sponsors": [
+     "Advanced Medical Solutions Ltd."
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "LIQUIBAND FIX8\u00ae for Ventral Incisional Hernia",
+    "url": "https://clinicaltrials.gov/study/NCT07295379",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "APTA": {},
+  "AREC": {
+   "NCT03959514": {
+    "completion": "2019-08-08",
+    "enrollment": 18,
+    "has_results": false,
+    "last_update": "2019-09-30",
+    "nct_id": "NCT03959514",
+    "phase": "PHASE1",
+    "primary_completion": "2019-07-30",
+    "sponsors": [
+     "Arecor Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "AT247, NovoRapid\u00ae and Fiasp\u00ae in Glucose Clamp Study",
+    "url": "https://clinicaltrials.gov/study/NCT03959514",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04660305": {
+    "completion": "2021-06-11",
+    "enrollment": 38,
+    "has_results": false,
+    "last_update": "2021-07-21",
+    "nct_id": "NCT04660305",
+    "phase": "PHASE1",
+    "primary_completion": "2021-06-03",
+    "sponsors": [
+     "Arecor Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "AT278 and NovoRapid\u00ae in Glucose Clamp Study",
+    "url": "https://clinicaltrials.gov/study/NCT04660305",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05184868": {
+    "completion": "2022-09-09",
+    "enrollment": 24,
+    "has_results": false,
+    "last_update": "2022-09-13",
+    "nct_id": "NCT05184868",
+    "phase": "PHASE1",
+    "primary_completion": "2022-09-09",
+    "sponsors": [
+     "Arecor Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "AT247, NovoLog\u00ae and Fiasp\u00ae Administered Via Continuous Subcutaneous Infusion in Glucose Clamp Study",
+    "url": "https://clinicaltrials.gov/study/NCT05184868",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05754424": {
+    "completion": "2024-02-12",
+    "enrollment": 41,
+    "has_results": false,
+    "last_update": "2024-02-16",
+    "nct_id": "NCT05754424",
+    "phase": "PHASE1",
+    "primary_completion": "2024-01-18",
+    "sponsors": [
+     "Arecor Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "AT278, NovoRapid\u00ae and Humulin\u00ae R (U500) in Glucose Clamp Study",
+    "url": "https://clinicaltrials.gov/study/NCT05754424",
+    "why_stopped": null,
+    "xrefs": [
+     "2022-001984-28"
+    ]
+   }
+  },
+  "AVCT": {
+   "NCT04969835": {
+    "completion": "2027-08-06",
+    "enrollment": 158,
+    "has_results": false,
+    "last_update": "2026-10-02",
+    "nct_id": "NCT04969835",
+    "phase": "PHASE1",
+    "primary_completion": "2026-08-07",
+    "sponsors": [
+     "Avacta Life Sciences Ltd"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "A Study Evaluating the Safety, Pharmacokinetics and Early Efficacy of AVA6000 in Solid Tumours",
+    "url": "https://clinicaltrials.gov/study/NCT04969835",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07454642": {
+    "completion": "2030-06",
+    "enrollment": 174,
+    "has_results": false,
+    "last_update": "2026-10-05",
+    "nct_id": "NCT07454642",
+    "phase": "PHASE1",
+    "primary_completion": "2029-01",
+    "sponsors": [
+     "Avacta Life Sciences Ltd"
+    ],
+    "status": "RECRUITING",
+    "title": "AVA6103 in Subjects With Locally Advanced or Metastatic Selected Solid Tumors",
+    "url": "https://clinicaltrials.gov/study/NCT07454642",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "BVXP": {},
+  "CIZ": {},
+  "CLBX": {},
+  "CNSL": {},
+  "COG": {
+   "NCT01898390": {
+    "completion": "2022-12-31",
+    "enrollment": 13,
+    "has_results": false,
+    "last_update": "2023-05-25",
+    "nct_id": "NCT01898390",
+    "phase": "NA",
+    "primary_completion": "2022-12-31",
+    "sponsors": [
+     "University of Cambridge",
+     "Lund University",
+     "Cardiff University",
+     "Imperial College London",
+     "University College, London",
+     "University Hospital Freiburg",
+     "Life Science Governance Institute",
+     "Assistance Publique - H\u00f4pitaux de Paris",
+     "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France",
+     "Life Technologies Ltd, part of Thermo Fisher Scientific",
+     "Inomed",
+     "Cambridge Cognition Ltd",
+     "Skane University Hospital",
+     "Imanova Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "TRANSEURO Open Label Transplant Study in Parkinson's Disease",
+    "url": "https://clinicaltrials.gov/study/NCT01898390",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02286505": {
+    "completion": "2016-03",
+    "enrollment": 80,
+    "has_results": false,
+    "last_update": "2014-11-07",
+    "nct_id": "NCT02286505",
+    "phase": "NA",
+    "primary_completion": "2016-03",
+    "sponsors": [
+     "King's College London",
+     "Imperial College London",
+     "University of Sussex",
+     "IXICO Limited",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "UNKNOWN",
+    "title": "Automated Brain Morphometry for Dementia Diagnosis",
+    "url": "https://clinicaltrials.gov/study/NCT02286505",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02416245": {
+    "completion": "2015-03",
+    "enrollment": 310,
+    "has_results": false,
+    "last_update": "2015-07-07",
+    "nct_id": "NCT02416245",
+    "phase": "NA",
+    "primary_completion": "2015-01",
+    "sponsors": [
+     "GlaxoSmithKline",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Impact of Beverage Powder With Micronutrients and Brahmi Extract on Cognitive Variables in Indian School Children",
+    "url": "https://clinicaltrials.gov/study/NCT02416245",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02590796": {
+    "completion": "2018-03-22",
+    "enrollment": 907,
+    "has_results": false,
+    "last_update": "2018-05-24",
+    "nct_id": "NCT02590796",
+    "phase": null,
+    "primary_completion": "2018-03-22",
+    "sponsors": [
+     "University of Edinburgh",
+     "Medical Research Council",
+     "NHS Lothian",
+     "University of Glasgow",
+     "NHS Greater Glasgow and Clyde",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Validating Studies to Assess the Diagnostic Accuracy of a Software Application for Detection and Monitoring of Attentional Deficits in Delirium",
+    "url": "https://clinicaltrials.gov/study/NCT02590796",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02603380": {
+    "completion": "2015-06",
+    "enrollment": 48,
+    "has_results": false,
+    "last_update": "2015-11-11",
+    "nct_id": "NCT02603380",
+    "phase": null,
+    "primary_completion": "2015-06",
+    "sponsors": [
+     "University of Edinburgh",
+     "Medical Research Council",
+     "NHS Lothian",
+     "University of Glasgow",
+     "NHS Greater Glasgow and Clyde",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Feasibility of a Software App for Testing Inattention in Delirium",
+    "url": "https://clinicaltrials.gov/study/NCT02603380",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04180709": {
+    "completion": "2023-07-31",
+    "enrollment": 45,
+    "has_results": false,
+    "last_update": "2023-08-15",
+    "nct_id": "NCT04180709",
+    "phase": "NA",
+    "primary_completion": "2023-07-31",
+    "sponsors": [
+     "University of Cambridge",
+     "Cambridgeshire and Peterborough NHS Foundation Trust",
+     "Cambridge Cognition Ltd",
+     "Big Health Inc."
+    ],
+    "status": "COMPLETED",
+    "title": "CBT to Reduce Insomnia and Improve Social Recovery in Early Psychosis",
+    "url": "https://clinicaltrials.gov/study/NCT04180709",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04513743": {
+    "completion": "2022-07-04",
+    "enrollment": 25,
+    "has_results": false,
+    "last_update": "2023-12-08",
+    "nct_id": "NCT04513743",
+    "phase": "NA",
+    "primary_completion": "2022-06-20",
+    "sponsors": [
+     "UNEEG Medical A/S",
+     "Zealand University Hospital",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Ultra Long-Term Sleep Monitoring Using UNEEG\u2122 Medical 24/7 EEG\u2122 SubQ",
+    "url": "https://clinicaltrials.gov/study/NCT04513743",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04713111": {
+    "completion": "2020-11-30",
+    "enrollment": 383,
+    "has_results": false,
+    "last_update": "2021-03-12",
+    "nct_id": "NCT04713111",
+    "phase": "NA",
+    "primary_completion": "2020-11-30",
+    "sponsors": [
+     "4YouandMe",
+     "Center for International Emergency Medical Services",
+     "Evidation Health",
+     "Vector Institute for Artificial Intelligence",
+     "Cambridge Cognition Ltd",
+     "Bill and Melinda Gates Foundation"
+    ],
+    "status": "COMPLETED",
+    "title": "Stress and Recovery in Frontline COVID-19 Workers",
+    "url": "https://clinicaltrials.gov/study/NCT04713111",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04714905": {
+    "completion": "2023-07-03",
+    "enrollment": 712,
+    "has_results": false,
+    "last_update": "2023-08-07",
+    "nct_id": "NCT04714905",
+    "phase": null,
+    "primary_completion": "2023-07-03",
+    "sponsors": [
+     "4YouandMe",
+     "Sema4",
+     "Evidation Health",
+     "Vector Institute of Artificial Intelligence",
+     "Cambridge Cognition Ltd",
+     "Bodyport Inc.",
+     "Community Health Center, Inc."
+    ],
+    "status": "COMPLETED",
+    "title": "Better Understanding the Metamorphosis of Pregnancy (BUMP)",
+    "url": "https://clinicaltrials.gov/study/NCT04714905",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05422612": {
+    "completion": "2029-07",
+    "enrollment": 800,
+    "has_results": false,
+    "last_update": "2026-06-30",
+    "nct_id": "NCT05422612",
+    "phase": "PHASE2",
+    "primary_completion": "2028-07",
+    "sponsors": [
+     "Global Coalition for Adaptive Research",
+     "U.S. Army Medical Research and Development Command",
+     "PPD Development, LP",
+     "Berry Consultants",
+     "Idorsia Pharmaceuticals Ltd.",
+     "Cambridge Cognition Ltd",
+     "Citeline"
+    ],
+    "status": "SUSPENDED",
+    "title": "Department of Defense PTSD Adaptive Platform Trial - Master Protocol",
+    "url": "https://clinicaltrials.gov/study/NCT05422612",
+    "why_stopped": "The trial has been temporarily suspended due to administrative issues",
+    "xrefs": []
+   },
+   "NCT05753605": {
+    "completion": "2025-05-31",
+    "enrollment": 302,
+    "has_results": false,
+    "last_update": "2025-09-16",
+    "nct_id": "NCT05753605",
+    "phase": null,
+    "primary_completion": "2025-05-31",
+    "sponsors": [
+     "4YouandMe",
+     "Definium Therapeutics US, Inc.",
+     "Vector Institute for Artificial Intelligence",
+     "Cambridge Cognition Ltd",
+     "University of Washington"
+    ],
+    "status": "COMPLETED",
+    "title": "My Experiences: Leveraging Digital Technologies to Better Understand Mental Health",
+    "url": "https://clinicaltrials.gov/study/NCT05753605",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05948540": {
+    "completion": "2029-07",
+    "enrollment": 200,
+    "has_results": false,
+    "last_update": "2026-06-30",
+    "nct_id": "NCT05948540",
+    "phase": "PHASE2",
+    "primary_completion": "2028-04",
+    "sponsors": [
+     "Global Coalition for Adaptive Research",
+     "U.S. Army Medical Research and Development Command",
+     "PPD Development, LP",
+     "Berry Consultants",
+     "Idorsia Pharmaceuticals Ltd.",
+     "Cambridge Cognition Ltd",
+     "Citeline"
+    ],
+    "status": "SUSPENDED",
+    "title": "Department of Defense PTSD Adaptive Platform Trial - Intervention C - Daridorexant",
+    "url": "https://clinicaltrials.gov/study/NCT05948540",
+    "why_stopped": "The trial has been temporarily suspended due to administrative issues",
+    "xrefs": []
+   },
+   "NCT05948553": {
+    "completion": "2028-05",
+    "enrollment": 200,
+    "has_results": false,
+    "last_update": "2026-05-20",
+    "nct_id": "NCT05948553",
+    "phase": "PHASE2",
+    "primary_completion": "2028-05",
+    "sponsors": [
+     "Global Coalition for Adaptive Research",
+     "U.S. Army Medical Research and Development Command",
+     "PPD Development, LP",
+     "Berry Consultants",
+     "Idorsia Pharmaceuticals Ltd.",
+     "Cambridge Cognition Ltd",
+     "Citeline"
+    ],
+    "status": "SUSPENDED",
+    "title": "Department of Defense PTSD Adaptive Platform Trial - Intervention A - Fluoxetine",
+    "url": "https://clinicaltrials.gov/study/NCT05948553",
+    "why_stopped": "Deferred at this time",
+    "xrefs": []
+   },
+   "NCT05948579": {
+    "completion": "2028-05",
+    "enrollment": 200,
+    "has_results": false,
+    "last_update": "2026-05-20",
+    "nct_id": "NCT05948579",
+    "phase": "PHASE2",
+    "primary_completion": "2028-05",
+    "sponsors": [
+     "Global Coalition for Adaptive Research",
+     "U.S. Army Medical Research and Development Command",
+     "PPD Development, LP",
+     "Berry Consultants",
+     "Idorsia Pharmaceuticals Ltd.",
+     "Cambridge Cognition Ltd",
+     "Citeline"
+    ],
+    "status": "NOT_YET_RECRUITING",
+    "title": "Department of Defense PTSD Adaptive Platform Trial - Intervention B - Vilazodone",
+    "url": "https://clinicaltrials.gov/study/NCT05948579",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06194864": {
+    "completion": "2024-05-22",
+    "enrollment": 45,
+    "has_results": false,
+    "last_update": "2024-09-19",
+    "nct_id": "NCT06194864",
+    "phase": "PHASE1",
+    "primary_completion": "2024-05-14",
+    "sponsors": [
+     "Emalex Biosciences Inc.",
+     "Syneos Health",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Drug Interaction Study",
+    "url": "https://clinicaltrials.gov/study/NCT06194864",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06778564": {
+    "completion": "2029-02",
+    "enrollment": 250,
+    "has_results": false,
+    "last_update": "2026-10-08",
+    "nct_id": "NCT06778564",
+    "phase": "PHASE3",
+    "primary_completion": "2028-02",
+    "sponsors": [
+     "University of Oxford",
+     "Wellcome Trust",
+     "Cambridge Cognition Ltd",
+     "Cambridgeshire and Peterborough NHS Foundation Trust",
+     "Oxford Health NHS Foundation Trust",
+     "West London NHS Trust",
+     "Charite University, Berlin, Germany",
+     "University of Cologne",
+     "Ludwig-Maximilians - University of Munich",
+     "The Sheba Fund for Health Services and Research",
+     "Shalvata Mental Health Center",
+     "Geha Mental Health Center",
+     "Amsterdam University Medical Center",
+     "Hospital General Universitario Gregorio Mara\u00f1on",
+     "National and Kapodistrian University of Athens",
+     "Medical University of Vienna",
+     "Hospitales Universitarios Virgen del Roc\u00edo",
+     "University of Campania Luigi Vanvitelli",
+     "Psychiatric University Hospital, Zurich"
+    ],
+    "status": "RECRUITING",
+    "title": "Stratification and Treatment in Early Psychosis Study - ENHANCE",
+    "url": "https://clinicaltrials.gov/study/NCT06778564",
+    "why_stopped": null,
+    "xrefs": [
+     "2025-521929-32-00"
+    ]
+   },
+   "NCT06816433": {
+    "completion": "2029-07",
+    "enrollment": 200,
+    "has_results": false,
+    "last_update": "2026-05-20",
+    "nct_id": "NCT06816433",
+    "phase": "PHASE2",
+    "primary_completion": "2029-05",
+    "sponsors": [
+     "Global Coalition for Adaptive Research",
+     "U.S. Army Medical Research and Development Command",
+     "PPD Development, LP",
+     "Berry Consultants",
+     "Idorsia Pharmaceuticals Ltd.",
+     "Cambridge Cognition Ltd",
+     "Citeline"
+    ],
+    "status": "SUSPENDED",
+    "title": "Department of Defense PTSD Adaptive Platform Trial - Intervention D - SLS-002",
+    "url": "https://clinicaltrials.gov/study/NCT06816433",
+    "why_stopped": "Deferred at this time",
+    "xrefs": []
+   },
+   "NCT07326124": {
+    "completion": "2029-09",
+    "enrollment": 250,
+    "has_results": false,
+    "last_update": "2026-10-08",
+    "nct_id": "NCT07326124",
+    "phase": "PHASE3",
+    "primary_completion": "2028-09",
+    "sponsors": [
+     "University of Oxford",
+     "Wellcome Trust",
+     "Cambridge Cognition Ltd",
+     "Cambridgeshire and Peterborough NHS Foundation Trust",
+     "Oxford Health NHS Foundation Trust",
+     "West London NHS Trust",
+     "Charite University, Berlin, Germany",
+     "University of Cologne",
+     "Ludwig-Maximilians - University of Munich",
+     "University Hospital Frankfurt, Department of Psychiatry, Psychosomatic Medicine and Psychotherapy",
+     "The Sheba Fund for Health Services and Research",
+     "Shalvata Mental Health Center",
+     "Geha Mental Health Center",
+     "Amsterdam University Medical Center",
+     "National and Kapodistrian University of Athens",
+     "Hospital General Universitario Gregorio Mara\u00f1on",
+     "Hospitales Universitarios Virgen del Roc\u00edo",
+     "University of Campania Luigi Vanvitelli",
+     "Psychiatric University Hospital, Zurich",
+     "Douglas Hospital Research Centre"
+    ],
+    "status": "NOT_YET_RECRUITING",
+    "title": "Stratification and Treatment in Early Psychosis Study -ASSIST",
+    "url": "https://clinicaltrials.gov/study/NCT07326124",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "CREO": {
+   "NCT02372552": {
+    "completion": "2016-06",
+    "enrollment": 30,
+    "has_results": false,
+    "last_update": "2016-07-26",
+    "nct_id": "NCT02372552",
+    "phase": "NA",
+    "primary_completion": "2016-06",
+    "sponsors": [
+     "Creo Medical Limited",
+     "St Mark's Hospital, Harrow, UK"
+    ],
+    "status": "COMPLETED",
+    "title": "Microwave Coagulation Using CROMA Electrosurgical System",
+    "url": "https://clinicaltrials.gov/study/NCT02372552",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04406116": {
+    "completion": "2021-06",
+    "enrollment": 35,
+    "has_results": false,
+    "last_update": "2020-07-17",
+    "nct_id": "NCT04406116",
+    "phase": "NA",
+    "primary_completion": "2021-04",
+    "sponsors": [
+     "Creo Medical Limited"
+    ],
+    "status": "UNKNOWN",
+    "title": "Clinical Evaluation of the Safety and Performance of Microwave Coagulation Using the HS1 Instrument",
+    "url": "https://clinicaltrials.gov/study/NCT04406116",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05786625": {
+    "completion": "2026-12",
+    "enrollment": 35,
+    "has_results": false,
+    "last_update": "2026-02-02",
+    "nct_id": "NCT05786625",
+    "phase": null,
+    "primary_completion": "2025-11-26",
+    "sponsors": [
+     "Creo Medical Limited"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Bronchoscopic Microwave Ablation of Lung Tissue",
+    "url": "https://clinicaltrials.gov/study/NCT05786625",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06476678": {
+    "completion": "2027-12-31",
+    "enrollment": 50,
+    "has_results": false,
+    "last_update": "2026-11-04",
+    "nct_id": "NCT06476678",
+    "phase": null,
+    "primary_completion": "2027-06-30",
+    "sponsors": [
+     "Baylor College of Medicine",
+     "Creo Medical Limited"
+    ],
+    "status": "RECRUITING",
+    "title": "Novel Bipolar Radiofrequency Ablation Knife in Esophageal Lesions",
+    "url": "https://clinicaltrials.gov/study/NCT06476678",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06689488": {
+    "completion": "2026-12",
+    "enrollment": 30,
+    "has_results": false,
+    "last_update": "2026-06-26",
+    "nct_id": "NCT06689488",
+    "phase": null,
+    "primary_completion": "2026-12",
+    "sponsors": [
+     "Creo Medical Limited"
+    ],
+    "status": "RECRUITING",
+    "title": "Bronchoscopic Microwave Ablation of Lung Tissue in Surgical Candidates",
+    "url": "https://clinicaltrials.gov/study/NCT06689488",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06869122": {
+    "completion": "2026-12",
+    "enrollment": 18,
+    "has_results": false,
+    "last_update": "2026-04-21",
+    "nct_id": "NCT06869122",
+    "phase": null,
+    "primary_completion": "2026-11",
+    "sponsors": [
+     "Creo Medical Limited"
+    ],
+    "status": "RECRUITING",
+    "title": "Bronchoscopic Microwave Ablation of Lung Tissue in Surgical Candidates - UK",
+    "url": "https://clinicaltrials.gov/study/NCT06869122",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07817147": {
+    "completion": "2028-08",
+    "enrollment": 75,
+    "has_results": false,
+    "last_update": "2026-11-06",
+    "nct_id": "NCT07817147",
+    "phase": "NA",
+    "primary_completion": "2028-02",
+    "sponsors": [
+     "Banner Health",
+     "Creo Medical Limited",
+     "CreoMed, Inc."
+    ],
+    "status": "RECRUITING",
+    "title": "CREO - Microwave Ablation Feasibility Study",
+    "url": "https://clinicaltrials.gov/study/NCT07817147",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "CRTX": {
+   "NCT07356973": {
+    "completion": "2029-12",
+    "enrollment": 147,
+    "has_results": false,
+    "last_update": "2026-11-09",
+    "nct_id": "NCT07356973",
+    "phase": "PHASE2",
+    "primary_completion": "2029-05",
+    "sponsors": [
+     "CRISM Therapeutics LTD"
+    ],
+    "status": "RECRUITING",
+    "title": "Irinotecan-ChemoSeed in Surgically Resectable Glioblastoma",
+    "url": "https://clinicaltrials.gov/study/NCT07356973",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "DXRX": {},
+  "FAB": {},
+  "FARN": {
+   "NCT00789685": {
+    "completion": "2011-09",
+    "enrollment": 37,
+    "has_results": true,
+    "last_update": "2015-05-27",
+    "nct_id": "NCT00789685",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2011-09",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety, Tolerability and Preliminary Efficacy of FP-1201 in ALI and ARDS. Phase I/II",
+    "url": "https://clinicaltrials.gov/study/NCT00789685",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02622724": {
+    "completion": "2018-05-23",
+    "enrollment": 301,
+    "has_results": true,
+    "last_update": "2020-03-30",
+    "nct_id": "NCT02622724",
+    "phase": "PHASE3",
+    "primary_completion": "2018-05-17",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd",
+     "Seventh Framework Programme"
+    ],
+    "status": "TERMINATED",
+    "title": "Efficacy and Safety of FP-1201-lyo (Interferon Beta-1a) in Patients Having Acute Respiratory Distress Syndrome (ARDS)",
+    "url": "https://clinicaltrials.gov/study/NCT02622724",
+    "why_stopped": "Day 90 results indicate IMP did not reduce mortality or ventilator free days",
+    "xrefs": [
+     "2014-005260-15"
+    ]
+   },
+   "NCT03119701": {
+    "completion": "2019-10-03",
+    "enrollment": 40,
+    "has_results": true,
+    "last_update": "2021-01-14",
+    "nct_id": "NCT03119701",
+    "phase": "PHASE2",
+    "primary_completion": "2019-09-23",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "TERMINATED",
+    "title": "Efficacy and Safety of FP-1201-lyo (Interferon Beta-1a) in Prevention of Multi-Organ Failure on Patients After Open Surgery for a RAAA",
+    "url": "https://clinicaltrials.gov/study/NCT03119701",
+    "why_stopped": "IDMC recommendation. Unexpectedly high use of concomitant corticosteroid treatment.",
+    "xrefs": [
+     "2014-000899-25"
+    ]
+   },
+   "NCT03733990": {
+    "completion": "2023-10-31",
+    "enrollment": 216,
+    "has_results": true,
+    "last_update": "2025-04-02",
+    "nct_id": "NCT03733990",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2023-09-06",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "COMPLETED",
+    "title": "A Study to Evaluate Safety, Tolerability and Preliminary Efficacy of FP-1305 in Cancer Patients (MATINS)",
+    "url": "https://clinicaltrials.gov/study/NCT03733990",
+    "why_stopped": null,
+    "xrefs": [
+     "2018-002732-24"
+    ]
+   },
+   "NCT04860518": {
+    "completion": "2022-04-04",
+    "enrollment": 7,
+    "has_results": true,
+    "last_update": "2023-07-21",
+    "nct_id": "NCT04860518",
+    "phase": "PHASE2",
+    "primary_completion": "2022-04-04",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "TERMINATED",
+    "title": "Human Intravenous Interferon Beta-Ia Safety and Preliminary Efficacy in Hospitalized Subjects With COVID-19",
+    "url": "https://clinicaltrials.gov/study/NCT04860518",
+    "why_stopped": "The decision is based on changes in the pandemic and further weakening of the recruitment that will not enable a completion of the study in any reasonable time",
+    "xrefs": []
+   },
+   "NCT05104905": {
+    "completion": "2022-01-28",
+    "enrollment": 0,
+    "has_results": false,
+    "last_update": "2022-05-11",
+    "nct_id": "NCT05104905",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2022-01-28",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "WITHDRAWN",
+    "title": "A Phase I/II Open Label Single Centre Trial to Assess the Safety, Tolerability and Efficacy of Single Dose Neoadjuvant Anti-CLEVER-1 Antibody Bexmarilimab in Localised Renal Cell and Colon Carcinoma",
+    "url": "https://clinicaltrials.gov/study/NCT05104905",
+    "why_stopped": "Since no patients have been enrolled in RENACOL, and safety and tolerability data is rapidly accumulating in another ongoing study, sponsor considered that RENACOL study is no longer needed to assess the safety profile of bexmarilimab",
+    "xrefs": [
+     "2021-001030-19"
+    ]
+   },
+   "NCT05171062": {
+    "completion": "2026-12",
+    "enrollment": 0,
+    "has_results": false,
+    "last_update": "2023-07-20",
+    "nct_id": "NCT05171062",
+    "phase": "PHASE1",
+    "primary_completion": "2025-12",
+    "sponsors": [
+     "The University of Texas Health Science Center at San Antonio",
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "WITHDRAWN",
+    "title": "Dose Escalation Trial of Bexmarilimab (FP-1305) Plus Pembrolizumab in Non-Small Cell Lung Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT05171062",
+    "why_stopped": "No participants were enrolled, the study was inactivated with the IRB on May 15, 2023. The sponsor notified the PI that a Phase II trial had been allowed to proceed by the FDA.",
+    "xrefs": []
+   },
+   "NCT05428969": {
+    "completion": "2027-03",
+    "enrollment": 181,
+    "has_results": false,
+    "last_update": "2026-04-23",
+    "nct_id": "NCT05428969",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2027-03",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "A Study to Assess Safety, Tolerability and Preliminary Efficacy of Bexmarilimab in Combination With Standard of Care in Patients With Hematological Malignancies",
+    "url": "https://clinicaltrials.gov/study/NCT05428969",
+    "why_stopped": null,
+    "xrefs": [
+     "2021-002104-12"
+    ]
+   },
+   "NCT05936229": {
+    "completion": "2027-10-30",
+    "enrollment": 0,
+    "has_results": false,
+    "last_update": "2024-07-12",
+    "nct_id": "NCT05936229",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2027-10-30",
+    "sponsors": [
+     "Fred Hutchinson Cancer Center",
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "WITHDRAWN",
+    "title": "Interferon-Beta-1a (FP-1201) to Prevent Toxicities After CD19-Directed CAR T-Cell Therapy",
+    "url": "https://clinicaltrials.gov/study/NCT05936229",
+    "why_stopped": "Study closed before opening to accrual, no participants enrolled",
+    "xrefs": []
+   },
+   "NCT07460986": {
+    "completion": "2028-10",
+    "enrollment": 278,
+    "has_results": false,
+    "last_update": "2026-08-31",
+    "nct_id": "NCT07460986",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2028-07",
+    "sponsors": [
+     "MedSIR",
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "RECRUITING",
+    "title": "A Phase Ib/II Study to Evaluate Safety and Efficacy of Bexmarilimab in Combination With Doxorubicin in Metastatic Soft-tissue Sarcoma.",
+    "url": "https://clinicaltrials.gov/study/NCT07460986",
+    "why_stopped": null,
+    "xrefs": [
+     "2025-525144-18-00"
+    ]
+   },
+   "NCT07672769": {
+    "completion": "2030-12",
+    "enrollment": 90,
+    "has_results": false,
+    "last_update": "2026-11-13",
+    "nct_id": "NCT07672769",
+    "phase": "PHASE2",
+    "primary_completion": "2027-11",
+    "sponsors": [
+     "Faron Pharmaceuticals Ltd"
+    ],
+    "status": "RECRUITING",
+    "title": "Bexmarilimab + Azacitidine Versus Placebo + Azacitidine in Participants With Treatment-na\u00efve Higher-risk Myelodysplastic Syndromes",
+    "url": "https://clinicaltrials.gov/study/NCT07672769",
+    "why_stopped": null,
+    "xrefs": [
+     "2026-526706-33-00"
+    ]
+   },
+   "NCT07718243": {
+    "completion": "2030-01-31",
+    "enrollment": 62,
+    "has_results": false,
+    "last_update": "2026-09-08",
+    "nct_id": "NCT07718243",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2030-01-31",
+    "sponsors": [
+     "Institute of Cancer Research, United Kingdom",
+     "Faron Pharmaceuticals Ltd",
+     "The Christie NHS Foundation Trust",
+     "Royal Marsden NHS Foundation Trust"
+    ],
+    "status": "RECRUITING",
+    "title": "Investigating the Combination of Bexmarilimab and Nivolumab in Solid Tumours, Melanoma and NSCLC",
+    "url": "https://clinicaltrials.gov/study/NCT07718243",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "FDBK": {},
+  "FUM": {
+   "NCT02495467": {
+    "completion": "2016-07-30",
+    "enrollment": 232,
+    "has_results": true,
+    "last_update": "2020-02-12",
+    "nct_id": "NCT02495467",
+    "phase": "PHASE2",
+    "primary_completion": "2016-07-30",
+    "sponsors": [
+     "Futura Medical Developments Ltd.",
+     "Richmond Pharmacology Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Clinical Trial of Topically-applied Glyceryl Trinitrate (GTN) for the Treatment of Erectile Dysfunction (ED)",
+    "url": "https://clinicaltrials.gov/study/NCT02495467",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02666846": {
+    "completion": "2015-05",
+    "enrollment": 60,
+    "has_results": true,
+    "last_update": "2021-01-27",
+    "nct_id": "NCT02666846",
+    "phase": "PHASE1",
+    "primary_completion": "2015-05",
+    "sponsors": [
+     "Futura Medical Developments Ltd.",
+     "Parexel"
+    ],
+    "status": "COMPLETED",
+    "title": "Assess the Efficacy and Safety in Volunteers of DCF100, TIB200 and SPR300 vs. Placebo and Control(s) in a UV Pain Model",
+    "url": "https://clinicaltrials.gov/study/NCT02666846",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03813992": {
+    "completion": "2020-01-17",
+    "enrollment": 1005,
+    "has_results": false,
+    "last_update": "2022-03-02",
+    "nct_id": "NCT03813992",
+    "phase": "PHASE3",
+    "primary_completion": "2019-07-21",
+    "sponsors": [
+     "Futura Medical Developments Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "Clinical Trial Using Topically Applied Glyceryl Trinitrate (GTN) for the Treatment of Erectile Dysfunction",
+    "url": "https://clinicaltrials.gov/study/NCT03813992",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04008732": {
+    "completion": "2018-04-16",
+    "enrollment": 40,
+    "has_results": false,
+    "last_update": "2019-07-05",
+    "nct_id": "NCT04008732",
+    "phase": "PHASE1",
+    "primary_completion": "2018-04-16",
+    "sponsors": [
+     "Futura Medical Developments Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "Evaluating MED2005 & Nitrostat Bioavailability",
+    "url": "https://clinicaltrials.gov/study/NCT04008732",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04247230": {
+    "completion": "2009-02-23",
+    "enrollment": 20,
+    "has_results": false,
+    "last_update": "2020-01-30",
+    "nct_id": "NCT04247230",
+    "phase": "PHASE1",
+    "primary_completion": "2008-10-20",
+    "sponsors": [
+     "Futura Medical Developments Ltd.",
+     "Richmond Pharmacology Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Study to Determine the Effect of a Newly Formulated Tetracaine Product PET500 on Penile Skin Sensation",
+    "url": "https://clinicaltrials.gov/study/NCT04247230",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04984993": {
+    "completion": "2022-07-13",
+    "enrollment": 116,
+    "has_results": true,
+    "last_update": "2023-09-21",
+    "nct_id": "NCT04984993",
+    "phase": "PHASE3",
+    "primary_completion": "2022-07-13",
+    "sponsors": [
+     "Futura Medical Developments Ltd."
+    ],
+    "status": "COMPLETED",
+    "title": "Clinical Investigation Using MED3000 Gel or Tadalafil Tablets in the Treatment of Erectile Dysfunction",
+    "url": "https://clinicaltrials.gov/study/NCT04984993",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "GDR": {},
+  "GENF": {},
+  "GENI": {},
+  "HEMO": {
+   "NCT06786533": {
+    "completion": "2027-01",
+    "enrollment": 18,
+    "has_results": false,
+    "last_update": "2026-09-17",
+    "nct_id": "NCT06786533",
+    "phase": "PHASE1",
+    "primary_completion": "2027-01",
+    "sponsors": [
+     "Hemogenyx Pharmaceuticals LLC",
+     "M.D. Anderson Cancer Center"
+    ],
+    "status": "RECRUITING",
+    "title": "Clinical Study of Anti-FLT3 CAR-T Cells for the Treatment of Relapsed/Refractory AML",
+    "url": "https://clinicaltrials.gov/study/NCT06786533",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "HVO": {
+   "NCT02522754": {
+    "completion": "2004-01",
+    "enrollment": 174,
+    "has_results": false,
+    "last_update": "2015-08-13",
+    "nct_id": "NCT02522754",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2004-01",
+    "sponsors": [
+     "Hvivo",
+     "GlaxoSmithKline"
+    ],
+    "status": "COMPLETED",
+    "title": "Development of an Intranasal Proteosome Influenza Vaccine",
+    "url": "https://clinicaltrials.gov/study/NCT02522754",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02522832": {
+    "completion": "2014-12",
+    "enrollment": 17,
+    "has_results": false,
+    "last_update": "2015-08-13",
+    "nct_id": "NCT02522832",
+    "phase": "NA",
+    "primary_completion": "2014-07",
+    "sponsors": [
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Discovering New Treatments for Asthma and COPD. A New Human Rhinvovirus for Human Challenge",
+    "url": "https://clinicaltrials.gov/study/NCT02522832",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02525055": {
+    "completion": "2014-08-11",
+    "enrollment": 46,
+    "has_results": true,
+    "last_update": "2020-01-27",
+    "nct_id": "NCT02525055",
+    "phase": "NA",
+    "primary_completion": "2014-08-11",
+    "sponsors": [
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Characterisation of a New Wild-Type H3N2 Virus for the Human Viral Challenge Model",
+    "url": "https://clinicaltrials.gov/study/NCT02525055",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02746211": {
+    "completion": "2008-12",
+    "enrollment": 24,
+    "has_results": false,
+    "last_update": "2016-04-21",
+    "nct_id": "NCT02746211",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2008-12",
+    "sponsors": [
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Influenza Challenge Study in Healthy Volunteers",
+    "url": "https://clinicaltrials.gov/study/NCT02746211",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03220048": {
+    "completion": "2016-02",
+    "enrollment": 66,
+    "has_results": true,
+    "last_update": "2019-11-12",
+    "nct_id": "NCT03220048",
+    "phase": "PHASE2",
+    "primary_completion": "2016-02",
+    "sponsors": [
+     "Hvivo",
+     "Prep Biopharm Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Study Examining PrEP-001 in Healthy Subjects",
+    "url": "https://clinicaltrials.gov/study/NCT03220048",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03296917": {
+    "completion": "2016-09",
+    "enrollment": 60,
+    "has_results": false,
+    "last_update": "2017-09-29",
+    "nct_id": "NCT03296917",
+    "phase": "PHASE2",
+    "primary_completion": "2016-09",
+    "sponsors": [
+     "Hvivo",
+     "Prep Biopharm Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Study Examining PrEP-001 in Subjects With Asthma",
+    "url": "https://clinicaltrials.gov/study/NCT03296917",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03338556": {
+    "completion": "2016-09-30",
+    "enrollment": 102,
+    "has_results": true,
+    "last_update": "2018-11-09",
+    "nct_id": "NCT03338556",
+    "phase": "PHASE2",
+    "primary_completion": "2016-09-30",
+    "sponsors": [
+     "Prep Biopharm Limited",
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "A Study to Examine the Duration of Effect of PrEP-001 in Healthy Subjects Challenged With HRV-16",
+    "url": "https://clinicaltrials.gov/study/NCT03338556",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03691623": {
+    "completion": "2019-10-18",
+    "enrollment": 179,
+    "has_results": true,
+    "last_update": "2022-05-03",
+    "nct_id": "NCT03691623",
+    "phase": "PHASE2",
+    "primary_completion": "2019-09-30",
+    "sponsors": [
+     "Enanta Pharmaceuticals, Inc",
+     "hVIVO Services Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "A Phase 2a Study to Evaluate EDP-938 in the Virus Challenge Model",
+    "url": "https://clinicaltrials.gov/study/NCT03691623",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03919591": {
+    "completion": "2019-07-11",
+    "enrollment": 24,
+    "has_results": false,
+    "last_update": "2019-10-14",
+    "nct_id": "NCT03919591",
+    "phase": "NA",
+    "primary_completion": "2019-07-11",
+    "sponsors": [
+     "Hvivo",
+     "GlaxoSmithKline"
+    ],
+    "status": "COMPLETED",
+    "title": "RSV Study in Adults 60 to 75 Years of Age",
+    "url": "https://clinicaltrials.gov/study/NCT03919591",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04690335": {
+    "completion": "2021-09-09",
+    "enrollment": 60,
+    "has_results": false,
+    "last_update": "2022-08-04",
+    "nct_id": "NCT04690335",
+    "phase": "PHASE2",
+    "primary_completion": "2021-05-07",
+    "sponsors": [
+     "Meissa Vaccines, Inc.",
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Human Challenge Study to Evaluate the Efficacy of MV-012-968 Vaccine",
+    "url": "https://clinicaltrials.gov/study/NCT04690335",
+    "why_stopped": null,
+    "xrefs": [
+     "2020-002848-22"
+    ]
+   },
+   "NCT04740320": {
+    "completion": "2021-07-09",
+    "enrollment": 36,
+    "has_results": true,
+    "last_update": "2024-08-13",
+    "nct_id": "NCT04740320",
+    "phase": null,
+    "primary_completion": "2021-06-23",
+    "sponsors": [
+     "Imperial College London",
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "COVID-19 SARS-CoV-2 Screening Protocol",
+    "url": "https://clinicaltrials.gov/study/NCT04740320",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04785612": {
+    "completion": "2021-08-16",
+    "enrollment": 70,
+    "has_results": true,
+    "last_update": "2024-08-07",
+    "nct_id": "NCT04785612",
+    "phase": "PHASE2",
+    "primary_completion": "2021-04-08",
+    "sponsors": [
+     "Hvivo",
+     "Pfizer"
+    ],
+    "status": "COMPLETED",
+    "title": "Study of RSVpreF Vaccination and RSV Challenge in Healthy Adults",
+    "url": "https://clinicaltrials.gov/study/NCT04785612",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04850898": {
+    "completion": "2021-10-08",
+    "enrollment": 62,
+    "has_results": true,
+    "last_update": "2025-01-22",
+    "nct_id": "NCT04850898",
+    "phase": "PHASE2",
+    "primary_completion": "2021-10-08",
+    "sponsors": [
+     "SAb Biotherapeutics, Inc.",
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Study of SAB-176 in Healthy Adult Participants",
+    "url": "https://clinicaltrials.gov/study/NCT04850898",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04865237": {
+    "completion": "2022-07-11",
+    "enrollment": 36,
+    "has_results": true,
+    "last_update": "2025-05-16",
+    "nct_id": "NCT04865237",
+    "phase": "NA",
+    "primary_completion": "2022-07-11",
+    "sponsors": [
+     "Imperial College London",
+     "Hvivo",
+     "Royal Free Hospital NHS Foundation Trust"
+    ],
+    "status": "COMPLETED",
+    "title": "SARS-CoV-2 Human Challenge Characterisation Study",
+    "url": "https://clinicaltrials.gov/study/NCT04865237",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05572450": {
+    "completion": "2022-12-19",
+    "enrollment": 70,
+    "has_results": false,
+    "last_update": "2023-09-13",
+    "nct_id": "NCT05572450",
+    "phase": "NA",
+    "primary_completion": "2022-12-19",
+    "sponsors": [
+     "Hvivo",
+     "Pfizer"
+    ],
+    "status": "COMPLETED",
+    "title": "Dose, Safety, and Pathogenicity of a New Influenza H1N1 Challenge Strain",
+    "url": "https://clinicaltrials.gov/study/NCT05572450",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06160531": {
+    "completion": "2024-07-18",
+    "enrollment": 78,
+    "has_results": false,
+    "last_update": "2025-08-05",
+    "nct_id": "NCT06160531",
+    "phase": "PHASE2",
+    "primary_completion": "2024-05-03",
+    "sponsors": [
+     "Cocrystal Pharma, Inc.",
+     "hVIVO Services Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Influenza Viral Challenge Study of CC-42344 in Healthy Participants",
+    "url": "https://clinicaltrials.gov/study/NCT06160531",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06170242": {
+    "completion": "2024-07-12",
+    "enrollment": 142,
+    "has_results": true,
+    "last_update": "2025-10-07",
+    "nct_id": "NCT06170242",
+    "phase": "PHASE2",
+    "primary_completion": "2024-06-17",
+    "sponsors": [
+     "Enanta Pharmaceuticals, Inc",
+     "hVIVO Services Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "A Controlled Phase 2a Study to Evaluate the Efficacy of EDP-323 Against Respiratory Syncytial Virus Infection in a Virus Challenge Model",
+    "url": "https://clinicaltrials.gov/study/NCT06170242",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06254820": {
+    "completion": "2024-02-08",
+    "enrollment": 60,
+    "has_results": false,
+    "last_update": "2024-02-12",
+    "nct_id": "NCT06254820",
+    "phase": "PHASE2",
+    "primary_completion": "2024-02-02",
+    "sponsors": [
+     "Hvivo",
+     "Pfizer"
+    ],
+    "status": "UNKNOWN",
+    "title": "Dose, Safety, and Pathogenicity of a New Influenza B Strain",
+    "url": "https://clinicaltrials.gov/study/NCT06254820",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06492564": {
+    "completion": "2025-10-16",
+    "enrollment": 36,
+    "has_results": false,
+    "last_update": "2025-11-21",
+    "nct_id": "NCT06492564",
+    "phase": "EARLY_PHASE1",
+    "primary_completion": "2025-10-16",
+    "sponsors": [
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Dose, Safety and Pathogenicity of SARS-CoV-2 (COVID-19) Omicron Virus (BA.5)",
+    "url": "https://clinicaltrials.gov/study/NCT06492564",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06613737": {
+    "completion": "2025-03-10",
+    "enrollment": 33,
+    "has_results": true,
+    "last_update": "2026-04-23",
+    "nct_id": "NCT06613737",
+    "phase": "NA",
+    "primary_completion": "2025-03-10",
+    "sponsors": [
+     "Hvivo"
+    ],
+    "status": "COMPLETED",
+    "title": "Dose, Safety, and Pathogenicity of a New Influenza A H3N2 Challenge Strain",
+    "url": "https://clinicaltrials.gov/study/NCT06613737",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07189806": {
+    "completion": "2050-08-08",
+    "enrollment": 250,
+    "has_results": false,
+    "last_update": "2025-09-24",
+    "nct_id": "NCT07189806",
+    "phase": null,
+    "primary_completion": "2050-08-08",
+    "sponsors": [
+     "Hvivo",
+     "King's College London"
+    ],
+    "status": "RECRUITING",
+    "title": "Longitudinal Phenotyping and Endotyping Study in Adult Patients With Mild, Moderate, or Severe Asthma",
+    "url": "https://clinicaltrials.gov/study/NCT07189806",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "IBAI": {
+   "NCT06404034": {
+    "completion": null,
+    "enrollment": null,
+    "has_results": false,
+    "last_update": "2026-06-08",
+    "nct_id": "NCT06404034",
+    "phase": null,
+    "primary_completion": null,
+    "sponsors": [
+     "Imaging Biometrics, LLC",
+     "xCures"
+    ],
+    "status": "AVAILABLE",
+    "title": "Expanded Access to Gallium Maltolate (GaM)",
+    "url": "https://clinicaltrials.gov/study/NCT06404034",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07439172": {
+    "completion": "2029-09",
+    "enrollment": 70,
+    "has_results": false,
+    "last_update": "2026-10-09",
+    "nct_id": "NCT07439172",
+    "phase": "PHASE2",
+    "primary_completion": "2028-09",
+    "sponsors": [
+     "Cooper Norcross Health",
+     "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+     "University of Virginia",
+     "Virginia Commonwealth University",
+     "Wake Forest University",
+     "Georgetown University",
+     "Musella Foundation",
+     "Imaging Biometrics, LLC",
+     "West Virginia University"
+    ],
+    "status": "RECRUITING",
+    "title": "Pre-Radiation Chemotherapy for Newly Diagnosed High-Grade Glioma.",
+    "url": "https://clinicaltrials.gov/study/NCT07439172",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "IDHC": {},
+  "IHC": {
+   "NCT01683383": {
+    "completion": "2013-10",
+    "enrollment": 101,
+    "has_results": true,
+    "last_update": "2014-12-08",
+    "nct_id": "NCT01683383",
+    "phase": "NA",
+    "primary_completion": "2013-10",
+    "sponsors": [
+     "Stanford University",
+     "Inspiration Healthcare"
+    ],
+    "status": "COMPLETED",
+    "title": "California Transport Cooling Trial",
+    "url": "https://clinicaltrials.gov/study/NCT01683383",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04528030": {
+    "completion": "2022-04-01",
+    "enrollment": 17,
+    "has_results": false,
+    "last_update": "2021-02-18",
+    "nct_id": "NCT04528030",
+    "phase": "NA",
+    "primary_completion": "2021-12-31",
+    "sponsors": [
+     "Inspiration Healthcare",
+     "Brighton and Sussex University Hospitals NHS Trust"
+    ],
+    "status": "UNKNOWN",
+    "title": "A UK Interventional Trial in Premature Infants With Apnea of Prematurity Using a Simple, Non-invasive Vibratory Device to Study the Effectiveness in Supporting Breathing and General Stability",
+    "url": "https://clinicaltrials.gov/study/NCT04528030",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "IMM": {
+   "NCT02504645": {
+    "completion": "2018-01",
+    "enrollment": 202,
+    "has_results": true,
+    "last_update": "2019-04-11",
+    "nct_id": "NCT02504645",
+    "phase": "PHASE3",
+    "primary_completion": "2018-01",
+    "sponsors": [
+     "ImmuPharma"
+    ],
+    "status": "COMPLETED",
+    "title": "A 52-Week, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate the Efficacy and Safety of a 200-mcg Dose of IPP-201101 Plus Standard of Care in Patients With Systemic Lupus Erythematosus",
+    "url": "https://clinicaltrials.gov/study/NCT02504645",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03427151": {
+    "completion": "2019-02-05",
+    "enrollment": 62,
+    "has_results": false,
+    "last_update": "2019-04-11",
+    "nct_id": "NCT03427151",
+    "phase": "PHASE3",
+    "primary_completion": "2019-02-05",
+    "sponsors": [
+     "ImmuPharma"
+    ],
+    "status": "COMPLETED",
+    "title": "Study of Repeated Administration of a 200-mcg Dose of IPP-201101 Plus Standard of Care in Patients With Systemic Lupus Erythematosus",
+    "url": "https://clinicaltrials.gov/study/NCT03427151",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "IXI": {
+   "NCT02286505": {
+    "completion": "2016-03",
+    "enrollment": 80,
+    "has_results": false,
+    "last_update": "2014-11-07",
+    "nct_id": "NCT02286505",
+    "phase": "NA",
+    "primary_completion": "2016-03",
+    "sponsors": [
+     "King's College London",
+     "Imperial College London",
+     "University of Sussex",
+     "IXICO Limited",
+     "Cambridge Cognition Ltd"
+    ],
+    "status": "UNKNOWN",
+    "title": "Automated Brain Morphometry for Dementia Diagnosis",
+    "url": "https://clinicaltrials.gov/study/NCT02286505",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "KMK": {},
+  "NCYT": {},
+  "NFX": {
+   "NCT03889366": {
+    "completion": "2019-04-30",
+    "enrollment": 12,
+    "has_results": false,
+    "last_update": "2020-02-25",
+    "nct_id": "NCT03889366",
+    "phase": "PHASE1",
+    "primary_completion": "2019-04-15",
+    "sponsors": [
+     "Nuformix Technologies Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Relative Bioavailability of NXP001 Compared to Emend\u00ae in Healthy Volunteers",
+    "url": "https://clinicaltrials.gov/study/NCT03889366",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "NIOX": {
+   "NCT05853809": {
+    "completion": "2025-06-01",
+    "enrollment": 3254,
+    "has_results": false,
+    "last_update": "2026-09-18",
+    "nct_id": "NCT05853809",
+    "phase": "NA",
+    "primary_completion": "2025-06-01",
+    "sponsors": [
+     "Region Stockholm",
+     "Uppsala University",
+     "Karolinska Institutet",
+     "Universidade do Porto",
+     "Niox Group Plc"
+    ],
+    "status": "COMPLETED",
+    "title": "Primary Care Asthma FeNO Trial",
+    "url": "https://clinicaltrials.gov/study/NCT05853809",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06981169": {
+    "completion": "2027-07-01",
+    "enrollment": 1500,
+    "has_results": false,
+    "last_update": "2026-04-30",
+    "nct_id": "NCT06981169",
+    "phase": null,
+    "primary_completion": "2026-12-01",
+    "sponsors": [
+     "Universit\u00e9 de Sherbrooke",
+     "AstraZeneca",
+     "Niox Group Plc",
+     "Ministere de la Sante et des Services Sociaux",
+     "Association Pulmonaire du Quebec",
+     "Fonds recherche du Qu\u00e9bec Sant\u00e9"
+    ],
+    "status": "RECRUITING",
+    "title": "PROPULSION SANTE: Inflammometry to Improve the Diagnostic Trajectory in Situations of Suspected Asthma in Children and Adults",
+    "url": "https://clinicaltrials.gov/study/NCT06981169",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "OBD": {
+   "NCT06635954": {
+    "completion": "2027-05-14",
+    "enrollment": 2000,
+    "has_results": false,
+    "last_update": "2025-03-17",
+    "nct_id": "NCT06635954",
+    "phase": null,
+    "primary_completion": "2026-05-14",
+    "sponsors": [
+     "Oxford Biodynamics Inc.",
+     "Community Clinical Oncology Research Network, LLC"
+    ],
+    "status": "RECRUITING",
+    "title": "A Prospective Real World Evidence Study (PROWES) for Concordance Rate of Blood-based 3D Genome Conformation Mapping (Episwitch CiRT\u00ae) to Identify Likelihood of Response and Actual Response Rates to PD-(L)-1 Checkpoint Inhibitors Across Multiple Oncological Indications.",
+    "url": "https://clinicaltrials.gov/study/NCT06635954",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "OPTI": {
+   "NCT06566157": {
+    "completion": "2026-09-16",
+    "enrollment": 0,
+    "has_results": false,
+    "last_update": "2026-05-13",
+    "nct_id": "NCT06566157",
+    "phase": "NA",
+    "primary_completion": "2025-09-16",
+    "sponsors": [
+     "University of Southampton",
+     "OptiBiotix Health Plc"
+    ],
+    "status": "WITHDRAWN",
+    "title": "PROMOTE: The Effect of a Six Week Prebiotic Supplementation on Wellbeing of Young Adults.",
+    "url": "https://clinicaltrials.gov/study/NCT06566157",
+    "why_stopped": "Funding partners dissolved prior to study launch",
+    "xrefs": []
+   }
+  },
+  "OXB": {
+   "NCT00083941": {
+    "completion": "2008-07",
+    "enrollment": 25,
+    "has_results": false,
+    "last_update": "2020-10-19",
+    "nct_id": "NCT00083941",
+    "phase": "PHASE2",
+    "primary_completion": "2008-07",
+    "sponsors": [
+     "Oxford BioMedica",
+     "Columbia University",
+     "ORION Clinical Services"
+    ],
+    "status": "COMPLETED",
+    "title": "A Study of TroVax Vaccine Given in Conjunction With IL-2 for Treatment of Stage IV Renal Cell Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT00083941",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00259844": {
+    "completion": "2006-12",
+    "enrollment": 20,
+    "has_results": false,
+    "last_update": "2006-07-18",
+    "nct_id": "NCT00259844",
+    "phase": "PHASE2",
+    "primary_completion": null,
+    "sponsors": [
+     "Cancer Research UK",
+     "Oxford BioMedica"
+    ],
+    "status": "COMPLETED",
+    "title": "Effect of TroVax in Patients Having Colorectal Cancer With Liver Metastases Removed",
+    "url": "https://clinicaltrials.gov/study/NCT00259844",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00325507": {
+    "completion": "2008-07",
+    "enrollment": 25,
+    "has_results": false,
+    "last_update": "2020-10-19",
+    "nct_id": "NCT00325507",
+    "phase": "PHASE2",
+    "primary_completion": "2008-07",
+    "sponsors": [
+     "Oxford BioMedica",
+     "The Methodist Hospital Research Institute",
+     "ORION Clinical Services"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety and Biological Activity of TroVax\u00ae Vaccine Given With IL-2 in Renal Cell Carcinoma",
+    "url": "https://clinicaltrials.gov/study/NCT00325507",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00397345": {
+    "completion": "2009-12",
+    "enrollment": 733,
+    "has_results": false,
+    "last_update": "2020-10-19",
+    "nct_id": "NCT00397345",
+    "phase": "PHASE3",
+    "primary_completion": "2009-12",
+    "sponsors": [
+     "Oxford BioMedica",
+     "Sanofi"
+    ],
+    "status": "COMPLETED",
+    "title": "TroVax Renal Immunotherapy Survival Trial",
+    "url": "https://clinicaltrials.gov/study/NCT00397345",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00445523": {
+    "completion": "2008-02",
+    "enrollment": 28,
+    "has_results": false,
+    "last_update": "2016-03-17",
+    "nct_id": "NCT00445523",
+    "phase": "PHASE2",
+    "primary_completion": "2008-01",
+    "sponsors": [
+     "The Methodist Hospital Research Institute",
+     "Oxford BioMedica"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety Study of TroVax Alone vs. TroVax Plus Interferon Alpha in Patients With Renal Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT00445523",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00448409": {
+    "completion": "2007-05",
+    "enrollment": 27,
+    "has_results": false,
+    "last_update": "2016-03-17",
+    "nct_id": "NCT00448409",
+    "phase": "PHASE2",
+    "primary_completion": "2007-04",
+    "sponsors": [
+     "The Methodist Hospital Research Institute",
+     "Oxford BioMedica"
+    ],
+    "status": "COMPLETED",
+    "title": "Activity of TroVax\u00ae Alone vs. TroVax\u00ae Plus GM-CSF in Patients With Prostate Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT00448409",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT00521274": {
+    "completion": "2008-08",
+    "enrollment": 11,
+    "has_results": false,
+    "last_update": "2016-03-17",
+    "nct_id": "NCT00521274",
+    "phase": "PHASE2",
+    "primary_completion": "2008-07",
+    "sponsors": [
+     "The Methodist Hospital Research Institute",
+     "Oxford BioMedica"
+    ],
+    "status": "TERMINATED",
+    "title": "Study of Trovax\u00ae Plus Docetaxel Versus Docetaxel Alone in Patients With Progressive Hormone Refractory Prostate Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT00521274",
+    "why_stopped": "Oxford BioMedica halted TroVax injections",
+    "xrefs": []
+   },
+   "NCT00627588": {
+    "completion": "2012-08",
+    "enrollment": 15,
+    "has_results": false,
+    "last_update": "2013-05-13",
+    "nct_id": "NCT00627588",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2012-08",
+    "sponsors": [
+     "Oxford BioMedica"
+    ],
+    "status": "COMPLETED",
+    "title": "Phase I/II Study of the Safety, Efficacy and Dose Evaluation of ProSavin for the Treatment of Bilateral Idiopathic Parkinson's Disease",
+    "url": "https://clinicaltrials.gov/study/NCT00627588",
+    "why_stopped": null,
+    "xrefs": [
+     "EudraCT Number: 2007-001109-26"
+    ]
+   },
+   "NCT01194960": {
+    "completion": "2013-03",
+    "enrollment": 25,
+    "has_results": false,
+    "last_update": "2020-10-19",
+    "nct_id": "NCT01194960",
+    "phase": "PHASE2",
+    "primary_completion": "2013-03",
+    "sponsors": [
+     "Oxford BioMedica",
+     "MedSource LLC"
+    ],
+    "status": "TERMINATED",
+    "title": "TroVax\u00ae In Subjects With Hormone Refractory Prostate Cancer (HRPC)",
+    "url": "https://clinicaltrials.gov/study/NCT01194960",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT01301443": {
+    "completion": "2015-05",
+    "enrollment": 21,
+    "has_results": false,
+    "last_update": "2017-04-05",
+    "nct_id": "NCT01301443",
+    "phase": "PHASE1",
+    "primary_completion": "2014-09",
+    "sponsors": [
+     "Oxford BioMedica"
+    ],
+    "status": "COMPLETED",
+    "title": "Phase I Dose Escalation Safety Study of RetinoStat in Advanced Age-Related Macular Degeneration (AMD)",
+    "url": "https://clinicaltrials.gov/study/NCT01301443",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT01556841": {
+    "completion": "2019-04-19",
+    "enrollment": 94,
+    "has_results": false,
+    "last_update": "2019-05-09",
+    "nct_id": "NCT01556841",
+    "phase": "PHASE2",
+    "primary_completion": "2019-04-19",
+    "sponsors": [
+     "University College, London",
+     "Oxford BioMedica",
+     "Cancer Research UK"
+    ],
+    "status": "COMPLETED",
+    "title": "The Activity of TroVax\u00ae Versus Placebo in Relapsed Asymptomatic Ovarian Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT01556841",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT01678872": {
+    "completion": "2029-03",
+    "enrollment": 18,
+    "has_results": false,
+    "last_update": "2026-01-14",
+    "nct_id": "NCT01678872",
+    "phase": "PHASE1",
+    "primary_completion": "2029-03",
+    "sponsors": [
+     "Oxford BioMedica"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "A Follow-up Study to Evaluate the Safety of RetinoStat\u00ae in Patients With Age-Related Macular Degeneration",
+    "url": "https://clinicaltrials.gov/study/NCT01678872",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT01856439": {
+    "completion": "2022-04",
+    "enrollment": 15,
+    "has_results": false,
+    "last_update": "2022-05-03",
+    "nct_id": "NCT01856439",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2021-11",
+    "sponsors": [
+     "Axovant Sciences Ltd.",
+     "Oxford BioMedica"
+    ],
+    "status": "TERMINATED",
+    "title": "Long Term Safety and Efficacy Study of ProSavin in Parkinson's Disease",
+    "url": "https://clinicaltrials.gov/study/NCT01856439",
+    "why_stopped": "As a result of termination of development of Prosavin, it is no longer possible for Sio to either commence or to continue any related clinical trials.",
+    "xrefs": [
+     "2009-017253-35"
+    ]
+   }
+  },
+  "POLB": {
+   "NCT05765955": {
+    "completion": "2022-12-16",
+    "enrollment": 36,
+    "has_results": false,
+    "last_update": "2023-03-14",
+    "nct_id": "NCT05765955",
+    "phase": "PHASE1",
+    "primary_completion": "2022-12-14",
+    "sponsors": [
+     "Poolbeg Pharma plc"
+    ],
+    "status": "COMPLETED",
+    "title": "Effects of p38 MAPK Inhibitor POLB 001 on in Vivo LPS Challenge Responses",
+    "url": "https://clinicaltrials.gov/study/NCT05765955",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "PRM": {},
+  "PRTC": {
+   "NCT04243837": {
+    "completion": "2022-09-09",
+    "enrollment": 50,
+    "has_results": true,
+    "last_update": "2024-04-23",
+    "nct_id": "NCT04243837",
+    "phase": "PHASE2",
+    "primary_completion": "2022-09-09",
+    "sponsors": [
+     "PureTech",
+     "Novotech (Australia) Pty Limited"
+    ],
+    "status": "TERMINATED",
+    "title": "LYT-100 in Patients With BCRL",
+    "url": "https://clinicaltrials.gov/study/NCT04243837",
+    "why_stopped": "Primary objective/endpoint has been established, will not pursue development of the disease indication further",
+    "xrefs": []
+   },
+   "NCT04652518": {
+    "completion": "2022-07-18",
+    "enrollment": 185,
+    "has_results": true,
+    "last_update": "2026-06-23",
+    "nct_id": "NCT04652518",
+    "phase": "PHASE2",
+    "primary_completion": "2022-06-28",
+    "sponsors": [
+     "PureTech",
+     "Clinipace Worldwide",
+     "Novotech (Australia) Pty Limited"
+    ],
+    "status": "TERMINATED",
+    "title": "LYT-100 in Post-acute COVID-19 Respiratory Disease",
+    "url": "https://clinicaltrials.gov/study/NCT04652518",
+    "why_stopped": "Part A of the study was completed; Part B of the study was terminated",
+    "xrefs": []
+   },
+   "NCT04666688": {
+    "completion": "2024-12-12",
+    "enrollment": 44,
+    "has_results": true,
+    "last_update": "2026-11-16",
+    "nct_id": "NCT04666688",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2024-12-12",
+    "sponsors": [
+     "PureTech"
+    ],
+    "status": "COMPLETED",
+    "title": "LYT-200 Alone and in Combination With Chemotherapy or Tislelizumab in Patients With Locally Advanced or Metastatic Solid Tumors",
+    "url": "https://clinicaltrials.gov/study/NCT04666688",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05129865": {
+    "completion": "2023-10-23",
+    "enrollment": 186,
+    "has_results": false,
+    "last_update": "2023-11-13",
+    "nct_id": "NCT05129865",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2023-10-18",
+    "sponsors": [
+     "PureTech",
+     "Novotech (Australia) Pty Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "LYT-300 in Healthy Volunteers",
+    "url": "https://clinicaltrials.gov/study/NCT05129865",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05321420": {
+    "completion": "2025-12-31",
+    "enrollment": 240,
+    "has_results": false,
+    "last_update": "2025-10-16",
+    "nct_id": "NCT05321420",
+    "phase": "PHASE2",
+    "primary_completion": "2024-10-15",
+    "sponsors": [
+     "PureTech"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "LYT-100 in Patients With Idiopathic Pulmonary Fibrosis (IPF)",
+    "url": "https://clinicaltrials.gov/study/NCT05321420",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05829226": {
+    "completion": "2025-12-31",
+    "enrollment": 101,
+    "has_results": false,
+    "last_update": "2026-05-06",
+    "nct_id": "NCT05829226",
+    "phase": "PHASE1",
+    "primary_completion": "2025-12-31",
+    "sponsors": [
+     "PureTech"
+    ],
+    "status": "COMPLETED",
+    "title": "A Phase 1 Study With LYT-200 in Patients With Relapsed/Refractory Acute Myeloid Leukemia (AML), or With Relapsed/Refractory, High-risk Myelodysplastic Syndrome (MDS)",
+    "url": "https://clinicaltrials.gov/study/NCT05829226",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT06717100": {
+    "completion": "2025-03-17",
+    "enrollment": 24,
+    "has_results": true,
+    "last_update": "2026-08-13",
+    "nct_id": "NCT06717100",
+    "phase": "PHASE1",
+    "primary_completion": "2025-02-17",
+    "sponsors": [
+     "PureTech",
+     "Novotech (Australia) Pty Limited"
+    ],
+    "status": "COMPLETED",
+    "title": "Study to Determine Potential for Drug-drug Interactions When Co-administering Deupirfenidone (LYT-100) and Nintedanib",
+    "url": "https://clinicaltrials.gov/study/NCT06717100",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07284602": {
+    "completion": "2029-12",
+    "enrollment": 1100,
+    "has_results": false,
+    "last_update": "2026-10-23",
+    "nct_id": "NCT07284602",
+    "phase": "PHASE3",
+    "primary_completion": "2029-11",
+    "sponsors": [
+     "PureTech"
+    ],
+    "status": "RECRUITING",
+    "title": "Trial to Evaluate the Efficacy and Safety of LYT-100 (Deupirfenidone) Compared to Pirfenidone in Adults With Idiopathic Pulmonary Fibrosis (IPF)",
+    "url": "https://clinicaltrials.gov/study/NCT07284602",
+    "why_stopped": null,
+    "xrefs": [
+     "2025-524493-42-00"
+    ]
+   },
+   "NCT07456800": {
+    "completion": "2022-01-20",
+    "enrollment": 116,
+    "has_results": false,
+    "last_update": "2026-03-06",
+    "nct_id": "NCT07456800",
+    "phase": "PHASE1",
+    "primary_completion": "2022-01-01",
+    "sponsors": [
+     "PureTech"
+    ],
+    "status": "COMPLETED",
+    "title": "PK of Deupirfenidone Versus Pirfenidone in Older Healthy Subjects",
+    "url": "https://clinicaltrials.gov/study/NCT07456800",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "PYC": {
+   "NCT04823910": {
+    "completion": "2022-12-31",
+    "enrollment": 32,
+    "has_results": false,
+    "last_update": "2023-03-09",
+    "nct_id": "NCT04823910",
+    "phase": null,
+    "primary_completion": "2022-09-30",
+    "sponsors": [
+     "Physiomics",
+     "Portsmouth Hospitals NHS Trust",
+     "National Institute for Health Research, United Kingdom"
+    ],
+    "status": "COMPLETED",
+    "title": "Personalizing Docetaxel Dosing in Advanced Prostate Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT04823910",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "RENX": {
+   "NCT04791358": {
+    "completion": "2026-12-01",
+    "enrollment": 1500,
+    "has_results": false,
+    "last_update": "2026-08-13",
+    "nct_id": "NCT04791358",
+    "phase": null,
+    "primary_completion": "2026-11-01",
+    "sponsors": [
+     "Renalytix AI, Inc."
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Decision Impact Trial of KidneyIntelX",
+    "url": "https://clinicaltrials.gov/study/NCT04791358",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04802395": {
+    "completion": "2026-12-01",
+    "enrollment": 10000,
+    "has_results": false,
+    "last_update": "2026-08-13",
+    "nct_id": "NCT04802395",
+    "phase": null,
+    "primary_completion": "2026-12-01",
+    "sponsors": [
+     "Renalytix AI, Inc.",
+     "Mount Sinai Hospital, New York"
+    ],
+    "status": "RECRUITING",
+    "title": "Real World Evidence Clinical Utility Study of KidneyIntelX",
+    "url": "https://clinicaltrials.gov/study/NCT04802395",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04960514": {
+    "completion": "2026-12-01",
+    "enrollment": 2000,
+    "has_results": false,
+    "last_update": "2026-08-13",
+    "nct_id": "NCT04960514",
+    "phase": null,
+    "primary_completion": "2023-12-01",
+    "sponsors": [
+     "Renalytix AI, Inc."
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Prospective Decision Impact Trial of KidneyIntelX",
+    "url": "https://clinicaltrials.gov/study/NCT04960514",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05198284": {
+    "completion": "2026-11-01",
+    "enrollment": 2000,
+    "has_results": false,
+    "last_update": "2026-08-13",
+    "nct_id": "NCT05198284",
+    "phase": null,
+    "primary_completion": "2023-12-01",
+    "sponsors": [
+     "Renalytix AI, Inc."
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Prospective Decision Impact Clinical Utility Trial of KidneyIntelX",
+    "url": "https://clinicaltrials.gov/study/NCT05198284",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "RUA": {},
+  "SAR": {},
+  "SBTX": {},
+  "SCLP": {
+   "NCT01138410": {
+    "completion": "2017-07-07",
+    "enrollment": 35,
+    "has_results": false,
+    "last_update": "2017-08-21",
+    "nct_id": "NCT01138410",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2017-07-07",
+    "sponsors": [
+     "Scancell Ltd"
+    ],
+    "status": "TERMINATED",
+    "title": "Study of a DNA Immunotherapy to Treat Melanoma",
+    "url": "https://clinicaltrials.gov/study/NCT01138410",
+    "why_stopped": "Product availability",
+    "xrefs": []
+   },
+   "NCT04079166": {
+    "completion": "2027-01-31",
+    "enrollment": 173,
+    "has_results": false,
+    "last_update": "2025-12-19",
+    "nct_id": "NCT04079166",
+    "phase": "PHASE2",
+    "primary_completion": "2027-01-31",
+    "sponsors": [
+     "Scancell Ltd"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "SCIB1 and iSCIB1+ in Melanoma Patients Receiving Nivolumab With Ipilimumab or SCIB1 With Pembrolizumab (The SCOPE Study)",
+    "url": "https://clinicaltrials.gov/study/NCT04079166",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05047445": {
+    "completion": "2022-12",
+    "enrollment": 80,
+    "has_results": false,
+    "last_update": "2022-11-25",
+    "nct_id": "NCT05047445",
+    "phase": "PHASE1",
+    "primary_completion": "2022-12",
+    "sponsors": [
+     "Scancell Ltd"
+    ],
+    "status": "UNKNOWN",
+    "title": "A First Time in Human Phase 1 Open-Label Study of the COVIDITY Vaccine Administered by Needle-free Injection",
+    "url": "https://clinicaltrials.gov/study/NCT05047445",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05329532": {
+    "completion": "2027-07-01",
+    "enrollment": 168,
+    "has_results": false,
+    "last_update": "2025-09-17",
+    "nct_id": "NCT05329532",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2026-07-01",
+    "sponsors": [
+     "Scancell Ltd"
+    ],
+    "status": "RECRUITING",
+    "title": "Modi-1 Moditope in Breast, Head and Neck, Ovarian, or Renal Cancer",
+    "url": "https://clinicaltrials.gov/study/NCT05329532",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT07815574": {
+    "completion": "2032-12-01",
+    "enrollment": 550,
+    "has_results": false,
+    "last_update": "2026-09-11",
+    "nct_id": "NCT07815574",
+    "phase": "PHASE3",
+    "primary_completion": "2028-12-01",
+    "sponsors": [
+     "Scancell Ltd",
+     "PPD, Part of Thermo Fisher Scientific",
+     "Egeen"
+    ],
+    "status": "NOT_YET_RECRUITING",
+    "title": "iSCIB1+ in Combination With Ipilimumab and Nivolumab as First-Line Treatment for Advanced Unresectable Melanoma",
+    "url": "https://clinicaltrials.gov/study/NCT07815574",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "STX": {
+   "NCT01340872": {
+    "completion": "2014-10",
+    "enrollment": 128,
+    "has_results": true,
+    "last_update": "2020-10-30",
+    "nct_id": "NCT01340872",
+    "phase": "PHASE3",
+    "primary_completion": "2013-10",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety and Efficacy Study of Oral Ferric Iron To Treat Iron Deficiency Anaemia in Quiescent Ulcerative Colitis (AEGIS-1)",
+    "url": "https://clinicaltrials.gov/study/NCT01340872",
+    "why_stopped": null,
+    "xrefs": [
+     "2010-023588-16"
+    ]
+   },
+   "NCT01352221": {
+    "completion": "2014-10",
+    "enrollment": 128,
+    "has_results": true,
+    "last_update": "2020-10-30",
+    "nct_id": "NCT01352221",
+    "phase": "PHASE3",
+    "primary_completion": "2013-10",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety and Efficacy Study of Oral Ferric Iron To Treat Iron Deficiency Anaemia in Quiescent Crohn's Disease (AEGIS-2)",
+    "url": "https://clinicaltrials.gov/study/NCT01352221",
+    "why_stopped": null,
+    "xrefs": [
+     "2010-023589-39"
+    ]
+   },
+   "NCT02680756": {
+    "completion": "2019-01",
+    "enrollment": 250,
+    "has_results": true,
+    "last_update": "2020-11-02",
+    "nct_id": "NCT02680756",
+    "phase": "PHASE3",
+    "primary_completion": "2018-10",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Safety and Efficacy Study of Oral Ferric Maltol Compared to Intravenous Iron To Treat Iron Deficiency Anaemia in IBD",
+    "url": "https://clinicaltrials.gov/study/NCT02680756",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT02968368": {
+    "completion": "2018-10-10",
+    "enrollment": 167,
+    "has_results": true,
+    "last_update": "2020-11-02",
+    "nct_id": "NCT02968368",
+    "phase": "PHASE3",
+    "primary_completion": "2018-01-18",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Study With Oral Ferric Maltol for the Treatment of Iron Deficiency Anemia in Subjects With Chronic Kidney Disease",
+    "url": "https://clinicaltrials.gov/study/NCT02968368",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03181451": {
+    "completion": "2018-03-28",
+    "enrollment": 37,
+    "has_results": true,
+    "last_update": "2021-10-06",
+    "nct_id": "NCT03181451",
+    "phase": "PHASE1",
+    "primary_completion": "2018-03-28",
+    "sponsors": [
+     "Shield Therapeutics",
+     "Medpace, Inc."
+    ],
+    "status": "COMPLETED",
+    "title": "Evaluate the PK, Safety, Tolerability of Ferric Maltol at 3 Dosage Levels in Paediatric Subjects With Iron Deficiency",
+    "url": "https://clinicaltrials.gov/study/NCT03181451",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03247816": {
+    "completion": "2018-10-01",
+    "enrollment": 59,
+    "has_results": true,
+    "last_update": "2020-10-23",
+    "nct_id": "NCT03247816",
+    "phase": null,
+    "primary_completion": "2018-03-01",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Feraccru\u00ae Real World Effectiveness Study in Hospital Practice ( FRESH )",
+    "url": "https://clinicaltrials.gov/study/NCT03247816",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT03382275": {
+    "completion": "2019-04-20",
+    "enrollment": 51,
+    "has_results": false,
+    "last_update": "2019-07-02",
+    "nct_id": "NCT03382275",
+    "phase": null,
+    "primary_completion": "2019-04-20",
+    "sponsors": [
+     "GWT-TUD GmbH",
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "EXPLorative Data Collection for Patient chAracterIzation, treatmeNt Pathways and Outcomes of IRON Preparations",
+    "url": "https://clinicaltrials.gov/study/NCT03382275",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT04626414": {
+    "completion": "2020-11-13",
+    "enrollment": 32,
+    "has_results": true,
+    "last_update": "2025-08-24",
+    "nct_id": "NCT04626414",
+    "phase": "PHASE1",
+    "primary_completion": "2020-11-13",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Four-Way Crossover Study to Compare Ferric Maltol Capsules and Oral Suspension in Healthy Volunteers",
+    "url": "https://clinicaltrials.gov/study/NCT04626414",
+    "why_stopped": null,
+    "xrefs": []
+   },
+   "NCT05126901": {
+    "completion": "2024-06-09",
+    "enrollment": 65,
+    "has_results": true,
+    "last_update": "2025-11-10",
+    "nct_id": "NCT05126901",
+    "phase": "PHASE3",
+    "primary_completion": "2024-06-09",
+    "sponsors": [
+     "Shield Therapeutics"
+    ],
+    "status": "COMPLETED",
+    "title": "Evaluate the Safety and Efficacy of Ferric Maltol Oral Suspension vs. Ferrous Sulfate Oral Liquid in Children and Adolescents Aged 2 to 17 Years With Iron-deficiency Anaemia, With a Single Arm Study in Infants Aged 1 Month to Less Than 2 Years",
+    "url": "https://clinicaltrials.gov/study/NCT05126901",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  },
+  "SUN": {},
+  "SVNS": {},
+  "TCF": {},
+  "THAT": {},
+  "TSTL": {},
+  "VAL": {
+   "NCT02280317": {
+    "completion": "2020-01-27",
+    "enrollment": 12,
+    "has_results": true,
+    "last_update": "2021-11-08",
+    "nct_id": "NCT02280317",
+    "phase": "PHASE1/PHASE2",
+    "primary_completion": "2020-01-27",
+    "sponsors": [
+     "ValiRx Plc"
+    ],
+    "status": "COMPLETED",
+    "title": "Dose Finding Safety Study of VAL201 in Cancer Patients",
+    "url": "https://clinicaltrials.gov/study/NCT02280317",
+    "why_stopped": null,
+    "xrefs": [
+     "2013-004009-25"
+    ]
+   }
+  },
+  "VRCI": {
+   "NCT04727788": {
+    "completion": "2025-12-31",
+    "enrollment": 550,
+    "has_results": false,
+    "last_update": "2025-11-20",
+    "nct_id": "NCT04727788",
+    "phase": null,
+    "primary_completion": "2025-03-31",
+    "sponsors": [
+     "Verici Dx"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "title": "Validation of Genomic Immune-phenotyping Profiles to Predict Risk of Kidney Transplant Rejection",
+    "url": "https://clinicaltrials.gov/study/NCT04727788",
+    "why_stopped": null,
+    "xrefs": []
+   }
+  }
+ },
+ "ctis": {
+  "ABDX": {},
+  "AGY": {
+   "2023-507427-28-00": {
+    "end_date": null,
+    "enrollment": "562",
+    "halts": 0,
+    "has_results": true,
+    "id": "2023-507427-28-00",
+    "last_update": "2024-10-28",
+    "member_states": 3,
+    "phase": "Therapeutic confirmatory  (Phase III)",
+    "safety_measures": 0,
+    "serious_breaches": 0,
+    "sponsors": [
+     "Allergy Therapeutics (UK) Limited"
+    ],
+    "status": "Authorised",
+    "title": "A randomised, double-blind, placebo-controlled clinical trial to evaluate the efficacy and safety of PQ Birch in subjects with seasonal allergic rhinitis and/or rhinoconjunctivitis induced by birch pollen exposure",
+    "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2023-507427-28-00",
+    "xrefs": []
+   },
+   "2023-508520-36-00": {
+    "end_date": null,
+    "enrollment": "358",
+    "halts": 0,
+    "has_results": true,
+    "id": "2023-508520-36-00",
+    "last_update": "2026-10-26",
+    "member_states": 7,
+    "phase": "Therapeutic confirmatory  (Phase III)",
+    "safety_measures": 0,
+    "serious_breaches": 2,
+    "sponsors": [
+     "Allergy Therapeutics (UK) Limited"
+    ],
+    "status": "Authorised",
+    "title": "A long-term, double-blind, randomised, placebo-controlled clinical trial to investigate the efficacy and safety of PQ Grass 27600 SU in children and adolescents with seasonal allergic rhinitis/rhinoconjunctivitis induced by grass pollen exposure",
+    "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2023-508520-36-00",
+    "xrefs": []
+   }
+  },
+  "AMS": {},
+  "APTA": {},
+  "AREC": {},
+  "AVCT": {},
+  "BVXP": {},
+  "CIZ": {},
+  "CLBX": {},
+  "CNSL": {},
+  "COG": {},
+  "CREO": {},
+  "CRTX": {},
+  "DXRX": {},
+  "FAB": {},
+  "FARN": {
+   "2024-517444-64-00": {
+    "end_date": "2026-02-03",
+    "enrollment": "137",
+    "halts": 0,
+    "has_results": true,
+    "id": "2024-517444-64-00",
+    "last_update": "2026-02-06",
+    "member_states": 1,
+    "phase": "Phase I and Phase II (Integrated)- Other",
+    "safety_measures": 0,
+    "serious_breaches": 0,
+    "sponsors": [
+     "Faron Pharmaceuticals Oy"
+    ],
+    "status": "Ended",
+    "title": "A Phase I/II Open-Label Study to Assess the Safety, Tolerability and Preliminary Efficacy of the Clever-1 Antibody Bexmarilimab in Combination with Standard of Care Therapy in Patients with Myelodysplastic Syndrome or Chronic Myelomonocytic Leukemia or Acute Myeloid Leukemia (BEXMAB Study)",
+    "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2024-517444-64-00",
+    "xrefs": [
+     "2021-002104-12",
+     "NCT05428969"
+    ]
+   },
+   "2026-526706-33-00": {
+    "end_date": null,
+    "enrollment": "49",
+    "halts": 0,
+    "has_results": true,
+    "id": "2026-526706-33-00",
+    "last_update": "2026-11-25",
+    "member_states": 5,
+    "phase": "Therapeutic exploratory (Phase II)",
+    "safety_measures": 0,
+    "serious_breaches": 0,
+    "sponsors": [
+     "Faron Pharmaceuticals Oy"
+    ],
+    "status": "Authorised",
+    "title": "Bexmarilimab plus azacitidine in a randomized, double-blind, placebo-controlled Phase IIb trial in treatment-na\u00efve higher-risk myelodysplastic syndromes (HR-MDS)",
+    "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2026-526706-33-00",
+    "xrefs": [
+     "NCT07672769"
+    ]
+   }
+  },
+  "FDBK": {},
+  "FUM": {},
+  "GDR": {},
+  "GENF": {},
+  "GENI": {},
+  "HEMO": {},
+  "HVO": {},
+  "IBAI": {},
+  "IDHC": {},
+  "IHC": {},
+  "IMM": {},
+  "IXI": {},
+  "KMK": {},
+  "NCYT": {},
+  "NFX": {},
+  "NIOX": {},
+  "OBD": {},
+  "OPTI": {},
+  "OXB": {},
+  "POLB": {},
+  "PRM": {},
+  "PRTC": {
+   "2024-511330-13-00": {
+    "end_date": null,
+    "enrollment": "14",
+    "halts": 0,
+    "has_results": true,
+    "id": "2024-511330-13-00",
+    "last_update": "2026-07-01",
+    "member_states": 2,
+    "phase": "Therapeutic exploratory (Phase II)",
+    "safety_measures": 0,
+    "serious_breaches": 0,
+    "sponsors": [
+     "Puretech Lyt 100 Inc."
+    ],
+    "status": "Authorised",
+    "title": "A Randomized Double-blind, Four-Arm Active and Placebo-controlled Dose-Finding Trial to Evaluate the Efficacy, Tolerability, Safety and Dose Response of LYT-100 in Patients with Idiopathic Pulmonary Fibrosis (IPF).",
+    "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2024-511330-13-00",
+    "xrefs": [
+     "2021-006820-41",
+     "NCT05321420"
+    ]
+   }
+  },
+  "PYC": {},
+  "RENX": {},
+  "RUA": {},
+  "SAR": {},
+  "SBTX": {},
+  "SCLP": {},
+  "STX": {},
+  "SUN": {},
+  "SVNS": {},
+  "TCF": {},
+  "THAT": {},
+  "TSTL": {},
+  "VAL": {},
+  "VRCI": {}
+ },
+ "isrctn": {
+  "ABDX": {},
+  "AGY": {
+   "ISRCTN06898570": {
+    "final_enrolment": null,
+    "has_results": false,
+    "id": "ISRCTN06898570",
+    "last_update": "2016-04-26",
+    "overall_end": "2013-06-07",
+    "phase": "Not Applicable",
+    "recruitment_end": "2013-06-07",
+    "recruitment_start": "2012-11-05",
+    "sponsors": [
+     "Newcastle upon Tyne Hospitals NHS Foundation Trust (UK)",
+     "ALK - Abello LTD (UK)",
+     "Allergy Therapeutics (UK)",
+     "Meda AB (UK)"
+    ],
+    "status_override": null,
+    "target_enrolment": 80,
+    "title": "Educating adolescents at Risk of Anaphylaxis",
+    "url": "https://www.isrctn.com/ISRCTN06898570",
+    "xrefs": []
+   }
+  },
+  "AMS": {},
+  "APTA": {},
+  "AREC": {},
+  "AVCT": {},
+  "BVXP": {},
+  "CIZ": {},
+  "CLBX": {},
+  "CNSL": {},
+  "COG": {
+   "ISRCTN10245911": {
+    "final_enrolment": 0,
+    "has_results": false,
+    "id": "ISRCTN10245911",
+    "last_update": "2026-11-19",
+    "overall_end": "2028-12-31",
+    "phase": null,
+    "recruitment_end": "2028-06-30",
+    "recruitment_start": "2024-01-01",
+    "sponsors": [
+     "Region Stockholm",
+     "Innovative Health Initiative",
+     "Combinostics OY",
+     "Neotiv GmbH",
+     "Cambridge Cognition Ltd",
+     "Fujirebio Europe",
+     "C2N Diagnostics, LLC",
+     "Sanofi-Aventis Recherche & Developpement",
+     "Gates Ventures",
+     "Davos Alzheimer's Collaborative"
+    ],
+    "status_override": null,
+    "target_enrolment": 20000,
+    "title": "Early detection tools for  Alzheimer's disease: a multi-site observational study",
+    "url": "https://www.isrctn.com/ISRCTN10245911",
+    "xrefs": []
+   }
+  },
+  "CREO": {},
+  "CRTX": {},
+  "DXRX": {},
+  "FAB": {},
+  "FARN": {},
+  "FDBK": {},
+  "FUM": {},
+  "GDR": {},
+  "GENF": {},
+  "GENI": {},
+  "HEMO": {},
+  "HVO": {
+   "ISRCTN13559330": {
+    "final_enrolment": 279,
+    "has_results": false,
+    "id": "ISRCTN13559330",
+    "last_update": "2025-04-22",
+    "overall_end": "2024-10-14",
+    "phase": "Phase II",
+    "recruitment_end": "2024-10-14",
+    "recruitment_start": "2024-04-08",
+    "sponsors": [
+     "hVIVO (United Kingdom)",
+     "Pfizer"
+    ],
+    "status_override": null,
+    "target_enrolment": 280,
+    "title": "To test the efficacy, safety, and immunogenicity of the influenza virus vaccines (modRNA) in a human influenza B challenge model in healthy adult participants",
+    "url": "https://www.isrctn.com/ISRCTN13559330",
+    "xrefs": []
+   },
+   "ISRCTN13789612": {
+    "final_enrolment": 285,
+    "has_results": true,
+    "id": "ISRCTN13789612",
+    "last_update": "2025-11-20",
+    "overall_end": "2023-08-31",
+    "phase": "Phase II",
+    "recruitment_end": "2023-05-15",
+    "recruitment_start": "2022-12-13",
+    "sponsors": [
+     "hVIVO Services Ltd.",
+     "Pfizer UK"
+    ],
+    "status_override": null,
+    "target_enrolment": 240,
+    "title": "A study to evaluate if influenza virus vaccines (modRNA and saRNA) can prevent influenza infection in healthy adults.",
+    "url": "https://www.isrctn.com/ISRCTN13789612",
+    "xrefs": []
+   },
+   "ISRCTN14841526": {
+    "final_enrolment": 59,
+    "has_results": true,
+    "id": "ISRCTN14841526",
+    "last_update": "2024-12-03",
+    "overall_end": "2023-07-17",
+    "phase": "Phase II",
+    "recruitment_end": "2023-01-05",
+    "recruitment_start": "2022-08-29",
+    "sponsors": [
+     "hVIVO Limited Services",
+     "Cidara Therapeutics"
+    ],
+    "status_override": null,
+    "target_enrolment": 168,
+    "title": "A study to evaluate if CD388 can prevent infection with flu virus and to assess the safety, tolerability, absorption, distribution and excretion of CD388 in healthy adults",
+    "url": "https://www.isrctn.com/ISRCTN14841526",
+    "xrefs": []
+   },
+   "ISRCTN16102371": {
+    "final_enrolment": null,
+    "has_results": false,
+    "id": "ISRCTN16102371",
+    "last_update": "2025-01-20",
+    "overall_end": "2029-10-19",
+    "phase": "Not Specified",
+    "recruitment_end": "2029-09-24",
+    "recruitment_start": "2024-09-24",
+    "sponsors": [
+     "hVIVO (United Kingdom)",
+     "hVIVO Services Limited"
+    ],
+    "status_override": null,
+    "target_enrolment": 1000,
+    "title": "A platform study to characterize respiratory challenge agents in healthy male and female adult participants",
+    "url": "https://www.isrctn.com/ISRCTN16102371",
+    "xrefs": []
+   },
+   "ISRCTN20641445": {
+    "final_enrolment": 0,
+    "has_results": false,
+    "id": "ISRCTN20641445",
+    "last_update": "2026-11-18",
+    "overall_end": "2027-08-06",
+    "phase": "Phase II",
+    "recruitment_end": "2027-08-06",
+    "recruitment_start": "2025-11-01",
+    "sponsors": [
+     "hVIVO Limited Services",
+     "Cidara Therapeutics, Inc."
+    ],
+    "status_override": null,
+    "target_enrolment": 400,
+    "title": "A long-term study testing the safety and effects of a new yearly antiviral treatment (CD388) in healthy people",
+    "url": "https://www.isrctn.com/ISRCTN20641445",
+    "xrefs": []
+   }
+  },
+  "IBAI": {},
+  "IDHC": {},
+  "IHC": {},
+  "IMM": {
+   "ISRCTN16878305": {
+    "final_enrolment": 16,
+    "has_results": true,
+    "id": "ISRCTN16878305",
+    "last_update": "2023-12-06",
+    "overall_end": "2023-03-21",
+    "phase": "Phase I",
+    "recruitment_end": "2022-02-22",
+    "recruitment_start": "2022-01-18",
+    "sponsors": [
+     "ImmuPharma S.A",
+     "ImmuPharma S.A"
+    ],
+    "status_override": null,
+    "target_enrolment": 24,
+    "title": "A study to investigate the safety, tolerability and activity of IPP-201101 in healthy volunteers",
+    "url": "https://www.isrctn.com/ISRCTN16878305",
+    "xrefs": [
+     "2021-004976-33"
+    ]
+   }
+  },
+  "IXI": {
+   "ISRCTN25427954": {
+    "final_enrolment": null,
+    "has_results": false,
+    "id": "ISRCTN25427954",
+    "last_update": "2019-05-22",
+    "overall_end": "2018-03-31",
+    "phase": null,
+    "recruitment_end": "2017-03-31",
+    "recruitment_start": "2016-04-01",
+    "sponsors": [
+     "Ixico PLC",
+     "Innovate UK"
+    ],
+    "status_override": null,
+    "target_enrolment": 330,
+    "title": "Project CYGNUS: A feasibility study of gathering health information in people with memory problems",
+    "url": "https://www.isrctn.com/ISRCTN25427954",
+    "xrefs": []
+   }
+  },
+  "KMK": {},
+  "NCYT": {},
+  "NFX": {},
+  "NIOX": {},
+  "OBD": {},
+  "OPTI": {},
+  "OXB": {
+   "ISRCTN39198692": {
+    "final_enrolment": null,
+    "has_results": true,
+    "id": "ISRCTN39198692",
+    "last_update": "2019-04-11",
+    "overall_end": "2009-09-01",
+    "phase": "Not Specified",
+    "recruitment_end": "2009-09-01",
+    "recruitment_start": "2006-09-01",
+    "sponsors": [
+     "Oxford BioMedica",
+     "Oxford BioMedica UK Ltd."
+    ],
+    "status_override": null,
+    "target_enrolment": 700,
+    "title": "An international, randomised, double-blind, placebo-controlled, parallel group study to investigate whether a minimum of three doses of TroVax\u00ae, added to first-line standard of care therapy, prolongs the survival of patients with locally advanced or metastatic clear cell renal adenocarcinoma",
+    "url": "https://www.isrctn.com/ISRCTN39198692",
+    "xrefs": [
+     "NCT00397345"
+    ]
+   },
+   "ISRCTN83977250": {
+    "final_enrolment": null,
+    "has_results": true,
+    "id": "ISRCTN83977250",
+    "last_update": "2019-02-01",
+    "overall_end": "2008-07-11",
+    "phase": "Phase I/II",
+    "recruitment_end": "2008-07-11",
+    "recruitment_start": "2004-01-01",
+    "sponsors": [
+     "Oxford BioMedica (UK)",
+     "Oxford BioMedica (UK)"
+    ],
+    "status_override": null,
+    "target_enrolment": 25,
+    "title": "A preliminary study of the safety, immunogenicity and clinical efficacy of TroVax\u00ae given in conjunction with interleukin 2 (IL-2) in the treatment of stage IV renal cell cancer",
+    "url": "https://www.isrctn.com/ISRCTN83977250",
+    "xrefs": [
+     "NCT00083941"
+    ]
+   }
+  },
+  "POLB": {
+   "ISRCTN50499387": {
+    "final_enrolment": 0,
+    "has_results": false,
+    "id": "ISRCTN50499387",
+    "last_update": "2026-05-07",
+    "overall_end": "2027-06-30",
+    "phase": "Phase II",
+    "recruitment_end": "2027-03-30",
+    "recruitment_start": "2026-03-29",
+    "sponsors": [
+     "DIDACT Foundation",
+     "Poolbeg Pharma plc"
+    ],
+    "status_override": null,
+    "target_enrolment": 30,
+    "title": "Testing a new treatment to prevent severe immune reactions in people with multiple myeloma taking teclistamab",
+    "url": "https://www.isrctn.com/ISRCTN50499387",
+    "xrefs": []
+   }
+  },
+  "PRM": {},
+  "PRTC": {},
+  "PYC": {},
+  "RENX": {},
+  "RUA": {},
+  "SAR": {},
+  "SBTX": {},
+  "SCLP": {},
+  "STX": {},
+  "SUN": {},
+  "SVNS": {},
+  "TCF": {},
+  "THAT": {},
+  "TSTL": {},
+  "VAL": {},
+  "VRCI": {}
+ },
+ "mismatches": [
+  "ctgov:NCT05428969|ctis:2024-517444-64-00"
+ ],
+ "version": 2
+}
