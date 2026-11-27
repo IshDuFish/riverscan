@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:24:24Z",
+ "updated": "2026-11-27T16:42:36Z",
  "trials": {
   "ClinicalTrials.gov": 170,
   "ISRCTN": 12,
@@ -64,77 +64,77 @@
   {
    "ticker": "SCLP",
    "name": "Scancell",
-   "market_cap": 107177336
+   "market_cap": 105820664
   },
   {
    "ticker": "FARN",
    "name": "Faron Pharmaceuticals",
-   "market_cap": 55792360
+   "market_cap": 52160784
   },
   {
    "ticker": "AVCT",
    "name": "Avacta",
-   "market_cap": 245074576
+   "market_cap": 249551136
   },
   {
    "ticker": "POLB",
    "name": "Poolbeg Pharma",
-   "market_cap": 48478256
+   "market_cap": 48401916
   },
   {
    "ticker": "FUM",
    "name": "Futura Medical",
-   "market_cap": 3112888
+   "market_cap": 2668190
   },
   {
    "ticker": "AREC",
    "name": "Arecor Therapeutics",
-   "market_cap": 30804490
+   "market_cap": 31257498
   },
   {
    "ticker": "IMM",
    "name": "ImmuPharma",
-   "market_cap": 13756301
+   "market_cap": 18053270
   },
   {
    "ticker": "STX",
    "name": "Shield Therapeutics",
-   "market_cap": 30614518
+   "market_cap": 32225810
   },
   {
    "ticker": "HVO",
    "name": "hVIVO",
-   "market_cap": 31666450
+   "market_cap": 33318612
   },
   {
    "ticker": "OXB",
    "name": "Oxford Biomedica",
-   "market_cap": 630486272
+   "market_cap": 644988672
   },
   {
    "ticker": "HEMO",
    "name": "Hemogenyx Pharmaceuticals",
-   "market_cap": 44070460
+   "market_cap": 42078052
   },
   {
    "ticker": "SAR",
    "name": "Sareum",
-   "market_cap": 22525118
+   "market_cap": 22934666
   },
   {
    "ticker": "BVXP",
    "name": "Bioventix",
-   "market_cap": 97966120
+   "market_cap": 98488608
   },
   {
    "ticker": "AGY",
    "name": "Allergy Therapeutics",
-   "market_cap": 74407216
+   "market_cap": 74660528
   },
   {
    "ticker": "RENX",
    "name": "Renalytix",
-   "market_cap": 32852508
+   "market_cap": 32617846
   },
   {
    "ticker": "AMS",
@@ -144,47 +144,47 @@
   {
    "ticker": "CREO",
    "name": "Creo Medical",
-   "market_cap": 46598272
+   "market_cap": 46710552
   },
   {
    "ticker": "IHC",
    "name": "Inspiration Healthcare",
-   "market_cap": 14570299
+   "market_cap": 14633062
   },
   {
    "ticker": "COG",
    "name": "Cambridge Cognition",
-   "market_cap": 14844888
+   "market_cap": 15114796
   },
   {
    "ticker": "ABDX",
    "name": "Abingdon Health",
-   "market_cap": 38068476
+   "market_cap": 36980804
   },
   {
    "ticker": "DXRX",
    "name": "Diaceutics",
-   "market_cap": 142753200
+   "market_cap": 141689744
   },
   {
    "ticker": "GDR",
    "name": "genedrive",
-   "market_cap": 16055683
+   "market_cap": 15204732
   },
   {
    "ticker": "IXI",
    "name": "IXICO",
-   "market_cap": 27371786
+   "market_cap": 26276916
   },
   {
    "ticker": "KMK",
    "name": "Kromek",
-   "market_cap": 35648316
+   "market_cap": 36670584
   },
   {
    "ticker": "NCYT",
    "name": "Novacyt",
-   "market_cap": 23082084
+   "market_cap": 23190790
   },
   {
    "ticker": "PRTC",
@@ -194,97 +194,97 @@
   {
    "ticker": "NIOX",
    "name": "NIOX Group",
-   "market_cap": 236679520
+   "market_cap": 239111152
   },
   {
    "ticker": "TSTL",
    "name": "Tristel",
-   "market_cap": 185082944
+   "market_cap": 187486624
   },
   {
    "ticker": "PYC",
    "name": "Physiomics",
-   "market_cap": 1938916
+   "market_cap": 1952932
   },
   {
    "ticker": "VAL",
    "name": "ValiRx",
-   "market_cap": 1782406
+   "market_cap": 1779765
   },
   {
    "ticker": "OPTI",
    "name": "OptiBiotix Health",
-   "market_cap": 5010064
+   "market_cap": 4948084
   },
   {
    "ticker": "VRCI",
    "name": "Verici Dx",
-   "market_cap": 11659045
+   "market_cap": 11325929
   },
   {
    "ticker": "OBD",
    "name": "Oxford BioDynamics",
-   "market_cap": 13776934
+   "market_cap": 13440911
   },
   {
    "ticker": "CRTX",
    "name": "CRISM Therapeutics",
-   "market_cap": 6173455
+   "market_cap": 5974311
   },
   {
    "ticker": "NFX",
    "name": "Nuformix",
-   "market_cap": 1696337
+   "market_cap": 1657190
   },
   {
    "ticker": "CIZ",
    "name": "Cizzle Biotechnology",
-   "market_cap": 4923283
+   "market_cap": 4639894
   },
   {
    "ticker": "GENF",
    "name": "Genflow Biosciences",
-   "market_cap": 9066655
+   "market_cap": 9215289
   },
   {
    "ticker": "FAB",
    "name": "Fusion Antibodies",
-   "market_cap": 5006275
+   "market_cap": 4849829
   },
   {
    "ticker": "APTA",
    "name": "Aptamer Group",
-   "market_cap": 10057433
+   "market_cap": 12138281
   },
   {
    "ticker": "SBTX",
    "name": "SkinBioTherapeutics",
-   "market_cap": 7904644
+   "market_cap": 8811735
   },
   {
    "ticker": "RUA",
    "name": "RUA Life Sciences",
-   "market_cap": 11481151
+   "market_cap": 12039693
   },
   {
    "ticker": "PRM",
    "name": "Proteome Sciences",
-   "market_cap": 2981162
+   "market_cap": 4559424
   },
   {
    "ticker": "GENI",
    "name": "GENinCode",
-   "market_cap": 3576945
+   "market_cap": 3720023
   },
   {
    "ticker": "TCF",
    "name": "Theracryf",
-   "market_cap": 3438342
+   "market_cap": 3305106
   },
   {
    "ticker": "SVNS",
    "name": "Solvonis Therapeutics",
-   "market_cap": 6125763
+   "market_cap": 6806404
   },
   {
    "ticker": "CLBX",
@@ -294,22 +294,22 @@
   {
    "ticker": "THAT",
    "name": "Thalia Therapeutics",
-   "market_cap": 9322534
+   "market_cap": 9233748
   },
   {
    "ticker": "SUN",
    "name": "Surgical Innovations Group",
-   "market_cap": 4897285
+   "market_cap": 5130489
   },
   {
    "ticker": "IDHC",
    "name": "Integrated Diagnostics Holdings",
-   "market_cap": 270898048
+   "market_cap": 279036608
   },
   {
    "ticker": "IBAI",
    "name": "Imaging Biometrics",
-   "market_cap": 1665291
+   "market_cap": 1899665
   },
   {
    "ticker": "FDBK",
@@ -319,7 +319,7 @@
   {
    "ticker": "CNSL",
    "name": "Cambridge Nutritional Sciences",
-   "market_cap": 3450284
+   "market_cap": 3271821
   }
  ],
  "contract_companies": [
@@ -327,103 +327,103 @@
    "ticker": "COST",
    "name": "Costain",
    "sector": "Construction",
-   "market_cap": 610578368
+   "market_cap": 621015552
   },
   {
    "ticker": "GFRD",
    "name": "Galliford Try",
    "sector": "Construction",
-   "market_cap": 654080768
+   "market_cap": 660955520
   },
   {
    "ticker": "RNWH",
    "name": "Renew Holdings",
    "sector": "Construction",
-   "market_cap": 760761472
+   "market_cap": 764719616
   },
   {
    "ticker": "SFR",
    "name": "Severfield",
    "sector": "Construction",
-   "market_cap": 117965272
+   "market_cap": 128492080
   },
   {
    "ticker": "BOOT",
    "name": "Henry Boot",
    "sector": "Construction",
-   "market_cap": 162862240
+   "market_cap": 162189264
   },
   {
    "ticker": "NTBR",
    "name": "Northern Bear",
    "sector": "Construction",
-   "market_cap": 17337948
+   "market_cap": 18163564
   },
   {
    "ticker": "CPI",
    "name": "Capita",
    "sector": "Services",
-   "market_cap": 67039280
+   "market_cap": 63447888
   },
   {
    "ticker": "MER",
    "name": "Mears Group",
    "sector": "Services",
-   "market_cap": 345736608
+   "market_cap": 345348128
   },
   {
    "ticker": "RST",
    "name": "Restore",
    "sector": "Services",
-   "market_cap": 386538208
+   "market_cap": 385276160
   },
   {
    "ticker": "MTEC",
    "name": "Made Tech",
    "sector": "Digital",
-   "market_cap": 70889008
+   "market_cap": 73081456
   },
   {
    "ticker": "TPX",
    "name": "TPXimpact",
    "sector": "Digital",
-   "market_cap": 95331192
+   "market_cap": 98411984
   },
   {
    "ticker": "NCC",
    "name": "NCC Group",
    "sector": "Digital",
-   "market_cap": 224096304
+   "market_cap": 226778320
   },
   {
    "ticker": "CHRT",
    "name": "Cohort",
    "sector": "Defence",
-   "market_cap": 595700352
+   "market_cap": 604936000
   },
   {
    "ticker": "AVON",
    "name": "Avon Technologies",
    "sector": "Defence",
-   "market_cap": 647338816
+   "market_cap": 650261376
   },
   {
    "ticker": "PEG",
    "name": "Petards Group",
    "sector": "Defence",
-   "market_cap": 5159928
+   "market_cap": 5463453
   },
   {
    "ticker": "TRB",
    "name": "Tribal Group",
    "sector": "Digital",
-   "market_cap": 217595600
+   "market_cap": 218238752
   },
   {
    "ticker": "NET",
    "name": "Netcall",
    "sector": "Digital",
-   "market_cap": 235423280
+   "market_cap": 226516528
   },
   {
    "ticker": "MAI",
@@ -435,31 +435,31 @@
    "ticker": "RCN",
    "name": "Redcentric",
    "sector": "Digital",
-   "market_cap": 102544480
+   "market_cap": 102645608
   },
   {
    "ticker": "IOM",
    "name": "iomart",
    "sector": "Digital",
-   "market_cap": 12040329
+   "market_cap": 11529181
   },
   {
    "ticker": "TRCS",
    "name": "Tracsis",
    "sector": "Digital",
-   "market_cap": 105812216
+   "market_cap": 103352768
   },
   {
    "ticker": "EBQ",
    "name": "Ebiquity",
    "sector": "Services",
-   "market_cap": 13165768
+   "market_cap": 12853263
   },
   {
    "ticker": "GATC",
    "name": "Gattaca",
    "sector": "Services",
-   "market_cap": 49775580
+   "market_cap": 51429656
   },
   {
    "ticker": "SDY",
@@ -471,31 +471,31 @@
    "ticker": "HSP",
    "name": "Hargreaves Services",
    "sector": "Services",
-   "market_cap": 275221280
+   "market_cap": 279761664
   },
   {
    "ticker": "EAAS",
    "name": "eEnergy Group",
    "sector": "Services",
-   "market_cap": 8798289
+   "market_cap": 8546910
   },
   {
    "ticker": "GTC",
    "name": "Getech Group",
    "sector": "Services",
-   "market_cap": 5961078
+   "market_cap": 6098626
   },
   {
    "ticker": "SAG",
    "name": "Science Group",
    "sector": "Services",
-   "market_cap": 218994688
+   "market_cap": 219391040
   },
   {
    "ticker": "CNC",
    "name": "Concurrent Technologies",
    "sector": "Defence",
-   "market_cap": 282769312
+   "market_cap": 277719872
   },
   {
    "ticker": "CSC",
@@ -507,13 +507,13 @@
    "ticker": "THRU",
    "name": "Thruvision",
    "sector": "Defence",
-   "market_cap": 5606987
+   "market_cap": 5687728
   },
   {
    "ticker": "KMK",
    "name": "Kromek",
    "sector": "Defence",
-   "market_cap": 35648316
+   "market_cap": 36670584
   }
  ],
  "excluded": [
@@ -535,12 +535,12 @@
   {
    "ticker": "MGNS",
    "name": "Morgan Sindall",
-   "reason": "market value \u00a32.0bn, above the \u00a31bn limit"
+   "reason": "market value \u00a32.1bn, above the \u00a31bn limit"
   },
   {
    "ticker": "BBY",
    "name": "Balfour Beatty",
-   "reason": "market value \u00a34.1bn, above the \u00a31bn limit"
+   "reason": "market value \u00a34.2bn, above the \u00a31bn limit"
   },
   {
    "ticker": "KLR",
@@ -550,12 +550,12 @@
   {
    "ticker": "SRP",
    "name": "Serco",
-   "reason": "market value \u00a32.5bn, above the \u00a31bn limit"
+   "reason": "market value \u00a32.6bn, above the \u00a31bn limit"
   },
   {
    "ticker": "MTO",
    "name": "Mitie",
-   "reason": "market value \u00a32.6bn, above the \u00a31bn limit"
+   "reason": "market value \u00a32.7bn, above the \u00a31bn limit"
   },
   {
    "ticker": "KNOS",
@@ -570,7 +570,7 @@
   {
    "ticker": "QQ.",
    "name": "QinetiQ",
-   "reason": "market value \u00a32.4bn, above the \u00a31bn limit"
+   "reason": "market value \u00a32.5bn, above the \u00a31bn limit"
   },
   {
    "ticker": "BAB",
@@ -580,7 +580,7 @@
   {
    "ticker": "BA.",
    "name": "BAE Systems",
-   "reason": "market value \u00a355.4bn, above the \u00a31bn limit"
+   "reason": "market value \u00a356.2bn, above the \u00a31bn limit"
   }
  ],
  "open_mismatches": 1

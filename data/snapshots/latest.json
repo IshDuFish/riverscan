@@ -34,10 +34,10 @@
    "TRB",
    "TRCS"
   ],
-  "last_run": "2026-11-27T07:26:27",
+  "last_run": "2026-11-27T16:44:25",
   "last_scanned": {
-   "Contracts Finder": 136,
-   "Find a Tender": 293
+   "Contracts Finder": 348,
+   "Find a Tender": 563
   },
   "seen": {
    "ocds-b5fd17-0eab381a-8f1f-4c0b-8262-a7bee257cbb7|GFRD": "2026-11-26",
@@ -56,6 +56,7 @@
    "ocds-h6vhtk-050aa4|SRP": "2026-11-26",
    "ocds-h6vhtk-052588|CPI": "2026-11-26",
    "ocds-h6vhtk-05813b|BAB": "2026-11-26",
+   "ocds-h6vhtk-05d028|NCC": "2026-11-27",
    "ocds-h6vhtk-05d229|KIE": "2026-11-26",
    "ocds-h6vhtk-05d229|MGNS": "2026-11-26",
    "ocds-h6vhtk-067534|MTO": "2026-11-26",
@@ -63,6 +64,7 @@
    "ocds-h6vhtk-068c14|KIE": "2026-11-26",
    "ocds-h6vhtk-068c14|MGNS": "2026-11-26",
    "ocds-h6vhtk-06b78c|MTO": "2026-11-26",
+   "ocds-h6vhtk-06c6fc|CPI": "2026-11-27",
    "ocds-h6vhtk-06d6e9|MGNS": "2026-11-26",
    "ocds-h6vhtk-06de1f|RNWH": "2026-11-26",
    "ocds-h6vhtk-06f0b2|CHRT": "2026-11-26",
@@ -78,7 +80,10 @@
    "ocds-h6vhtk-07c3b4|RST": "2026-11-26",
    "ocds-h6vhtk-07c419|TRCS": "2026-11-26",
    "ocds-h6vhtk-07c433|RST": "2026-11-26",
-   "ocds-h6vhtk-07c446|CPI": "2026-11-26"
+   "ocds-h6vhtk-07c446|CPI": "2026-11-26",
+   "ocds-h6vhtk-07c555|CPI": "2026-11-27",
+   "ocds-h6vhtk-07c5d8|RST": "2026-11-27",
+   "ocds-h6vhtk-07c610|GTC": "2026-11-27"
   }
  },
  "ctgov": {
