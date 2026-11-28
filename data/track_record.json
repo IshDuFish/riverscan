@@ -1,0 +1,21 @@
+{
+ "updated": "2026-11-28T00:42:32Z",
+ "public": false,
+ "signals_tracked": 15,
+ "with_5d_result": 4,
+ "with_20d_result": 0,
+ "no_price_data": [
+  "BAB",
+  "GFRD",
+  "GTC",
+  "MGNS"
+ ],
+ "min_signals": 20,
+ "min_group": 5,
+ "horizons": [
+  1,
+  5,
+  20
+ ],
+ "drift": null
+}
